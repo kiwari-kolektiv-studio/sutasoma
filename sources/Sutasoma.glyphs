@@ -2,18 +2,7 @@
 .appVersion = "3200";
 .formatVersion = 3;
 DisplayStrings = (
-antara,
-"/f_f/f_t ﬁﬂ/t_t",
-"̧ç̂š",
-"↑↗→↘↓↙←↖↔↕",
-"nbdopþq",
-"Decorate your home or office with this beautiful 24W x 14.5 acrylic panel. Are registered trademarks with the Registered US Patent  Trademark Office. She has been at the magazine since 1995, and, as a senior editor for many years, focussed on national security, international reporting, and features. OPEC+ Agrees to Boost Oil Output as Demand Roars Back. 2 containers allow you to run 2x parallelism and 2x concurrency. ",
-bdn,
-cssssss,
-MM,
-S,
-"&",
-ssssss
+"”"
 );
 axes = (
 {
@@ -26,6 +15,7 @@ tag = slnt;
 },
 {
 name = Grade;
+tag = GRAD;
 }
 );
 classes = (
@@ -33,16 +23,6 @@ classes = (
 automatic = 1;
 code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Delta Omega";
 name = Uppercase;
-},
-{
-automatic = 1;
-code = "a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j jdotless k l m n ntilde eng o oacute ocircumflex odieresis ograve oslash otilde oe p thorn q r s scaron t u uacute ucircumflex udieresis ugrave v w x y yacute ydieresis z zcaron s.001 mu pi";
-name = Lowercase;
-},
-{
-automatic = 1;
-code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j jdotless k l m n ntilde eng o oacute ocircumflex odieresis ograve oslash otilde oe p thorn q r s scaron t u uacute ucircumflex udieresis ugrave v w x y yacute ydieresis z zcaron s.001 ordfeminine ordmasculine Delta Omega mu pi zero one two three four five six seven eight nine one.dnom two.dnom three.dnom four.dnom one.numr two.numr three.numr four.numr fraction onehalf onequarter threequarters oneinferior twoinferior threeinferior fourinferior onesuperior twosuperior threesuperior foursuperior space nbspace enspace emspace enquad emquad threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace hairspace zerowidthspace zerowidthnonjoiner zerowidthjoiner narrownbspace CR NULL slash_component period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash hyphen endash emdash horizontalbar underscore parenleft parenright braceleft braceright bracketleft bracketright quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle florin leg leftWhiteIndex rightWhiteIndex at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger daggerdbl numero cent currency dollar euro sterling yen plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot asciicircum emptyset infinity integral product summation radical partialdiff micro percent perthousand upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow lozenge upBlackTriangle rightBlackTriangle downBlackTriangle leftBlackTriangle dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb dblgravecomb breveinvertedcomb cedillacomb strokeshortcomb slashlongcomb strokeshortcomb.case dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek title";
-name = All;
 }
 );
 customParameters = (
@@ -84,7 +64,11 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature sups;
+code = "feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
 feature frac;
 feature ordn;
 feature case;
@@ -116,12 +100,48 @@ tag = ccmp;
 },
 {
 automatic = 1;
+code = "sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
 sub four by foursuperior;
 ";
 tag = sups;
+},
+{
+automatic = 1;
+code = "sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+";
+tag = dnom;
 },
 {
 automatic = 1;
@@ -135,7 +155,6 @@ tag = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-sub N o period by numero;
 ";
 tag = ordn;
 },
@@ -144,16 +163,6 @@ automatic = 1;
 code = "sub strokeshortcomb by strokeshortcomb.case;
 ";
 tag = case;
-},
-{
-automatic = 1;
-code = "";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "";
-tag = liga;
 }
 );
 fontMaster = (
@@ -710,7 +719,6 @@ KernOnModels = (
 "bracketleft h"
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -61955,174 +61963,6 @@ note = quotedblleft;
 unicode = 8220;
 },
 {
-glyphname = quotedblright;
-kernLeft = KO_quoteright;
-kernRight = KO_quoteright;
-lastChange = "2023-06-16 05:48:06 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-pos = (0,635);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 313;
-},
-{
-layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
-shapes = (
-{
-pos = (0,534);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 483;
-},
-{
-layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
-shapes = (
-{
-pos = (0,592);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 387;
-},
-{
-layerId = m004;
-shapes = (
-{
-pos = (0,635);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 313;
-},
-{
-layerId = m005;
-shapes = (
-{
-pos = (0,590);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 387;
-},
-{
-layerId = m006;
-shapes = (
-{
-pos = (0,532);
-ref = quotedblbase;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 483;
-}
-);
-metricLeft = "=comma";
-metricRight = "=comma";
-note = quotedblright;
-unicode = 8221;
-},
-{
 glyphname = quoteleft;
 kernLeft = KO_quoteleft;
 kernRight = KO_quoteleft;
@@ -64031,6 +63871,175 @@ width = 224;
 metricRight = "=|";
 note = quotesingle;
 unicode = 39;
+},
+{
+export = 0;
+glyphname = quotedblright;
+kernLeft = KO_quoteright;
+kernRight = KO_quoteright;
+lastChange = "2023-06-16 17:08:44 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,635);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 313;
+},
+{
+layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+shapes = (
+{
+pos = (0,534);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
+shapes = (
+{
+pos = (0,592);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 387;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (0,635);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 313;
+},
+{
+layerId = m005;
+shapes = (
+{
+pos = (0,590);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 387;
+},
+{
+layerId = m006;
+shapes = (
+{
+pos = (0,532);
+ref = quotedblbase;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+}
+);
+metricLeft = "=comma";
+metricRight = "=comma";
+note = quotedblright;
+unicode = 8221;
 },
 {
 glyphname = florin;
@@ -73049,8 +73058,9 @@ note = daggerdbl;
 unicode = 8225;
 },
 {
+export = 0;
 glyphname = numero;
-lastChange = "2023-06-15 06:34:53 +0000";
+lastChange = "2023-06-16 17:06:51 +0000";
 layers = (
 {
 layerId = m01;
