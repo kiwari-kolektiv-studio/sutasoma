@@ -94156,9 +94156,21 @@ key = designers;
 values = (
 {
 language = ENG;
-value = "Izhar Fathurrohin & Akbar Rohmanto";
+value = "Izhar Fathurrohin";
+},
+{
+language = ENG;
+value = "Akbar Rohmanto";
+},
+{
+language = ENG;
+value = "Arusyal Khofiqoini";
 }
 );
+},
+{
+key = vendorID;
+value = KK;
 }
 );
 unitsPerEm = 1000;
@@ -94983,14 +94995,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-45,
+93,
 0,
-100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = I;
+value = T;
 },
 {
 name = typoAscender;
@@ -95029,7 +95041,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 200;
+Location = 400;
 },
 {
 Axis = Italic;
@@ -95038,19 +95050,8 @@ Location = 0;
 );
 }
 );
-guides = (
-{
-angle = 0;
-locked = 1;
-name = "LC Accents";
-pos = (
-150,
-610
-);
-}
-);
-iconName = Light;
-id = m01;
+iconName = Regular;
+id = m005;
 metricValues = (
 {
 over = 10;
@@ -95062,7 +95063,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 480;
+pos = 490;
 },
 {
 over = -10;
@@ -95081,7 +95082,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraLight";
+name = "Modern Regular";
 userData = {
 KernOnModels = (
 "n n",
