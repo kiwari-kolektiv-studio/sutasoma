@@ -1,7 +1,7 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - Sutasoma.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+  - slnt
+  - GRAD
+familyName: Sutasoma
