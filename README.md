@@ -71,6 +71,34 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://kiwari-kolektiv-studio.github.io/sutasoma.
 
+## Contribution Guidelines
+
+### Commit Message
+
+We generate changelog automatically depend on commit message, and we adopted [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), so please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+
+### Font versioning
+
+Versioning is based on [semver](https://semver.org/), apart from we use `MAJOR.SIGNIFICANTMINORPATCH`, instead of `MAJOR.MINOR.PATCH`. See the googlefonts [versioning guideline](https://googlefonts.github.io/gf-guide/requirements.html#font-versioning).
+
+**Examples:**
+
+If a breaking change is made e.g. converting a static font family to a variable font family, the **MAJOR** must be incremented by 1, and the others reset, e.g.:
+
+Current `1.230`, new `2.000`
+
+If a new character set is inserted, **SIGNIFICANT** should be incremented, e.g.:
+
+Current `1.230`, new `1.330`
+
+If a few new glyphs are added, **MINOR** should be incremented, e.g.:
+
+Current `1.230`, new `1.240`
+
+If a name table record is updated such as the copyright string, **PATCH** should be incremented, e.g.:
+
+Current `1.230`, new `1.231`
+
 ## Changelog
 
 When you update your font (new version or new release), please report all notable changes here, with a date.
