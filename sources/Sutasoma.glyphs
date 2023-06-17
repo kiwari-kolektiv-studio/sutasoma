@@ -7472,12 +7472,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(589,0,l),
-(299,365,l),
+(276,334,l),
 (564,700,l),
 (518,700,l),
-(246,356,l),
-(523,0,l)
+(264,379,l),
+(142,360,l),
+(158,334,l)
 );
 },
 {
@@ -7492,10 +7492,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(268,334,l),
-(279,381,l),
-(142,360,l),
-(158,334,l)
+(589,0,l),
+(291,376,l),
+(238,367,l),
+(523,0,l)
 );
 }
 );
@@ -7523,12 +7523,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(678,0,l),
-(447,404,l),
+(389,322,l),
 (658,700,l),
 (548,700,l),
-(298,351,l),
-(481,0,l)
+(346,417,l),
+(245,404,l),
+(245,322,l)
 );
 },
 {
@@ -7543,10 +7543,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(364,322,l),
-(364,420,l),
-(245,404,l),
-(245,322,l)
+(678,0,l),
+(439,418,l),
+(291,365,l),
+(481,0,l)
 );
 }
 );
@@ -7574,12 +7574,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(623,0,l),
-(357,381,l),
+(313,324,l),
 (600,700,l),
 (529,700,l),
-(266,354,l),
-(507,0,l)
+(295,392,l),
+(180,374,l),
+(196,324,l)
 );
 },
 {
@@ -7594,10 +7594,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(306,324,l),
-(317,395,l),
-(180,374,l),
-(196,324,l)
+(623,0,l),
+(348,394,l),
+(257,367,l),
+(507,0,l)
 );
 }
 );
@@ -37708,7 +37708,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (405,0);
+pos = (317,0);
 ref = i;
 }
 );
@@ -37728,7 +37728,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 650;
+width = 562;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -98757,14 +98757,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-169,
+93,
 0,
 -100
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = K;
+value = B;
 },
 {
 name = typoAscender;
@@ -98803,7 +98803,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
+Location = 400;
 },
 {
 Axis = Italic;
@@ -98819,12 +98819,12 @@ locked = 1;
 name = "LC Accents";
 pos = (
 150,
-655
+630
 );
 }
 );
 iconName = Regular;
-id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+id = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
 metricValues = (
 {
 over = 10;
@@ -98836,7 +98836,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 500;
+pos = 490;
 },
 {
 over = -10;
@@ -98855,7 +98855,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraBold";
+name = "Moderat Regular";
 userData = {
 KernOnModels = (
 "n n",
