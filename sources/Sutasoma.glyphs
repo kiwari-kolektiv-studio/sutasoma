@@ -219,11 +219,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 200;
 }
 );
 }
@@ -492,11 +488,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 800;
 }
 );
 }
@@ -37679,7 +37671,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (406,0);
+pos = (294,0);
 ref = i;
 }
 );
@@ -37699,7 +37691,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 623;
+width = 511;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -37976,7 +37968,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (389,0);
+pos = (294,0);
 ref = l;
 }
 );
@@ -37996,7 +37988,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 606;
+width = 511;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -38005,7 +37997,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (390,0);
+pos = (317,0);
 ref = l;
 }
 );
@@ -38025,7 +38017,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 635;
+width = 562;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -38034,7 +38026,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (388,0);
+pos = (354,0);
 ref = l;
 }
 );
@@ -38054,7 +38046,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 653;
+width = 619;
 },
 {
 layerId = m004;
@@ -55987,12 +55979,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (196,0);
+pos = (198,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (392,0);
+pos = (396,0);
 ref = period;
 }
 );
@@ -56012,7 +56004,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 590;
+width = 594;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -56059,12 +56051,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (258,0);
+pos = (256,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (516,0);
+pos = (512,0);
 ref = period;
 }
 );
@@ -56084,7 +56076,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 772;
+width = 768;
 },
 {
 layerId = m004;
@@ -56131,12 +56123,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (232,0);
+pos = (230,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (464,0);
+pos = (460,0);
 ref = period;
 }
 );
@@ -56156,7 +56148,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 694;
+width = 690;
 },
 {
 layerId = m006;
