@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -492,10 +492,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* m (U+006D): X=186.0,Y=497.0 (should be at x-height 498?)
 
-	* n (U+006E): X=55.0,Y=497.0 (should be at x-height 498?)
-
-	* n (U+006E): X=188.0,Y=497.0 (should be at x-height 498?)
-
 	* r (U+0072): X=55.0,Y=497.0 (should be at x-height 498?)
 
 	* r (U+0072): X=180.0,Y=497.0 (should be at x-height 498?)
@@ -507,14 +503,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* t (U+0074): X=226.0,Y=497.0 (should be at x-height 498?)
 
 	* t (U+0074): X=356.0,Y=497.0 (should be at x-height 498?)
-
-	* u (U+0075): X=50.0,Y=497.0 (should be at x-height 498?)
-
-	* u (U+0075): X=200.0,Y=497.0 (should be at x-height 498?)
-
-	* u (U+0075): X=340.0,Y=497.0 (should be at x-height 498?)
-
-	* u (U+0075): X=490.0,Y=497.0 (should be at x-height 498?)
 
 	* v (U+0076): X=21.0,Y=497.0 (should be at x-height 498?)
 
@@ -1108,7 +1096,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1177,10 +1165,6 @@ lessequal
 
 	* m (U+006D): X=157.0,Y=488.0 (should be at x-height 490?)
 
-	* n (U+006E): X=76.0,Y=488.0 (should be at x-height 490?)
-
-	* n (U+006E): X=157.0,Y=488.0 (should be at x-height 490?)
-
 	* r (U+0072): X=76.0,Y=488.0 (should be at x-height 490?)
 
 	* r (U+0072): X=154.0,Y=488.0 (should be at x-height 490?)
@@ -1194,14 +1178,6 @@ lessequal
 	* t (U+0074): X=312.0,Y=488.0 (should be at x-height 490?)
 
 	* t (U+0074): X=280.0,Y=1.5 (should be at baseline 0?)
-
-	* u (U+0075): X=71.0,Y=488.0 (should be at x-height 490?)
-
-	* u (U+0075): X=164.0,Y=488.0 (should be at x-height 490?)
-
-	* u (U+0075): X=363.0,Y=488.0 (should be at x-height 490?)
-
-	* u (U+0075): X=456.0,Y=488.0 (should be at x-height 490?)
 
 	* v (U+0076): X=25.0,Y=488.0 (should be at x-height 490?)
 
@@ -1806,7 +1782,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1967,13 +1943,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<221.0,385.0>-<217.0,387.0>-<213.0,388.0>>
 
+	* b (U+0062) contains a short segment B<<185.0,60.0>-<185.0,57.0>-<185.0,54.0>>
+
 	* g (U+0067) contains a short segment B<<439.0,447.0>-<433.0,443.0>-<428.0,437.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,454.0>-<182.0,447.0>-<183.0,440.0>>
 
-	* n (U+006E) contains a short segment B<<184.0,440.0>-<184.0,438.0>-<184.0,435.0>>
+	* n (U+006E) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
-	* u (U+0075) contains a short segment B<<361.0,46.0>-<361.0,52.0>-<361.0,58.0>>
+	* r (U+0072) contains a short segment B<<185.0,426.0>-<185.0,422.0>-<185.0,417.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -1985,17 +1963,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<406.0,437.0>-<406.0,438.0>-<407.0,439.0>>
 
-	* ntilde (U+00F1) contains a short segment B<<184.0,440.0>-<184.0,438.0>-<184.0,435.0>>
+	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
-	* ugrave (U+00F9) contains a short segment B<<361.0,46.0>-<361.0,52.0>-<361.0,58.0>>
-
-	* uacute (U+00FA) contains a short segment B<<361.0,46.0>-<361.0,52.0>-<361.0,58.0>>
-
-	* ucircumflex (U+00FB) contains a short segment B<<361.0,46.0>-<361.0,52.0>-<361.0,58.0>>
-
-	* udieresis (U+00FC) contains a short segment B<<361.0,46.0>-<361.0,52.0>-<361.0,58.0>>
-
-	* eng (U+014B) contains a short segment B<<184.0,440.0>-<184.0,438.0>-<184.0,435.0>>
+	* eng (U+014B) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* eng (U+014B) contains a short segment L<<496.0,0.0>--<496.0,0.0>>
 
@@ -2491,7 +2461,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
@@ -2573,10 +2543,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* m (U+006D): X=141.0,Y=484.0 (should be at x-height 485?)
 
-	* n (U+006E): X=81.0,Y=484.0 (should be at x-height 485?)
-
-	* n (U+006E): X=141.0,Y=484.0 (should be at x-height 485?)
-
 	* r (U+0072): X=81.0,Y=484.0 (should be at x-height 485?)
 
 	* r (U+0072): X=139.0,Y=484.0 (should be at x-height 485?)
@@ -2589,13 +2555,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=293.0,Y=484.0 (should be at x-height 485?)
 
-	* u (U+0075): X=76.0,Y=484.0 (should be at x-height 485?)
-
-	* u (U+0075): X=145.0,Y=484.0 (should be at x-height 485?)
-
-	* u (U+0075): X=369.0,Y=484.0 (should be at x-height 485?)
-
-	* u (U+0075): X=438.0,Y=484.0 (should be at x-height 485?)
+	* t (U+0074): X=263.5,Y=-0.5 (should be at baseline 0?)
 
 	* v (U+0076): X=26.0,Y=484.0 (should be at x-height 485?)
 
@@ -2657,9 +2617,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ocircumflex (U+00F4): X=288.0,Y=701.0 (should be at cap-height 700?)
 
-	* ucircumflex (U+00FB): X=228.0,Y=701.0 (should be at cap-height 700?)
+	* ucircumflex (U+00FB): X=231.0,Y=701.0 (should be at cap-height 700?)
 
-	* ucircumflex (U+00FB): X=270.0,Y=701.0 (should be at cap-height 700?)
+	* ucircumflex (U+00FB): X=273.0,Y=701.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=349.5,Y=701.5 (should be at cap-height 700?)
 
@@ -3249,7 +3209,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
@@ -3301,7 +3261,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* f (U+0066): X=315.5,Y=699.5 (should be at cap-height 700?)
 
-	* r (U+0072): X=332.0,Y=486.0 (should be at x-height 485?)
+	* r (U+0072): X=335.0,Y=486.0 (should be at x-height 485?)
 
 	* t (U+0074): X=143.5,Y=2.0 (should be at baseline 0?)
 
@@ -3381,19 +3341,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<412.0,47.0>-<412.0,47.0>-<412.0,47.0>>
 
-	* b (U+0062) contains a short segment B<<141.0,89.0>-<141.0,84.0>-<141.0,80.0>>
-
-	* d (U+0064) contains a short segment B<<414.0,80.0>-<414.0,84.0>-<414.0,89.0>>
+	* b (U+0062) contains a short segment B<<140.0,92.0>-<140.0,88.0>-<140.0,85.0>>
 
 	* g (U+0067) contains a short segment B<<378.0,454.0>-<383.0,449.0>-<389.0,443.0>>
 
 	* m (U+006D) contains a short segment B<<135.0,425.0>-<136.0,415.0>-<136.0,406.0>>
 
-	* n (U+006E) contains a short segment B<<139.0,417.0>-<139.0,410.0>-<139.0,402.0>>
+	* n (U+006E) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
-	* p (U+0070) contains a short segment B<<140.0,406.0>-<140.0,401.0>-<140.0,396.0>>
-
-	* q (U+0071) contains a short segment B<<414.0,396.0>-<414.0,401.0>-<414.0,406.0>>
+	* u (U+0075) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
@@ -3405,9 +3361,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Oslash (U+00D8) contains a short segment B<<193.0,117.0>-<194.0,115.0>-<196.0,113.0>>
 
-	* ntilde (U+00F1) contains a short segment B<<139.0,417.0>-<139.0,410.0>-<139.0,402.0>>
+	* ntilde (U+00F1) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
-	* eng (U+014B) contains a short segment B<<139.0,417.0>-<139.0,410.0>-<139.0,402.0>>
+	* ugrave (U+00F9) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+
+	* uacute (U+00FA) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+
+	* ucircumflex (U+00FB) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+
+	* udieresis (U+00FC) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+
+	* eng (U+014B) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
 	* eng (U+014B) contains a short segment L<<445.0,0.0>--<445.0,0.0>>
 
@@ -3928,7 +3892,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -4010,10 +3974,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* m (U+006D): X=167.0,Y=491.0 (should be at x-height 493?)
 
-	* n (U+006E): X=69.0,Y=491.0 (should be at x-height 493?)
-
-	* n (U+006E): X=167.0,Y=491.0 (should be at x-height 493?)
-
 	* r (U+0072): X=69.0,Y=491.0 (should be at x-height 493?)
 
 	* r (U+0072): X=163.0,Y=491.0 (should be at x-height 493?)
@@ -4025,14 +3985,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* t (U+0074): X=197.0,Y=491.0 (should be at x-height 493?)
 
 	* t (U+0074): X=327.0,Y=491.0 (should be at x-height 493?)
-
-	* u (U+0075): X=64.0,Y=491.0 (should be at x-height 493?)
-
-	* u (U+0075): X=176.0,Y=491.0 (should be at x-height 493?)
-
-	* u (U+0075): X=355.0,Y=491.0 (should be at x-height 493?)
-
-	* u (U+0075): X=467.0,Y=491.0 (should be at x-height 493?)
 
 	* v (U+0076): X=24.0,Y=491.0 (should be at x-height 493?)
 
@@ -4656,7 +4608,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -4732,10 +4684,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* m (U+006D): X=176.0,Y=494.0 (should be at x-height 495?)
 
-	* n (U+006E): X=62.0,Y=494.0 (should be at x-height 495?)
-
-	* n (U+006E): X=178.0,Y=494.0 (should be at x-height 495?)
-
 	* r (U+0072): X=62.0,Y=494.0 (should be at x-height 495?)
 
 	* r (U+0072): X=171.0,Y=494.0 (should be at x-height 495?)
@@ -4747,14 +4695,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* t (U+0074): X=211.0,Y=494.0 (should be at x-height 495?)
 
 	* t (U+0074): X=342.0,Y=494.0 (should be at x-height 495?)
-
-	* u (U+0075): X=57.0,Y=494.0 (should be at x-height 495?)
-
-	* u (U+0075): X=188.0,Y=494.0 (should be at x-height 495?)
-
-	* u (U+0075): X=348.0,Y=494.0 (should be at x-height 495?)
-
-	* u (U+0075): X=479.0,Y=494.0 (should be at x-height 495?)
 
 	* v (U+0076): X=22.0,Y=494.0 (should be at x-height 495?)
 
@@ -5361,7 +5301,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5502,23 +5442,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<211.0,380.0>-<222.0,382.0>-<232.0,384.0>>
 
-	* b (U+0062) contains a short segment B<<167.0,72.0>-<167.0,72.0>-<167.0,72.0>>
-
-	* d (U+0064) contains a short segment B<<401.0,72.0>-<401.0,72.0>-<401.0,72.0>>
-
 	* e (U+0065) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
 
 	* g (U+0067) contains a short segment B<<390.0,461.0>-<393.0,458.0>-<397.0,455.0>>
 
 	* m (U+006D) contains a short segment B<<160.0,436.0>-<160.0,430.0>-<160.0,423.0>>
 
-	* n (U+006E) contains a short segment B<<164.0,427.0>-<164.0,425.0>-<164.0,423.0>>
-
-	* p (U+0070) contains a short segment B<<166.0,421.0>-<166.0,421.0>-<166.0,420.0>>
-
-	* q (U+0071) contains a short segment B<<401.0,420.0>-<401.0,421.0>-<401.0,421.0>>
-
-	* u (U+0075) contains a short segment B<<372.0,58.0>-<372.0,63.0>-<371.0,68.0>>
+	* r (U+0072) contains a short segment B<<164.0,414.0>-<164.0,411.0>-<164.0,408.0>>
 
 	* sterling (U+00A3) contains a short segment B<<93.0,348.0>-<93.0,355.0>-<92.0,362.0>>
 
@@ -5536,19 +5466,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* edieresis (U+00EB) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
 
-	* ntilde (U+00F1) contains a short segment B<<164.0,427.0>-<164.0,425.0>-<164.0,423.0>>
-
-	* ugrave (U+00F9) contains a short segment B<<372.0,58.0>-<372.0,63.0>-<371.0,68.0>>
-
-	* uacute (U+00FA) contains a short segment B<<372.0,58.0>-<372.0,63.0>-<371.0,68.0>>
-
-	* ucircumflex (U+00FB) contains a short segment B<<372.0,58.0>-<372.0,63.0>-<371.0,68.0>>
-
-	* udieresis (U+00FC) contains a short segment B<<372.0,58.0>-<372.0,63.0>-<371.0,68.0>>
-
 	* thorn (U+00FE) contains a short segment B<<163.0,443.0>-<167.0,448.0>-<171.0,452.0>>
-
-	* eng (U+014B) contains a short segment B<<164.0,427.0>-<164.0,425.0>-<164.0,423.0>>
 
 	* eng (U+014B) contains a short segment L<<476.0,0.0>--<475.0,0.0>>
 
@@ -6052,7 +5970,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6195,13 +6113,13 @@ lessequal
 
 	* ampersand (U+0026) contains a short segment B<<410.0,55.0>-<409.0,57.0>-<408.0,59.0>>
 
+	* b (U+0062) contains a short segment B<<175.0,68.0>-<175.0,62.0>-<174.0,57.0>>
+
 	* g (U+0067) contains a short segment B<<396.0,463.0>-<397.0,462.0>-<399.0,460.0>>
 
 	* m (U+006D) contains a short segment B<<171.0,445.0>-<171.0,438.0>-<172.0,431.0>>
 
-	* n (U+006E) contains a short segment B<<174.0,434.0>-<174.0,431.0>-<174.0,429.0>>
-
-	* u (U+0075) contains a short segment B<<367.0,52.0>-<366.0,58.0>-<366.0,63.0>>
+	* r (U+0072) contains a short segment B<<174.0,420.0>-<174.0,416.0>-<175.0,412.0>>
 
 	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
 
@@ -6211,19 +6129,7 @@ lessequal
 
 	* ae (U+00E6) contains a short segment B<<402.0,432.0>-<404.0,434.0>-<405.0,436.0>>
 
-	* ntilde (U+00F1) contains a short segment B<<174.0,434.0>-<174.0,431.0>-<174.0,429.0>>
-
-	* ugrave (U+00F9) contains a short segment B<<367.0,52.0>-<366.0,58.0>-<366.0,63.0>>
-
-	* uacute (U+00FA) contains a short segment B<<367.0,52.0>-<366.0,58.0>-<366.0,63.0>>
-
-	* ucircumflex (U+00FB) contains a short segment B<<367.0,52.0>-<366.0,58.0>-<366.0,63.0>>
-
-	* udieresis (U+00FC) contains a short segment B<<367.0,52.0>-<366.0,58.0>-<366.0,63.0>>
-
 	* thorn (U+00FE) contains a short segment B<<181.0,454.0>-<183.0,456.0>-<184.0,458.0>>
-
-	* eng (U+014B) contains a short segment B<<174.0,434.0>-<174.0,431.0>-<174.0,429.0>>
 
 	* eng (U+014B) contains a short segment L<<486.0,0.0>--<486.0,0.0>>
 
@@ -6867,10 +6773,6 @@ multiply
 
 	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
 
-	* b (U+0062) contains a short segment B<<126.0,100.0>-<125.0,93.0>-<125.0,87.0>>
-
-	* d (U+0064) contains a short segment B<<417.0,87.0>-<417.0,93.0>-<416.0,100.0>>
-
 	* g (U+0067) contains a short segment B<<372.0,449.0>-<378.0,444.0>-<383.0,438.0>>
 
 	* g (U+0067) contains a short segment B<<456.0,510.0>-<464.0,510.0>-<472.0,508.5>>
@@ -7447,8 +7349,6 @@ multiply
 
 	* g (U+0067): X=488.0,Y=482.0 (should be at x-height 480?)
 
-	* t (U+0074): X=243.0,Y=-2.0 (should be at baseline 0?)
-
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
 	* yen (U+00A5): X=68.0,Y=701.0 (should be at cap-height 700?)
@@ -7527,7 +7427,7 @@ multiply
 
 	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
 
-	* q (U+0071) contains a short segment B<<414.0,400.0>-<414.0,400.0>-<414.0,401.0>>
+	* q (U+0071) contains a short segment B<<413.0,401.0>-<413.0,405.0>-<413.0,409.0>>
 
 	* sterling (U+00A3) contains a short segment B<<100.0,332.0>-<100.0,339.0>-<99.0,346.0>>
 
@@ -8053,7 +7953,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -8096,7 +7996,7 @@ lessequal
 
 	* g (U+0067): X=378.5,Y=-1.0 (should be at baseline 0?)
 
-	* r (U+0072): X=351.0,Y=489.0 (should be at x-height 490?)
+	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
 	* yen (U+00A5): X=12.0,Y=701.0 (should be at cap-height 700?)
 
@@ -8144,21 +8044,17 @@ lessequal
 
 	* ampersand (U+0026) contains a short segment B<<339.0,353.0>-<339.0,353.0>-<339.0,354.0>>
 
-	* b (U+0062) contains a short segment B<<157.0,79.0>-<157.0,76.0>-<157.0,72.0>>
-
-	* d (U+0064) contains a short segment B<<411.0,72.0>-<411.0,76.0>-<411.0,79.0>>
+	* d (U+0064) contains a short segment B<<414.0,83.0>-<414.0,84.0>-<414.0,86.0>>
 
 	* g (U+0067) contains a short segment B<<384.0,459.0>-<389.0,454.0>-<395.0,448.0>>
 
 	* m (U+006D) contains a short segment B<<149.0,427.0>-<149.0,422.0>-<149.0,416.0>>
 
-	* n (U+006E) contains a short segment B<<154.0,421.0>-<154.0,419.0>-<154.0,417.0>>
+	* p (U+0070) contains a short segment B<<153.0,408.0>-<153.0,406.0>-<153.0,404.0>>
 
-	* p (U+0070) contains a short segment B<<156.0,418.0>-<156.0,414.0>-<156.0,411.0>>
+	* q (U+0071) contains a short segment B<<414.0,404.0>-<414.0,406.0>-<414.0,408.0>>
 
-	* q (U+0071) contains a short segment B<<411.0,411.0>-<411.0,414.0>-<411.0,418.0>>
-
-	* u (U+0075) contains a short segment B<<377.0,64.0>-<377.0,68.0>-<377.0,72.0>>
+	* r (U+0072) contains a short segment B<<153.0,408.0>-<153.0,407.0>-<153.0,405.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -8167,18 +8063,6 @@ lessequal
 	* uni00B5 (U+00B5) contains a short segment B<<386.0,64.0>-<386.0,68.0>-<386.0,72.0>>
 
 	* ae (U+00E6) contains a short segment B<<395.0,422.0>-<399.0,426.0>-<402.0,430.0>>
-
-	* ntilde (U+00F1) contains a short segment B<<154.0,421.0>-<154.0,419.0>-<154.0,417.0>>
-
-	* ugrave (U+00F9) contains a short segment B<<377.0,64.0>-<377.0,68.0>-<377.0,72.0>>
-
-	* uacute (U+00FA) contains a short segment B<<377.0,64.0>-<377.0,68.0>-<377.0,72.0>>
-
-	* ucircumflex (U+00FB) contains a short segment B<<377.0,64.0>-<377.0,68.0>-<377.0,72.0>>
-
-	* udieresis (U+00FC) contains a short segment B<<377.0,64.0>-<377.0,68.0>-<377.0,72.0>>
-
-	* eng (U+014B) contains a short segment B<<154.0,421.0>-<154.0,419.0>-<154.0,417.0>>
 
 	* eng (U+014B) contains a short segment L<<466.0,0.0>--<465.0,0.0>>
 
