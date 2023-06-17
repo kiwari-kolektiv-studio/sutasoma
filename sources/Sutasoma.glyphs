@@ -54,6 +54,15 @@ value = 0;
 {
 name = "Write lastChange";
 value = 0;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-04-12 05:09:11 +0000";
@@ -97892,7 +97901,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright © 2023 by Kiwari Kolektiv. All rights reserved.";
+value = "Copyright 2023 The Sutasoma Project Authors (https://github.com/kiwari-kolektiv-studio/sutasoma)";
 }
 );
 },
@@ -97901,7 +97910,7 @@ key = manufacturers;
 values = (
 {
 language = ENG;
-value = "Pot Branding House";
+value = "Kiwari Kolektiv";
 }
 );
 },
@@ -97910,21 +97919,26 @@ key = designers;
 values = (
 {
 language = ENG;
-value = "Izhar Fathurrohim";
-},
-{
-language = ENG;
-value = "Akbar Rohmanto";
-},
-{
-language = ENG;
-value = "Arusyal Khofiqoini";
+value = "Izhar Fathurrohim, Akbar Rohmanto, Arusyal Khofiqoini";
 }
 );
 },
 {
 key = vendorID;
 value = KK;
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 unitsPerEm = 1000;
