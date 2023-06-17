@@ -580,7 +580,7 @@ KernOnModels = (
 axesValues = (
 45,
 0,
-100
+-100
 );
 customParameters = (
 {
@@ -724,7 +724,7 @@ KernOnModels = (
 axesValues = (
 93,
 0,
-100
+-100
 );
 customParameters = (
 {
@@ -867,7 +867,7 @@ KernOnModels = (
 axesValues = (
 169,
 0,
-100
+-100
 );
 customParameters = (
 {
@@ -97578,7 +97578,8 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-m01 = 1;
+m004 = 2;
+m01 = -1;
 };
 name = "Moderat ExtraLight";
 weightClass = 200;
@@ -97600,8 +97601,11 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = 0.52083;
-m01 = 0.47917;
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = -0.32292;
+m004 = 1.35417;
+m005 = 0.52083;
+m006 = 0.125;
+m01 = -0.67708;
 };
 name = "Moderat Light";
 weightClass = 300;
@@ -97623,7 +97627,8 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = 1;
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = -1;
+m005 = 2;
 };
 name = "Moderat Regular";
 },
@@ -97644,8 +97649,11 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = 0.72368;
-"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = 0.27632;
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = -0.52173;
+"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = -0.47827;
+m004 = 0.31977;
+m005 = 0.72368;
+m006 = 0.95655;
 };
 name = "Moderat Medium";
 weightClass = 500;
@@ -97667,8 +97675,11 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = 0.53947;
-"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = 0.46053;
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = -0.38892;
+"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = -0.61108;
+m004 = 0.23837;
+m005 = 0.53947;
+m006 = 1.22215;
 };
 name = "Moderat SemiBold";
 weightClass = 600;
@@ -97690,8 +97701,11 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = 0.27632;
-"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = 0.72368;
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = -0.1992;
+"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = -0.8008;
+m004 = 0.12209;
+m005 = 0.27632;
+m006 = 1.60159;
 };
 isBold = 1;
 linkStyle = "Moderat Regular";
@@ -97715,7 +97729,8 @@ value = "--windows-compatibility";
 }
 );
 instanceInterpolations = {
-"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = 1;
+"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = -1;
+m006 = 2;
 };
 name = "Moderat ExtraBold";
 weightClass = 800;

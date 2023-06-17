@@ -1,7 +1,82 @@
 sources:
   - Sutasoma.glyphs
 axisOrder:
-  - wght
-  - slnt
   - GRAD
+  - slnt
+  - wght
 familyName: Sutasoma
+version: 1.001
+instances:
+  Sutasoma[GRAD,slnt,wght].ttf:
+    - familyName: "Sutasoma Modern"
+      styleName: "ExtraLight"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 200
+    - familyName: "Sutasoma Modern"
+      styleName: "Light"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 300
+    - familyName: "Sutasoma Modern"
+      styleName: "Regular"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 400
+    - familyName: "Sutasoma Modern"
+      styleName: "Medium"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 500
+    - familyName: "Sutasoma Modern"
+      styleName: "Bold"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 600
+    - familyName: "Sutasoma Modern"
+      styleName: "ExtraBold"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 700
+    - familyName: "Sutasoma Moderat"
+      styleName: "ExtraLight"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 200
+    - familyName: "Sutasoma Moderat"
+      styleName: "Light"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 300
+    - familyName: "Sutasoma Moderat"
+      styleName: "Regular"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 400
+    - familyName: "Sutasoma Moderat"
+      styleName: "Medium"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 500
+    - familyName: "Sutasoma Moderat"
+      styleName: "Bold"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 600
+    - familyName: "Sutasoma Moderat"
+      styleName: "ExtraBold"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 700
