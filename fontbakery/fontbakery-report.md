@@ -450,7 +450,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1168,7 +1168,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1896,7 +1896,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1943,6 +1943,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=387.0,Y=698.0 (should be at cap-height 700?)
 
+	* W (U+0057): X=596.0,Y=1.0 (should be at baseline 0?)
+
+	* W (U+0057): X=321.0,Y=1.0 (should be at baseline 0?)
+
 	* W (U+0057): X=166.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=22.0,Y=701.0 (should be at cap-height 700?)
@@ -1958,10 +1962,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* W (U+0057): X=886.0,Y=701.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=746.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=596.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=321.0,Y=1.0 (should be at baseline 0?)
 
 	* X (U+0058): X=405.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2611,13 +2611,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, less, plus
+greater, plus, less, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3399,13 +3399,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, less, plus
+greater, plus, less, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -4108,7 +4108,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -4866,7 +4866,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -5601,7 +5601,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -6322,7 +6322,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6359,6 +6359,10 @@ lessequal
 
 	* S (U+0053): X=378.5,Y=698.5 (should be at cap-height 700?)
 
+	* W (U+0057): X=603.0,Y=1.0 (should be at baseline 0?)
+
+	* W (U+0057): X=309.0,Y=1.0 (should be at baseline 0?)
+
 	* W (U+0057): X=177.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=25.0,Y=701.0 (should be at cap-height 700?)
@@ -6374,10 +6378,6 @@ lessequal
 	* W (U+0057): X=877.0,Y=701.0 (should be at cap-height 700?)
 
 	* W (U+0057): X=733.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=603.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=309.0,Y=1.0 (should be at baseline 0?)
 
 	* X (U+0058): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7163,9 +7163,9 @@ multiply
 
 	* M (U+004D) contains a short segment L<<439.0,0.0>--<409.0,0.0>>
 
-	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
-
 	* W (U+0057) contains a short segment L<<251.0,0.0>--<220.0,0.0>>
+
+	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
 
 	* b (U+0062) contains a short segment B<<126.0,100.0>-<125.0,93.0>-<125.0,87.0>>
 
@@ -8413,7 +8413,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 463:
 multiply
