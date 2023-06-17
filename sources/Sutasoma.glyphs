@@ -54,6 +54,15 @@ value = 0;
 {
 name = "Write lastChange";
 value = 0;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-04-12 05:09:11 +0000";
@@ -219,11 +228,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 100;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 200;
 }
 );
 }
@@ -492,11 +497,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 800;
 }
 );
 }
@@ -38112,7 +38113,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (389,0);
+pos = (294,0);
 ref = l;
 }
 );
@@ -38132,7 +38133,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 606;
+width = 511;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -38141,7 +38142,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (390,0);
+pos = (317,0);
 ref = l;
 }
 );
@@ -38161,7 +38162,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 635;
+width = 562;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -38170,7 +38171,7 @@ shapes = (
 ref = f;
 },
 {
-pos = (388,0);
+pos = (354,0);
 ref = l;
 }
 );
@@ -38190,7 +38191,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 653;
+width = 619;
 },
 {
 layerId = m004;
@@ -56123,12 +56124,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (196,0);
+pos = (198,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (392,0);
+pos = (396,0);
 ref = period;
 }
 );
@@ -56148,7 +56149,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 590;
+width = 594;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -56195,12 +56196,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (258,0);
+pos = (256,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (516,0);
+pos = (512,0);
 ref = period;
 }
 );
@@ -56220,7 +56221,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 772;
+width = 768;
 },
 {
 layerId = m004;
@@ -56267,12 +56268,12 @@ ref = period;
 },
 {
 alignment = 1;
-pos = (232,0);
+pos = (230,0);
 ref = period;
 },
 {
 alignment = 1;
-pos = (464,0);
+pos = (460,0);
 ref = period;
 }
 );
@@ -56292,7 +56293,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 694;
+width = 690;
 },
 {
 layerId = m006;
@@ -98036,7 +98037,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright © 2023 by Kiwari Kolektiv. All rights reserved.";
+value = "Copyright 2023 The Sutasoma Project Authors (https://github.com/kiwari-kolektiv-studio/sutasoma)";
 }
 );
 },
@@ -98045,7 +98046,7 @@ key = manufacturers;
 values = (
 {
 language = ENG;
-value = "Pot Branding House";
+value = "Kiwari Kolektiv";
 }
 );
 },
@@ -98054,21 +98055,26 @@ key = designers;
 values = (
 {
 language = ENG;
-value = "Izhar Fathurrohim";
-},
-{
-language = ENG;
-value = "Akbar Rohmanto";
-},
-{
-language = ENG;
-value = "Arusyal Khofiqoini";
+value = "Izhar Fathurrohim, Akbar Rohmanto, Arusyal Khofiqoini";
 }
 );
 },
 {
 key = vendorID;
 value = KK;
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 unitsPerEm = 1000;
