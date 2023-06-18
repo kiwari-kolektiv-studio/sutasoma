@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -598,9 +598,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<233.0,-10.0>-<224.0,-10.0>-<215.0,-9.0>>
+	* uni00B5 (U+00B5) contains a short segment B<<231.0,-10.0>-<223.0,-10.0>-<215.0,-10.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
+	* uni00B5 (U+00B5) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
 	* AE (U+00C6) contains a short segment L<<385.0,695.0>--<385.0,700.0>>
 
@@ -610,9 +610,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03A9 (U+03A9) contains a short segment B<<415.0,66.0>-<420.0,68.0>-<427.5,73.5>>
 
-	* uni03BC (U+03BC) contains a short segment B<<233.0,-10.0>-<224.0,-10.0>-<215.0,-9.0>>
+	* uni03BC (U+03BC) contains a short segment B<<231.0,-10.0>-<223.0,-10.0>-<215.0,-10.0>>
 
-	* uni03BC (U+03BC) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
+	* uni03BC (U+03BC) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
 	* Euro (U+20AC) contains a short segment B<<267.0,366.0>-<267.0,359.0>-<267.0,353.0>>
 
@@ -1098,7 +1098,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 463:
 multiply
@@ -1219,7 +1219,7 @@ lessequal
 
 	* uni00B2 (U+00B2): X=275.0,Y=702.0 (should be at cap-height 700?)
 
-	* uni00B5 (U+00B5): X=172.0,Y=-1.0 (should be at baseline 0?)
+	* uni00B5 (U+00B5): X=173.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=433.5,Y=698.0 (should be at cap-height 700?)
 
@@ -1243,7 +1243,7 @@ lessequal
 
 	* Ydieresis (U+0178): X=547.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni03BC (U+03BC): X=172.0,Y=-1.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=173.0,Y=-1.0 (should be at baseline 0?)
 
 	* pi (U+03C0): X=591.5,Y=-1.0 (should be at baseline 0?)
 
@@ -1279,8 +1279,6 @@ lessequal
 
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<386.0,64.0>-<386.0,68.0>-<386.0,72.0>>
-
 	* ae (U+00E6) contains a short segment B<<394.0,426.0>-<396.0,428.0>-<398.0,431.0>>
 
 	* oe (U+0153) contains a short segment B<<451.0,419.0>-<456.0,425.0>-<461.0,431.0>>
@@ -1294,8 +1292,6 @@ lessequal
 	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<407.0,49.0>-<413.0,51.0>-<423.0,56.5>>
-
-	* uni03BC (U+03BC) contains a short segment B<<386.0,64.0>-<386.0,68.0>-<386.0,72.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -1784,7 +1780,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -2462,13 +2458,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, less, greaterequal
+plus, greaterequal, greater, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3203,13 +3199,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, less, greaterequal
+plus, greaterequal, greater, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3881,7 +3877,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -4088,8 +4084,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
-
 	* AE (U+00C6) contains a short segment L<<390.0,693.0>--<390.0,700.0>>
 
 	* ae (U+00E6) contains a short segment B<<398.0,431.0>-<399.0,432.0>-<400.0,434.0>>
@@ -4107,8 +4101,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<410.0,55.0>-<415.0,57.0>-<424.5,62.5>>
-
-	* uni03BC (U+03BC) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -4598,7 +4590,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -4778,7 +4770,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
+	* uni00B5 (U+00B5) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
 	* AE (U+00C6) contains a short segment L<<388.0,692.0>--<388.0,700.0>>
 
@@ -4790,7 +4782,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03A9 (U+03A9) contains a short segment B<<413.0,60.0>-<418.0,62.0>-<426.0,67.5>>
 
-	* uni03BC (U+03BC) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
+	* uni03BC (U+03BC) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
 	* Euro (U+20AC) contains a short segment B<<253.0,358.0>-<253.0,355.0>-<253.0,352.0>>
 
@@ -5291,7 +5283,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -5961,7 +5953,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -7950,7 +7942,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 463:
 multiply
