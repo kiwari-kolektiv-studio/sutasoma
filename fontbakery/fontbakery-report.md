@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -572,7 +572,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ntilde (U+00F1): X=280.5,Y=700.5 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=253.5,Y=700.5 (should be at cap-height 700?)
+	* otilde (U+00F5): X=249.5,Y=700.5 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=372.5,Y=698.5 (should be at cap-height 700?)
 
@@ -1118,7 +1118,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1806,7 +1806,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -2496,7 +2496,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, greater, plus
+greaterequal, greater, plus, less
 
 Width = 462:
 multiply
@@ -3239,7 +3239,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, greater, plus
+greaterequal, greater, plus, less
 
 Width = 462:
 multiply
@@ -3917,7 +3917,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -4640,7 +4640,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -4780,7 +4780,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ntilde (U+00F1): X=410.0,Y=701.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=383.0,Y=701.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=381.0,Y=701.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=371.0,Y=699.5 (should be at cap-height 700?)
 
@@ -4810,7 +4810,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
-	* e (U+0065) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+	* e (U+0065) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
 	* g (U+0067) contains a short segment B<<385.0,461.0>-<386.0,460.0>-<388.0,459.0>>
 
@@ -4828,19 +4828,19 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<399.0,435.0>-<399.0,436.0>-<400.0,436.0>>
 
-	* egrave (U+00E8) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+	* egrave (U+00E8) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
-	* eacute (U+00E9) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+	* eacute (U+00E9) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
-	* ecircumflex (U+00EA) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+	* ecircumflex (U+00EA) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
-	* edieresis (U+00EB) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+	* edieresis (U+00EB) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
 	* thorn (U+00FE) contains a short segment B<<193.0,451.0>-<195.0,453.0>-<197.0,455.0>>
 
 	* oe (U+0153) contains a short segment B<<510.0,213.0>-<510.0,212.0>-<510.0,212.0>>
 
-	* oe (U+0153) contains a short segment L<<697.0,292.0>--<697.0,295.0>>
+	* oe (U+0153) contains a short segment L<<697.0,293.0>--<697.0,295.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
 
@@ -5355,7 +5355,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -6033,7 +6033,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -8030,7 +8030,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
