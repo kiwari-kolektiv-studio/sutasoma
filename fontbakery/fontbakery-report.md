@@ -22,7 +22,7 @@ Fontbakery version: 0.8.13
   - SutasomaModerat-Bold.ttf (nameID 1)
   - SutasomaModerat-ExtraLight.ttf (nameID 16)
   - SutasomaModerat-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -365,7 +365,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 226 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -402,10 +402,18 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -420,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -488,7 +496,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* f (U+0066): X=337.0,Y=497.0 (should be at x-height 498?)
 
-	* g (U+0067): X=328.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=316.0,Y=-2.0 (should be at baseline 0?)
 
 	* m (U+006D): X=55.0,Y=497.0 (should be at x-height 498?)
 
@@ -506,21 +514,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=356.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=21.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=18.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=181.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=179.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=382.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=380.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=540.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=537.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=36.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=31.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=207.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=202.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=380.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=375.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=529.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=524.0,Y=497.0 (should be at x-height 498?)
 
 	* y (U+0079): X=17.0,Y=497.0 (should be at x-height 498?)
 
@@ -592,7 +600,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<307.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
-	* g (U+0067) contains a short segment B<<402.0,464.0>-<405.0,461.0>-<408.0,458.0>>
+	* g (U+0067) contains a short segment B<<389.0,464.0>-<389.0,463.0>-<390.0,463.0>>
+
+	* g (U+0067) contains a short segment B<<428.0,428.0>-<424.0,427.0>-<421.0,425.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -605,6 +615,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* AE (U+00C6) contains a short segment L<<385.0,695.0>--<385.0,700.0>>
 
 	* thorn (U+00FE) contains a short segment B<<205.0,459.0>-<205.0,459.0>-<205.0,459.0>>
+
+	* oe (U+0153) contains a short segment B<<517.0,211.0>-<516.0,209.0>-<516.0,207.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
 
@@ -703,7 +715,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1078,12 +1090,20 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1098,7 +1118,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -1112,6 +1132,10 @@ approxequal
 Width = 498:
 lessequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1269,7 +1293,7 @@ lessequal
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
 
-	* g (U+0067) contains a short segment B<<427.0,418.0>-<422.0,415.0>-<419.0,412.0>>
+	* g (U+0067) contains a short segment B<<376.0,457.0>-<380.0,453.0>-<383.0,450.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -1280,8 +1304,6 @@ lessequal
 	* oe (U+0153) contains a short segment B<<451.0,419.0>-<456.0,425.0>-<461.0,431.0>>
 
 	* oe (U+0153) contains a short segment B<<497.0,217.0>-<497.0,216.0>-<497.0,215.0>>
-
-	* oe (U+0153) contains a short segment B<<461.0,57.0>-<455.0,63.0>-<450.0,70.0>>
 
 	* oe (U+0153) contains a short segment B<<450.0,70.0>-<445.0,63.0>-<440.0,57.0>>
 
@@ -1378,7 +1400,7 @@ lessequal
 	* macron (U+00AF): L<<58.0,663.0>--<346.0,664.0>> 
 
 	* uni0304 (U+0304): L<<46.0,677.0>--<335.0,679.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1721,7 +1743,7 @@ lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 226 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1758,10 +1780,18 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -1776,7 +1806,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -1804,7 +1834,9 @@ lessequal
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 599)
 	* ('periodcentered', 83, 382)
-	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
+	* ('periodcentered', 125, 382)
+	* ('periodcentered', 167, 382)
+	* ('figuredash', 18, 386) and ('figuredash', 518, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -1890,8 +1922,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dieresis (U+00A8): X=172.5,Y=699.5 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=56.5,Y=-1.0 (should be at baseline 0?)
-
 	* Yacute (U+00DD): X=18.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=195.0,Y=701.0 (should be at cap-height 700?)
@@ -1938,7 +1968,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062) contains a short segment B<<185.0,60.0>-<185.0,57.0>-<185.0,54.0>>
 
-	* g (U+0067) contains a short segment B<<439.0,447.0>-<433.0,443.0>-<428.0,437.0>>
+	* g (U+0067) contains a short segment B<<389.0,465.0>-<390.0,464.0>-<391.0,463.0>>
+
+	* g (U+0067) contains a short segment B<<428.0,440.0>-<423.0,436.0>-<419.0,432.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,454.0>-<182.0,447.0>-<183.0,440.0>>
 
@@ -1954,13 +1986,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
 
-	* ae (U+00E6) contains a short segment B<<406.0,437.0>-<406.0,438.0>-<407.0,439.0>>
+	* ae (U+00E6) contains a short segment B<<402.0,437.0>-<402.0,438.0>-<403.0,439.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* eng (U+014B) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* eng (U+014B) contains a short segment L<<496.0,0.0>--<496.0,0.0>>
+
+	* oe (U+0153) contains a short segment B<<518.0,264.0>-<518.0,264.0>-<518.0,264.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
 
@@ -2051,7 +2085,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> 
 
 	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2435,14 +2469,22 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
-	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -2454,7 +2496,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, greaterequal, plus
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
@@ -2522,8 +2564,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=165.0,Y=484.0 (should be at x-height 485?)
 
 	* f (U+0066): X=300.0,Y=484.0 (should be at x-height 485?)
-
-	* g (U+0067): X=498.0,Y=484.0 (should be at x-height 485?)
 
 	* k (U+006B): X=347.0,Y=487.0 (should be at x-height 485?)
 
@@ -2664,6 +2704,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
 	* ampersand (U+0026) contains a short segment B<<202.0,369.0>-<208.0,371.0>-<214.0,372.0>>
+
+	* g (U+0067) contains a short segment B<<368.0,452.0>-<373.0,448.0>-<378.0,443.0>>
 
 	* k (U+006B) contains a short segment L<<150.0,288.0>--<160.0,297.0>>
 
@@ -3172,12 +3214,20 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3189,7 +3239,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, greaterequal, plus
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
@@ -3200,10 +3250,6 @@ minus, lessequal
 Width = 477:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3325,8 +3371,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ampersand (U+0026) contains a short segment B<<412.0,47.0>-<412.0,47.0>-<412.0,47.0>>
 
 	* b (U+0062) contains a short segment B<<140.0,92.0>-<140.0,88.0>-<140.0,85.0>>
-
-	* g (U+0067) contains a short segment B<<378.0,454.0>-<383.0,449.0>-<389.0,443.0>>
 
 	* m (U+006D) contains a short segment B<<135.0,425.0>-<136.0,415.0>-<136.0,406.0>>
 
@@ -3467,7 +3511,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* thorn (U+00FE): L<<145.0,700.0>--<144.0,415.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3810,7 +3854,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 234 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 233 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3847,10 +3891,18 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -3865,7 +3917,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -3882,7 +3934,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 529 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 530 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3895,12 +3947,14 @@ lessequal
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
 	* ('igrave', 19, 743)
-	* ('scaron', 116, 723)
-	* ('scaron', 328, 723)
+	* ('scaron', 115, 723)
+	* ('scaron', 327, 723)
 	* ('zcaron', 105, 723)
 	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
-	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
+	* ('periodcentered', 118, 362)
+	* ('periodcentered', 152, 362)
+	* ('figuredash', 23, 388) and ('figuredash', 523, 388)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3960,21 +4014,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=327.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=24.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=23.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=145.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=144.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=376.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=375.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=495.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=494.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=41.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=39.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=170.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=169.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=365.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=364.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=480.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=479.0,Y=491.0 (should be at x-height 493?)
 
 	* y (U+0079): X=20.0,Y=491.0 (should be at x-height 493?)
 
@@ -4062,9 +4116,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<292.0,283.0>-<287.0,283.0>-<282.0,283.0>>
 
-	* g (U+0067) contains a short segment B<<390.0,459.0>-<395.0,454.0>-<400.0,449.0>>
+	* g (U+0067) contains a short segment B<<380.0,459.0>-<383.0,457.0>-<385.0,454.0>>
 
-	* g (U+0067) contains a short segment B<<431.0,415.0>-<429.0,413.0>-<426.0,411.0>>
+	* g (U+0067) contains a short segment B<<422.0,436.0>-<414.0,432.0>-<409.0,426.0>>
 
 	* k (U+006B) contains a short segment L<<192.0,203.0>--<181.0,193.0>>
 
@@ -4074,17 +4128,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<390.0,693.0>--<390.0,700.0>>
 
-	* ae (U+00E6) contains a short segment B<<398.0,431.0>-<399.0,432.0>-<400.0,434.0>>
+	* ae (U+00E6) contains a short segment B<<397.0,431.0>-<398.0,432.0>-<399.0,434.0>>
 
 	* thorn (U+00FE) contains a short segment B<<181.0,443.0>-<184.0,448.0>-<188.0,452.0>>
 
-	* oe (U+0153) contains a short segment B<<446.0,436.0>-<448.0,433.0>-<450.0,431.0>>
+	* oe (U+0153) contains a short segment B<<445.0,436.0>-<447.0,434.0>-<449.0,431.0>>
 
-	* oe (U+0153) contains a short segment B<<450.0,431.0>-<451.0,432.0>-<452.0,433.0>>
+	* oe (U+0153) contains a short segment B<<449.0,431.0>-<449.0,432.0>-<450.0,433.0>>
 
-	* oe (U+0153) contains a short segment B<<453.0,57.0>-<451.0,59.0>-<449.0,61.0>>
+	* oe (U+0153) contains a short segment B<<504.0,215.0>-<504.0,212.0>-<503.0,210.0>>
 
-	* oe (U+0153) contains a short segment B<<449.0,61.0>-<448.0,59.0>-<446.0,57.0>>
+	* oe (U+0153) contains a short segment B<<448.0,61.0>-<446.0,59.0>-<445.0,57.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
@@ -4187,7 +4241,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4530,7 +4584,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 230 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4560,10 +4614,18 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -4578,7 +4640,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -4666,21 +4728,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=342.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=22.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=21.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=163.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=162.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=379.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=378.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=517.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=516.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=39.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=35.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=189.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=185.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=373.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=369.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=505.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=501.0,Y=494.0 (should be at x-height 495?)
 
 	* y (U+0079): X=19.0,Y=494.0 (should be at x-height 495?)
 
@@ -4748,9 +4810,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
-	* g (U+0067) contains a short segment B<<396.0,461.0>-<400.0,457.0>-<404.0,453.0>>
+	* e (U+0065) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
 
-	* g (U+0067) contains a short segment B<<436.0,411.0>-<435.0,411.0>-<434.0,410.0>>
+	* g (U+0067) contains a short segment B<<385.0,461.0>-<386.0,460.0>-<388.0,459.0>>
+
+	* g (U+0067) contains a short segment B<<425.0,432.0>-<419.0,429.0>-<415.0,426.0>>
 
 	* k (U+006B) contains a short segment L<<228.0,218.0>--<218.0,208.0>>
 
@@ -4762,9 +4826,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<388.0,692.0>--<388.0,700.0>>
 
-	* ae (U+00E6) contains a short segment B<<402.0,435.0>-<402.0,436.0>-<402.0,436.0>>
+	* ae (U+00E6) contains a short segment B<<399.0,435.0>-<399.0,436.0>-<400.0,436.0>>
+
+	* egrave (U+00E8) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+
+	* eacute (U+00E9) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+
+	* ecircumflex (U+00EA) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
+
+	* edieresis (U+00EB) contains a short segment L<<356.0,292.0>--<356.0,295.0>>
 
 	* thorn (U+00FE) contains a short segment B<<193.0,451.0>-<195.0,453.0>-<197.0,455.0>>
+
+	* oe (U+0153) contains a short segment B<<510.0,213.0>-<510.0,212.0>-<510.0,212.0>>
+
+	* oe (U+0153) contains a short segment L<<697.0,292.0>--<697.0,295.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
 
@@ -4873,7 +4949,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> 
 
 	* uni0304 (U+0304): L<<45.0,700.0>--<346.0,702.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5216,7 +5292,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 234 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 233 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5253,10 +5329,18 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -5271,7 +5355,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -5329,7 +5413,9 @@ lessequal
 	* ('Yacute', 426, 931)
 	* ('icircumflex', 252, 584)
 	* ('periodcentered', 86, 362)
-	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
+	* ('periodcentered', 118, 362)
+	* ('periodcentered', 152, 362)
+	* ('figuredash', 23, 378) and ('figuredash', 523, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -5359,7 +5445,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=554.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=378.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=369.5,Y=-2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5413,9 +5499,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<211.0,380.0>-<222.0,382.0>-<232.0,384.0>>
 
-	* e (U+0065) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
+	* e (U+0065) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
-	* g (U+0067) contains a short segment B<<390.0,461.0>-<393.0,458.0>-<397.0,455.0>>
+	* g (U+0067) contains a short segment B<<380.0,461.0>-<385.0,456.0>-<390.0,452.0>>
 
 	* m (U+006D) contains a short segment B<<160.0,436.0>-<160.0,430.0>-<160.0,423.0>>
 
@@ -5427,29 +5513,27 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
 
-	* ae (U+00E6) contains a short segment B<<399.0,427.0>-<401.0,430.0>-<404.0,433.0>>
+	* ae (U+00E6) contains a short segment B<<398.0,427.0>-<400.0,430.0>-<402.0,433.0>>
 
-	* egrave (U+00E8) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
+	* egrave (U+00E8) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
-	* eacute (U+00E9) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
+	* eacute (U+00E9) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
-	* ecircumflex (U+00EA) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
+	* ecircumflex (U+00EA) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
-	* edieresis (U+00EB) contains a short segment B<<374.0,279.0>-<374.0,280.0>-<374.0,280.0>>
+	* edieresis (U+00EB) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
 	* thorn (U+00FE) contains a short segment B<<163.0,443.0>-<167.0,448.0>-<171.0,452.0>>
 
 	* eng (U+014B) contains a short segment L<<476.0,0.0>--<475.0,0.0>>
 
-	* oe (U+0153) contains a short segment B<<446.0,436.0>-<449.0,432.0>-<452.0,429.0>>
+	* oe (U+0153) contains a short segment B<<445.0,436.0>-<447.0,433.0>-<450.0,429.0>>
 
-	* oe (U+0153) contains a short segment B<<452.0,429.0>-<453.0,431.0>-<455.0,433.0>>
+	* oe (U+0153) contains a short segment B<<450.0,429.0>-<452.0,431.0>-<454.0,433.0>>
 
-	* oe (U+0153) contains a short segment B<<453.0,55.0>-<450.0,57.0>-<448.0,60.0>>
+	* oe (U+0153) contains a short segment B<<447.0,60.0>-<446.0,59.0>-<445.0,57.0>>
 
-	* oe (U+0153) contains a short segment B<<448.0,60.0>-<447.0,59.0>-<446.0,57.0>>
-
-	* oe (U+0153) contains a short segment L<<721.0,279.0>--<721.0,280.0>>
+	* oe (U+0153) contains a short segment L<<720.0,279.0>--<720.0,280.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
@@ -5550,7 +5634,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* arrowup (U+2191): L<<306.0,603.0>--<311.0,0.0>> 
 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5893,7 +5977,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 230 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5923,10 +6007,18 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -5941,7 +6033,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -6034,9 +6126,9 @@ lessequal
 
 	* Scaron (U+0160): X=378.5,Y=698.5 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=95.0,Y=701.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=93.0,Y=701.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=357.0,Y=701.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=355.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6046,9 +6138,9 @@ lessequal
 
 	* Ydieresis (U+0178): X=564.0,Y=701.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=84.0,Y=701.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=83.0,Y=701.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=346.0,Y=701.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=345.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni0306 (U+0306): X=29.0,Y=699.0 (should be at cap-height 700?)
 
@@ -6082,7 +6174,7 @@ lessequal
 
 	* b (U+0062) contains a short segment B<<175.0,68.0>-<175.0,62.0>-<174.0,57.0>>
 
-	* g (U+0067) contains a short segment B<<396.0,463.0>-<397.0,462.0>-<399.0,460.0>>
+	* g (U+0067) contains a short segment B<<385.0,463.0>-<388.0,460.0>-<391.0,458.0>>
 
 	* m (U+006D) contains a short segment B<<171.0,445.0>-<171.0,438.0>-<172.0,431.0>>
 
@@ -6094,7 +6186,7 @@ lessequal
 
 	* uni00B5 (U+00B5) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
 
-	* ae (U+00E6) contains a short segment B<<402.0,432.0>-<404.0,434.0>-<405.0,436.0>>
+	* ae (U+00E6) contains a short segment B<<400.0,432.0>-<401.0,434.0>-<403.0,436.0>>
 
 	* thorn (U+00FE) contains a short segment B<<181.0,454.0>-<183.0,456.0>-<184.0,458.0>>
 
@@ -6209,7 +6301,7 @@ lessequal
 	* arrowup (U+2191): L<<315.0,593.0>--<320.0,0.0>> 
 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6591,12 +6683,20 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -6616,7 +6716,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 497 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 498 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6662,9 +6762,9 @@ multiply
 
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=77.0,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=66.0,Y=1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=116.0,Y=-1.0 (should be at baseline 0?)
+	* g (U+0067): X=105.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=145.5,Y=1.0 (should be at baseline 0?)
 
@@ -6742,9 +6842,9 @@ multiply
 
 	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
 
-	* g (U+0067) contains a short segment B<<372.0,449.0>-<378.0,444.0>-<383.0,438.0>>
+	* g (U+0067) contains a short segment B<<361.0,449.0>-<367.0,444.0>-<372.0,438.0>>
 
-	* g (U+0067) contains a short segment B<<456.0,510.0>-<464.0,510.0>-<472.0,508.5>>
+	* g (U+0067) contains a short segment B<<445.0,510.0>-<453.0,510.0>-<461.0,508.5>>
 
 	* sterling (U+00A3) contains a short segment B<<100.0,332.0>-<100.0,339.0>-<99.0,346.0>>
 
@@ -6867,7 +6967,7 @@ multiply
 	* macron (U+00AF): L<<53.0,643.0>--<326.0,644.0>> 
 
 	* thorn (U+00FE): L<<144.0,700.0>--<143.0,395.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7249,12 +7349,20 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -7274,7 +7382,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 505 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7311,8 +7419,6 @@ multiply
 	* Y (U+0059): X=505.0,Y=701.0 (should be at cap-height 700?)
 
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=488.0,Y=482.0 (should be at x-height 480?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7390,7 +7496,9 @@ multiply
 
 	* d (U+0064) contains a short segment B<<413.0,72.0>-<413.0,75.0>-<413.0,79.0>>
 
-	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
+	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
+
+	* g (U+0067) contains a short segment B<<361.0,448.0>-<366.0,443.0>-<372.0,437.0>>
 
 	* q (U+0071) contains a short segment B<<413.0,401.0>-<413.0,405.0>-<413.0,409.0>>
 
@@ -7408,15 +7516,15 @@ multiply
 
 	* ae (U+00E6) contains a short segment L<<389.0,238.0>--<389.0,223.0>>
 
-	* egrave (U+00E8) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
+	* egrave (U+00E8) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* eacute (U+00E9) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
+	* eacute (U+00E9) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* ecircumflex (U+00EA) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
+	* ecircumflex (U+00EA) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* edieresis (U+00EB) contains a short segment L<<105.0,231.0>--<105.0,223.0>>
+	* edieresis (U+00EB) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* oe (U+0153) contains a short segment L<<459.0,231.0>--<459.0,223.0>>
+	* oe (U+0153) contains a short segment L<<459.0,231.0>--<459.0,227.0>>
 
 	* florin (U+0192) contains a short segment B<<238.0,492.0>-<238.0,484.0>-<238.0,476.0>>
 
@@ -7519,7 +7627,7 @@ multiply
 	* thorn (U+00FE): L<<127.0,700.0>--<126.0,399.0>> 
 
 	* uni0304 (U+0304): L<<48.0,649.0>--<321.0,650.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7894,12 +8002,20 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
+
+
+* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -7914,7 +8030,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -7955,7 +8071,7 @@ lessequal
 
 	* Y (U+0059): X=543.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=378.5,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=370.5,Y=1.0 (should be at baseline 0?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
@@ -8006,8 +8122,6 @@ lessequal
 	* ampersand (U+0026) contains a short segment B<<339.0,353.0>-<339.0,353.0>-<339.0,354.0>>
 
 	* d (U+0064) contains a short segment B<<414.0,83.0>-<414.0,84.0>-<414.0,86.0>>
-
-	* g (U+0067) contains a short segment B<<384.0,459.0>-<389.0,454.0>-<395.0,448.0>>
 
 	* m (U+006D) contains a short segment B<<149.0,427.0>-<149.0,422.0>-<149.0,416.0>>
 
@@ -8128,7 +8242,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 49 | 156 | 1406 | 76 | 1078 | 0 |
+| 0 | 49 | 168 | 1406 | 76 | 1066 | 0 |
 | 0% | 2% | 6% | 51% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
