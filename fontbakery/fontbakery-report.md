@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1096,7 +1096,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1782,7 +1782,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1943,13 +1943,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<221.0,385.0>-<217.0,387.0>-<213.0,388.0>>
 
-	* b (U+0062) contains a short segment B<<185.0,60.0>-<185.0,57.0>-<185.0,54.0>>
+	* b (U+0062) contains a short segment B<<185.0,61.0>-<185.0,60.0>-<185.0,60.0>>
 
 	* g (U+0067) contains a short segment B<<439.0,447.0>-<433.0,443.0>-<428.0,437.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,454.0>-<182.0,447.0>-<183.0,440.0>>
-
-	* n (U+006E) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* r (U+0072) contains a short segment B<<185.0,426.0>-<185.0,422.0>-<185.0,417.0>>
 
@@ -1962,10 +1960,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
 
 	* ae (U+00E6) contains a short segment B<<406.0,437.0>-<406.0,438.0>-<407.0,439.0>>
-
-	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
-
-	* eng (U+014B) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* eng (U+014B) contains a short segment L<<496.0,0.0>--<496.0,0.0>>
 
@@ -2461,7 +2455,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, plus, greaterequal
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
@@ -3209,7 +3203,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, plus, greaterequal
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
@@ -3892,7 +3886,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -4608,7 +4602,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -5301,7 +5295,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5970,7 +5964,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -6113,7 +6107,7 @@ lessequal
 
 	* ampersand (U+0026) contains a short segment B<<410.0,55.0>-<409.0,57.0>-<408.0,59.0>>
 
-	* b (U+0062) contains a short segment B<<175.0,68.0>-<175.0,62.0>-<174.0,57.0>>
+	* b (U+0062) contains a short segment B<<175.0,69.0>-<175.0,65.0>-<174.0,61.0>>
 
 	* g (U+0067) contains a short segment B<<396.0,463.0>-<397.0,462.0>-<399.0,460.0>>
 
@@ -7953,7 +7947,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
