@@ -1215,8 +1215,6 @@ lessequal
 
 	* yen (U+00A5): X=534.0,Y=701.0 (should be at cap-height 700?)
 
-	* section (U+00A7): X=270.0,Y=699.0 (should be at cap-height 700?)
-
 	* uni00B2 (U+00B2): X=275.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B5 (U+00B5): X=172.0,Y=-1.0 (should be at baseline 0?)
@@ -2465,13 +2463,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, plus, less, greater
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2686,10 +2684,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* k (U+006B) contains a short segment L<<159.0,298.0>--<160.0,298.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
-
-	* section (U+00A7) contains a short segment B<<166.0,432.0>-<163.0,433.0>-<160.0,435.0>>
-
-	* section (U+00A7) contains a short segment B<<380.0,113.0>-<383.0,111.0>-<386.0,110.0>>
 
 	* ae (U+00E6) contains a short segment B<<384.0,412.0>-<389.0,420.0>-<395.0,428.0>>
 
@@ -3213,13 +3207,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, plus, less, greater
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3356,10 +3350,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* u (U+0075) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
-
-	* section (U+00A7) contains a short segment B<<166.0,432.0>-<163.0,433.0>-<160.0,435.0>>
-
-	* section (U+00A7) contains a short segment B<<380.0,113.0>-<383.0,111.0>-<386.0,110.0>>
 
 	* Oslash (U+00D8) contains a short segment B<<489.0,583.0>-<488.0,586.0>-<487.0,588.0>>
 
@@ -6789,6 +6779,10 @@ multiply
 
 	* yen (U+00A5) contains a short segment L<<274.0,294.0>--<274.0,289.0>>
 
+	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
+
+	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
+
 	* ae (U+00E6) contains a short segment L<<389.0,245.0>--<389.0,243.0>>
 
 	* ae (U+00E6) contains a short segment L<<344.0,241.0>--<344.0,242.0>>
@@ -7440,6 +7434,10 @@ multiply
 	* yen (U+00A5) contains a short segment L<<226.0,289.0>--<226.0,295.0>>
 
 	* yen (U+00A5) contains a short segment L<<274.0,295.0>--<274.0,289.0>>
+
+	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
+
+	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
 
 	* ae (U+00E6) contains a short segment L<<389.0,238.0>--<389.0,223.0>>
 
