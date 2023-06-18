@@ -402,9 +402,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -420,7 +424,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -437,7 +441,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 538 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -703,7 +707,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1078,11 +1082,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -1098,7 +1106,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1112,10 +1120,6 @@ approxequal
 Width = 498:
 lessequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 523 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1762,9 +1766,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -1780,7 +1788,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1797,7 +1805,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 525 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1807,6 +1815,7 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 599)
+	* ('scaron', 372, 710)
 	* ('periodcentered', 83, 382)
 	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
 
@@ -2439,13 +2448,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
-	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -2458,13 +2471,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -2477,7 +2490,8 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 281, 890) and ('icircumflex', 241, 590)
+	* ('Iacute', 281, 890)
+	* ('icircumflex', 241, 590) and ('scaron', 332, 675)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -2629,9 +2643,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Ydieresis (U+0178): X=526.0,Y=701.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=106.0,Y=701.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=106.0,Y=702.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=300.0,Y=701.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=300.0,Y=702.0 (should be at cap-height 700?)
 
 	* florin (U+0192): X=398.0,Y=698.0 (should be at cap-height 700?)
 
@@ -2800,7 +2814,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* uni0304 (U+0304): L<<47.0,663.0>--<328.0,665.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3182,11 +3196,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -3199,17 +3217,21 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greaterequal, less, greater, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3220,7 +3242,8 @@ approxequal
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Icircumflex', 246, 782)
 	* ('j', 170, 661)
-	* ('j', 170, 638) and ('j', 170, 616)
+	* ('j', 170, 638)
+	* ('j', 170, 616) and ('scaron', 318, 673)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3859,9 +3882,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -3877,7 +3904,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -3894,7 +3921,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 529 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3903,14 +3930,13 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Scaron', 178, 929)
-	* ('Scaron', 390, 929)
-	* ('Zcaron', 182, 929)
-	* ('Zcaron', 394, 929)
 	* ('iacute', 232, 742)
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
 	* ('igrave', 19, 743)
+	* ('scaron', 77, 684)
+	* ('zcaron', 105, 723)
+	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
 
@@ -4572,9 +4598,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -4590,7 +4620,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -4607,7 +4637,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 534 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -5265,9 +5295,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -5283,7 +5317,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5340,6 +5374,7 @@ lessequal
 	* ('Ugrave', 226, 931)
 	* ('Yacute', 426, 931)
 	* ('icircumflex', 252, 584)
+	* ('scaron', 344, 693)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
 
@@ -5935,9 +5970,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
+
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -5953,7 +5992,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -6603,11 +6642,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -6628,7 +6671,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 495 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 497 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7269,11 +7312,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -7294,7 +7341,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7922,11 +7969,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
+
+	- Glyph name: scaron	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -7942,7 +7993,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
