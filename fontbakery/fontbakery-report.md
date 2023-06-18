@@ -402,13 +402,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -424,7 +420,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1082,15 +1078,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -1106,7 +1098,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1774,13 +1766,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -1796,7 +1784,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1823,7 +1811,6 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 599)
-	* ('scaron', 372, 710)
 	* ('periodcentered', 83, 382)
 	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
 
@@ -2456,17 +2443,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
 
-	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -2479,7 +2462,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+plus, greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -2498,8 +2481,7 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 281, 890)
-	* ('icircumflex', 241, 590) and ('scaron', 332, 675)
+	* ('Iacute', 281, 890) and ('icircumflex', 241, 590)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -2651,9 +2633,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Ydieresis (U+0178): X=526.0,Y=701.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=106.0,Y=702.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=106.0,Y=701.0 (should be at cap-height 700?)
 
-	* zcaron (U+017E): X=300.0,Y=702.0 (should be at cap-height 700?)
+	* zcaron (U+017E): X=300.0,Y=701.0 (should be at cap-height 700?)
 
 	* florin (U+0192): X=398.0,Y=698.0 (should be at cap-height 700?)
 
@@ -3204,15 +3186,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -3225,7 +3203,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+plus, greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -3246,8 +3224,7 @@ approxequal
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Icircumflex', 246, 782)
 	* ('j', 170, 661)
-	* ('j', 170, 638)
-	* ('j', 170, 616) and ('scaron', 318, 673)
+	* ('j', 170, 638) and ('j', 170, 616)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3886,13 +3863,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -3908,7 +3881,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -3934,13 +3907,14 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
+	* ('Scaron', 178, 929)
+	* ('Scaron', 390, 929)
+	* ('Zcaron', 182, 929)
+	* ('Zcaron', 394, 929)
 	* ('iacute', 232, 742)
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
 	* ('igrave', 19, 743)
-	* ('scaron', 77, 684)
-	* ('zcaron', 105, 723)
-	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
 
@@ -4606,13 +4580,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -4628,7 +4598,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -5303,13 +5273,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -5325,7 +5291,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5382,7 +5348,6 @@ lessequal
 	* ('Ugrave', 226, 931)
 	* ('Yacute', 426, 931)
 	* ('icircumflex', 252, 584)
-	* ('scaron', 344, 693)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362) and ('periodcentered', 152, 362)
 
@@ -5978,13 +5943,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -6000,7 +5961,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6650,15 +6611,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -7320,15 +7277,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -7977,15 +7930,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1 
-
-	- Glyph name: scaron	Contours detected: 1	Expected: 2
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -8001,7 +7950,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
