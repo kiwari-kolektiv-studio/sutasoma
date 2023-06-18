@@ -98212,6 +98212,14 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
+},
+{
+key = designerURL;
+value = "https://kiwaristudio.com";
+},
+{
+key = manufacturerURL;
+value = "https://kiwaristudio.com";
 }
 );
 unitsPerEm = 1000;
