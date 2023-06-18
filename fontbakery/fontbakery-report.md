@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 466:
 multiply
@@ -487,6 +487,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=230.0,Y=497.0 (should be at x-height 498?)
 
 	* f (U+0066): X=337.0,Y=497.0 (should be at x-height 498?)
+
+	* g (U+0067): X=328.5,Y=-2.0 (should be at baseline 0?)
 
 	* m (U+006D): X=55.0,Y=497.0 (should be at x-height 498?)
 
@@ -1096,7 +1098,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 463:
 multiply
@@ -1784,7 +1786,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 466:
 multiply
@@ -2463,13 +2465,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, less, greater
+less, greaterequal, plus, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -2534,8 +2536,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=300.0,Y=484.0 (should be at x-height 485?)
 
 	* g (U+0067): X=498.0,Y=484.0 (should be at x-height 485?)
-
-	* g (U+0067): X=366.5,Y=1.5 (should be at baseline 0?)
 
 	* k (U+006B): X=347.0,Y=487.0 (should be at x-height 485?)
 
@@ -3207,13 +3207,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, less, greater
+less, greaterequal, plus, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -3886,7 +3886,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 464:
 multiply
@@ -4602,7 +4602,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 465:
 multiply
@@ -5295,7 +5295,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 464:
 multiply
@@ -5383,6 +5383,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Y (U+0059): X=474.0,Y=701.0 (should be at cap-height 700?)
 
 	* Y (U+0059): X=554.0,Y=701.0 (should be at cap-height 700?)
+
+	* g (U+0067): X=378.5,Y=-1.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5964,7 +5966,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 465:
 multiply
@@ -6036,10 +6038,6 @@ lessequal
 	* Y (U+0059): X=473.0,Y=701.0 (should be at cap-height 700?)
 
 	* Y (U+0059): X=564.0,Y=701.0 (should be at cap-height 700?)
-
-	* g (U+0067): X=312.0,Y=-1.0 (should be at baseline 0?)
-
-	* g (U+0067): X=196.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=299.0,Y=1.0 (should be at baseline 0?)
 
@@ -6689,7 +6687,9 @@ multiply
 
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=77.0,Y=2.0 (should be at baseline 0?)
+	* g (U+0067): X=77.0,Y=1.0 (should be at baseline 0?)
+
+	* g (U+0067): X=116.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=145.5,Y=1.0 (should be at baseline 0?)
 
@@ -7955,7 +7955,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 463:
 multiply
@@ -7996,7 +7996,7 @@ lessequal
 
 	* Y (U+0059): X=543.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=378.5,Y=-1.0 (should be at baseline 0?)
+	* g (U+0067): X=378.5,Y=1.0 (should be at baseline 0?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
