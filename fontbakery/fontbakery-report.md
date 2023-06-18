@@ -592,7 +592,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<307.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
-	* g (U+0067) contains a short segment B<<402.0,463.0>-<405.0,461.0>-<408.0,458.0>>
+	* g (U+0067) contains a short segment B<<402.0,464.0>-<405.0,461.0>-<408.0,458.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -1272,8 +1272,6 @@ lessequal
 	* ampersand (U+0026) contains a short segment B<<514.0,203.0>-<515.0,207.0>-<517.0,211.0>>
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
-
-	* g (U+0067) contains a short segment B<<386.0,456.0>-<392.0,450.0>-<397.0,444.0>>
 
 	* g (U+0067) contains a short segment B<<427.0,418.0>-<422.0,415.0>-<419.0,412.0>>
 
@@ -4082,7 +4080,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<292.0,283.0>-<287.0,283.0>-<282.0,283.0>>
 
-	* g (U+0067) contains a short segment B<<391.0,458.0>-<396.0,454.0>-<401.0,449.0>>
+	* g (U+0067) contains a short segment B<<390.0,459.0>-<395.0,454.0>-<400.0,449.0>>
 
 	* g (U+0067) contains a short segment B<<431.0,415.0>-<429.0,413.0>-<426.0,411.0>>
 
@@ -4772,7 +4770,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
-	* g (U+0067) contains a short segment B<<397.0,461.0>-<401.0,457.0>-<404.0,454.0>>
+	* g (U+0067) contains a short segment B<<396.0,461.0>-<400.0,457.0>-<404.0,453.0>>
 
 	* g (U+0067) contains a short segment B<<436.0,411.0>-<435.0,411.0>-<434.0,410.0>>
 
@@ -5384,7 +5382,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=554.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=378.5,Y=-1.5 (should be at baseline 0?)
+	* g (U+0067): X=378.5,Y=-2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
