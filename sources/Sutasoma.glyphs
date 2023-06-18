@@ -12610,7 +12610,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (115,212);
+pos = (115,210);
 ref = caroncomb;
 }
 );
@@ -15717,7 +15717,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (117,212);
+pos = (117,210);
 ref = caroncomb;
 }
 );
@@ -32628,7 +32628,7 @@ width = 417;
 anchors = (
 {
 name = top;
-pos = (216,488);
+pos = (216,490);
 }
 );
 background = {
@@ -33003,86 +33003,11 @@ unicode = 115;
 glyphname = scaron;
 layers = (
 {
-layerId = m01;
-shapes = (
-{
-pos = (48,0);
-ref = caroncomb;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 417;
-},
-{
-layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
-shapes = (
-{
-pos = (59,0);
-ref = caroncomb;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 427;
-},
-{
-layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
-shapes = (
-{
-pos = (93,0);
-ref = caroncomb;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 462;
-},
-{
 layerId = m004;
 shapes = (
+{
+ref = s;
+},
 {
 pos = (48,0);
 ref = caroncomb;
@@ -33110,6 +33035,9 @@ width = 417;
 layerId = m005;
 shapes = (
 {
+ref = s;
+},
+{
 pos = (47,0);
 ref = caroncomb;
 }
@@ -33130,11 +33058,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 449;
+width = 437;
 },
 {
 layerId = m006;
 shapes = (
+{
+ref = s;
+},
 {
 pos = (40,0);
 ref = caroncomb;
@@ -33156,7 +33087,46 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 494;
+width = 464;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (48,0);
+ref = caroncomb;
+}
+);
+width = 417;
+},
+{
+layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
+shapes = (
+{
+ref = s;
+},
+{
+pos = (59,0);
+ref = caroncomb;
+}
+);
+width = 427;
+},
+{
+layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+shapes = (
+{
+ref = s;
+},
+{
+pos = (93,0);
+ref = caroncomb;
+}
+);
+width = 462;
 }
 );
 unicode = 353;
@@ -36555,7 +36525,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (38,2);
+pos = (38,0);
 ref = caroncomb;
 }
 );
@@ -91695,7 +91665,7 @@ width = 300;
 anchors = (
 {
 name = _top;
-pos = (169,488);
+pos = (169,490);
 }
 );
 layerId = m005;
@@ -100661,14 +100631,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-93,
+45,
 0,
--100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = B;
+value = O;
 },
 {
 name = typoAscender;
@@ -100707,28 +100677,13 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 200;
 }
 );
 }
 );
-guides = (
-{
-angle = 0;
-locked = 1;
-name = "LC Accents";
-pos = (
-150,
-630
-);
-}
-);
-iconName = Regular;
-id = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
+iconName = Light;
+id = m004;
 metricValues = (
 {
 over = 10;
@@ -100740,7 +100695,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 490;
+pos = 480;
 },
 {
 over = -10;
@@ -100759,7 +100714,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat Regular";
+name = "Modern ExtraLight";
 userData = {
 KernOnModels = (
 "n n",
