@@ -12610,7 +12610,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (115,210);
+pos = (115,212);
 ref = caroncomb;
 }
 );
@@ -15717,7 +15717,7 @@ shapes = (
 ref = Z;
 },
 {
-pos = (117,210);
+pos = (117,212);
 ref = caroncomb;
 }
 );
@@ -32628,7 +32628,7 @@ width = 417;
 anchors = (
 {
 name = top;
-pos = (216,490);
+pos = (216,488);
 }
 );
 background = {
@@ -33003,11 +33003,86 @@ unicode = 115;
 glyphname = scaron;
 layers = (
 {
-layerId = m004;
+layerId = m01;
 shapes = (
 {
-ref = s;
+pos = (48,0);
+ref = caroncomb;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 417;
 },
+{
+layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
+shapes = (
+{
+pos = (59,0);
+ref = caroncomb;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 427;
+},
+{
+layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+shapes = (
+{
+pos = (93,0);
+ref = caroncomb;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 462;
+},
+{
+layerId = m004;
+shapes = (
 {
 pos = (48,0);
 ref = caroncomb;
@@ -33035,9 +33110,6 @@ width = 417;
 layerId = m005;
 shapes = (
 {
-ref = s;
-},
-{
 pos = (47,0);
 ref = caroncomb;
 }
@@ -33058,14 +33130,11 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 437;
+width = 449;
 },
 {
 layerId = m006;
 shapes = (
-{
-ref = s;
-},
 {
 pos = (40,0);
 ref = caroncomb;
@@ -33087,46 +33156,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 464;
-},
-{
-layerId = m01;
-shapes = (
-{
-ref = s;
-},
-{
-pos = (48,0);
-ref = caroncomb;
-}
-);
-width = 417;
-},
-{
-layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
-shapes = (
-{
-ref = s;
-},
-{
-pos = (59,0);
-ref = caroncomb;
-}
-);
-width = 427;
-},
-{
-layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
-shapes = (
-{
-ref = s;
-},
-{
-pos = (93,0);
-ref = caroncomb;
-}
-);
-width = 462;
+width = 494;
 }
 );
 unicode = 353;
@@ -36525,7 +36555,7 @@ shapes = (
 ref = z;
 },
 {
-pos = (38,0);
+pos = (38,2);
 ref = caroncomb;
 }
 );
@@ -75161,7 +75191,6 @@ note = daggerdbl;
 unicode = 8225;
 },
 {
-export = 0;
 glyphname = numero;
 layers = (
 {
@@ -75171,12 +75200,14 @@ shapes = (
 closed = 1;
 nodes = (
 (151,0,l),
-(151,605,l),
+(151,650,l),
+(127,643,l),
 (539,0,l),
 (569,0,l),
 (569,700,l),
 (532,700,l),
-(532,100,l),
+(532,55,l),
+(556,62,l),
 (146,700,l),
 (114,700,l),
 (114,0,l)
@@ -75251,12 +75282,14 @@ shapes = (
 closed = 1;
 nodes = (
 (177,0,l),
-(177,450,l),
+(177,495,l),
+(152,488,l),
 (472,0,l),
 (611,0,l),
 (611,700,l),
 (516,700,l),
-(516,258,l),
+(516,213,l),
+(541,220,l),
 (226,700,l),
 (84,700,l),
 (84,0,l)
@@ -75331,12 +75364,14 @@ shapes = (
 closed = 1;
 nodes = (
 (161,0,l),
-(161,545,l),
+(161,590,l),
+(137,583,l),
 (513,0,l),
 (585,0,l),
 (585,700,l),
 (526,700,l),
-(526,160,l),
+(526,115,l),
+(550,122,l),
 (176,700,l),
 (102,700,l),
 (102,0,l)
@@ -91665,7 +91700,7 @@ width = 300;
 anchors = (
 {
 name = _top;
-pos = (169,490);
+pos = (169,488);
 }
 );
 layerId = m005;
@@ -100631,14 +100666,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-45,
+93,
 0,
-0
+-100
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = O;
+value = B;
 },
 {
 name = typoAscender;
@@ -100677,13 +100712,28 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 200;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
 }
 );
-iconName = Light;
-id = m004;
+guides = (
+{
+angle = 0;
+locked = 1;
+name = "LC Accents";
+pos = (
+150,
+630
+);
+}
+);
+iconName = Regular;
+id = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
 metricValues = (
 {
 over = 10;
@@ -100695,7 +100745,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 480;
+pos = 490;
 },
 {
 over = -10;
@@ -100714,7 +100764,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraLight";
+name = "Moderat Regular";
 userData = {
 KernOnModels = (
 "n n",
