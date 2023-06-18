@@ -424,7 +424,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1106,7 +1106,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1788,7 +1788,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -2471,13 +2471,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, greater, plus
+greater, less, greaterequal, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2781,15 +2781,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* daggerdbl (U+2021): L<<255.0,-143.0>--<255.0,114.0>> -> L<<255.0,114.0>--<260.0,175.0>>
 
-	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>>
+	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>> 
 
-	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>>
-
-	* percent (U+0025): L<<196.0,5.0>--<367.0,355.0>> -> L<<367.0,355.0>--<505.0,720.0>>
-
-	* percent (U+0025): L<<567.0,696.0>--<396.0,346.0>> -> L<<396.0,346.0>--<258.0,-20.0>> 
-
-	* perthousand (U+2030): L<<323.0,266.0>--<367.0,355.0>> -> L<<367.0,355.0>--<409.0,466.0>> [code: found-colinear-vectors]
+	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3217,13 +3211,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, greater, plus
+greater, less, greaterequal, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3469,15 +3463,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* daggerdbl (U+2021): L<<255.0,-143.0>--<255.0,114.0>> -> L<<255.0,114.0>--<260.0,175.0>>
 
-	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>>
+	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>> 
 
-	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>>
-
-	* percent (U+0025): L<<196.0,5.0>--<367.0,355.0>> -> L<<367.0,355.0>--<505.0,720.0>>
-
-	* percent (U+0025): L<<567.0,696.0>--<396.0,346.0>> -> L<<396.0,346.0>--<258.0,-20.0>> 
-
-	* perthousand (U+2030): L<<323.0,266.0>--<367.0,355.0>> -> L<<367.0,355.0>--<409.0,466.0>> [code: found-colinear-vectors]
+	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3904,7 +3892,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -4620,7 +4608,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -5317,7 +5305,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5992,7 +5980,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6893,17 +6881,9 @@ multiply
 
 	* dagger (U+2020): L<<296.0,411.0>--<301.0,350.0>> -> L<<301.0,350.0>--<301.0,-138.0>>
 
-	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>>
+	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>> 
 
-	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>>
-
-	* percent (U+0025): L<<207.0,6.0>--<361.0,352.0>> -> L<<361.0,352.0>--<492.0,712.0>>
-
-	* percent (U+0025): L<<537.0,694.0>--<383.0,348.0>> -> L<<383.0,348.0>--<252.0,-12.0>>
-
-	* perthousand (U+2030): L<<207.0,6.0>--<361.0,352.0>> -> L<<361.0,352.0>--<492.0,712.0>> 
-
-	* perthousand (U+2030): L<<537.0,694.0>--<383.0,348.0>> -> L<<383.0,348.0>--<252.0,-12.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -7557,17 +7537,9 @@ multiply
 
 	* dagger (U+2020): L<<296.0,411.0>--<301.0,350.0>> -> L<<301.0,350.0>--<301.0,-138.0>>
 
-	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>>
+	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>> 
 
-	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>>
-
-	* percent (U+0025): L<<207.0,6.0>--<361.0,352.0>> -> L<<361.0,352.0>--<492.0,712.0>>
-
-	* percent (U+0025): L<<537.0,694.0>--<383.0,348.0>> -> L<<383.0,348.0>--<252.0,-12.0>>
-
-	* perthousand (U+2030): L<<207.0,6.0>--<361.0,352.0>> -> L<<361.0,352.0>--<492.0,712.0>> 
-
-	* perthousand (U+2030): L<<537.0,694.0>--<383.0,348.0>> -> L<<383.0,348.0>--<252.0,-12.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -7993,7 +7965,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
