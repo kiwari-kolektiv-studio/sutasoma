@@ -387,7 +387,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -420,7 +424,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1061,7 +1065,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1098,7 +1106,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1751,7 +1759,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1784,7 +1796,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -2425,7 +2437,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -2463,13 +2479,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greaterequal, plus, greater
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3171,7 +3187,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3205,13 +3225,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greaterequal, plus, greater
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3851,7 +3871,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3884,7 +3908,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -4567,7 +4591,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -4600,7 +4628,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -5260,7 +5288,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5293,7 +5325,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5931,7 +5963,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5964,7 +6000,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6597,7 +6633,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -6639,7 +6679,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 495 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7263,7 +7303,11 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7305,7 +7349,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 513 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7916,7 +7960,11 @@ multiply
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- a.ss01
+
+	- g.ss01 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7953,7 +8001,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
