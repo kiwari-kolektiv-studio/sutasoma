@@ -22,21 +22,7 @@ Fontbakery version: 0.8.13
   - SutasomaModerat-Bold.ttf (nameID 1)
   - SutasomaModerat-ExtraLight.ttf (nameID 16)
   - SutasomaModerat-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -442,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -459,7 +445,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 538 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 537 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -573,6 +559,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=268.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
+
+	* questiondown (U+00BF): X=186.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=18.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1132,7 +1120,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -1149,7 +1137,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 525 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1820,7 +1808,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1837,7 +1825,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1850,7 +1838,7 @@ lessequal
 	* ('periodcentered', 83, 382)
 	* ('periodcentered', 125, 382)
 	* ('periodcentered', 167, 382)
-	* ('figuredash', 18, 386) and ('figuredash', 518, 386)
+	* ('figuredash', 18, 386) and ('figuredash', 464, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -2510,7 +2498,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greater, plus, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -2539,9 +2527,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=350.0,Y=701.0 (should be at cap-height 700?)
 
-	* question (U+003F): X=176.0,Y=0.5 (should be at baseline 0?)
+	* question (U+003F): X=179.0,Y=1.0 (should be at baseline 0?)
 
-	* question (U+003F): X=240.5,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=243.5,Y=1.0 (should be at baseline 0?)
 
 	* G (U+0047): X=422.0,Y=699.5 (should be at cap-height 700?)
 
@@ -3253,7 +3241,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greater, plus, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -3931,7 +3919,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -3948,7 +3936,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 530 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 529 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3968,7 +3956,7 @@ lessequal
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362)
 	* ('periodcentered', 152, 362)
-	* ('figuredash', 23, 388) and ('figuredash', 523, 388)
+	* ('figuredash', 23, 388) and ('figuredash', 469, 388)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -4654,7 +4642,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -4671,7 +4659,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 534 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 533 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4779,8 +4767,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
-
-	* questiondown (U+00BF): X=199.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5369,7 +5355,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -5429,7 +5415,7 @@ lessequal
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362)
 	* ('periodcentered', 152, 362)
-	* ('figuredash', 23, 378) and ('figuredash', 523, 378)
+	* ('figuredash', 23, 378) and ('figuredash', 469, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -6047,7 +6033,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -6730,7 +6716,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 498 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 497 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6754,9 +6740,9 @@ multiply
 
 	* semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=186.0,Y=-2.0 (should be at baseline 0?)
+	* question (U+003F): X=179.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=237.0,Y=-1.5 (should be at baseline 0?)
+	* question (U+003F): X=230.0,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=402.5,Y=702.0 (should be at cap-height 700?)
 
@@ -7396,7 +7382,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 505 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -8044,7 +8030,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -8256,7 +8242,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 49 | 168 | 1406 | 76 | 1065 | 0 |
+| 0 | 49 | 168 | 1406 | 76 | 1066 | 0 |
 | 0% | 2% | 6% | 51% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
