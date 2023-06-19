@@ -433,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -462,6 +462,7 @@ lessequal
 	* ('Idieresis', 302, 891)
 	* ('Idieresis', 302, 859)
 	* ('Idieresis', 302, 828)
+	* ('eacute', 353, 760)
 	* ('iacute', 217, 761)
 	* ('iacute', 291, 683)
 	* ('oacute', 364, 760)
@@ -1084,7 +1085,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1707,7 +1708,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1817,6 +1818,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* r (U+0072) contains a short segment B<<185.0,426.0>-<185.0,422.0>-<185.0,417.0>>
 
+	* y (U+0079) contains a short segment B<<201.0,-43.0>-<205.0,-37.0>-<209.0,-30.0>>
+
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
 	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
@@ -1828,6 +1831,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment B<<401.0,437.0>-<402.0,438.0>-<403.0,439.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
+
+	* yacute (U+00FD) contains a short segment B<<201.0,-43.0>-<205.0,-37.0>-<209.0,-30.0>>
+
+	* ydieresis (U+00FF) contains a short segment B<<201.0,-43.0>-<205.0,-37.0>-<209.0,-30.0>>
 
 	* eng (U+014B) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
@@ -2334,7 +2341,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+greaterequal, greater, plus, less
 
 Width = 462:
 multiply
@@ -3016,7 +3023,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+greaterequal, greater, plus, less
 
 Width = 462:
 multiply
@@ -3691,7 +3698,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -3718,6 +3725,7 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Iacute', 281, 888)
+	* ('eacute', 359, 738)
 	* ('iacute', 213, 741)
 	* ('iacute', 269, 681)
 	* ('icircumflex', 90, 723)
@@ -4377,7 +4385,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -5050,7 +5058,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5729,7 +5737,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -7703,7 +7711,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
