@@ -365,7 +365,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 219 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -496,7 +496,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* f (U+0066): X=337.0,Y=497.0 (should be at x-height 498?)
 
-	* g (U+0067): X=316.0,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=317.0,Y=-2.0 (should be at baseline 0?)
 
 	* m (U+006D): X=55.0,Y=497.0 (should be at x-height 498?)
 
@@ -570,7 +570,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Yacute (U+00DD): X=597.0,Y=701.0 (should be at cap-height 700?)
 
-	* atilde (U+00E3): X=232.5,Y=700.5 (should be at cap-height 700?)
+	* atilde (U+00E3): X=228.5,Y=700.5 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=280.5,Y=700.5 (should be at cap-height 700?)
 
@@ -602,9 +602,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<307.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
-	* g (U+0067) contains a short segment B<<389.0,464.0>-<389.0,463.0>-<390.0,463.0>>
+	* g (U+0067) contains a short segment B<<390.0,464.0>-<391.0,463.0>-<391.0,463.0>>
 
-	* g (U+0067) contains a short segment B<<428.0,428.0>-<424.0,427.0>-<421.0,425.0>>
+	* g (U+0067) contains a short segment B<<429.0,428.0>-<426.0,427.0>-<423.0,425.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -1060,7 +1060,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 238 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 234 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1120,7 +1120,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 463:
 multiply
@@ -1295,7 +1295,7 @@ lessequal
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
 
-	* g (U+0067) contains a short segment B<<376.0,457.0>-<380.0,453.0>-<383.0,450.0>>
+	* g (U+0067) contains a short segment B<<378.0,457.0>-<382.0,453.0>-<385.0,450.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -1745,7 +1745,7 @@ lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 219 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1808,7 +1808,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -1970,9 +1970,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062) contains a short segment B<<185.0,60.0>-<185.0,57.0>-<185.0,54.0>>
 
-	* g (U+0067) contains a short segment B<<389.0,465.0>-<390.0,464.0>-<391.0,463.0>>
+	* g (U+0067) contains a short segment B<<390.0,465.0>-<391.0,464.0>-<393.0,463.0>>
 
-	* g (U+0067) contains a short segment B<<428.0,440.0>-<423.0,436.0>-<419.0,432.0>>
+	* g (U+0067) contains a short segment B<<430.0,440.0>-<425.0,436.0>-<421.0,432.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,454.0>-<182.0,447.0>-<183.0,440.0>>
 
@@ -2430,7 +2430,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 248 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 244 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2498,7 +2498,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+plus, greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -2707,7 +2707,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<202.0,369.0>-<208.0,371.0>-<214.0,372.0>>
 
-	* g (U+0067) contains a short segment B<<368.0,452.0>-<373.0,448.0>-<378.0,443.0>>
+	* g (U+0067) contains a short segment B<<371.0,452.0>-<376.0,448.0>-<380.0,443.0>>
 
 	* k (U+006B) contains a short segment L<<150.0,288.0>--<160.0,297.0>>
 
@@ -3177,7 +3177,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 248 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 244 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3241,7 +3241,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+plus, greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -3856,7 +3856,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 233 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 229 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3919,7 +3919,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -4118,9 +4118,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<292.0,283.0>-<287.0,283.0>-<282.0,283.0>>
 
-	* g (U+0067) contains a short segment B<<380.0,459.0>-<383.0,457.0>-<385.0,454.0>>
-
-	* g (U+0067) contains a short segment B<<422.0,436.0>-<414.0,432.0>-<409.0,426.0>>
+	* g (U+0067) contains a short segment B<<382.0,459.0>-<385.0,457.0>-<387.0,454.0>>
 
 	* k (U+006B) contains a short segment L<<192.0,203.0>--<181.0,193.0>>
 
@@ -4586,7 +4584,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4642,7 +4640,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -4776,7 +4774,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Yacute (U+00DD): X=580.0,Y=701.0 (should be at cap-height 700?)
 
-	* atilde (U+00E3): X=361.0,Y=701.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=358.0,Y=701.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=410.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4812,9 +4810,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* e (U+0065) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
-	* g (U+0067) contains a short segment B<<385.0,461.0>-<386.0,460.0>-<388.0,459.0>>
+	* g (U+0067) contains a short segment B<<386.0,461.0>-<388.0,460.0>-<389.0,459.0>>
 
-	* g (U+0067) contains a short segment B<<425.0,432.0>-<419.0,429.0>-<415.0,426.0>>
+	* g (U+0067) contains a short segment B<<426.0,432.0>-<421.0,429.0>-<416.0,426.0>>
 
 	* k (U+006B) contains a short segment L<<228.0,218.0>--<218.0,208.0>>
 
@@ -5292,7 +5290,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 233 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 229 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5355,7 +5353,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -5445,7 +5443,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=554.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=369.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=371.0,Y=-2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5501,7 +5499,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* e (U+0065) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
 
-	* g (U+0067) contains a short segment B<<380.0,461.0>-<385.0,456.0>-<390.0,452.0>>
+	* g (U+0067) contains a short segment B<<382.0,461.0>-<387.0,456.0>-<392.0,452.0>>
 
 	* m (U+006D) contains a short segment B<<160.0,436.0>-<160.0,430.0>-<160.0,423.0>>
 
@@ -5977,7 +5975,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6033,7 +6031,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -6174,7 +6172,7 @@ lessequal
 
 	* b (U+0062) contains a short segment B<<175.0,68.0>-<175.0,62.0>-<174.0,57.0>>
 
-	* g (U+0067) contains a short segment B<<385.0,463.0>-<388.0,460.0>-<391.0,458.0>>
+	* g (U+0067) contains a short segment B<<386.0,463.0>-<389.0,460.0>-<392.0,458.0>>
 
 	* m (U+006D) contains a short segment B<<171.0,445.0>-<171.0,438.0>-<172.0,431.0>>
 
@@ -6644,7 +6642,7 @@ lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 258 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 254 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6762,9 +6760,9 @@ multiply
 
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=66.0,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=69.0,Y=1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=105.0,Y=-1.0 (should be at baseline 0?)
+	* g (U+0067): X=108.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=145.5,Y=1.0 (should be at baseline 0?)
 
@@ -6842,9 +6840,9 @@ multiply
 
 	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
 
-	* g (U+0067) contains a short segment B<<361.0,449.0>-<367.0,444.0>-<372.0,438.0>>
+	* g (U+0067) contains a short segment B<<364.0,449.0>-<370.0,444.0>-<375.0,438.0>>
 
-	* g (U+0067) contains a short segment B<<445.0,510.0>-<453.0,510.0>-<461.0,508.5>>
+	* g (U+0067) contains a short segment B<<448.0,510.0>-<456.0,510.0>-<464.0,508.5>>
 
 	* sterling (U+00A3) contains a short segment B<<100.0,332.0>-<100.0,339.0>-<99.0,346.0>>
 
@@ -7310,7 +7308,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 258 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 254 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -7498,7 +7496,7 @@ multiply
 
 	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* g (U+0067) contains a short segment B<<361.0,448.0>-<366.0,443.0>-<372.0,437.0>>
+	* g (U+0067) contains a short segment B<<364.0,448.0>-<369.0,443.0>-<375.0,437.0>>
 
 	* q (U+0071) contains a short segment B<<413.0,401.0>-<413.0,405.0>-<413.0,409.0>>
 
@@ -7970,7 +7968,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 238 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 234 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -8030,7 +8028,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 463:
 multiply
@@ -8071,7 +8069,7 @@ lessequal
 
 	* Y (U+0059): X=543.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=370.5,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=372.5,Y=1.0 (should be at baseline 0?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
