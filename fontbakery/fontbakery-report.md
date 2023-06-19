@@ -425,7 +425,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -475,14 +475,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* X (U+0058): X=715.0,Y=2.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=18.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=195.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=419.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=597.0,Y=701.0 (should be at cap-height 700?)
-
 	* f (U+0066): X=5.0,Y=497.0 (should be at x-height 498?)
 
 	* f (U+0066): X=80.0,Y=497.0 (should be at x-height 498?)
@@ -513,9 +505,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* v (U+0076): X=179.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=380.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=344.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=537.0,Y=497.0 (should be at x-height 498?)
+	* v (U+0076): X=504.0,Y=497.0 (should be at x-height 498?)
 
 	* x (U+0078): X=31.0,Y=497.0 (should be at x-height 498?)
 
@@ -535,14 +527,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* braceleft (U+007B): X=273.0,Y=699.0 (should be at cap-height 700?)
 
-	* yen (U+00A5): X=14.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=192.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=416.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=593.0,Y=701.0 (should be at cap-height 700?)
-
 	* dieresis (U+00A8): X=253.0,Y=699.0 (should be at cap-height 700?)
 
 	* dieresis (U+00A8): X=336.5,Y=699.5 (should be at cap-height 700?)
@@ -557,14 +541,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* questiondown (U+00BF): X=205.0,Y=-1.5 (should be at baseline 0?)
 
-	* Yacute (U+00DD): X=18.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=195.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=419.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=597.0,Y=701.0 (should be at cap-height 700?)
-
 	* atilde (U+00E3): X=228.5,Y=700.5 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=280.5,Y=700.5 (should be at cap-height 700?)
@@ -572,14 +548,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* otilde (U+00F5): X=249.5,Y=700.5 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=372.5,Y=698.5 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=18.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=195.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=419.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=597.0,Y=701.0 (should be at cap-height 700?)
 
 	* dotaccent (U+02D9): X=90.0,Y=699.0 (should be at cap-height 700?)
 
@@ -596,8 +564,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
 	* R (U+0052) contains a short segment B<<308.0,258.0>-<299.0,258.0>-<291.0,258.0>>
-
-	* g (U+0067) contains a short segment B<<390.0,464.0>-<391.0,463.0>-<391.0,463.0>>
 
 	* g (U+0067) contains a short segment B<<429.0,428.0>-<426.0,427.0>-<423.0,425.0>>
 
@@ -1110,7 +1076,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -1157,14 +1123,6 @@ lessequal
 
 	* X (U+0058): X=638.0,Y=1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=25.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=136.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=436.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=547.0,Y=701.0 (should be at cap-height 700?)
-
 	* f (U+0066): X=11.0,Y=488.0 (should be at x-height 490?)
 
 	* f (U+0066): X=91.0,Y=488.0 (should be at x-height 490?)
@@ -1191,7 +1149,7 @@ lessequal
 
 	* t (U+0074): X=312.0,Y=488.0 (should be at x-height 490?)
 
-	* t (U+0074): X=280.0,Y=1.5 (should be at baseline 0?)
+	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
 	* v (U+0076): X=25.0,Y=488.0 (should be at x-height 490?)
 
@@ -1217,37 +1175,13 @@ lessequal
 
 	* y (U+0079): X=462.0,Y=488.0 (should be at x-height 490?)
 
-	* yen (U+00A5): X=12.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=123.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=423.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=534.0,Y=701.0 (should be at cap-height 700?)
-
 	* uni00B2 (U+00B2): X=275.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B5 (U+00B5): X=173.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=438.0,Y=1.0 (should be at baseline 0?)
 
-	* Yacute (U+00DD): X=25.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=136.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=436.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=547.0,Y=701.0 (should be at cap-height 700?)
-
 	* Scaron (U+0160): X=366.5,Y=700.5 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=25.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=136.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=436.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=547.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni03BC (U+03BC): X=173.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1277,7 +1211,7 @@ lessequal
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
 
-	* g (U+0067) contains a short segment B<<378.0,457.0>-<382.0,453.0>-<385.0,450.0>>
+	* g (U+0067) contains a short segment B<<378.0,457.0>-<380.0,455.0>-<382.0,453.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -1789,7 +1723,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1835,25 +1769,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=387.0,Y=698.0 (should be at cap-height 700?)
 
-	* W (U+0057): X=596.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=585.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=321.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=322.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=166.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=158.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=22.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=187.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=391.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=544.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=803.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=886.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=746.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=750.0,Y=1.0 (should be at baseline 0?)
 
 	* X (U+0058): X=405.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2470,7 +2392,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, greater, less, plus
+greater, plus, greaterequal, less
 
 Width = 462:
 multiply
@@ -2527,14 +2449,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* X (U+0058): X=596.0,Y=1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=28.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=111.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=443.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=526.0,Y=701.0 (should be at cap-height 700?)
-
 	* f (U+0066): X=14.0,Y=484.0 (should be at x-height 485?)
 
 	* f (U+0066): X=96.0,Y=484.0 (should be at x-height 485?)
@@ -2563,7 +2477,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=293.0,Y=484.0 (should be at x-height 485?)
 
-	* t (U+0074): X=263.5,Y=-0.5 (should be at baseline 0?)
+	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
 	* v (U+0076): X=26.0,Y=484.0 (should be at x-height 485?)
 
@@ -2589,27 +2503,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* y (U+0079): X=434.0,Y=484.0 (should be at x-height 485?)
 
-	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=96.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=428.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=511.0,Y=701.0 (should be at cap-height 700?)
-
 	* uni00B2 (U+00B2): X=198.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni00B9 (U+00B9): X=24.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=418.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=28.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=111.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=443.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=526.0,Y=701.0 (should be at cap-height 700?)
 
 	* acircumflex (U+00E2): X=221.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2636,14 +2534,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* scaron (U+0161): X=111.0,Y=702.0 (should be at cap-height 700?)
 
 	* scaron (U+0161): X=305.0,Y=702.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=28.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=111.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=443.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=526.0,Y=701.0 (should be at cap-height 700?)
 
 	* zcaron (U+017E): X=106.0,Y=702.0 (should be at cap-height 700?)
 
@@ -2687,7 +2577,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<202.0,369.0>-<208.0,371.0>-<214.0,372.0>>
 
-	* g (U+0067) contains a short segment B<<371.0,452.0>-<376.0,448.0>-<380.0,443.0>>
+	* g (U+0067) contains a short segment B<<371.0,452.0>-<374.0,449.0>-<377.0,446.0>>
 
 	* k (U+006B) contains a short segment L<<150.0,288.0>--<160.0,297.0>>
 
@@ -3206,7 +3096,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, greater, less, plus
+greater, plus, greaterequal, less
 
 Width = 462:
 multiply
@@ -3877,7 +3767,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -3940,14 +3830,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* X (U+0058): X=664.0,Y=1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=23.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=156.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=430.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=564.0,Y=701.0 (should be at cap-height 700?)
-
 	* bracketleft (U+005B): X=287.0,Y=701.0 (should be at cap-height 700?)
 
 	* bracketleft (U+005B): X=165.0,Y=701.0 (should be at cap-height 700?)
@@ -3984,9 +3866,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* v (U+0076): X=144.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=375.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=363.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=494.0,Y=491.0 (should be at x-height 493?)
+	* v (U+0076): X=483.0,Y=491.0 (should be at x-height 493?)
 
 	* x (U+0078): X=39.0,Y=491.0 (should be at x-height 493?)
 
@@ -4004,14 +3886,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* y (U+0079): X=484.0,Y=491.0 (should be at x-height 493?)
 
-	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=146.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=421.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=554.0,Y=701.0 (should be at cap-height 700?)
-
 	* uni00B2 (U+00B2): X=273.0,Y=702.0 (should be at cap-height 700?)
 
 	* Aacute (U+00C1): X=409.0,Y=949.0 (should be at ascender 950?)
@@ -4028,23 +3902,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Uacute (U+00DA): X=444.0,Y=949.0 (should be at ascender 950?)
 
-	* Yacute (U+00DD): X=23.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=156.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=430.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=564.0,Y=701.0 (should be at cap-height 700?)
-
 	* Yacute (U+00DD): X=399.0,Y=949.0 (should be at ascender 950?)
-
-	* Ydieresis (U+0178): X=23.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=156.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=430.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=564.0,Y=701.0 (should be at cap-height 700?)
 
 	* breve (U+02D8): X=57.0,Y=702.0 (should be at cap-height 700?)
 
@@ -4090,7 +3948,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<292.0,283.0>-<287.0,283.0>-<282.0,283.0>>
 
-	* g (U+0067) contains a short segment B<<382.0,459.0>-<385.0,457.0>-<387.0,454.0>>
+	* g (U+0067) contains a short segment B<<382.0,459.0>-<383.0,458.0>-<383.0,458.0>>
 
 	* k (U+006B) contains a short segment L<<192.0,203.0>--<181.0,193.0>>
 
@@ -4609,7 +4467,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -4647,10 +4505,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=371.0,Y=699.0 (should be at cap-height 700?)
 
-	* parenleft (U+0028): X=226.5,Y=2.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=99.0,Y=2.0 (should be at baseline 0?)
-
 	* comma (U+002C): X=90.0,Y=2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=91.0,Y=2.0 (should be at baseline 0?)
@@ -4666,14 +4520,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* X (U+0058): X=35.0,Y=2.0 (should be at baseline 0?)
 
 	* X (U+0058): X=690.0,Y=2.0 (should be at baseline 0?)
-
-	* Y (U+0059): X=20.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=176.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=425.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=580.0,Y=701.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=7.0,Y=494.0 (should be at x-height 495?)
 
@@ -4703,9 +4549,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* v (U+0076): X=162.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=378.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=354.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=516.0,Y=494.0 (should be at x-height 495?)
+	* v (U+0076): X=493.0,Y=494.0 (should be at x-height 495?)
 
 	* x (U+0078): X=35.0,Y=494.0 (should be at x-height 495?)
 
@@ -4725,27 +4571,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* braceleft (U+007B): X=260.0,Y=698.0 (should be at cap-height 700?)
 
-	* yen (U+00A5): X=14.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=169.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=418.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=574.0,Y=701.0 (should be at cap-height 700?)
-
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=443.0,Y=698.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=20.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=176.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=425.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=580.0,Y=701.0 (should be at cap-height 700?)
 
 	* atilde (U+00E3): X=358.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4754,14 +4584,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* otilde (U+00F5): X=381.0,Y=701.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=371.0,Y=699.5 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=20.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=176.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=425.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=580.0,Y=701.0 (should be at cap-height 700?)
 
 	* tildecomb (U+0303): X=291.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4784,8 +4606,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
 	* e (U+0065) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
-
-	* g (U+0067) contains a short segment B<<386.0,461.0>-<388.0,460.0>-<389.0,459.0>>
 
 	* g (U+0067) contains a short segment B<<426.0,432.0>-<421.0,429.0>-<416.0,426.0>>
 
@@ -5325,7 +5145,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -5998,7 +5818,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -6033,25 +5853,13 @@ lessequal
 
 	* S (U+0053): X=378.5,Y=698.5 (should be at cap-height 700?)
 
-	* W (U+0057): X=603.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=595.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=309.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=312.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=177.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=169.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=25.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=170.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=391.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=527.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=803.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=877.0,Y=701.0 (should be at cap-height 700?)
-
-	* W (U+0057): X=733.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=737.0,Y=1.0 (should be at baseline 0?)
 
 	* X (U+0058): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6802,9 +6610,11 @@ multiply
 
 	* M (U+004D) contains a short segment L<<439.0,0.0>--<409.0,0.0>>
 
-	* W (U+0057) contains a short segment L<<251.0,0.0>--<220.0,0.0>>
+	* Y (U+0059) contains a short segment L<<294.0,298.0>--<296.0,295.0>>
 
-	* W (U+0057) contains a short segment L<<668.0,0.0>--<636.0,0.0>>
+	* Y (U+0059) contains a short segment L<<296.0,295.0>--<293.0,295.0>>
+
+	* Y (U+0059) contains a short segment L<<293.0,295.0>--<292.0,294.0>>
 
 	* g (U+0067) contains a short segment B<<364.0,449.0>-<370.0,444.0>-<375.0,438.0>>
 
@@ -6816,17 +6626,35 @@ multiply
 
 	* yen (U+00A5) contains a short segment L<<226.0,289.0>--<226.0,295.0>>
 
+	* yen (U+00A5) contains a short segment L<<276.0,298.0>--<278.0,295.0>>
+
+	* yen (U+00A5) contains a short segment L<<278.0,295.0>--<275.0,295.0>>
+
+	* yen (U+00A5) contains a short segment L<<275.0,295.0>--<274.0,294.0>>
+
 	* yen (U+00A5) contains a short segment L<<274.0,294.0>--<274.0,289.0>>
 
 	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
 
 	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
 
+	* Yacute (U+00DD) contains a short segment L<<294.0,298.0>--<296.0,295.0>>
+
+	* Yacute (U+00DD) contains a short segment L<<296.0,295.0>--<293.0,295.0>>
+
+	* Yacute (U+00DD) contains a short segment L<<293.0,295.0>--<292.0,294.0>>
+
 	* ae (U+00E6) contains a short segment L<<389.0,245.0>--<389.0,243.0>>
 
 	* ae (U+00E6) contains a short segment L<<344.0,241.0>--<344.0,242.0>>
 
 	* oslash (U+00F8) contains a short segment B<<372.0,404.0>-<372.0,404.0>-<372.0,405.0>>
+
+	* Ydieresis (U+0178) contains a short segment L<<294.0,298.0>--<296.0,295.0>>
+
+	* Ydieresis (U+0178) contains a short segment L<<296.0,295.0>--<293.0,295.0>>
+
+	* Ydieresis (U+0178) contains a short segment L<<293.0,295.0>--<292.0,294.0>>
 
 	* florin (U+0192) contains a short segment B<<238.0,492.0>-<238.0,484.0>-<238.0,476.0>>
 
@@ -7371,37 +7199,13 @@ multiply
 
 	* S (U+0053): X=332.5,Y=702.0 (should be at cap-height 700?)
 
-	* Y (U+0059): X=31.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=86.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=450.0,Y=701.0 (should be at cap-height 700?)
-
-	* Y (U+0059): X=505.0,Y=701.0 (should be at cap-height 700?)
-
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=68.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=432.0,Y=701.0 (should be at cap-height 700?)
-
-	* yen (U+00A5): X=487.0,Y=701.0 (should be at cap-height 700?)
 
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=402.5,Y=702.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=406.0,Y=-1.0 (should be at baseline 0?)
-
-	* Yacute (U+00DD): X=31.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=86.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=450.0,Y=701.0 (should be at cap-height 700?)
-
-	* Yacute (U+00DD): X=505.0,Y=701.0 (should be at cap-height 700?)
 
 	* agrave (U+00E0): X=119.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7426,14 +7230,6 @@ multiply
 	* yacute (U+00FD): X=341.0,Y=699.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=332.5,Y=702.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=31.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=86.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=450.0,Y=701.0 (should be at cap-height 700?)
-
-	* Ydieresis (U+0178): X=505.0,Y=701.0 (should be at cap-height 700?)
 
 	* florin (U+0192): X=394.5,Y=701.5 (should be at cap-height 700?)
 
@@ -7465,7 +7261,7 @@ multiply
 
 	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
-	* g (U+0067) contains a short segment B<<364.0,448.0>-<369.0,443.0>-<375.0,437.0>>
+	* g (U+0067) contains a short segment B<<364.0,448.0>-<368.0,444.0>-<372.0,440.0>>
 
 	* q (U+0071) contains a short segment B<<413.0,401.0>-<413.0,405.0>-<413.0,409.0>>
 
@@ -7992,7 +7788,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
