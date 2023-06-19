@@ -365,7 +365,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 219 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1120,7 +1120,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1745,7 +1745,7 @@ lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 219 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1808,7 +1808,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -2498,7 +2498,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greaterequal, less, plus, greater
 
 Width = 462:
 multiply
@@ -3241,7 +3241,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greaterequal, greater, less
+greaterequal, less, plus, greater
 
 Width = 462:
 multiply
@@ -3856,7 +3856,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 229 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 231 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3919,7 +3919,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -4584,7 +4584,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4640,7 +4640,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -5290,7 +5290,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 229 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 231 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5353,7 +5353,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5975,7 +5975,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 228 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6031,7 +6031,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -8028,7 +8028,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greaterequal, less, greater
 
 Width = 463:
 multiply
