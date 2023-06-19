@@ -433,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1113,7 +1113,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1746,7 +1746,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -2379,7 +2379,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, less, greaterequal, greater
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
@@ -3077,7 +3077,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, less, greaterequal, greater
+greater, less, plus, greaterequal
 
 Width = 462:
 multiply
@@ -3754,7 +3754,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -4443,7 +4443,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -5122,7 +5122,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5801,7 +5801,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -7785,7 +7785,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
