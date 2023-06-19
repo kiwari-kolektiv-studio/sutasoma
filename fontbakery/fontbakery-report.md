@@ -22,7 +22,7 @@ Fontbakery version: 0.8.13
   - SutasomaModerat-Bold.ttf (nameID 1)
   - SutasomaModerat-ExtraLight.ttf (nameID 16)
   - SutasomaModerat-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -372,6 +372,10 @@ Fontbakery version: 0.8.13
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -403,7 +407,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -425,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -467,14 +475,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=372.5,Y=698.5 (should be at cap-height 700?)
 
-	* X (U+0058): X=523.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=221.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=30.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=715.0,Y=2.0 (should be at baseline 0?)
-
 	* f (U+0066): X=5.0,Y=497.0 (should be at x-height 498?)
 
 	* f (U+0066): X=80.0,Y=497.0 (should be at x-height 498?)
@@ -501,29 +501,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=356.0,Y=497.0 (should be at x-height 498?)
 
-	* v (U+0076): X=18.0,Y=497.0 (should be at x-height 498?)
-
-	* v (U+0076): X=179.0,Y=497.0 (should be at x-height 498?)
-
-	* v (U+0076): X=344.0,Y=497.0 (should be at x-height 498?)
-
-	* v (U+0076): X=504.0,Y=497.0 (should be at x-height 498?)
-
 	* x (U+0078): X=31.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=202.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=201.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=375.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=374.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=524.0,Y=497.0 (should be at x-height 498?)
-
-	* y (U+0079): X=17.0,Y=497.0 (should be at x-height 498?)
-
-	* y (U+0079): X=176.0,Y=497.0 (should be at x-height 498?)
-
-	* y (U+0079): X=378.0,Y=497.0 (should be at x-height 498?)
-
-	* y (U+0079): X=529.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=523.0,Y=497.0 (should be at x-height 498?)
 
 	* braceleft (U+007B): X=273.0,Y=699.0 (should be at cap-height 700?)
 
@@ -565,7 +549,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<308.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
-	* g (U+0067) contains a short segment B<<429.0,428.0>-<426.0,427.0>-<423.0,425.0>>
+	* g (U+0067) contains a short segment B<<428.0,428.0>-<425.0,427.0>-<422.0,425.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -577,7 +561,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<385.0,695.0>--<385.0,700.0>>
 
-	* oe (U+0153) contains a short segment B<<517.0,211.0>-<516.0,209.0>-<516.0,207.0>>
+	* oe (U+0153) contains a short segment B<<516.0,211.0>-<516.0,211.0>-<516.0,210.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
 
@@ -676,7 +660,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1026,6 +1010,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1054,6 +1042,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -1076,7 +1068,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -1101,27 +1093,11 @@ lessequal
 
 	* dollar (U+0024): X=367.0,Y=701.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=437.5,Y=0.5 (should be at baseline 0?)
+	* C (U+0043): X=443.5,Y=0.5 (should be at baseline 0?)
 
-	* G (U+0047): X=446.5,Y=699.0 (should be at cap-height 700?)
+	* G (U+0047): X=452.0,Y=699.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=366.5,Y=700.5 (should be at cap-height 700?)
-
-	* X (U+0058): X=521.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=161.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=45.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=60.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=173.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=509.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=622.0,Y=702.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=638.0,Y=1.0 (should be at baseline 0?)
 
 	* f (U+0066): X=11.0,Y=488.0 (should be at x-height 490?)
 
@@ -1151,35 +1127,19 @@ lessequal
 
 	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
-	* v (U+0076): X=25.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=42.0,Y=488.0 (should be at x-height 490?)
 
-	* v (U+0076): X=127.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=151.0,Y=488.0 (should be at x-height 490?)
 
-	* v (U+0076): X=373.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=357.0,Y=488.0 (should be at x-height 490?)
 
-	* v (U+0076): X=472.0,Y=488.0 (should be at x-height 490?)
-
-	* x (U+0078): X=43.0,Y=488.0 (should be at x-height 490?)
-
-	* x (U+0078): X=152.0,Y=488.0 (should be at x-height 490?)
-
-	* x (U+0078): X=358.0,Y=488.0 (should be at x-height 490?)
-
-	* x (U+0078): X=456.0,Y=488.0 (should be at x-height 490?)
-
-	* y (U+0079): X=22.0,Y=488.0 (should be at x-height 490?)
-
-	* y (U+0079): X=120.0,Y=488.0 (should be at x-height 490?)
-
-	* y (U+0079): X=370.0,Y=488.0 (should be at x-height 490?)
-
-	* y (U+0079): X=462.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=455.0,Y=488.0 (should be at x-height 490?)
 
 	* uni00B2 (U+00B2): X=275.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B5 (U+00B5): X=173.0,Y=-1.0 (should be at baseline 0?)
 
-	* Ccedilla (U+00C7): X=438.0,Y=1.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=444.0,Y=1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=366.5,Y=700.5 (should be at cap-height 700?)
 
@@ -1193,7 +1153,7 @@ lessequal
 
 	* quotedblbase (U+201E): X=93.0,Y=1.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?)
+	* Euro (U+20AC): X=496.5,Y=0.5 (should be at baseline 0?)
 
 	* product (U+220F): X=44.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -1211,21 +1171,21 @@ lessequal
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
 
-	* g (U+0067) contains a short segment B<<378.0,457.0>-<380.0,455.0>-<382.0,453.0>>
+	* g (U+0067) contains a short segment B<<376.0,457.0>-<378.0,455.0>-<380.0,453.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
-	* ae (U+00E6) contains a short segment B<<394.0,426.0>-<396.0,428.0>-<398.0,431.0>>
+	* ae (U+00E6) contains a short segment B<<392.0,426.0>-<394.0,428.0>-<396.0,431.0>>
 
 	* thorn (U+00FE) contains a short segment B<<169.0,433.0>-<173.0,439.0>-<178.0,444.0>>
 
-	* oe (U+0153) contains a short segment B<<451.0,419.0>-<456.0,425.0>-<461.0,431.0>>
+	* oe (U+0153) contains a short segment B<<449.0,419.0>-<454.0,425.0>-<459.0,431.0>>
 
-	* oe (U+0153) contains a short segment B<<497.0,217.0>-<497.0,216.0>-<497.0,215.0>>
+	* oe (U+0153) contains a short segment B<<495.0,217.0>-<495.0,216.0>-<495.0,215.0>>
 
-	* oe (U+0153) contains a short segment B<<450.0,70.0>-<445.0,63.0>-<440.0,57.0>>
+	* oe (U+0153) contains a short segment B<<448.0,70.0>-<443.0,63.0>-<438.0,57.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
 
@@ -1320,7 +1280,7 @@ lessequal
 	* macron (U+00AF): L<<58.0,663.0>--<346.0,664.0>> 
 
 	* uni0304 (U+0304): L<<46.0,677.0>--<335.0,679.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1670,6 +1630,10 @@ lessequal
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1701,7 +1665,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -1723,7 +1691,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -1740,7 +1708,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1776,22 +1744,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* W (U+0057): X=158.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=750.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=405.0,Y=-1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=127.0,Y=-1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=30.0,Y=-1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=36.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=214.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=491.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=588.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=583.0,Y=-1.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=18.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1871,15 +1823,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062) contains a short segment B<<185.0,60.0>-<185.0,57.0>-<185.0,54.0>>
 
-	* g (U+0067) contains a short segment B<<390.0,465.0>-<391.0,464.0>-<393.0,463.0>>
+	* g (U+0067) contains a short segment B<<390.0,465.0>-<391.0,464.0>-<392.0,463.0>>
 
-	* g (U+0067) contains a short segment B<<430.0,440.0>-<425.0,436.0>-<421.0,432.0>>
+	* g (U+0067) contains a short segment B<<429.0,440.0>-<424.0,436.0>-<420.0,432.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,454.0>-<182.0,447.0>-<183.0,440.0>>
 
 	* n (U+006E) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* r (U+0072) contains a short segment B<<185.0,426.0>-<185.0,422.0>-<185.0,417.0>>
+
+	* y (U+0079) contains a short segment B<<211.0,-43.0>-<215.0,-37.0>-<219.0,-30.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -1889,15 +1843,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
 
-	* ae (U+00E6) contains a short segment B<<402.0,437.0>-<402.0,438.0>-<403.0,439.0>>
+	* ae (U+00E6) contains a short segment B<<401.0,437.0>-<402.0,438.0>-<403.0,439.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
+
+	* yacute (U+00FD) contains a short segment B<<211.0,-43.0>-<215.0,-37.0>-<219.0,-30.0>>
+
+	* ydieresis (U+00FF) contains a short segment B<<211.0,-43.0>-<215.0,-37.0>-<219.0,-30.0>>
 
 	* eng (U+014B) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
 	* eng (U+014B) contains a short segment L<<496.0,0.0>--<496.0,0.0>>
-
-	* oe (U+0153) contains a short segment B<<518.0,264.0>-<518.0,264.0>-<518.0,264.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
 
@@ -1988,7 +1944,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> 
 
 	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2338,6 +2294,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2373,6 +2333,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -2392,7 +2356,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+less, greater, plus, greaterequal
 
 Width = 462:
 multiply
@@ -2425,29 +2389,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* question (U+003F): X=243.5,Y=1.0 (should be at baseline 0?)
 
-	* C (U+0043): X=418.0,Y=701.0 (should be at cap-height 700?)
+	* C (U+0043): X=426.0,Y=701.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=421.5,Y=-0.5 (should be at baseline 0?)
+	* C (U+0043): X=430.0,Y=-0.5 (should be at baseline 0?)
 
-	* G (U+0047): X=425.0,Y=700.5 (should be at cap-height 700?)
+	* G (U+0047): X=437.0,Y=700.5 (should be at cap-height 700?)
 
 	* S (U+0053): X=349.5,Y=701.5 (should be at cap-height 700?)
-
-	* X (U+0058): X=510.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=133.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=48.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=60.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=144.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=499.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=583.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=596.0,Y=1.0 (should be at baseline 0?)
 
 	* f (U+0066): X=14.0,Y=484.0 (should be at x-height 485?)
 
@@ -2479,35 +2427,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
-	* v (U+0076): X=26.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=45.0,Y=484.0 (should be at x-height 485?)
 
-	* v (U+0076): X=103.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=128.0,Y=484.0 (should be at x-height 485?)
 
-	* v (U+0076): X=368.0,Y=484.0 (should be at x-height 485?)
-
-	* v (U+0076): X=443.0,Y=484.0 (should be at x-height 485?)
-
-	* x (U+0078): X=46.0,Y=484.0 (should be at x-height 485?)
-
-	* x (U+0078): X=129.0,Y=484.0 (should be at x-height 485?)
-
-	* x (U+0078): X=349.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=348.0,Y=484.0 (should be at x-height 485?)
 
 	* x (U+0078): X=425.0,Y=484.0 (should be at x-height 485?)
 
-	* y (U+0079): X=25.0,Y=484.0 (should be at x-height 485?)
-
-	* y (U+0079): X=97.0,Y=484.0 (should be at x-height 485?)
-
-	* y (U+0079): X=368.0,Y=484.0 (should be at x-height 485?)
-
-	* y (U+0079): X=434.0,Y=484.0 (should be at x-height 485?)
+	* y (U+0079): X=202.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni00B2 (U+00B2): X=198.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni00B9 (U+00B9): X=24.0,Y=701.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=418.0,Y=701.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=426.0,Y=701.0 (should be at cap-height 700?)
 
 	* acircumflex (U+00E2): X=221.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2529,11 +2463,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ucircumflex (U+00FB): X=273.0,Y=701.0 (should be at cap-height 700?)
 
+	* yacute (U+00FD): X=202.0,Y=-1.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=202.0,Y=-1.0 (should be at baseline 0?)
+
 	* Scaron (U+0160): X=349.5,Y=701.5 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=111.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=110.0,Y=702.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=305.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=304.0,Y=702.0 (should be at cap-height 700?)
 
 	* zcaron (U+017E): X=106.0,Y=702.0 (should be at cap-height 700?)
 
@@ -2563,9 +2501,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quoteright (U+2019): X=69.5,Y=698.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=475.0,Y=701.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=483.0,Y=701.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=478.5,Y=-0.5 (should be at baseline 0?)
+	* Euro (U+20AC): X=486.0,Y=-0.5 (should be at baseline 0?)
 
 	* product (U+220F): X=49.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -2577,7 +2515,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<202.0,369.0>-<208.0,371.0>-<214.0,372.0>>
 
-	* g (U+0067) contains a short segment B<<371.0,452.0>-<374.0,449.0>-<377.0,446.0>>
+	* g (U+0067) contains a short segment B<<370.0,452.0>-<373.0,449.0>-<376.0,446.0>>
 
 	* k (U+006B) contains a short segment L<<150.0,288.0>--<160.0,297.0>>
 
@@ -2587,9 +2525,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
-	* ae (U+00E6) contains a short segment B<<384.0,412.0>-<389.0,420.0>-<395.0,428.0>>
+	* ae (U+00E6) contains a short segment B<<383.0,412.0>-<388.0,420.0>-<394.0,428.0>>
 
-	* ae (U+00E6) contains a short segment L<<409.0,228.0>--<409.0,226.0>>
+	* ae (U+00E6) contains a short segment L<<408.0,228.0>--<408.0,226.0>>
 
 	* OE (U+0152) contains a short segment B<<532.0,618.0>-<532.0,617.0>-<532.0,617.0>>
 
@@ -3046,6 +2984,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3077,7 +3019,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -3096,7 +3040,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+less, greater, plus, greaterequal
 
 Width = 462:
 multiply
@@ -3107,10 +3051,6 @@ minus, lessequal
 Width = 477:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3137,9 +3077,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=107.0,Y=-2.0 (should be at baseline 0?)
 
-	* C (U+0043): X=419.5,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=427.5,Y=698.0 (should be at cap-height 700?)
 
-	* G (U+0047): X=423.0,Y=698.5 (should be at cap-height 700?)
+	* G (U+0047): X=434.5,Y=698.5 (should be at cap-height 700?)
 
 	* Y (U+0059): X=28.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3153,8 +3093,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* r (U+0072): X=335.0,Y=486.0 (should be at x-height 485?)
 
-	* t (U+0074): X=143.5,Y=2.0 (should be at baseline 0?)
-
 	* t (U+0074): X=163.0,Y=483.0 (should be at x-height 485?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
@@ -3167,9 +3105,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B2 (U+00B2): X=265.0,Y=698.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=419.5,Y=698.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=427.5,Y=698.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=421.0,Y=2.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=429.0,Y=2.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=28.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3179,7 +3117,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Yacute (U+00DD): X=530.0,Y=701.0 (should be at cap-height 700?)
 
-	* aring (U+00E5): X=239.0,Y=701.0 (should be at cap-height 700?)
+	* aring (U+00E5): X=238.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=28.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3217,9 +3155,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=117.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=104.0,Y=-2.0 (should be at baseline 0?) 
+	* quotedblbase (U+201E): X=104.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=475.5,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* Euro (U+20AC): X=484.5,Y=698.0 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=315.5,Y=699.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=315.5,Y=699.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3364,7 +3306,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* thorn (U+00FE): L<<145.0,700.0>--<144.0,415.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3714,6 +3656,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3745,7 +3691,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -3767,7 +3717,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -3797,14 +3747,15 @@ lessequal
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
 	* ('igrave', 19, 743)
-	* ('scaron', 115, 723)
-	* ('scaron', 327, 723)
+	* ('scaron', 114, 723)
+	* ('scaron', 326, 723)
+	* ('yacute', 353, 742)
 	* ('zcaron', 105, 723)
 	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362)
 	* ('periodcentered', 152, 362)
-	* ('figuredash', 23, 388) and ('figuredash', 469, 388)
+	* ('figuredash', 22, 388) and ('figuredash', 468, 388)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3816,19 +3767,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=93.0,Y=1.0 (should be at baseline 0?)
 
-	* C (U+0043): X=438.5,Y=699.0 (should be at cap-height 700?)
+	* C (U+0043): X=442.5,Y=699.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=444.5,Y=1.5 (should be at baseline 0?)
+	* C (U+0043): X=449.0,Y=1.5 (should be at baseline 0?)
 
-	* G (U+0047): X=451.0,Y=698.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=522.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=181.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=40.0,Y=1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=664.0,Y=1.0 (should be at baseline 0?)
+	* G (U+0047): X=455.5,Y=698.0 (should be at cap-height 700?)
 
 	* bracketleft (U+005B): X=287.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3862,37 +3805,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=327.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=23.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=38.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=144.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=168.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=363.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=363.0,Y=491.0 (should be at x-height 493?)
 
-	* v (U+0076): X=483.0,Y=491.0 (should be at x-height 493?)
-
-	* x (U+0078): X=39.0,Y=491.0 (should be at x-height 493?)
-
-	* x (U+0078): X=169.0,Y=491.0 (should be at x-height 493?)
-
-	* x (U+0078): X=364.0,Y=491.0 (should be at x-height 493?)
-
-	* x (U+0078): X=479.0,Y=491.0 (should be at x-height 493?)
-
-	* y (U+0079): X=20.0,Y=491.0 (should be at x-height 493?)
-
-	* y (U+0079): X=139.0,Y=491.0 (should be at x-height 493?)
-
-	* y (U+0079): X=373.0,Y=491.0 (should be at x-height 493?)
-
-	* y (U+0079): X=484.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=478.0,Y=491.0 (should be at x-height 493?)
 
 	* uni00B2 (U+00B2): X=273.0,Y=702.0 (should be at cap-height 700?)
 
 	* Aacute (U+00C1): X=409.0,Y=949.0 (should be at ascender 950?)
 
-	* Ccedilla (U+00C7): X=438.5,Y=699.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=442.5,Y=699.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=444.0,Y=2.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=449.0,Y=2.0 (should be at baseline 0?)
 
 	* Eacute (U+00C9): X=388.0,Y=949.0 (should be at ascender 950?)
 
@@ -3900,7 +3827,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Oacute (U+00D3): X=446.0,Y=949.0 (should be at ascender 950?)
 
-	* Uacute (U+00DA): X=444.0,Y=949.0 (should be at ascender 950?)
+	* Uacute (U+00DA): X=438.0,Y=949.0 (should be at ascender 950?)
 
 	* Yacute (U+00DD): X=399.0,Y=949.0 (should be at ascender 950?)
 
@@ -3926,9 +3853,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=88.0,Y=2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=495.0,Y=699.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=497.0,Y=1.5 (should be at baseline 0?)
+	* Euro (U+20AC): X=501.0,Y=1.5 (should be at baseline 0?)
 
 	* product (U+220F): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3948,7 +3875,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<292.0,283.0>-<287.0,283.0>-<282.0,283.0>>
 
-	* g (U+0067) contains a short segment B<<382.0,459.0>-<383.0,458.0>-<383.0,458.0>>
+	* g (U+0067) contains a short segment B<<381.0,459.0>-<381.0,458.0>-<382.0,458.0>>
+
+	* g (U+0067) contains a short segment B<<422.0,436.0>-<414.0,432.0>-<409.0,426.0>>
 
 	* k (U+006B) contains a short segment L<<192.0,203.0>--<181.0,193.0>>
 
@@ -3958,17 +3887,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<390.0,693.0>--<390.0,700.0>>
 
-	* ae (U+00E6) contains a short segment B<<397.0,431.0>-<398.0,432.0>-<399.0,434.0>>
+	* ae (U+00E6) contains a short segment B<<395.0,431.0>-<396.0,432.0>-<397.0,434.0>>
 
 	* thorn (U+00FE) contains a short segment B<<181.0,442.0>-<184.0,445.0>-<187.0,449.0>>
 
-	* oe (U+0153) contains a short segment B<<445.0,436.0>-<447.0,434.0>-<449.0,431.0>>
+	* oe (U+0153) contains a short segment B<<443.0,436.0>-<445.0,433.0>-<447.0,431.0>>
 
-	* oe (U+0153) contains a short segment B<<449.0,431.0>-<449.0,432.0>-<450.0,433.0>>
+	* oe (U+0153) contains a short segment B<<447.0,431.0>-<448.0,432.0>-<449.0,433.0>>
 
-	* oe (U+0153) contains a short segment B<<504.0,215.0>-<504.0,212.0>-<503.0,210.0>>
+	* oe (U+0153) contains a short segment B<<502.0,215.0>-<502.0,214.0>-<502.0,213.0>>
 
-	* oe (U+0153) contains a short segment B<<448.0,61.0>-<446.0,59.0>-<445.0,57.0>>
+	* oe (U+0153) contains a short segment B<<447.0,61.0>-<445.0,59.0>-<443.0,57.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
@@ -4071,7 +4000,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4421,6 +4350,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4445,7 +4378,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -4467,7 +4404,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -4509,17 +4446,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=91.0,Y=2.0 (should be at baseline 0?)
 
-	* C (U+0043): X=443.0,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=446.0,Y=698.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=371.0,Y=699.5 (should be at cap-height 700?)
-
-	* X (U+0058): X=523.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=201.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=35.0,Y=2.0 (should be at baseline 0?)
-
-	* X (U+0058): X=690.0,Y=2.0 (should be at baseline 0?)
 
 	* f (U+0066): X=7.0,Y=494.0 (should be at x-height 495?)
 
@@ -4545,14 +4474,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=342.0,Y=494.0 (should be at x-height 495?)
 
-	* v (U+0076): X=21.0,Y=494.0 (should be at x-height 495?)
-
-	* v (U+0076): X=162.0,Y=494.0 (should be at x-height 495?)
-
-	* v (U+0076): X=354.0,Y=494.0 (should be at x-height 495?)
-
-	* v (U+0076): X=493.0,Y=494.0 (should be at x-height 495?)
-
 	* x (U+0078): X=35.0,Y=494.0 (should be at x-height 495?)
 
 	* x (U+0078): X=185.0,Y=494.0 (should be at x-height 495?)
@@ -4561,21 +4482,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* x (U+0078): X=501.0,Y=494.0 (should be at x-height 495?)
 
-	* y (U+0079): X=19.0,Y=494.0 (should be at x-height 495?)
-
-	* y (U+0079): X=157.0,Y=494.0 (should be at x-height 495?)
-
-	* y (U+0079): X=375.0,Y=494.0 (should be at x-height 495?)
-
-	* y (U+0079): X=507.0,Y=494.0 (should be at x-height 495?)
-
 	* braceleft (U+007B): X=260.0,Y=698.0 (should be at cap-height 700?)
 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=443.0,Y=698.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=446.0,Y=698.0 (should be at cap-height 700?)
 
 	* atilde (U+00E3): X=358.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4589,7 +4502,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0304 (U+0304): X=346.0,Y=702.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=497.5,Y=698.0 (should be at cap-height 700?)
 
 	* product (U+220F): X=39.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -4605,9 +4518,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
-	* e (U+0065) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
+	* e (U+0065) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
-	* g (U+0067) contains a short segment B<<426.0,432.0>-<421.0,429.0>-<416.0,426.0>>
+	* g (U+0067) contains a short segment B<<425.0,432.0>-<420.0,429.0>-<415.0,426.0>>
 
 	* k (U+006B) contains a short segment L<<228.0,218.0>--<218.0,208.0>>
 
@@ -4619,21 +4532,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<388.0,692.0>--<388.0,700.0>>
 
-	* ae (U+00E6) contains a short segment B<<399.0,435.0>-<399.0,436.0>-<400.0,436.0>>
+	* ae (U+00E6) contains a short segment B<<398.0,435.0>-<398.0,436.0>-<399.0,436.0>>
 
-	* egrave (U+00E8) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
+	* egrave (U+00E8) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
-	* eacute (U+00E9) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
+	* eacute (U+00E9) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
-	* ecircumflex (U+00EA) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
+	* ecircumflex (U+00EA) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
-	* edieresis (U+00EB) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
+	* edieresis (U+00EB) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
 	* thorn (U+00FE) contains a short segment B<<193.0,450.0>-<194.0,452.0>-<196.0,453.0>>
 
-	* oe (U+0153) contains a short segment B<<510.0,213.0>-<510.0,212.0>-<510.0,212.0>>
+	* oe (U+0153) contains a short segment B<<509.0,213.0>-<509.0,212.0>-<509.0,212.0>>
 
-	* oe (U+0153) contains a short segment L<<697.0,293.0>--<697.0,295.0>>
+	* oe (U+0153) contains a short segment L<<696.0,293.0>--<696.0,295.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
 
@@ -4742,7 +4655,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> 
 
 	* uni0304 (U+0304): L<<45.0,700.0>--<346.0,702.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5092,6 +5005,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5123,7 +5040,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -5145,7 +5064,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -5196,16 +5115,16 @@ lessequal
 	* ('Otilde', 260, 893)
 	* ('Otilde', 281, 893)
 	* ('Otilde', 293, 893)
-	* ('Uacute', 457, 931)
-	* ('Ucircumflex', 322, 920)
-	* ('Ucircumflex', 369, 920)
-	* ('Ugrave', 235, 931)
+	* ('Uacute', 458, 931)
+	* ('Ucircumflex', 323, 920)
+	* ('Ucircumflex', 370, 920)
+	* ('Ugrave', 236, 931)
 	* ('Yacute', 426, 931)
 	* ('icircumflex', 252, 584)
 	* ('periodcentered', 86, 362)
 	* ('periodcentered', 118, 362)
 	* ('periodcentered', 152, 362)
-	* ('figuredash', 23, 378) and ('figuredash', 469, 378)
+	* ('figuredash', 22, 378) and ('figuredash', 468, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -5233,7 +5152,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=554.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=371.0,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=369.5,Y=-2.0 (should be at baseline 0?)
+
+	* t (U+0074): X=278.0,Y=-1.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5287,9 +5208,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<211.0,380.0>-<222.0,382.0>-<232.0,384.0>>
 
-	* e (U+0065) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
+	* e (U+0065) contains a short segment B<<371.0,279.0>-<371.0,280.0>-<372.0,280.0>>
 
-	* g (U+0067) contains a short segment B<<382.0,461.0>-<387.0,456.0>-<392.0,452.0>>
+	* g (U+0067) contains a short segment B<<380.0,461.0>-<386.0,456.0>-<390.0,452.0>>
 
 	* m (U+006D) contains a short segment B<<160.0,436.0>-<160.0,430.0>-<160.0,423.0>>
 
@@ -5301,27 +5222,27 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
 
-	* ae (U+00E6) contains a short segment B<<398.0,427.0>-<400.0,430.0>-<402.0,433.0>>
+	* ae (U+00E6) contains a short segment B<<396.0,427.0>-<398.0,430.0>-<401.0,433.0>>
 
-	* egrave (U+00E8) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
+	* egrave (U+00E8) contains a short segment B<<371.0,279.0>-<371.0,280.0>-<372.0,280.0>>
 
-	* eacute (U+00E9) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
+	* eacute (U+00E9) contains a short segment B<<371.0,279.0>-<371.0,280.0>-<372.0,280.0>>
 
-	* ecircumflex (U+00EA) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
+	* ecircumflex (U+00EA) contains a short segment B<<371.0,279.0>-<371.0,280.0>-<372.0,280.0>>
 
-	* edieresis (U+00EB) contains a short segment B<<373.0,279.0>-<373.0,280.0>-<373.0,280.0>>
+	* edieresis (U+00EB) contains a short segment B<<371.0,279.0>-<371.0,280.0>-<372.0,280.0>>
 
 	* thorn (U+00FE) contains a short segment B<<163.0,443.0>-<167.0,448.0>-<171.0,452.0>>
 
 	* eng (U+014B) contains a short segment L<<476.0,0.0>--<475.0,0.0>>
 
-	* oe (U+0153) contains a short segment B<<445.0,436.0>-<447.0,433.0>-<450.0,429.0>>
+	* oe (U+0153) contains a short segment B<<443.0,436.0>-<446.0,432.0>-<449.0,429.0>>
 
-	* oe (U+0153) contains a short segment B<<450.0,429.0>-<452.0,431.0>-<454.0,433.0>>
+	* oe (U+0153) contains a short segment B<<449.0,429.0>-<451.0,431.0>-<453.0,433.0>>
 
-	* oe (U+0153) contains a short segment B<<447.0,60.0>-<446.0,59.0>-<445.0,57.0>>
+	* oe (U+0153) contains a short segment B<<446.0,60.0>-<444.0,59.0>-<443.0,57.0>>
 
-	* oe (U+0153) contains a short segment L<<720.0,279.0>--<720.0,280.0>>
+	* oe (U+0153) contains a short segment B<<718.0,279.0>-<718.0,280.0>-<719.0,280.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
@@ -5422,7 +5343,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* arrowup (U+2191): L<<306.0,603.0>--<311.0,0.0>> 
 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5772,6 +5693,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5796,7 +5721,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -5818,7 +5747,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -5861,14 +5790,6 @@ lessequal
 
 	* W (U+0057): X=737.0,Y=1.0 (should be at baseline 0?)
 
-	* X (U+0058): X=42.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=197.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=497.0,Y=701.0 (should be at cap-height 700?)
-
-	* X (U+0058): X=584.0,Y=701.0 (should be at cap-height 700?)
-
 	* Y (U+0059): X=20.0,Y=701.0 (should be at cap-height 700?)
 
 	* Y (U+0059): X=175.0,Y=701.0 (should be at cap-height 700?)
@@ -5877,7 +5798,7 @@ lessequal
 
 	* Y (U+0059): X=564.0,Y=701.0 (should be at cap-height 700?)
 
-	* t (U+0074): X=299.0,Y=1.0 (should be at baseline 0?)
+	* t (U+0074): X=299.5,Y=2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=14.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5945,7 +5866,7 @@ lessequal
 
 	* b (U+0062) contains a short segment B<<175.0,68.0>-<175.0,62.0>-<174.0,57.0>>
 
-	* g (U+0067) contains a short segment B<<386.0,463.0>-<389.0,460.0>-<392.0,458.0>>
+	* g (U+0067) contains a short segment B<<385.0,463.0>-<388.0,460.0>-<391.0,458.0>>
 
 	* m (U+006D) contains a short segment B<<171.0,445.0>-<171.0,438.0>-<172.0,431.0>>
 
@@ -5957,7 +5878,7 @@ lessequal
 
 	* uni00B5 (U+00B5) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
 
-	* ae (U+00E6) contains a short segment B<<400.0,432.0>-<401.0,434.0>-<403.0,436.0>>
+	* ae (U+00E6) contains a short segment B<<399.0,432.0>-<400.0,434.0>-<402.0,436.0>>
 
 	* thorn (U+00FE) contains a short segment B<<181.0,454.0>-<183.0,456.0>-<184.0,458.0>>
 
@@ -6072,7 +5993,7 @@ lessequal
 	* arrowup (U+2191): L<<315.0,593.0>--<320.0,0.0>> 
 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6422,6 +6343,10 @@ lessequal
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -6457,6 +6382,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -6484,7 +6413,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 497 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6512,11 +6441,11 @@ multiply
 
 	* question (U+003F): X=230.0,Y=-1.5 (should be at baseline 0?)
 
-	* C (U+0043): X=402.5,Y=702.0 (should be at cap-height 700?)
+	* C (U+0043): X=413.5,Y=702.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=405.5,Y=-1.5 (should be at baseline 0?)
+	* C (U+0043): X=416.0,Y=-1.5 (should be at baseline 0?)
 
-	* G (U+0047): X=403.5,Y=701.5 (should be at cap-height 700?)
+	* G (U+0047): X=421.5,Y=701.5 (should be at cap-height 700?)
 
 	* S (U+0053): X=336.0,Y=701.5 (should be at cap-height 700?)
 
@@ -6534,13 +6463,11 @@ multiply
 
 	* g (U+0067): X=108.0,Y=-1.0 (should be at baseline 0?)
 
-	* t (U+0074): X=145.5,Y=1.0 (should be at baseline 0?)
-
 	* t (U+0074): X=99.0,Y=478.0 (should be at x-height 480?)
 
 	* t (U+0074): X=145.0,Y=478.0 (should be at x-height 480?)
 
-	* t (U+0074): X=246.5,Y=0.5 (should be at baseline 0?)
+	* t (U+0074): X=236.5,Y=-1.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6552,9 +6479,9 @@ multiply
 
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=402.5,Y=702.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=413.5,Y=702.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=406.0,Y=-1.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=416.0,Y=-1.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=31.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6596,9 +6523,9 @@ multiply
 
 	* quotedblbase (U+201E): X=97.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=462.5,Y=702.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=473.5,Y=702.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=465.5,Y=-1.5 (should be at baseline 0?) 
+	* Euro (U+20AC): X=476.0,Y=-1.5 (should be at baseline 0?) 
 
 	* partialdiff (U+2202): X=92.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -6716,9 +6643,11 @@ multiply
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
+
+	* fl (U+FB02) contains a short segment L<<16.0,452.0>--<16.0,472.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -6738,7 +6667,7 @@ multiply
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* G (U+0047): L<<491.0,187.0>--<490.0,308.0>>
+	* G (U+0047): L<<518.0,187.0>--<517.0,308.0>>
 
 	* arrowdown (U+2193): L<<236.0,65.0>--<234.0,705.0>>
 
@@ -6759,7 +6688,7 @@ multiply
 	* macron (U+00AF): L<<53.0,643.0>--<326.0,644.0>> 
 
 	* thorn (U+00FE): L<<144.0,700.0>--<143.0,395.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7109,6 +7038,10 @@ multiply
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -7144,6 +7077,10 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: fi	Contours detected: 1	Expected: 3
+
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -7171,7 +7108,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7191,11 +7128,11 @@ multiply
 
 	* question (U+003F): X=230.0,Y=-1.5 (should be at baseline 0?)
 
-	* C (U+0043): X=402.5,Y=702.0 (should be at cap-height 700?)
+	* C (U+0043): X=413.0,Y=702.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=405.5,Y=-1.5 (should be at baseline 0?)
+	* C (U+0043): X=415.5,Y=-1.5 (should be at baseline 0?)
 
-	* G (U+0047): X=403.5,Y=701.5 (should be at cap-height 700?)
+	* G (U+0047): X=421.5,Y=701.5 (should be at cap-height 700?)
 
 	* S (U+0053): X=332.5,Y=702.0 (should be at cap-height 700?)
 
@@ -7203,9 +7140,9 @@ multiply
 
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=402.5,Y=702.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=413.0,Y=702.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=406.0,Y=-1.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=416.0,Y=-1.0 (should be at baseline 0?)
 
 	* agrave (U+00E0): X=119.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7227,7 +7164,7 @@ multiply
 
 	* uacute (U+00FA): X=356.0,Y=699.0 (should be at cap-height 700?)
 
-	* yacute (U+00FD): X=341.0,Y=699.0 (should be at cap-height 700?)
+	* yacute (U+00FD): X=337.0,Y=699.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=332.5,Y=702.0 (should be at cap-height 700?)
 
@@ -7245,9 +7182,9 @@ multiply
 
 	* quotedblright (U+201D): X=125.5,Y=698.5 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=462.5,Y=702.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=473.0,Y=702.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=465.5,Y=-1.5 (should be at baseline 0?) 
+	* Euro (U+20AC): X=475.5,Y=-1.5 (should be at baseline 0?) 
 
 	* partialdiff (U+2202): X=92.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -7388,7 +7325,7 @@ multiply
 	* thorn (U+00FE): L<<127.0,700.0>--<126.0,399.0>> 
 
 	* uni0304 (U+0304): L<<48.0,649.0>--<321.0,650.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7738,6 +7675,10 @@ multiply
 
 * ⚠ **WARN** OS/2 VendorID value 'KK  ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
+
+
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -7766,6 +7707,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -7788,7 +7731,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -7827,7 +7770,7 @@ lessequal
 
 	* Y (U+0059): X=543.0,Y=701.0 (should be at cap-height 700?)
 
-	* g (U+0067): X=372.5,Y=1.0 (should be at baseline 0?)
+	* g (U+0067): X=370.5,Y=1.0 (should be at baseline 0?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
@@ -7877,13 +7820,13 @@ lessequal
 
 	* ampersand (U+0026) contains a short segment B<<339.0,353.0>-<339.0,353.0>-<339.0,354.0>>
 
-	* d (U+0064) contains a short segment B<<414.0,83.0>-<414.0,84.0>-<414.0,86.0>>
+	* d (U+0064) contains a short segment B<<412.0,83.0>-<412.0,84.0>-<412.0,86.0>>
 
 	* m (U+006D) contains a short segment B<<149.0,427.0>-<149.0,422.0>-<149.0,416.0>>
 
 	* p (U+0070) contains a short segment B<<153.0,408.0>-<153.0,406.0>-<153.0,404.0>>
 
-	* q (U+0071) contains a short segment B<<414.0,404.0>-<414.0,406.0>-<414.0,408.0>>
+	* q (U+0071) contains a short segment B<<412.0,404.0>-<412.0,406.0>-<412.0,408.0>>
 
 	* r (U+0072) contains a short segment B<<153.0,408.0>-<153.0,407.0>-<153.0,405.0>>
 
@@ -7893,11 +7836,11 @@ lessequal
 
 	* uni00B5 (U+00B5) contains a short segment B<<386.0,64.0>-<386.0,68.0>-<386.0,72.0>>
 
-	* ae (U+00E6) contains a short segment B<<395.0,422.0>-<399.0,426.0>-<402.0,430.0>>
+	* ae (U+00E6) contains a short segment B<<393.0,422.0>-<397.0,426.0>-<400.0,430.0>>
 
 	* eng (U+014B) contains a short segment L<<466.0,0.0>--<465.0,0.0>>
 
-	* oe (U+0153) contains a short segment B<<449.0,69.0>-<445.0,63.0>-<440.0,57.0>>
+	* oe (U+0153) contains a short segment B<<447.0,69.0>-<443.0,63.0>-<438.0,57.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
 
@@ -7998,8 +7941,8 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 61 | 168 | 1406 | 77 | 1053 | 0 |
-| 0% | 2% | 6% | 51% | 3% | 38% | 0% |
+| 0 | 61 | 179 | 1394 | 78 | 1053 | 0 |
+| 0% | 2% | 6% | 50% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
