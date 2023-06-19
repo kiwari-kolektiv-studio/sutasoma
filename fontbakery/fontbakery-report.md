@@ -429,7 +429,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -1105,7 +1105,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1732,7 +1732,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -2361,13 +2361,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, plus, greaterequal
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2409,6 +2409,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=14.0,Y=484.0 (should be at x-height 485?)
 
 	* f (U+0066): X=96.0,Y=484.0 (should be at x-height 485?)
+
+	* f (U+0066): X=313.5,Y=698.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=165.0,Y=484.0 (should be at x-height 485?)
 
@@ -3049,13 +3051,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, plus, greaterequal
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3722,7 +3724,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -4403,7 +4405,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -5074,7 +5076,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5749,7 +5751,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -7723,7 +7725,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
