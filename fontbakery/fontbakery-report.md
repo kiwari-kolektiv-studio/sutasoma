@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -559,6 +559,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=268.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
+
+	* questiondown (U+00BF): X=186.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=18.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1118,7 +1120,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -1806,7 +1808,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -2496,13 +2498,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, greaterequal, less
+less, plus, greater, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2525,9 +2527,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=350.0,Y=701.0 (should be at cap-height 700?)
 
-	* question (U+003F): X=176.0,Y=0.5 (should be at baseline 0?)
+	* question (U+003F): X=179.0,Y=1.0 (should be at baseline 0?)
 
-	* question (U+003F): X=240.5,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=243.5,Y=1.0 (should be at baseline 0?)
 
 	* G (U+0047): X=422.0,Y=699.5 (should be at cap-height 700?)
 
@@ -3239,13 +3241,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, greaterequal, less
+less, plus, greater, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3917,7 +3919,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -4640,7 +4642,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -4765,8 +4767,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
-
-	* questiondown (U+00BF): X=199.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5355,7 +5355,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -6033,7 +6033,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -6740,9 +6740,9 @@ multiply
 
 	* semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=186.0,Y=-2.0 (should be at baseline 0?)
+	* question (U+003F): X=179.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=237.0,Y=-1.5 (should be at baseline 0?)
+	* question (U+003F): X=230.0,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=402.5,Y=702.0 (should be at cap-height 700?)
 
@@ -8030,7 +8030,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+less, greater, greaterequal
 
 Width = 463:
 multiply
