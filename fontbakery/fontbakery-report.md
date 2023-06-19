@@ -403,11 +403,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -433,7 +429,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1079,13 +1075,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -1113,7 +1105,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -1151,8 +1143,6 @@ lessequal
 	* f (U+0066): X=11.0,Y=488.0 (should be at x-height 490?)
 
 	* f (U+0066): X=91.0,Y=488.0 (should be at x-height 490?)
-
-	* f (U+0066): X=323.0,Y=702.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=184.0,Y=488.0 (should be at x-height 490?)
 
@@ -1716,11 +1706,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
@@ -1746,7 +1732,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1838,7 +1824,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<246.0,281.0>-<245.0,282.0>-<243.0,282.0>>
+	* dollar (U+0024) contains a short segment B<<261.0,272.0>-<252.0,277.0>-<243.0,282.0>>
 
 	* ampersand (U+0026) contains a short segment B<<212.0,383.0>-<217.0,384.0>-<221.0,385.0>>
 
@@ -2311,7 +2297,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 244 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 242 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2350,11 +2336,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedbl	Contours detected: 1	Expected: 2
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -2379,7 +2361,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, less, greater, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -2555,12 +2537,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ampersand (U+0026) contains a short segment B<<202.0,369.0>-<208.0,371.0>-<214.0,372.0>>
 
 	* g (U+0067) contains a short segment B<<370.0,452.0>-<373.0,449.0>-<376.0,446.0>>
-
-	* k (U+006B) contains a short segment L<<150.0,288.0>--<160.0,297.0>>
-
-	* k (U+006B) contains a short segment L<<160.0,297.0>--<159.0,298.0>>
-
-	* k (U+006B) contains a short segment L<<159.0,298.0>--<160.0,298.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
@@ -3015,7 +2991,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 244 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 242 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3052,11 +3028,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3 
 
@@ -3077,7 +3049,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, less, greater, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -3724,11 +3696,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -3754,7 +3722,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -3918,8 +3886,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<422.0,436.0>-<414.0,432.0>-<409.0,426.0>>
 
-	* k (U+006B) contains a short segment L<<192.0,203.0>--<181.0,193.0>>
-
 	* sterling (U+00A3) contains a short segment B<<93.0,348.0>-<93.0,355.0>-<92.0,362.0>>
 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
@@ -4004,11 +3970,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<251.0,-151.0>--<251.0,105.0>> -> L<<251.0,105.0>--<256.0,166.0>>
+	* daggerdbl (U+2021): L<<251.0,-151.0>--<251.0,105.0>> -> L<<251.0,105.0>--<256.0,166.0>> 
 
-	* daggerdbl (U+2021): L<<322.0,166.0>--<327.0,105.0>> -> L<<327.0,105.0>--<327.0,-151.0>> 
-
-	* k (U+006B): L<<217.0,229.0>--<192.0,203.0>> -> L<<192.0,203.0>--<181.0,193.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<322.0,166.0>--<327.0,105.0>> -> L<<327.0,105.0>--<327.0,-151.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4413,11 +4377,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -4443,7 +4403,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -4580,8 +4540,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<425.0,432.0>-<420.0,429.0>-<415.0,426.0>>
 
-	* k (U+006B) contains a short segment L<<228.0,218.0>--<218.0,208.0>>
-
 	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
 
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
@@ -4691,8 +4649,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* daggerdbl (U+2021): L<<249.0,-153.0>--<249.0,102.0>> -> L<<249.0,102.0>--<254.0,163.0>>
 
 	* daggerdbl (U+2021): L<<328.0,163.0>--<333.0,102.0>> -> L<<333.0,102.0>--<333.0,-153.0>>
-
-	* k (U+006B): L<<228.0,218.0>--<218.0,208.0>> -> L<<218.0,208.0>--<193.0,183.0>>
 
 	* notequal (U+2260): L<<226.0,417.0>--<346.0,383.0>> -> L<<346.0,383.0>--<400.0,368.0>> 
 
@@ -5094,11 +5050,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3 
 
@@ -5122,7 +5074,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -5771,11 +5723,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
@@ -5801,7 +5749,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -5907,6 +5855,10 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* dollar (U+0024) contains a short segment B<<258.0,287.0>-<256.0,288.0>-<254.0,290.0>>
+
+	* dollar (U+0024) contains a short segment B<<323.0,417.0>-<326.0,415.0>-<330.0,413.0>>
 
 	* ampersand (U+0026) contains a short segment B<<212.0,382.0>-<219.0,383.0>-<227.0,385.0>>
 
@@ -6387,7 +6339,7 @@ lessequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 254 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 250 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6424,13 +6376,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
@@ -6582,8 +6530,6 @@ multiply
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* dollar (U+0024) contains a short segment B<<235.0,346.0>-<231.0,347.0>-<228.0,349.0>>
 
 	* M (U+004D) contains a short segment L<<439.0,0.0>--<409.0,0.0>>
 
@@ -7082,7 +7028,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 254 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 250 font units wide, non-breaking space named (uni00A0) is 230 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -7119,13 +7065,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -7753,13 +7695,9 @@ multiply
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
@@ -7785,7 +7723,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
