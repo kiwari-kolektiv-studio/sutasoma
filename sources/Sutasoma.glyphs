@@ -20366,7 +20366,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 504;
+width = 502;
 },
 {
 layerId = m004;
@@ -53451,7 +53451,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 214;
+width = 221;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -53531,7 +53531,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 214;
+width = 221;
 }
 );
 note = space;
@@ -101030,12 +101030,12 @@ m01 = {
 axesValues = (
 169,
 0,
--100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = K;
+value = A;
 },
 {
 name = typoAscender;
@@ -101075,27 +101075,12 @@ value = (
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
 }
 );
-guides = (
-{
-angle = 0;
-locked = 1;
-name = "LC Accents";
-pos = (
-150,
-655
-);
-}
-);
-iconName = Regular;
-id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+iconName = Bold;
+id = m006;
 metricValues = (
 {
 over = 10;
@@ -101126,7 +101111,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraBold";
+name = "Modern ExtraBold";
 userData = {
 KernOnModels = (
 "n n",
