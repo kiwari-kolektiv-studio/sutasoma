@@ -516,9 +516,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* x (U+0078): X=201.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=374.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=373.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=523.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=522.0,Y=497.0 (should be at x-height 498?)
 
 	* braceleft (U+007B): X=273.0,Y=699.0 (should be at cap-height 700?)
 
@@ -574,9 +574,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<428.0,428.0>-<425.0,427.0>-<422.0,425.0>>
 
-	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
-
-	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
+	* sterling (U+00A3) contains a short segment B<<91.0,359.0>-<90.0,367.0>-<89.0,374.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<231.0,-10.0>-<223.0,-10.0>-<215.0,-10.0>>
 
@@ -696,9 +694,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowup (U+2191): L<<227.0,0.0>--<231.0,518.0>>
 
-	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>>
-
-	* sterling (U+00A3): L<<495.0,127.0>--<496.0,0.0>> 
+	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
@@ -1170,9 +1166,9 @@ lessequal
 
 	* x (U+0078): X=151.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=357.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=352.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=455.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=450.0,Y=488.0 (should be at x-height 490?)
 
 	* uni00B2 (U+00B2): X=272.0,Y=702.0 (should be at cap-height 700?)
 
@@ -1218,9 +1214,11 @@ lessequal
 
 	* g (U+0067) contains a short segment B<<376.0,457.0>-<378.0,455.0>-<380.0,453.0>>
 
-	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
+	* sterling (U+00A3) contains a short segment B<<94.0,353.0>-<94.0,354.0>-<94.0,355.0>>
 
-	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
+	* sterling (U+00A3) contains a short segment B<<190.0,367.0>-<190.0,360.0>-<191.0,353.0>>
+
+	* sterling (U+00A3) contains a short segment B<<197.0,290.0>-<198.0,286.0>-<198.0,283.0>>
 
 	* ae (U+00E6) contains a short segment B<<392.0,426.0>-<394.0,428.0>-<396.0,431.0>>
 
@@ -2428,6 +2426,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* r (U+0072): X=139.0,Y=484.0 (should be at x-height 485?)
 
+	* r (U+0072): X=335.0,Y=484.0 (should be at x-height 485?)
+
 	* t (U+0074): X=33.0,Y=484.0 (should be at x-height 485?)
 
 	* t (U+0074): X=99.0,Y=484.0 (should be at x-height 485?)
@@ -2442,9 +2442,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* x (U+0078): X=128.0,Y=484.0 (should be at x-height 485?)
 
-	* x (U+0078): X=348.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=346.0,Y=484.0 (should be at x-height 485?)
 
-	* x (U+0078): X=425.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=422.0,Y=484.0 (should be at x-height 485?)
 
 	* y (U+0079): X=202.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2540,7 +2540,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<370.0,452.0>-<373.0,449.0>-<376.0,446.0>>
 
-	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
+	* sterling (U+00A3) contains a short segment B<<97.0,344.0>-<97.0,347.0>-<96.0,351.0>>
+
+	* sterling (U+00A3) contains a short segment B<<168.0,358.0>-<169.0,351.0>-<170.0,344.0>>
 
 	* ae (U+00E6) contains a short segment B<<383.0,412.0>-<388.0,420.0>-<394.0,428.0>>
 
@@ -3824,9 +3826,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* x (U+0078): X=168.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=363.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=359.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=478.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=474.0,Y=491.0 (should be at x-height 493?)
 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
@@ -3888,9 +3890,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<422.0,436.0>-<414.0,432.0>-<409.0,426.0>>
 
-	* sterling (U+00A3) contains a short segment B<<93.0,348.0>-<93.0,355.0>-<92.0,362.0>>
+	* sterling (U+00A3) contains a short segment B<<100.0,277.0>-<99.0,284.0>-<99.0,292.0>>
 
-	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
+	* sterling (U+00A3) contains a short segment B<<93.0,355.0>-<92.0,358.0>-<92.0,361.0>>
 
 	* AE (U+00C6) contains a short segment L<<390.0,693.0>--<390.0,700.0>>
 
@@ -4478,9 +4480,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* x (U+0078): X=185.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=369.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=366.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=501.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=498.0,Y=494.0 (should be at x-height 495?)
 
 	* braceleft (U+007B): X=260.0,Y=698.0 (should be at cap-height 700?)
 
@@ -4542,9 +4544,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<425.0,432.0>-<420.0,429.0>-<415.0,426.0>>
 
-	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
+	* sterling (U+00A3) contains a short segment B<<99.0,287.0>-<98.0,290.0>-<98.0,294.0>>
 
-	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
+	* sterling (U+00A3) contains a short segment B<<92.0,357.0>-<91.0,362.0>-<91.0,368.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
@@ -5818,9 +5820,9 @@ lessequal
 
 	* Scaron (U+0160): X=376.5,Y=698.5 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=92.0,Y=701.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=95.0,Y=701.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=354.0,Y=701.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=357.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7204,9 +7206,9 @@ multiply
 
 	* q (U+0071) contains a short segment B<<413.0,401.0>-<413.0,405.0>-<413.0,409.0>>
 
-	* sterling (U+00A3) contains a short segment B<<100.0,332.0>-<100.0,339.0>-<99.0,346.0>>
+	* sterling (U+00A3) contains a short segment B<<100.0,335.0>-<99.0,340.0>-<99.0,346.0>>
 
-	* sterling (U+00A3) contains a short segment B<<147.0,349.0>-<148.0,340.0>-<148.0,332.0>>
+	* sterling (U+00A3) contains a short segment B<<147.0,350.0>-<148.0,342.0>-<148.0,335.0>>
 
 	* yen (U+00A5) contains a short segment L<<226.0,289.0>--<226.0,295.0>>
 
