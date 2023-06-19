@@ -16,14 +16,14 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Rubik-Regular.ttf"
+FONT_PATH = "fonts/ttf/SutasomaModerat-Bold.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "Aa"
-BIG_TEXT_FONT_SIZE = 1024
-BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5
+BIG_TEXT = "SUTASOMA"
+BIG_TEXT_FONT_SIZE = 300
+BIG_TEXT_SIDE_MARGIN = MARGIN * 2
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 7.5
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -74,7 +74,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(1)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -84,7 +84,7 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(1)
+    fill(0)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
@@ -97,7 +97,7 @@ def draw_main_text():
 
 # Divider lines
 def draw_divider_lines():
-    stroke(1)
+    stroke(0)
     strokeWidth(4)
     lineCap("round")
     line((MARGIN, HEIGHT - MARGIN), (WIDTH - MARGIN, HEIGHT - MARGIN))
@@ -110,8 +110,8 @@ def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.5)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.5)
+    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1)
+    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
     POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
     URL_AND_HASH = MY_URL + "at commit " + MY_HASH
@@ -127,7 +127,7 @@ def draw_auxiliary_text():
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
+    # draw_divider_lines()
     draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
