@@ -5,7 +5,6 @@ axisOrder:
   - slnt
   - wght
 familyName: Sutasoma
-version: 1.001
 instances:
   Sutasoma[GRAD,slnt,wght].ttf:
     - familyName: "Sutasoma Modern"
