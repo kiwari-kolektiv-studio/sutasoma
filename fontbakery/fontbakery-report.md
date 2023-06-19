@@ -433,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -531,7 +531,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=204.0,Y=-1.5 (should be at baseline 0?)
+	* questiondown (U+00BF): X=204.0,Y=-1.0 (should be at baseline 0?)
+
+	* questiondown (U+00BF): X=55.5,Y=-2.0 (should be at baseline 0?)
 
 	* atilde (U+00E3): X=228.5,Y=700.5 (should be at cap-height 700?)
 
@@ -1082,7 +1084,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 463:
 multiply
@@ -1705,7 +1707,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 466:
 multiply
@@ -1722,7 +1724,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2332,7 +2334,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greater, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -3014,7 +3016,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greater, greaterequal
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -3689,7 +3691,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -4375,7 +4377,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -4458,7 +4460,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=192.0,Y=699.0 (should be at cap-height 700?)
 
-	* Agrave (U+00C0): X=181.0,Y=952.0 (should be at ascender 950?)
+	* Agrave (U+00C0): X=203.0,Y=952.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=443.5,Y=698.0 (should be at cap-height 700?)
 
@@ -5048,7 +5050,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 464:
 multiply
@@ -5727,7 +5729,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 465:
 multiply
@@ -7701,7 +7703,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, greater, less
 
 Width = 463:
 multiply
