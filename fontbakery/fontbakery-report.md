@@ -433,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 466:
 multiply
@@ -450,7 +450,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -459,14 +459,20 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
+	* ('Aacute', 399, 963)
+	* ('Eacute', 360, 963)
+	* ('Iacute', 228, 963)
+	* ('Iacute', 302, 885)
 	* ('Idieresis', 302, 891)
 	* ('Idieresis', 302, 859)
 	* ('Idieresis', 302, 828)
+	* ('Oacute', 424, 963)
+	* ('Uacute', 414, 963)
+	* ('Yacute', 396, 963)
+	* ('aacute', 343, 760)
 	* ('eacute', 353, 760)
-	* ('iacute', 217, 761)
-	* ('iacute', 291, 683)
 	* ('oacute', 364, 760)
-	* ('yacute', 352, 761)
+	* ('uacute', 358, 760)
 	* ('periodcentered', 83, 382)
 	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
 
@@ -478,9 +484,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=372.0,Y=699.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=94.0,Y=1.0 (should be at baseline 0?)
+	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=96.0,Y=1.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=110.0,Y=-2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=372.0,Y=698.5 (should be at cap-height 700?)
 
@@ -550,11 +556,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* tildecomb (U+0303): X=166.5,Y=700.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=87.0,Y=2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=105.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=301.0,Y=2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=319.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=87.0,Y=2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=105.0,Y=-1.0 (should be at baseline 0?)
 
 	* product (U+220F): X=37.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -563,6 +569,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* comma (U+002C) contains a short segment B<<105.0,-6.0>-<106.0,-4.0>-<107.0,-2.0>>
+
+	* semicolon (U+003B) contains a short segment B<<107.0,-6.0>-<109.0,-4.0>-<110.0,-2.0>>
 
 	* R (U+0052) contains a short segment B<<308.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
@@ -587,6 +597,24 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03BC (U+03BC) contains a short segment B<<231.0,-10.0>-<223.0,-10.0>-<215.0,-10.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
+
+	* quoteleft (U+2018) contains a short segment B<<142.0,548.0>-<141.0,547.0>-<140.0,545.0>>
+
+	* quoteright (U+2019) contains a short segment B<<103.0,545.0>-<104.0,546.0>-<105.0,548.0>>
+
+	* quotesinglbase (U+201A) contains a short segment B<<103.0,-4.0>-<104.0,-3.0>-<105.0,-1.0>>
+
+	* quotedblleft (U+201C) contains a short segment B<<142.0,548.0>-<141.0,547.0>-<140.0,545.0>>
+
+	* quotedblleft (U+201C) contains a short segment B<<356.0,548.0>-<355.0,547.0>-<354.0,545.0>>
+
+	* quotedblright (U+201D) contains a short segment B<<317.0,543.0>-<318.0,544.0>-<319.0,546.0>>
+
+	* quotedblright (U+201D) contains a short segment B<<103.0,543.0>-<104.0,544.0>-<105.0,546.0>>
+
+	* quotedblbase (U+201E) contains a short segment B<<317.0,-4.0>-<318.0,-3.0>-<319.0,-1.0>>
+
+	* quotedblbase (U+201E) contains a short segment B<<103.0,-4.0>-<104.0,-3.0>-<105.0,-1.0>>
 
 	* Euro (U+20AC) contains a short segment B<<259.0,366.0>-<259.0,358.0>-<259.0,350.0>>
 
@@ -1085,7 +1113,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 463:
 multiply
@@ -1109,6 +1137,10 @@ lessequal
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
 	* dollar (U+0024): X=362.0,Y=701.0 (should be at cap-height 700?)
+
+	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=106.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=437.5,Y=0.5 (should be at baseline 0?)
 
@@ -1164,11 +1196,17 @@ lessequal
 
 	* pi (U+03C0): X=591.5,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=93.0,Y=1.0 (should be at baseline 0?)
+	* quoteleft (U+2018): X=169.0,Y=698.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=254.0,Y=1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=107.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=93.0,Y=1.0 (should be at baseline 0?)
+	* quotedblleft (U+201C): X=169.0,Y=698.0 (should be at cap-height 700?)
+
+	* quotedblleft (U+201C): X=330.0,Y=698.0 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=268.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=107.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?)
 
@@ -1708,7 +1746,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 466:
 multiply
@@ -1725,7 +1763,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2341,7 +2379,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, greater, plus, less
+plus, less, greaterequal, greater
 
 Width = 462:
 multiply
@@ -2360,7 +2398,7 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 262, 890) and ('icircumflex', 241, 590)
+	* ('Iacute', 267, 889) and ('icircumflex', 241, 590)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -2369,6 +2407,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
 	* dollar (U+0024): X=346.0,Y=701.0 (should be at cap-height 700?)
+
+	* comma (U+002C): X=101.0,Y=-2.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=99.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=175.0,Y=1.0 (should be at baseline 0?)
 
@@ -2432,9 +2474,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* acircumflex (U+00E2): X=262.0,Y=701.0 (should be at cap-height 700?)
 
-	* ecircumflex (U+00EA): X=242.0,Y=701.0 (should be at cap-height 700?)
+	* ecircumflex (U+00EA): X=241.0,Y=701.0 (should be at cap-height 700?)
 
-	* ecircumflex (U+00EA): X=284.0,Y=701.0 (should be at cap-height 700?)
+	* ecircumflex (U+00EA): X=283.0,Y=701.0 (should be at cap-height 700?)
 
 	* icircumflex (U+00EE): X=96.0,Y=702.0 (should be at cap-height 700?)
 
@@ -2484,7 +2526,19 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=576.5,Y=-1.5 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=69.5,Y=698.0 (should be at cap-height 700?)
+	* quoteleft (U+2018): X=160.0,Y=699.0 (should be at cap-height 700?)
+
+	* quoteright (U+2019): X=69.0,Y=698.5 (should be at cap-height 700?)
+
+	* quotesinglbase (U+201A): X=100.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblleft (U+201C): X=160.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblleft (U+201C): X=300.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=240.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3023,7 +3077,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, greater, plus, less
+plus, less, greaterequal, greater
 
 Width = 462:
 multiply
@@ -3166,7 +3220,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
-	* Oslash (U+00D8) contains a short segment B<<188.0,114.0>-<189.0,113.0>-<190.0,111.0>>
+	* Oslash (U+00D8) contains a short segment B<<484.0,584.0>-<482.0,586.0>-<481.0,589.0>>
+
+	* Oslash (U+00D8) contains a short segment B<<187.0,116.0>-<188.0,114.0>-<190.0,111.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
@@ -3698,7 +3754,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 464:
 multiply
@@ -3715,7 +3771,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 528 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 527 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3724,17 +3780,21 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 281, 888)
+	* ('Aacute', 397, 947)
+	* ('Eacute', 376, 947)
+	* ('Iacute', 232, 947)
+	* ('Igrave', -11, 886)
+	* ('Oacute', 430, 947)
+	* ('Uacute', 426, 947)
+	* ('Yacute', 388, 947)
+	* ('aacute', 343, 738)
 	* ('eacute', 359, 738)
-	* ('iacute', 213, 741)
-	* ('iacute', 269, 681)
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
-	* ('igrave', -56, 680)
 	* ('oacute', 368, 738)
 	* ('scaron', 114, 723)
 	* ('scaron', 326, 723)
-	* ('yacute', 342, 741)
+	* ('uacute', 359, 738)
 	* ('zcaron', 105, 723)
 	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
@@ -3747,6 +3807,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* comma (U+002C): X=108.0,Y=-2.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=108.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=438.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3796,21 +3860,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
-	* Aacute (U+00C1): X=389.0,Y=948.0 (should be at ascender 950?)
-
 	* Ccedilla (U+00C7): X=438.0,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=445.0,Y=2.0 (should be at baseline 0?)
-
-	* Eacute (U+00C9): X=368.0,Y=948.0 (should be at ascender 950?)
-
-	* Iacute (U+00CD): X=225.0,Y=948.0 (should be at ascender 950?)
-
-	* Oacute (U+00D3): X=427.0,Y=948.0 (should be at ascender 950?)
-
-	* Uacute (U+00DA): X=418.0,Y=948.0 (should be at ascender 950?)
-
-	* Yacute (U+00DD): X=380.0,Y=948.0 (should be at ascender 950?)
 
 	* breve (U+02D8): X=57.0,Y=702.0 (should be at cap-height 700?)
 
@@ -3828,11 +3880,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=615.5,Y=1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=91.0,Y=1.0 (should be at baseline 0?)
+	* quoteleft (U+2018): X=171.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=270.0,Y=1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=91.0,Y=1.0 (should be at baseline 0?)
+	* quotedblleft (U+201C): X=171.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblleft (U+201C): X=350.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=285.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=106.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
 
@@ -4385,7 +4443,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 465:
 multiply
@@ -4402,7 +4460,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 531 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4422,9 +4480,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=369.0,Y=699.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=94.0,Y=1.0 (should be at baseline 0?)
+	* comma (U+002C): X=108.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=96.0,Y=1.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=109.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=443.5,Y=698.0 (should be at cap-height 700?)
 
@@ -4468,17 +4526,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=192.0,Y=699.0 (should be at cap-height 700?)
 
-	* Agrave (U+00C0): X=203.0,Y=952.0 (should be at ascender 950?)
+	* Agrave (U+00C0): X=218.0,Y=951.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=443.5,Y=698.0 (should be at cap-height 700?)
 
-	* Egrave (U+00C8): X=151.0,Y=952.0 (should be at ascender 950?)
+	* Egrave (U+00C8): X=188.0,Y=951.0 (should be at ascender 950?)
 
-	* Igrave (U+00CC): X=13.0,Y=952.0 (should be at ascender 950?)
+	* Igrave (U+00CC): X=50.0,Y=951.0 (should be at ascender 950?)
 
-	* Ograve (U+00D2): X=221.0,Y=952.0 (should be at ascender 950?)
+	* Ograve (U+00D2): X=247.0,Y=951.0 (should be at ascender 950?)
 
-	* Ugrave (U+00D9): X=203.0,Y=952.0 (should be at ascender 950?)
+	* Ugrave (U+00D9): X=240.0,Y=951.0 (should be at ascender 950?)
 
 	* atilde (U+00E3): X=357.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4492,11 +4550,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0304 (U+0304): X=346.0,Y=702.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=89.0,Y=2.0 (should be at baseline 0?)
+	* quoteleft (U+2018): X=172.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=285.0,Y=2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=89.0,Y=2.0 (should be at baseline 0?)
+	* quotedblleft (U+201C): X=172.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblleft (U+201C): X=368.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=302.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=106.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
 
@@ -5058,7 +5122,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 464:
 multiply
@@ -5102,9 +5166,9 @@ lessequal
 	* ('Ntilde', 252, 893)
 	* ('Ntilde', 273, 893)
 	* ('Ntilde', 284, 893)
-	* ('Oacute', 451, 931)
-	* ('Ocircumflex', 316, 920)
-	* ('Ocircumflex', 363, 920)
+	* ('Oacute', 447, 931)
+	* ('Ocircumflex', 312, 920)
+	* ('Ocircumflex', 359, 920)
 	* ('Ograve', 225, 931)
 	* ('Otilde', 257, 893)
 	* ('Otilde', 278, 893)
@@ -5737,7 +5801,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 465:
 multiply
@@ -6399,7 +6463,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7094,7 +7158,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 514 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7109,6 +7173,10 @@ multiply
 	* exclam (U+0021): X=173.5,Y=0.5 (should be at baseline 0?)
 
 	* dollar (U+0024): X=330.0,Y=702.0 (should be at cap-height 700?)
+
+	* comma (U+002C): X=95.0,Y=-2.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=92.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=176.0,Y=-2.0 (should be at baseline 0?)
 
@@ -7130,23 +7198,23 @@ multiply
 
 	* Ccedilla (U+00C7): X=413.0,Y=-1.0 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=117.0,Y=699.0 (should be at cap-height 700?)
+	* agrave (U+00E0): X=119.0,Y=699.0 (should be at cap-height 700?)
 
 	* aacute (U+00E1): X=335.0,Y=699.0 (should be at cap-height 700?)
 
-	* egrave (U+00E8): X=140.0,Y=699.0 (should be at cap-height 700?)
+	* egrave (U+00E8): X=142.0,Y=699.0 (should be at cap-height 700?)
 
 	* eacute (U+00E9): X=358.0,Y=699.0 (should be at cap-height 700?)
 
-	* igrave (U+00EC): X=-9.0,Y=699.0 (should be at cap-height 700?)
+	* igrave (U+00EC): X=-7.0,Y=699.0 (should be at cap-height 700?)
 
 	* iacute (U+00ED): X=209.0,Y=699.0 (should be at cap-height 700?)
 
-	* ograve (U+00F2): X=140.0,Y=699.0 (should be at cap-height 700?)
+	* ograve (U+00F2): X=142.0,Y=699.0 (should be at cap-height 700?)
 
 	* oacute (U+00F3): X=358.0,Y=699.0 (should be at cap-height 700?)
 
-	* ugrave (U+00F9): X=122.0,Y=699.0 (should be at cap-height 700?)
+	* ugrave (U+00F9): X=124.0,Y=699.0 (should be at cap-height 700?)
 
 	* uacute (U+00FA): X=340.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7162,11 +7230,17 @@ multiply
 
 	* pi (U+03C0): X=561.0,Y=-2.0 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=125.5,Y=698.5 (should be at cap-height 700?)
+	* quoteright (U+2019): X=126.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblright (U+201D): X=243.5,Y=698.5 (should be at cap-height 700?)
+	* quotesinglbase (U+201A): X=93.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=125.5,Y=698.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=244.0,Y=698.5 (should be at cap-height 700?)
+
+	* quotedblright (U+201D): X=126.0,Y=698.5 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=211.0,Y=-2.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=93.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=470.0,Y=702.0 (should be at cap-height 700?) 
 
@@ -7711,7 +7785,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, less, greater
+less, greaterequal, greater
 
 Width = 463:
 multiply
@@ -7921,7 +7995,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 61 | 179 | 1394 | 78 | 1053 | 0 |
+| 0 | 61 | 179 | 1394 | 77 | 1054 | 0 |
 | 0% | 2% | 6% | 50% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
