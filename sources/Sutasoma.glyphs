@@ -21311,7 +21311,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (158,0);
+pos = (166,-2);
 ref = acutecomb;
 }
 );
@@ -21331,7 +21331,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 518;
+width = 514;
 },
 {
 layerId = m006;
@@ -35402,19 +35402,19 @@ shapes = (
 closed = 1;
 nodes = (
 (126,-185,l),
-(216,-155,o),
-(282,-91,o),
-(319,14,cs),
+(210,-155,o),
+(267,-90,o),
+(306,14,cs),
 (490,500,l),
 (399,500,l),
-(275,123,l),
-(322,123,l),
+(262,123,l),
+(309,123,l),
 (196,500,l),
 (16,500,l),
-(221,-39,l),
-(235,1,l),
-(210,-74,o),
-(164,-100,o),
+(208,-39,l),
+(222,1,l),
+(197,-74,o),
+(155,-100,o),
 (26,-120,c)
 );
 }
@@ -100456,14 +100456,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-169,
+93,
 0,
 0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = K;
+value = B;
 },
 {
 name = typoAscender;
@@ -100502,13 +100502,17 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
 }
 );
-iconName = Bold;
-id = m006;
+iconName = Regular;
+id = m005;
 metricValues = (
 {
 over = 10;
@@ -100520,7 +100524,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 500;
+pos = 490;
 },
 {
 over = -10;
@@ -100539,7 +100543,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraBold";
+name = "Modern Regular";
 userData = {
 KernOnModels = (
 "n n",
