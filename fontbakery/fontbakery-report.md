@@ -433,7 +433,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -462,6 +462,10 @@ lessequal
 	* ('Idieresis', 302, 891)
 	* ('Idieresis', 302, 859)
 	* ('Idieresis', 302, 828)
+	* ('iacute', 217, 761)
+	* ('iacute', 291, 683)
+	* ('oacute', 364, 760)
+	* ('yacute', 352, 761)
 	* ('periodcentered', 83, 382)
 	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
 
@@ -1078,7 +1082,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
@@ -1701,7 +1705,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 466:
 multiply
@@ -2328,7 +2332,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greaterequal, greater
+less, plus, greater, greaterequal
 
 Width = 462:
 multiply
@@ -2347,7 +2351,7 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 281, 890) and ('icircumflex', 241, 590)
+	* ('Iacute', 262, 890) and ('icircumflex', 241, 590)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3010,7 +3014,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greaterequal, greater
+less, plus, greater, greaterequal
 
 Width = 462:
 multiply
@@ -3685,7 +3689,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -3711,13 +3715,16 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('iacute', 232, 742)
+	* ('Iacute', 281, 888)
+	* ('iacute', 213, 741)
+	* ('iacute', 269, 681)
 	* ('icircumflex', 90, 723)
 	* ('icircumflex', 162, 723)
-	* ('igrave', 19, 743)
+	* ('igrave', -56, 680)
+	* ('oacute', 368, 738)
 	* ('scaron', 114, 723)
 	* ('scaron', 326, 723)
-	* ('yacute', 361, 742)
+	* ('yacute', 342, 741)
 	* ('zcaron', 105, 723)
 	* ('zcaron', 317, 723)
 	* ('periodcentered', 86, 362)
@@ -3779,21 +3786,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
-	* Aacute (U+00C1): X=409.0,Y=949.0 (should be at ascender 950?)
+	* Aacute (U+00C1): X=389.0,Y=948.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=438.0,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=445.0,Y=2.0 (should be at baseline 0?)
 
-	* Eacute (U+00C9): X=388.0,Y=949.0 (should be at ascender 950?)
+	* Eacute (U+00C9): X=368.0,Y=948.0 (should be at ascender 950?)
 
-	* Iacute (U+00CD): X=244.0,Y=949.0 (should be at ascender 950?)
+	* Iacute (U+00CD): X=225.0,Y=948.0 (should be at ascender 950?)
 
-	* Oacute (U+00D3): X=446.0,Y=949.0 (should be at ascender 950?)
+	* Oacute (U+00D3): X=427.0,Y=948.0 (should be at ascender 950?)
 
-	* Uacute (U+00DA): X=438.0,Y=949.0 (should be at ascender 950?)
+	* Uacute (U+00DA): X=418.0,Y=948.0 (should be at ascender 950?)
 
-	* Yacute (U+00DD): X=399.0,Y=949.0 (should be at ascender 950?)
+	* Yacute (U+00DD): X=380.0,Y=948.0 (should be at ascender 950?)
 
 	* breve (U+02D8): X=57.0,Y=702.0 (should be at cap-height 700?)
 
@@ -3805,9 +3812,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0306 (U+0306): X=300.0,Y=698.0 (should be at cap-height 700?)
 
-	* uni030B (U+030B): X=199.0,Y=702.0 (should be at cap-height 700?)
+	* uni030B (U+030B): X=197.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni030F (U+030F): X=155.0,Y=702.0 (should be at cap-height 700?)
+	* uni030F (U+030F): X=158.0,Y=701.0 (should be at cap-height 700?)
 
 	* pi (U+03C0): X=615.5,Y=1.0 (should be at baseline 0?)
 
@@ -4368,7 +4375,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -4394,7 +4401,6 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('iacute', 297, 683)
 	* ('j', 217, 680)
 	* ('j', 217, 644) and ('j', 217, 609)
 
@@ -4452,7 +4458,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=192.0,Y=699.0 (should be at cap-height 700?)
 
+	* Agrave (U+00C0): X=181.0,Y=952.0 (should be at ascender 950?)
+
 	* Ccedilla (U+00C7): X=443.5,Y=698.0 (should be at cap-height 700?)
+
+	* Egrave (U+00C8): X=151.0,Y=952.0 (should be at ascender 950?)
+
+	* Igrave (U+00CC): X=13.0,Y=952.0 (should be at ascender 950?)
+
+	* Ograve (U+00D2): X=221.0,Y=952.0 (should be at ascender 950?)
+
+	* Ugrave (U+00D9): X=203.0,Y=952.0 (should be at ascender 950?)
 
 	* atilde (U+00E3): X=357.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5032,7 +5048,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 464:
 multiply
@@ -5063,7 +5079,7 @@ lessequal
 	* ('Aring', 320, 934)
 	* ('Atilde', 213, 893)
 	* ('Atilde', 234, 893)
-	* ('Atilde', 246, 893)
+	* ('Atilde', 245, 893)
 	* ('Eacute', 391, 931)
 	* ('Ecircumflex', 256, 920)
 	* ('Ecircumflex', 303, 920)
@@ -5073,16 +5089,16 @@ lessequal
 	* ('Icircumflex', 161, 920)
 	* ('Icircumflex', 264, 792)
 	* ('Igrave', 27, 931)
-	* ('Ntilde', 251, 893)
-	* ('Ntilde', 272, 893)
+	* ('Ntilde', 252, 893)
+	* ('Ntilde', 273, 893)
 	* ('Ntilde', 284, 893)
 	* ('Oacute', 451, 931)
 	* ('Ocircumflex', 316, 920)
 	* ('Ocircumflex', 363, 920)
-	* ('Ograve', 229, 931)
-	* ('Otilde', 260, 893)
-	* ('Otilde', 281, 893)
-	* ('Otilde', 293, 893)
+	* ('Ograve', 225, 931)
+	* ('Otilde', 257, 893)
+	* ('Otilde', 278, 893)
+	* ('Otilde', 289, 893)
 	* ('Uacute', 458, 931)
 	* ('Ucircumflex', 323, 920)
 	* ('Ucircumflex', 370, 920)
@@ -5711,7 +5727,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 465:
 multiply
@@ -7104,33 +7120,33 @@ multiply
 
 	* Ccedilla (U+00C7): X=413.0,Y=-1.0 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=119.0,Y=699.0 (should be at cap-height 700?)
+	* agrave (U+00E0): X=117.0,Y=699.0 (should be at cap-height 700?)
 
-	* aacute (U+00E1): X=351.0,Y=699.0 (should be at cap-height 700?)
+	* aacute (U+00E1): X=335.0,Y=699.0 (should be at cap-height 700?)
 
-	* egrave (U+00E8): X=142.0,Y=699.0 (should be at cap-height 700?)
+	* egrave (U+00E8): X=140.0,Y=699.0 (should be at cap-height 700?)
 
-	* eacute (U+00E9): X=374.0,Y=699.0 (should be at cap-height 700?)
+	* eacute (U+00E9): X=358.0,Y=699.0 (should be at cap-height 700?)
 
-	* igrave (U+00EC): X=-7.0,Y=699.0 (should be at cap-height 700?)
+	* igrave (U+00EC): X=-9.0,Y=699.0 (should be at cap-height 700?)
 
-	* iacute (U+00ED): X=225.0,Y=699.0 (should be at cap-height 700?)
+	* iacute (U+00ED): X=209.0,Y=699.0 (should be at cap-height 700?)
 
-	* ograve (U+00F2): X=142.0,Y=699.0 (should be at cap-height 700?)
+	* ograve (U+00F2): X=140.0,Y=699.0 (should be at cap-height 700?)
 
-	* oacute (U+00F3): X=374.0,Y=699.0 (should be at cap-height 700?)
+	* oacute (U+00F3): X=358.0,Y=699.0 (should be at cap-height 700?)
 
-	* ugrave (U+00F9): X=124.0,Y=699.0 (should be at cap-height 700?)
+	* ugrave (U+00F9): X=122.0,Y=699.0 (should be at cap-height 700?)
 
-	* uacute (U+00FA): X=356.0,Y=699.0 (should be at cap-height 700?)
+	* uacute (U+00FA): X=340.0,Y=699.0 (should be at cap-height 700?)
 
-	* yacute (U+00FD): X=337.0,Y=699.0 (should be at cap-height 700?)
+	* yacute (U+00FD): X=321.0,Y=699.0 (should be at cap-height 700?)
 
 	* Scaron (U+0160): X=329.5,Y=702.0 (should be at cap-height 700?)
 
 	* florin (U+0192): X=394.5,Y=701.5 (should be at cap-height 700?)
 
-	* gravecomb (U+0300): X=101.0,Y=699.0 (should be at cap-height 700?)
+	* gravecomb (U+0300): X=99.0,Y=699.0 (should be at cap-height 700?)
 
 	* acutecomb (U+0301): X=200.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7685,7 +7701,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+less, greater, greaterequal
 
 Width = 463:
 multiply
