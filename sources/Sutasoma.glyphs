@@ -100540,14 +100540,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-169,
+93,
 0,
-0
+-100
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = K;
+value = T;
 },
 {
 name = typoAscender;
@@ -100586,13 +100586,17 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
 }
 );
-iconName = Bold;
-id = m006;
+iconName = Regular;
+id = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
 metricValues = (
 {
 over = 10;
@@ -100604,7 +100608,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 500;
+pos = 490;
 },
 {
 over = -10;
@@ -100623,7 +100627,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraBold";
+name = "Moderat Regular";
 userData = {
 KernOnModels = (
 "n n",
