@@ -22,7 +22,21 @@ Fontbakery version: 0.8.13
   - SutasomaModerat-Bold.ttf (nameID 1)
   - SutasomaModerat-ExtraLight.ttf (nameID 16)
   - SutasomaModerat-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -559,8 +573,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=268.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
-
-	* questiondown (U+00BF): X=186.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=18.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2498,13 +2510,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greater, greaterequal
+less, greater, plus, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -2527,9 +2539,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=350.0,Y=701.0 (should be at cap-height 700?)
 
-	* question (U+003F): X=179.0,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=176.0,Y=0.5 (should be at baseline 0?)
 
-	* question (U+003F): X=243.5,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=240.5,Y=1.0 (should be at baseline 0?)
 
 	* G (U+0047): X=422.0,Y=699.5 (should be at cap-height 700?)
 
@@ -3241,13 +3253,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greater, greaterequal
+less, greater, plus, greaterequal
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -4767,6 +4779,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
+
+	* questiondown (U+00BF): X=199.0,Y=-1.5 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6740,9 +6754,9 @@ multiply
 
 	* semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=179.0,Y=-2.0 (should be at baseline 0?)
+	* question (U+003F): X=186.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=230.0,Y=-1.5 (should be at baseline 0?)
+	* question (U+003F): X=237.0,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=402.5,Y=702.0 (should be at cap-height 700?)
 
@@ -8242,7 +8256,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 49 | 168 | 1406 | 76 | 1066 | 0 |
+| 1 | 49 | 168 | 1406 | 76 | 1065 | 0 |
 | 0% | 2% | 6% | 51% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
