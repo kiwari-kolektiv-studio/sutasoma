@@ -425,7 +425,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -442,7 +442,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 537 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -611,8 +611,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* AE (U+00C6) contains a short segment L<<385.0,695.0>--<385.0,700.0>>
 
-	* thorn (U+00FE) contains a short segment B<<205.0,459.0>-<205.0,459.0>-<205.0,459.0>>
-
 	* oe (U+0153) contains a short segment B<<517.0,211.0>-<516.0,209.0>-<516.0,207.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
@@ -623,7 +621,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
-	* Euro (U+20AC) contains a short segment B<<260.0,366.0>-<260.0,359.0>-<260.0,353.0>>
+	* Euro (U+20AC) contains a short segment B<<260.0,366.0>-<260.0,358.0>-<260.0,350.0>>
 
 	* Euro (U+20AC) contains a short segment B<<92.0,350.0>-<92.0,358.0>-<92.0,366.0>>
 
@@ -1112,7 +1110,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -1137,9 +1135,9 @@ lessequal
 
 	* dollar (U+0024): X=367.0,Y=701.0 (should be at cap-height 700?)
 
-	* C (U+0043): X=430.5,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=437.5,Y=0.5 (should be at baseline 0?)
 
-	* C (U+0043): X=435.0,Y=1.5 (should be at baseline 0?)
+	* G (U+0047): X=446.5,Y=699.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=366.5,Y=700.5 (should be at cap-height 700?)
 
@@ -1231,9 +1229,7 @@ lessequal
 
 	* uni00B5 (U+00B5): X=173.0,Y=-1.0 (should be at baseline 0?)
 
-	* Ccedilla (U+00C7): X=430.5,Y=698.0 (should be at cap-height 700?)
-
-	* Ccedilla (U+00C7): X=435.0,Y=2.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=438.0,Y=1.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=25.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1263,9 +1259,7 @@ lessequal
 
 	* quotedblbase (U+201E): X=93.0,Y=1.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=483.5,Y=698.0 (should be at cap-height 700?)
-
-	* Euro (U+20AC): X=488.0,Y=1.5 (should be at baseline 0?)
+	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?)
 
 	* product (U+220F): X=44.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -1290,6 +1284,8 @@ lessequal
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
 	* ae (U+00E6) contains a short segment B<<394.0,426.0>-<396.0,428.0>-<398.0,431.0>>
+
+	* thorn (U+00FE) contains a short segment B<<169.0,433.0>-<173.0,439.0>-<178.0,444.0>>
 
 	* oe (U+0153) contains a short segment B<<451.0,419.0>-<456.0,425.0>-<461.0,431.0>>
 
@@ -1793,7 +1789,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 466:
 multiply
@@ -1810,7 +1806,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 526 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2474,13 +2470,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greaterequal, greater
+greaterequal, greater, less, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2507,7 +2503,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* question (U+003F): X=243.5,Y=1.0 (should be at baseline 0?)
 
-	* G (U+0047): X=425.5,Y=699.5 (should be at cap-height 700?)
+	* C (U+0043): X=418.0,Y=701.0 (should be at cap-height 700?)
+
+	* C (U+0043): X=421.5,Y=-0.5 (should be at baseline 0?)
+
+	* G (U+0047): X=425.0,Y=700.5 (should be at cap-height 700?)
 
 	* S (U+0053): X=349.5,Y=701.5 (should be at cap-height 700?)
 
@@ -2601,6 +2601,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B9 (U+00B9): X=24.0,Y=701.0 (should be at cap-height 700?)
 
+	* Ccedilla (U+00C7): X=418.0,Y=701.0 (should be at cap-height 700?)
+
 	* Yacute (U+00DD): X=28.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=111.0,Y=701.0 (should be at cap-height 700?)
@@ -2671,6 +2673,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quoteright (U+2019): X=69.5,Y=698.0 (should be at cap-height 700?)
 
+	* Euro (U+20AC): X=475.0,Y=701.0 (should be at cap-height 700?)
+
+	* Euro (U+20AC): X=478.5,Y=-0.5 (should be at baseline 0?)
+
 	* product (U+220F): X=49.0,Y=701.0 (should be at cap-height 700?) 
 
 	* product (U+220F): X=755.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
@@ -2695,9 +2701,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment L<<409.0,228.0>--<409.0,226.0>>
 
-	* OE (U+0152) contains a short segment B<<532.0,618.0>-<532.0,617.0>-<533.0,617.0>>
+	* OE (U+0152) contains a short segment B<<532.0,618.0>-<532.0,617.0>-<532.0,617.0>>
 
-	* OE (U+0152) contains a short segment B<<533.0,83.0>-<532.0,83.0>-<532.0,83.0>>
+	* OE (U+0152) contains a short segment B<<532.0,83.0>-<532.0,83.0>-<532.0,83.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
@@ -2800,7 +2806,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* uni0304 (U+0304): L<<47.0,663.0>--<328.0,665.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3200,17 +3206,21 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, plus, greaterequal, greater
+greaterequal, greater, less, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3269,7 +3279,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Ccedilla (U+00C7): X=419.5,Y=698.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=422.0,Y=2.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=421.0,Y=2.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=28.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3319,7 +3329,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=104.0,Y=-2.0 (should be at baseline 0?) 
 
-	* Euro (U+20AC): X=476.5,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* Euro (U+20AC): X=475.5,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3341,9 +3351,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
-	* Oslash (U+00D8) contains a short segment B<<489.0,584.0>-<487.0,586.0>-<486.0,589.0>>
+	* Oslash (U+00D8) contains a short segment B<<488.0,584.0>-<487.0,586.0>-<485.0,589.0>>
 
-	* Oslash (U+00D8) contains a short segment B<<192.0,116.0>-<193.0,114.0>-<195.0,111.0>>
+	* Oslash (U+00D8) contains a short segment B<<191.0,116.0>-<193.0,114.0>-<194.0,111.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
@@ -3361,7 +3371,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* OE (U+0152) contains a short segment B<<533.0,618.0>-<534.0,616.0>-<535.0,615.0>>
 
-	* OE (U+0152) contains a short segment B<<535.0,87.0>-<533.0,85.0>-<532.0,83.0>>
+	* OE (U+0152) contains a short segment B<<535.0,87.0>-<533.0,85.0>-<531.0,83.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
@@ -3867,7 +3877,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -3884,7 +3894,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 529 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 528 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3915,6 +3925,12 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=92.0,Y=1.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=93.0,Y=1.0 (should be at baseline 0?)
+
+	* C (U+0043): X=438.5,Y=699.0 (should be at cap-height 700?)
+
+	* C (U+0043): X=444.5,Y=1.5 (should be at baseline 0?)
+
+	* G (U+0047): X=451.0,Y=698.0 (should be at cap-height 700?)
 
 	* X (U+0058): X=522.0,Y=1.0 (should be at baseline 0?)
 
@@ -4000,11 +4016,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Aacute (U+00C1): X=409.0,Y=949.0 (should be at ascender 950?)
 
+	* Ccedilla (U+00C7): X=438.5,Y=699.0 (should be at cap-height 700?)
+
+	* Ccedilla (U+00C7): X=444.0,Y=2.0 (should be at baseline 0?)
+
 	* Eacute (U+00C9): X=388.0,Y=949.0 (should be at ascender 950?)
 
 	* Iacute (U+00CD): X=244.0,Y=949.0 (should be at ascender 950?)
 
-	* Oacute (U+00D3): X=451.0,Y=949.0 (should be at ascender 950?)
+	* Oacute (U+00D3): X=446.0,Y=949.0 (should be at ascender 950?)
 
 	* Uacute (U+00DA): X=444.0,Y=949.0 (should be at ascender 950?)
 
@@ -4048,6 +4068,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=88.0,Y=2.0 (should be at baseline 0?)
 
+	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
+
+	* Euro (U+20AC): X=497.0,Y=1.5 (should be at baseline 0?)
+
 	* product (U+220F): X=42.0,Y=701.0 (should be at cap-height 700?)
 
 	* product (U+220F): X=782.0,Y=701.0 (should be at cap-height 700?) 
@@ -4078,7 +4102,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<397.0,431.0>-<398.0,432.0>-<399.0,434.0>>
 
-	* thorn (U+00FE) contains a short segment B<<181.0,443.0>-<184.0,448.0>-<188.0,452.0>>
+	* thorn (U+00FE) contains a short segment B<<181.0,442.0>-<184.0,445.0>-<187.0,449.0>>
 
 	* oe (U+0153) contains a short segment B<<445.0,436.0>-<447.0,434.0>-<449.0,431.0>>
 
@@ -4585,7 +4609,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -4602,7 +4626,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 533 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4630,6 +4654,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=90.0,Y=2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=91.0,Y=2.0 (should be at baseline 0?)
+
+	* C (U+0043): X=443.0,Y=698.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=371.0,Y=699.5 (should be at cap-height 700?)
 
@@ -4711,6 +4737,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=194.0,Y=699.0 (should be at cap-height 700?)
 
+	* Ccedilla (U+00C7): X=443.0,Y=698.0 (should be at cap-height 700?)
+
 	* Yacute (U+00DD): X=20.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=176.0,Y=701.0 (should be at cap-height 700?)
@@ -4739,6 +4767,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0304 (U+0304): X=346.0,Y=702.0 (should be at cap-height 700?)
 
+	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
+
 	* product (U+220F): X=39.0,Y=701.0 (should be at cap-height 700?) 
 
 	* product (U+220F): X=791.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
@@ -4749,7 +4779,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<605.0,170.0>-<603.0,166.0>-<601.0,163.0>>
 
-	* Q (U+0051) contains a short segment B<<444.0,167.0>-<444.0,169.0>-<445.0,170.0>>
+	* Q (U+0051) contains a short segment B<<444.0,167.0>-<444.0,167.0>-<445.0,168.0>>
 
 	* R (U+0052) contains a short segment B<<300.0,271.0>-<293.0,271.0>-<287.0,271.0>>
 
@@ -4779,7 +4809,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* edieresis (U+00EB) contains a short segment L<<356.0,293.0>--<356.0,295.0>>
 
-	* thorn (U+00FE) contains a short segment B<<193.0,451.0>-<195.0,453.0>-<197.0,455.0>>
+	* thorn (U+00FE) contains a short segment B<<193.0,450.0>-<194.0,452.0>-<196.0,453.0>>
 
 	* oe (U+0153) contains a short segment B<<510.0,213.0>-<510.0,212.0>-<510.0,212.0>>
 
@@ -4791,7 +4821,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
-	* Euro (U+20AC) contains a short segment B<<247.0,358.0>-<247.0,355.0>-<247.0,352.0>>
+	* Euro (U+20AC) contains a short segment B<<247.0,358.0>-<247.0,354.0>-<247.0,350.0>>
 
 	* Euro (U+20AC) contains a short segment B<<100.0,350.0>-<100.0,354.0>-<100.0,358.0>>
 
@@ -5295,7 +5325,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 464:
 multiply
@@ -5339,17 +5369,17 @@ lessequal
 	* ('Ntilde', 251, 893)
 	* ('Ntilde', 272, 893)
 	* ('Ntilde', 284, 893)
-	* ('Oacute', 452, 931)
-	* ('Ocircumflex', 317, 920)
-	* ('Ocircumflex', 364, 920)
-	* ('Ograve', 230, 931)
-	* ('Otilde', 261, 893)
-	* ('Otilde', 282, 893)
-	* ('Otilde', 294, 893)
-	* ('Uacute', 448, 931)
-	* ('Ucircumflex', 313, 920)
-	* ('Ucircumflex', 360, 920)
-	* ('Ugrave', 226, 931)
+	* ('Oacute', 451, 931)
+	* ('Ocircumflex', 316, 920)
+	* ('Ocircumflex', 363, 920)
+	* ('Ograve', 229, 931)
+	* ('Otilde', 260, 893)
+	* ('Otilde', 281, 893)
+	* ('Otilde', 293, 893)
+	* ('Uacute', 457, 931)
+	* ('Ucircumflex', 322, 920)
+	* ('Ucircumflex', 369, 920)
+	* ('Ugrave', 235, 931)
 	* ('Yacute', 426, 931)
 	* ('icircumflex', 252, 584)
 	* ('periodcentered', 86, 362)
@@ -5968,7 +5998,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 465:
 multiply
@@ -6131,7 +6161,7 @@ lessequal
 
 	* uni03BC (U+03BC) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
 
-	* Euro (U+20AC) contains a short segment B<<247.0,358.0>-<247.0,355.0>-<247.0,353.0>>
+	* Euro (U+20AC) contains a short segment B<<246.0,358.0>-<246.0,355.0>-<246.0,353.0>>
 
 	* Euro (U+20AC) contains a short segment B<<100.0,350.0>-<100.0,354.0>-<100.0,358.0>>
 
@@ -6646,7 +6676,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7313,7 +7343,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 515 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 516 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7962,7 +7992,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greaterequal, greater
+greater, less, greaterequal
 
 Width = 463:
 multiply
@@ -7990,8 +8020,6 @@ lessequal
 	* comma (U+002C): X=114.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=114.0,Y=-2.0 (should be at baseline 0?)
-
-	* Q (U+0051): X=435.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=362.0,Y=698.5 (should be at cap-height 700?)
 
@@ -8174,7 +8202,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 61 | 167 | 1406 | 77 | 1054 | 0 |
+| 0 | 61 | 168 | 1406 | 77 | 1053 | 0 |
 | 0% | 2% | 6% | 51% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
