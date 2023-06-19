@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1120,7 +1120,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -1804,7 +1804,7 @@ Width = 512:
 plus
 
 Width = 537:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -2469,11 +2469,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
-
 	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
 
 	- Glyph name: quotedbl	Contours detected: 1	Expected: 2 
 
@@ -2494,13 +2490,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, greaterequal, less
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -2667,8 +2663,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* zcaron (U+017E): X=300.0,Y=702.0 (should be at cap-height 700?)
 
-	* florin (U+0192): X=398.0,Y=698.0 (should be at cap-height 700?)
-
 	* circumflex (U+02C6): X=240.0,Y=701.0 (should be at cap-height 700?)
 
 	* circumflex (U+02C6): X=270.0,Y=701.0 (should be at cap-height 700?)
@@ -2724,14 +2718,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
-
-	* perthousand (U+2030) contains a short segment B<<282.0,459.0>-<283.0,460.0>-<284.0,462.0>>
-
-	* perthousand (U+2030) contains a short segment B<<284.0,462.0>-<286.0,463.0>-<287.0,465.0>>
-
-	* perthousand (U+2030) contains a short segment B<<480.0,241.0>-<478.0,240.0>-<477.0,238.0>>
-
-	* perthousand (U+2030) contains a short segment B<<477.0,238.0>-<476.0,237.0>-<474.0,235.0>>
 
 	* notequal (U+2260) contains a short segment L<<89.0,261.0>--<89.0,262.0>>
 
@@ -3214,11 +3200,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
-
-	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5
-
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+	- Glyph name: dollar	Contours detected: 2	Expected: 1, 3 or 5 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -3237,13 +3219,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-plus, greater, greaterequal, less
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3407,14 +3389,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
-
-	* perthousand (U+2030) contains a short segment B<<282.0,459.0>-<283.0,460.0>-<284.0,462.0>>
-
-	* perthousand (U+2030) contains a short segment B<<284.0,462.0>-<286.0,463.0>-<287.0,465.0>>
-
-	* perthousand (U+2030) contains a short segment B<<480.0,241.0>-<478.0,240.0>-<477.0,238.0>>
-
-	* perthousand (U+2030) contains a short segment B<<477.0,238.0>-<476.0,237.0>-<474.0,235.0>>
 
 	* notequal (U+2260) contains a short segment L<<89.0,261.0>--<89.0,262.0>>
 
@@ -3919,7 +3893,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -4640,7 +4614,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -5353,7 +5327,7 @@ Width = 501:
 plus
 
 Width = 518:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -6031,7 +6005,7 @@ Width = 507:
 plus
 
 Width = 528:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -7472,6 +7446,8 @@ multiply
 
 	* Ydieresis (U+0178): X=505.0,Y=701.0 (should be at cap-height 700?)
 
+	* florin (U+0192): X=394.5,Y=701.5 (should be at cap-height 700?)
+
 	* gravecomb (U+0300): X=101.0,Y=699.0 (should be at cap-height 700?)
 
 	* acutecomb (U+0301): X=200.0,Y=699.0 (should be at cap-height 700?)
@@ -7523,8 +7499,6 @@ multiply
 	* edieresis (U+00EB) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
 
 	* oe (U+0153) contains a short segment L<<459.0,231.0>--<459.0,227.0>>
-
-	* florin (U+0192) contains a short segment B<<238.0,492.0>-<238.0,484.0>-<238.0,476.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<246.0,39.0>-<240.0,42.0>-<229.0,48.0>>
 
@@ -8028,7 +8002,7 @@ Width = 495:
 plus
 
 Width = 508:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 463:
 multiply
