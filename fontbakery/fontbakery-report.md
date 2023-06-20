@@ -428,7 +428,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, greater, greaterequal, less
+less, greaterequal, greater, lessequal
 
 Width = 488:
 multiply
@@ -1080,7 +1080,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, greater, greaterequal, less
+less, greaterequal, greater, lessequal
 
 Width = 468:
 multiply
@@ -1135,13 +1135,13 @@ approxequal
 
 	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
-	* x (U+0078): X=31.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=41.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=140.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=150.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=341.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=351.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=439.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=449.0,Y=488.0 (should be at x-height 490?)
 
 	* uni00B2 (U+00B2): X=269.0,Y=702.0 (should be at cap-height 700?)
 
@@ -1690,7 +1690,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -2322,7 +2322,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, greater, greaterequal, less
+less, greaterequal, greater, lessequal
 
 Width = 460:
 multiply
@@ -2400,13 +2400,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
-	* x (U+0078): X=37.0,Y=483.0 (should be at x-height 484?)
+	* x (U+0078): X=48.0,Y=483.0 (should be at x-height 484?)
 
-	* x (U+0078): X=120.0,Y=483.0 (should be at x-height 484?)
+	* x (U+0078): X=131.0,Y=483.0 (should be at x-height 484?)
 
-	* x (U+0078): X=337.0,Y=483.0 (should be at x-height 484?)
+	* x (U+0078): X=349.0,Y=483.0 (should be at x-height 484?)
 
-	* x (U+0078): X=414.0,Y=483.0 (should be at x-height 484?)
+	* x (U+0078): X=425.0,Y=483.0 (should be at x-height 484?)
 
 	* y (U+0079): X=207.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2977,7 +2977,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 462:
 multiply
@@ -3129,8 +3129,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* u (U+0075) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
-	* x (U+0078) contains a short segment L<<189.0,226.0>--<189.0,230.0>>
-
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<378.0,74.0>-<378.0,78.0>-<377.0,83.0>>
@@ -3239,17 +3237,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dagger (U+2020): L<<255.0,-175.0>--<255.0,343.0>> -> L<<255.0,343.0>--<261.0,408.0>>
 
-	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,81.0>> -> L<<255.0,81.0>--<260.0,141.0>>
+	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,81.0>> -> L<<255.0,81.0>--<260.0,141.0>> 
 
-	* daggerdbl (U+2021): L<<307.0,141.0>--<311.0,81.0>> -> L<<311.0,81.0>--<311.0,-175.0>>
-
-	* x (U+0078): L<<176.0,0.0>--<189.0,226.0>> -> L<<189.0,226.0>--<189.0,230.0>>
-
-	* x (U+0078): L<<189.0,226.0>--<189.0,230.0>> -> L<<189.0,230.0>--<191.0,484.0>>
-
-	* x (U+0078): L<<253.0,264.0>--<253.0,255.0>> -> L<<253.0,255.0>--<251.0,0.0>> 
-
-	* x (U+0078): L<<265.0,484.0>--<253.0,264.0>> -> L<<253.0,264.0>--<253.0,255.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<307.0,141.0>--<311.0,81.0>> -> L<<311.0,81.0>--<311.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3269,13 +3259,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowup (U+2191): L<<233.0,0.0>--<235.0,627.0>>
 
-	* arrowup (U+2191): L<<287.0,627.0>--<290.0,0.0>>
+	* arrowup (U+2191): L<<287.0,627.0>--<290.0,0.0>> 
 
-	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>>
-
-	* x (U+0078): L<<189.0,230.0>--<191.0,484.0>> 
-
-	* x (U+0078): L<<253.0,255.0>--<251.0,0.0>> [code: found-semi-vertical]
+	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[19] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3678,7 +3664,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-lessequal, greater, greaterequal, less
+less, greaterequal, greater, lessequal
 
 Width = 475:
 multiply
@@ -3769,13 +3755,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=331.0,Y=492.0 (should be at x-height 493?)
 
-	* x (U+0078): X=28.0,Y=492.0 (should be at x-height 493?)
+	* x (U+0078): X=37.0,Y=492.0 (should be at x-height 493?)
 
-	* x (U+0078): X=157.0,Y=492.0 (should be at x-height 493?)
+	* x (U+0078): X=166.0,Y=492.0 (should be at x-height 493?)
 
-	* x (U+0078): X=349.0,Y=492.0 (should be at x-height 493?)
+	* x (U+0078): X=358.0,Y=492.0 (should be at x-height 493?)
 
-	* x (U+0078): X=464.0,Y=492.0 (should be at x-height 493?)
+	* x (U+0078): X=473.0,Y=492.0 (should be at x-height 493?)
 
 	* y (U+0079): X=206.0,Y=2.0 (should be at baseline 0?)
 
@@ -4353,7 +4339,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, greater, greaterequal, less
+less, greaterequal, greater, lessequal
 
 Width = 481:
 multiply
@@ -4420,13 +4406,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=345.0,Y=495.0 (should be at x-height 496?)
 
-	* x (U+0078): X=25.0,Y=495.0 (should be at x-height 496?)
+	* x (U+0078): X=33.0,Y=495.0 (should be at x-height 496?)
 
-	* x (U+0078): X=175.0,Y=495.0 (should be at x-height 496?)
+	* x (U+0078): X=183.0,Y=495.0 (should be at x-height 496?)
 
-	* x (U+0078): X=356.0,Y=495.0 (should be at x-height 496?)
+	* x (U+0078): X=364.0,Y=495.0 (should be at x-height 496?)
 
-	* x (U+0078): X=488.0,Y=495.0 (should be at x-height 496?)
+	* x (U+0078): X=496.0,Y=495.0 (should be at x-height 496?)
 
 	* y (U+0079): X=204.0,Y=2.0 (should be at baseline 0?)
 
@@ -5027,7 +5013,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -5763,7 +5749,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -7778,7 +7764,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
