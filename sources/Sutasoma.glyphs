@@ -325,50 +325,50 @@ pos = -175;
 name = "Modern ExtraLight";
 userData = {
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d colon",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"bracketleft h",
+"d hyphen",
 "r n",
+"guilsinglleft h",
+"d underscore",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"d endash",
+"endash endash",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 },
@@ -460,51 +460,53 @@ pos = -175;
 );
 name = "Modern Regular";
 userData = {
+KernOnIndependentPairs = (
+"d underscore"
+);
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
+"d colon",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"d hyphen",
+"bracketleft h",
+"guilsinglleft h",
 "r n",
+"n a",
+"v n",
+"d endash",
+"endash endash",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 },
@@ -732,54 +734,55 @@ pos = -175;
 );
 name = "Moderat ExtraLight";
 userData = {
-KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
-"i n",
-"n u",
-"l n",
-"r n",
-"l H",
-"H o",
-"H n",
-"H s",
-"H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
-"one zero",
-"one one",
-"one two",
-"one three",
-"one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
+KernOnIndependentPairs = (
 "d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
+"d hyphen"
+);
+KernOnModels = (
+"d period",
+"d colon",
 "d quoteleft",
+"quoteright h",
+"d quoteright",
 "quoteleft h",
-"guilsinglleft h",
+"i n",
+"l n",
+"d exclam",
 "d parenleft",
 "parenleft h",
-"bracketleft h"
+"bracketleft h",
+"r n",
+"guilsinglleft h",
+"d underscore",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"endash endash",
+"l H",
+"one comma",
+"one n",
+"H s",
+"H x",
+"H n",
+"H o",
+"H ampersand",
+"one H",
+"one zero",
+"one two",
+"one one",
+"one three",
+"one four",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -870,50 +873,50 @@ pos = -175;
 name = "Moderat Regular";
 userData = {
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
+"d colon",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"d hyphen",
+"bracketleft h",
+"d underscore",
+"guilsinglleft h",
 "r n",
+"v n",
+"n a",
+"d endash",
+"endash endash",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 },
@@ -1009,50 +1012,49 @@ KernOnIndependentPairs = (
 "d underscore"
 );
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
+"d colon",
+"d exclam",
 "i n",
-"n u",
 "l n",
+"bracketleft h",
+"d hyphen",
+"d parenleft",
+"parenleft h",
+"guilsinglleft h",
 "r n",
+"d endash",
+"endash endash",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 }
@@ -22439,7 +22441,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (158,0);
+pos = (158,-2);
 ref = acutecomb;
 }
 );
@@ -22619,7 +22621,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (108,0);
+pos = (108,-2);
 ref = circumflexcomb;
 }
 );
@@ -22799,7 +22801,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (107,0);
+pos = (107,-2);
 ref = dieresiscomb;
 }
 );
@@ -22979,7 +22981,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (59,0);
+pos = (59,-2);
 ref = gravecomb;
 }
 );
@@ -36781,23 +36783,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(390,0,l),
-(242,240,l),
-(388,478,l),
-(347,478,l),
-(197,228,l),
-(336,0,l)
+(403,0,l),
+(255,240,l),
+(401,478,l),
+(360,478,l),
+(210,228,l),
+(349,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(82,0,l),
-(233,251,l),
-(99,478,l),
-(42,478,l),
-(188,240,l),
-(40,0,l)
+(95,0,l),
+(246,251,l),
+(112,478,l),
+(55,478,l),
+(201,240,l),
+(53,0,l)
 );
 }
 );
@@ -36817,7 +36819,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 430;
+width = 456;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -36825,23 +36827,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(112,0,l),
-(307,298,l),
-(218,502,l),
-(27,502,l),
-(165,227,l),
-(18,0,l)
+(484,0,l),
+(340,284,l),
+(474,502,l),
+(380,502,l),
+(198,213,l),
+(292,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(478,0,l),
-(334,284,l),
-(468,502,l),
-(374,502,l),
-(192,213,l),
-(286,0,l)
+(118,0,l),
+(313,298,l),
+(224,502,l),
+(33,502,l),
+(171,227,l),
+(24,0,l)
 );
 }
 );
@@ -36861,7 +36863,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 496;
+width = 508;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -36869,23 +36871,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(96,0,l),
-(263,258,l),
-(142,490,l),
-(35,490,l),
-(181,232,l),
-(31,0,l)
+(430,0,l),
+(283,259,l),
+(432,490,l),
+(367,490,l),
+(201,233,l),
+(322,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(420,0,l),
-(273,259,l),
-(422,490,l),
-(357,490,l),
-(191,233,l),
-(312,0,l)
+(106,0,l),
+(273,258,l),
+(152,490,l),
+(45,490,l),
+(191,232,l),
+(41,0,l)
 );
 }
 );
@@ -36905,7 +36907,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 453;
+width = 473;
 },
 {
 layerId = m004;
@@ -36913,23 +36915,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(390,0,l),
-(242,240,l),
-(388,478,l),
-(333,478,l),
-(190,239,l),
-(336,0,l)
+(403,0,l),
+(255,240,l),
+(401,478,l),
+(346,478,l),
+(203,239,l),
+(349,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(96,0,l),
-(240,240,l),
-(99,478,l),
-(42,478,l),
-(188,240,l),
-(40,0,l)
+(109,0,l),
+(253,240,l),
+(112,478,l),
+(55,478,l),
+(201,240,l),
+(53,0,l)
 );
 }
 );
@@ -36949,7 +36951,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 430;
+width = 456;
 },
 {
 layerId = m005;
@@ -36957,23 +36959,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(441,0,l),
-(293,246,l),
-(439,488,l),
-(341,488,l),
-(195,243,l),
-(334,0,l)
+(451,0,l),
+(303,246,l),
+(449,488,l),
+(351,488,l),
+(205,243,l),
+(344,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(129,0,l),
-(276,245,l),
-(140,488,l),
-(31,488,l),
-(178,243,l),
-(31,0,l)
+(139,0,l),
+(286,245,l),
+(150,488,l),
+(41,488,l),
+(188,243,l),
+(41,0,l)
 );
 }
 );
@@ -36993,7 +36995,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 472;
+width = 492;
 },
 {
 layerId = m006;
@@ -37001,23 +37003,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(538,0,l),
-(390,255,l),
-(537,502,l),
-(371,502,l),
-(219,250,l),
-(347,0,l)
+(544,0,l),
+(396,255,l),
+(543,502,l),
+(377,502,l),
+(225,250,l),
+(353,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(185,0,l),
-(337,252,l),
-(209,502,l),
-(18,502,l),
-(166,247,l),
-(19,0,l)
+(191,0,l),
+(343,252,l),
+(215,502,l),
+(24,502,l),
+(172,247,l),
+(25,0,l)
 );
 }
 );
@@ -37037,10 +37039,10 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 556;
+width = 568;
 }
 );
-metricLeft = "=w*1.06";
+metricLeft = "=w*1.4";
 metricRight = "=|";
 note = x;
 unicode = 120;
@@ -37807,7 +37809,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (112,0);
+pos = (112,-2);
 ref = acutecomb;
 }
 );
@@ -37987,7 +37989,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (61,0);
+pos = (61,-2);
 ref = dieresiscomb;
 }
 );
@@ -39114,7 +39116,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -39293,7 +39295,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -39472,7 +39474,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -39651,7 +39653,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -39830,7 +39832,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -40009,7 +40011,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 542;
+width = 540;
 },
 {
 layerId = m005;
@@ -63789,7 +63791,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 508;
+width = 504;
 },
 {
 layerId = m006;
@@ -63841,7 +63843,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 516;
+width = 522;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -63867,7 +63869,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 508;
+width = 504;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -103467,14 +103469,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-169,
+45,
 0,
--100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = I;
 },
 {
 name = typoAscender;
@@ -103513,17 +103515,13 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 200;
 }
 );
 }
 );
-iconName = Regular;
-id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+iconName = Light;
+id = m004;
 metricValues = (
 {
 over = 10;
@@ -103535,7 +103533,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 502;
+pos = 478;
 },
 {
 over = -10;
@@ -103554,56 +103552,53 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraBold";
+name = "Modern ExtraLight";
 userData = {
-KernOnIndependentPairs = (
-"d underscore"
-);
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d colon",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"bracketleft h",
+"d hyphen",
 "r n",
+"guilsinglleft h",
+"d underscore",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"d endash",
+"endash endash",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 };
