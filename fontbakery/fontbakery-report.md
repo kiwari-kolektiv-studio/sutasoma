@@ -412,20 +412,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 517 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 517 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+less, greaterequal, greater
 
-Width = 466:
+Width = 488:
 multiply
-
-Width = 519:
-minus
 
 Width = 509:
 approxequal
@@ -1106,20 +1103,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 490 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 490 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+less, greaterequal, greater
 
-Width = 463:
+Width = 468:
 multiply
-
-Width = 497:
-minus
 
 Width = 486:
 approxequal
@@ -1732,7 +1726,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 466:
 multiply
@@ -2335,20 +2329,20 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 479 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 479 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, plus, greaterequal, less
+less, plus, greaterequal, greater
 
-Width = 462:
+Width = 460:
 multiply
-
-Width = 483:
-lessequal, minus
 
 Width = 477:
 approxequal
+
+Width = 483:
+lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
@@ -2995,7 +2989,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, plus, greaterequal, less
+less, plus, greaterequal, greater
 
 Width = 462:
 multiply
@@ -3657,20 +3651,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 499 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 499 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+less, greaterequal, greater
 
-Width = 464:
+Width = 475:
 multiply
-
-Width = 504:
-minus
 
 Width = 494:
 approxequal
@@ -4326,20 +4317,17 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 508 among a set of 5 math glyphs.
+* ⚠ **WARN** The most common width is 508 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+less, greaterequal, greater
 
-Width = 465:
+Width = 481:
 multiply
-
-Width = 512:
-minus
 
 Width = 501:
 approxequal
@@ -5004,7 +4992,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 464:
 multiply
@@ -5673,7 +5661,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 465:
 multiply
@@ -7010,7 +6998,7 @@ The following math glyphs have a different width, though:
 Width = 480:
 plus
 
-Width = 461:
+Width = 451:
 multiply
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
@@ -7605,7 +7593,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 463:
 multiply
