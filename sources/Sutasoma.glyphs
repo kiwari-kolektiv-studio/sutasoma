@@ -101559,12 +101559,12 @@ m01 = {
 axesValues = (
 169,
 0,
--100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = K;
 },
 {
 name = typoAscender;
@@ -101604,16 +101604,12 @@ value = (
 {
 Axis = Weight;
 Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
 }
 );
 }
 );
-iconName = Regular;
-id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+iconName = Bold;
+id = m006;
 metricValues = (
 {
 over = 10;
@@ -101644,53 +101640,55 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraBold";
+name = "Modern ExtraBold";
 userData = {
-KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
-"i n",
-"n u",
-"l n",
-"r n",
-"l H",
-"H o",
-"H n",
-"H s",
-"H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
-"one zero",
-"one one",
-"one two",
-"one three",
-"one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
+KernOnIndependentPairs = (
 "H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
+"one comma",
 "guilsinglleft h",
+"d quoteright",
+"quoteleft h",
+"d hyphen"
+);
+KernOnModels = (
+"d quoteleft",
+"quoteright h",
+"d period",
+"d colon",
+"i n",
+"l n",
+"d exclam",
+"bracketleft h",
 "d parenleft",
 "parenleft h",
-"bracketleft h"
+"d underscore",
+"r n",
+"d endash",
+"endash endash",
+"n a",
+"v n",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"l H",
+"one n",
+"H s",
+"H n",
+"H o",
+"H x",
+"one H",
+"one zero",
+"one two",
+"one three",
+"one one",
+"one four",
+"E H",
+"H T",
+"H O",
+"H H",
+"H V"
 );
 };
 };
