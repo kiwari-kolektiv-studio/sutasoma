@@ -1522,7 +1522,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (187,200);
+pos = (191,200);
 ref = acutecomb;
 }
 );
@@ -1542,7 +1542,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 193;
@@ -1702,7 +1702,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (119,200);
+pos = (123,200);
 ref = circumflexcomb;
 }
 );
@@ -1722,7 +1722,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 194;
@@ -1882,7 +1882,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (119,200);
+pos = (123,200);
 ref = dieresiscomb;
 }
 );
@@ -1902,7 +1902,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 196;
@@ -2062,7 +2062,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (95,200);
+pos = (99,200);
 ref = gravecomb;
 }
 );
@@ -2082,7 +2082,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 192;
@@ -2242,7 +2242,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (119,200);
+pos = (123,200);
 ref = ringcomb;
 }
 );
@@ -2262,7 +2262,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 197;
@@ -2422,7 +2422,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (119,200);
+pos = (123,200);
 ref = tildecomb;
 }
 );
@@ -2442,7 +2442,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 631;
+width = 639;
 }
 );
 unicode = 195;
@@ -16029,7 +16029,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (182,200);
+pos = (189,200);
 ref = acutecomb;
 }
 );
@@ -16049,7 +16049,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 628;
+width = 642;
 }
 );
 unicode = 221;
@@ -16209,7 +16209,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (114,200);
+pos = (121,200);
 ref = dieresiscomb;
 }
 );
@@ -16229,7 +16229,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 628;
+width = 642;
 }
 );
 unicode = 376;
@@ -50819,12 +50819,12 @@ alignment = 1;
 ref = one.numr;
 },
 {
-pos = (218,0);
+pos = (219,0);
 ref = fraction;
 },
 {
 alignment = 1;
-pos = (422,0);
+pos = (423,0);
 ref = two.dnom;
 }
 );
@@ -50844,7 +50844,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 715;
+width = 716;
 },
 {
 layerId = m01;
