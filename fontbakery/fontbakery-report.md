@@ -387,7 +387,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -428,7 +430,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, lessequal, greaterequal, less
+lessequal, greaterequal, less, greater
 
 Width = 488:
 multiply
@@ -458,6 +460,7 @@ approxequal
 	* ('eacute', 353, 760)
 	* ('oacute', 364, 760)
 	* ('uacute', 358, 760)
+	* ('aacute.ss01', 342, 760)
 	* ('periodcentered', 73, 382)
 	* ('periodcentered', 114, 382) and ('periodcentered', 157, 382)
 
@@ -475,13 +478,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=372.0,Y=698.5 (should be at cap-height 700?)
 
-	* f (U+0066): X=5.0,Y=497.0 (should be at x-height 498?)
+	* f (U+0066): X=9.0,Y=497.0 (should be at x-height 498?)
 
-	* f (U+0066): X=80.0,Y=497.0 (should be at x-height 498?)
+	* f (U+0066): X=84.0,Y=497.0 (should be at x-height 498?)
 
-	* f (U+0066): X=230.0,Y=497.0 (should be at x-height 498?)
+	* f (U+0066): X=234.0,Y=497.0 (should be at x-height 498?)
 
-	* f (U+0066): X=337.0,Y=497.0 (should be at x-height 498?)
+	* f (U+0066): X=341.0,Y=497.0 (should be at x-height 498?)
 
 	* g (U+0067): X=317.0,Y=-2.0 (should be at baseline 0?)
 
@@ -525,6 +528,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
 
+	* uni00B5 (U+00B5): X=205.0,Y=1.0 (should be at baseline 0?)
+
 	* questiondown (U+00BF): X=199.0,Y=-1.0 (should be at baseline 0?)
 
 	* questiondown (U+00BF): X=51.0,Y=-2.0 (should be at baseline 0?)
@@ -567,15 +572,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030C (U+030C): X=356.0,Y=701.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=205.0,Y=1.0 (should be at baseline 0?)
+
 	* quotesinglbase (U+201A): X=103.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=317.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=320.0,Y=-1.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=103.0,Y=-1.0 (should be at baseline 0?)
 
-	* product (U+220F): X=37.0,Y=701.0 (should be at cap-height 700?) 
+	* product (U+220F): X=25.0,Y=701.0 (should be at cap-height 700?) 
 
-	* product (U+220F): X=797.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* product (U+220F): X=785.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -594,10 +601,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<247.0,397.0>-<248.0,388.0>-<249.0,379.0>>
 
 	* sterling (U+00A3) contains a short segment B<<257.0,277.0>-<258.0,268.0>-<258.0,259.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<231.0,-10.0>-<223.0,-10.0>-<215.0,-10.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
 	* AE (U+00C6) contains a short segment L<<395.0,695.0>--<395.0,700.0>>
 
@@ -621,13 +624,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblleft (U+201C) contains a short segment B<<132.0,548.0>-<131.0,547.0>-<130.0,545.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<346.0,548.0>-<345.0,547.0>-<344.0,545.0>>
+	* quotedblleft (U+201C) contains a short segment B<<349.0,548.0>-<348.0,547.0>-<347.0,545.0>>
 
-	* quotedblright (U+201D) contains a short segment B<<315.0,543.0>-<316.0,544.0>-<317.0,546.0>>
+	* quotedblright (U+201D) contains a short segment B<<318.0,543.0>-<319.0,544.0>-<320.0,546.0>>
 
 	* quotedblright (U+201D) contains a short segment B<<101.0,543.0>-<102.0,544.0>-<103.0,546.0>>
 
-	* quotedblbase (U+201E) contains a short segment B<<315.0,-4.0>-<316.0,-3.0>-<317.0,-1.0>>
+	* quotedblbase (U+201E) contains a short segment B<<318.0,-4.0>-<319.0,-3.0>-<320.0,-1.0>>
 
 	* quotedblbase (U+201E) contains a short segment B<<101.0,-4.0>-<102.0,-3.0>-<103.0,-1.0>>
 
@@ -1088,7 +1091,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1129,7 +1134,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, lessequal, greaterequal, less
+lessequal, greaterequal, less, greater
 
 Width = 468:
 multiply
@@ -1190,13 +1195,13 @@ approxequal
 
 	* uni00B2 (U+00B2): X=272.0,Y=702.0 (should be at cap-height 700?)
 
-	* uni00B5 (U+00B5): X=173.0,Y=-1.0 (should be at baseline 0?)
-
 	* Ccedilla (U+00C7): X=438.0,Y=1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=361.5,Y=700.5 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=591.5,Y=-1.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=564.0,Y=1.5 (should be at baseline 0?)
+
+	* pi (U+03C0): X=600.5,Y=1.0 (should be at baseline 0?)
 
 	* quoteleft (U+2018): X=151.0,Y=698.0 (should be at cap-height 700?)
 
@@ -1243,6 +1248,8 @@ approxequal
 	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<407.0,49.0>-<413.0,51.0>-<423.0,56.5>>
+
+	* uni03BC (U+03BC) contains a short segment B<<184.0,8.0>-<176.0,13.0>-<169.0,20.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -1702,7 +1709,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1743,7 +1752,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -1781,6 +1790,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=107.0,Y=-2.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=429.0,Y=1.0 (should be at baseline 0?)
 
 	* S (U+0053): X=386.5,Y=698.0 (should be at cap-height 700?)
 
@@ -1822,9 +1833,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=327.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=131.0,Y=-1.0 (should be at baseline 0?) 
+	* quotedblbase (U+201E): X=131.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=113.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+	* quotedblbase (U+201E): X=113.0,Y=-2.0 (should be at baseline 0?)
+
+	* product (U+220F): X=25.0,Y=701.0 (should be at cap-height 700?) 
+
+	* product (U+220F): X=785.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1849,10 +1864,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
 	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<233.0,-10.0>-<224.0,-10.0>-<215.0,-9.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<312.0,353.0>-<305.0,353.0>-<294.0,351.5>>
 
@@ -2312,7 +2323,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -2353,7 +2366,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, lessequal, greaterequal, less
+lessequal, greaterequal, less, greater
 
 Width = 460:
 multiply
@@ -2467,7 +2480,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030F (U+030F): X=65.0,Y=699.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=576.5,Y=-1.5 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=537.5,Y=-2.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=583.0,Y=-0.5 (should be at baseline 0?)
 
 	* quoteleft (U+2018): X=141.0,Y=699.0 (should be at cap-height 700?)
 
@@ -2483,9 +2498,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=95.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?) 
+	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=482.0,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
+	* Euro (U+20AC): X=482.0,Y=-0.5 (should be at baseline 0?) 
+
+	* radical (U+221A): X=329.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2969,7 +2986,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3008,7 +3027,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+greaterequal, less, greater
 
 Width = 462:
 multiply
@@ -3051,8 +3070,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* C (U+0043): X=423.5,Y=698.0 (should be at cap-height 700?)
 
 	* G (U+0047): X=430.0,Y=698.5 (should be at cap-height 700?)
-
-	* Q (U+0051): X=487.0,Y=2.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3116,7 +3133,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030A (U+030A): X=150.0,Y=701.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=462.5,Y=2.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=524.0,Y=-1.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=577.5,Y=-0.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=112.0,Y=-1.0 (should be at baseline 0?)
 
@@ -3156,6 +3175,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
+	* uni00B5 (U+00B5) contains a short segment B<<378.0,74.0>-<378.0,78.0>-<377.0,83.0>>
+
+	* uni00B5 (U+00B5) contains a short segment B<<154.0,9.0>-<146.0,13.0>-<140.0,18.0>>
+
 	* Oslash (U+00D8) contains a short segment B<<483.0,583.0>-<481.0,586.0>-<480.0,589.0>>
 
 	* Oslash (U+00D8) contains a short segment B<<186.0,117.0>-<188.0,114.0>-<190.0,111.0>>
@@ -3182,7 +3205,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
 
-	* uni03BC (U+03BC) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+	* uni03BC (U+03BC) contains a short segment B<<154.0,9.0>-<146.0,13.0>-<140.0,18.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -3640,7 +3663,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3678,10 +3703,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-greater, lessequal, greaterequal, less
+lessequal, greaterequal, less, greater
 
 Width = 475:
 multiply
@@ -3703,6 +3728,7 @@ multiply
 	* ('icircumflex', 162, 723)
 	* ('oacute', 368, 738)
 	* ('uacute', 359, 738)
+	* ('aacute.ss01', 352, 738)
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 136, 362)
@@ -3732,13 +3758,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* bracketright (U+005D): X=32.0,Y=701.0 (should be at cap-height 700?)
 
-	* f (U+0066): X=9.0,Y=491.0 (should be at x-height 493?)
+	* f (U+0066): X=10.0,Y=491.0 (should be at x-height 493?)
 
-	* f (U+0066): X=87.0,Y=491.0 (should be at x-height 493?)
+	* f (U+0066): X=89.0,Y=491.0 (should be at x-height 493?)
 
-	* f (U+0066): X=199.0,Y=491.0 (should be at x-height 493?)
+	* f (U+0066): X=201.0,Y=491.0 (should be at x-height 493?)
 
-	* f (U+0066): X=320.0,Y=491.0 (should be at x-height 493?)
+	* f (U+0066): X=321.0,Y=491.0 (should be at x-height 493?)
 
 	* m (U+006D): X=69.0,Y=491.0 (should be at x-height 493?)
 
@@ -3786,7 +3812,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0306 (U+0306): X=300.0,Y=698.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=613.0,Y=1.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=573.0,Y=2.0 (should be at baseline 0?)
 
 	* quoteleft (U+2018): X=155.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3794,9 +3820,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblleft (U+201C): X=155.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=334.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=335.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=279.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=280.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3826,6 +3852,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<209.0,377.0>-<209.0,369.0>-<210.0,362.0>>
 
+	* uni00B5 (U+00B5) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
+
 	* AE (U+00C6) contains a short segment L<<404.0,693.0>--<404.0,700.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<312.0,350.0>-<302.0,350.0>-<291.0,348.5>>
@@ -3847,6 +3875,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<410.0,55.0>-<415.0,57.0>-<424.5,62.5>>
+
+	* uni03BC (U+03BC) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -4299,7 +4329,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -4340,7 +4372,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, lessequal, greaterequal, less
+lessequal, greaterequal, less, greater
 
 Width = 481:
 multiply
@@ -4371,13 +4403,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=369.0,Y=699.5 (should be at cap-height 700?)
 
-	* f (U+0066): X=7.0,Y=494.0 (should be at x-height 495?)
+	* f (U+0066): X=10.0,Y=494.0 (should be at x-height 495?)
 
-	* f (U+0066): X=84.0,Y=494.0 (should be at x-height 495?)
+	* f (U+0066): X=86.0,Y=494.0 (should be at x-height 495?)
 
-	* f (U+0066): X=215.0,Y=494.0 (should be at x-height 495?)
+	* f (U+0066): X=217.0,Y=494.0 (should be at x-height 495?)
 
-	* f (U+0066): X=329.0,Y=494.0 (should be at x-height 495?)
+	* f (U+0066): X=331.0,Y=494.0 (should be at x-height 495?)
 
 	* m (U+006D): X=62.0,Y=494.0 (should be at x-height 495?)
 
@@ -4449,17 +4481,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblleft (U+201C): X=159.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=355.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=358.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=298.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=301.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=102.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=40.0,Y=701.0 (should be at cap-height 700?)
+	* product (U+220F): X=29.0,Y=701.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=786.0,Y=701.0 (should be at cap-height 700?) 
+	* product (U+220F): X=775.0,Y=701.0 (should be at cap-height 700?) 
 
 	* integral (U+222B): X=383.5,Y=698.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -4477,7 +4509,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<228.0,387.0>-<228.0,378.0>-<229.0,370.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
+	* uni00B5 (U+00B5) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
 	* AE (U+00C6) contains a short segment L<<399.0,692.0>--<399.0,700.0>>
 
@@ -4506,6 +4538,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<413.0,60.0>-<418.0,62.0>-<426.0,67.5>>
+
+	* uni03BC (U+03BC) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
 	* Euro (U+20AC) contains a short segment B<<244.0,358.0>-<244.0,354.0>-<244.0,350.0>>
 
@@ -4965,7 +4999,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5004,7 +5040,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -5060,6 +5096,16 @@ greaterequal
 	* ('Ugrave', 236, 931)
 	* ('Yacute', 436, 931)
 	* ('icircumflex', 252, 584)
+	* ('aacute.ss01', 368, 722)
+	* ('acircumflex.ss01', 233, 711)
+	* ('acircumflex.ss01', 280, 711)
+	* ('agrave.ss01', 146, 722)
+	* ('aring.ss01', 230, 725)
+	* ('aring.ss01', 257, 725)
+	* ('aring.ss01', 284, 725)
+	* ('atilde.ss01', 178, 684)
+	* ('atilde.ss01', 199, 684)
+	* ('atilde.ss01', 211, 684)
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 136, 362)
@@ -5076,8 +5122,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=100.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
-
-	* Q (U+0051): X=427.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=367.0,Y=698.5 (should be at cap-height 700?)
 
@@ -5100,6 +5144,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* yen (U+00A5): X=475.0,Y=701.0 (should be at cap-height 700?)
 
 	* yen (U+00A5): X=553.0,Y=701.0 (should be at cap-height 700?)
+
+	* uni00B5 (U+00B5): X=171.0,Y=2.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=32.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5126,6 +5172,12 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* hungarumlaut (U+02DD): X=250.0,Y=702.0 (should be at cap-height 700?)
 
 	* uni0307 (U+0307): X=151.0,Y=698.0 (should be at cap-height 700?)
+
+	* uni03BC (U+03BC): X=562.0,Y=1.0 (should be at baseline 0?)
+
+	* uni03BC (U+03BC): X=171.0,Y=2.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=619.0,Y=1.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5158,8 +5210,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<93.0,348.0>-<93.0,355.0>-<92.0,362.0>>
 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<313.0,364.0>-<304.0,364.0>-<292.0,362.0>>
 
@@ -5640,7 +5690,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5681,7 +5733,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -5709,9 +5761,9 @@ greaterequal
 
 	* semicolon (U+003B): X=104.0,Y=-2.0 (should be at baseline 0?)
 
-	* Q (U+0051): X=519.0,Y=1.0 (should be at baseline 0?)
+	* Q (U+0051): X=517.0,Y=2.0 (should be at baseline 0?)
 
-	* Q (U+0051): X=426.0,Y=1.0 (should be at baseline 0?)
+	* Q (U+0051): X=429.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=376.5,Y=698.5 (should be at cap-height 700?)
 
@@ -5740,6 +5792,8 @@ greaterequal
 	* yen (U+00A5): X=479.0,Y=701.0 (should be at cap-height 700?)
 
 	* yen (U+00A5): X=566.0,Y=701.0 (should be at cap-height 700?)
+
+	* uni00B5 (U+00B5): X=183.0,Y=-2.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=29.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5779,7 +5833,9 @@ greaterequal
 
 	* uni030C (U+030C): X=281.0,Y=701.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=626.0,Y=1.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=569.5,Y=2.0 (should be at baseline 0?)
+
+	* uni03BC (U+03BC): X=183.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=110.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5787,9 +5843,13 @@ greaterequal
 
 	* quotedblbase (U+201E): X=110.0,Y=-2.0 (should be at baseline 0?)
 
-	* arrowupdn (U+2195): X=233.0,Y=699.0 (should be at cap-height 700?) 
+	* arrowupdn (U+2195): X=233.0,Y=699.0 (should be at cap-height 700?)
 
-	* arrowupdn (U+2195): X=314.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+	* arrowupdn (U+2195): X=314.0,Y=699.0 (should be at cap-height 700?)
+
+	* product (U+220F): X=29.0,Y=701.0 (should be at cap-height 700?) 
+
+	* product (U+220F): X=775.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -5814,8 +5874,6 @@ greaterequal
 	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
 
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
-
-	* uni00B5 (U+00B5) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<313.0,359.0>-<304.0,359.0>-<293.0,357.0>>
 
@@ -6283,7 +6341,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -6413,9 +6473,9 @@ multiply
 
 	* Ydieresis (U+0178): X=535.0,Y=701.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=463.5,Y=1.0 (should be at baseline 0?)
+	* uni03BC (U+03BC): X=493.0,Y=-2.0 (should be at baseline 0?)
 
-	* pi (U+03C0): X=564.5,Y=0.5 (should be at baseline 0?)
+	* pi (U+03C0): X=554.5,Y=-1.0 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=66.0,Y=699.0 (should be at cap-height 700?)
 
@@ -6965,7 +7025,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7070,8 +7132,6 @@ approxequal
 
 	* florin (U+0192): X=394.5,Y=701.5 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=561.0,Y=-2.0 (should be at baseline 0?)
-
 	* quoteright (U+2019): X=124.0,Y=698.5 (should be at cap-height 700?)
 
 	* quotesinglbase (U+201A): X=91.0,Y=-2.0 (should be at baseline 0?)
@@ -7143,6 +7203,10 @@ approxequal
 	* uni03A9 (U+03A9) contains a short segment B<<246.0,39.0>-<240.0,42.0>-<229.0,48.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<400.0,35.0>-<407.0,37.0>-<419.0,43.0>>
+
+	* summation (U+2211) contains a short segment L<<52.0,-88.0>--<52.0,-68.0>>
+
+	* summation (U+2211) contains a short segment L<<52.0,680.0>--<52.0,700.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -7601,7 +7665,9 @@ approxequal
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- _part.copyright.c 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7640,7 +7706,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
@@ -7694,8 +7760,6 @@ greaterequal
 
 	* section (U+00A7): X=270.0,Y=699.0 (should be at cap-height 700?)
 
-	* uni00B5 (U+00B5): X=172.0,Y=-1.0 (should be at baseline 0?)
-
 	* Yacute (U+00DD): X=35.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=145.0,Y=701.0 (should be at cap-height 700?)
@@ -7713,6 +7777,10 @@ greaterequal
 	* Ydieresis (U+0178): X=485.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=553.0,Y=701.0 (should be at cap-height 700?)
+
+	* uni03BC (U+03BC): X=554.5,Y=-0.5 (should be at baseline 0?)
+
+	* pi (U+03C0): X=599.5,Y=-0.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=103.0,Y=-2.0 (should be at baseline 0?)
 
@@ -7742,7 +7810,7 @@ greaterequal
 
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
-	* uni00B5 (U+00B5) contains a short segment B<<386.0,64.0>-<386.0,68.0>-<386.0,72.0>>
+	* uni00B5 (U+00B5) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
 	* ae (U+00E6) contains a short segment B<<393.0,422.0>-<397.0,426.0>-<400.0,430.0>>
 
@@ -7753,6 +7821,8 @@ greaterequal
 	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<407.0,49.0>-<413.0,51.0>-<423.0,56.5>>
+
+	* uni03BC (U+03BC) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
