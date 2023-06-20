@@ -291,9 +291,6 @@ Fontbakery version: 0.8.13
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -439,7 +436,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 534 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 535 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -448,7 +445,7 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 399, 963)
+	* ('Aacute', 405, 963)
 	* ('Eacute', 360, 963)
 	* ('Iacute', 228, 963)
 	* ('Iacute', 302, 885)
@@ -602,6 +599,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
 	* AE (U+00C6) contains a short segment L<<391.0,695.0>--<391.0,700.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<309.0,334.0>-<302.0,334.0>-<292.5,333.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<292.5,333.0>-<283.0,332.0>-<275.0,330.0>>
 
 	* oe (U+0153) contains a short segment B<<516.0,211.0>-<516.0,211.0>-<516.0,210.0>>
 
@@ -985,9 +986,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
 
 
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
@@ -1606,9 +1604,6 @@ lessequal
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -1850,6 +1845,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B5 (U+00B5) contains a short segment B<<233.0,-10.0>-<224.0,-10.0>-<215.0,-9.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<312.0,353.0>-<304.0,353.0>-<293.0,351.0>>
 
 	* ae (U+00E6) contains a short segment B<<401.0,437.0>-<402.0,438.0>-<403.0,439.0>>
 
@@ -2217,9 +2214,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -2345,7 +2339,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greater, greaterequal, plus
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -2359,7 +2353,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 511 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 512 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2878,9 +2872,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -3004,7 +2995,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-less, greater, greaterequal, plus
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
@@ -3018,7 +3009,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3113,7 +3104,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030A (U+030A): X=150.0,Y=701.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=468.5,Y=2.0 (should be at baseline 0?)
+	* pi (U+03C0): X=462.5,Y=2.0 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=98.0,Y=-1.0 (should be at baseline 0?)
 
@@ -3545,9 +3536,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -3698,7 +3686,7 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 397, 947)
+	* ('Aacute', 404, 947)
 	* ('Eacute', 376, 947)
 	* ('Iacute', 232, 947)
 	* ('Igrave', -11, 886)
@@ -3794,7 +3782,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0306 (U+0306): X=300.0,Y=698.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=615.5,Y=1.0 (should be at baseline 0?)
+	* pi (U+03C0): X=613.0,Y=1.0 (should be at baseline 0?)
 
 	* quoteleft (U+2018): X=154.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3839,6 +3827,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<209.0,377.0>-<209.0,369.0>-<210.0,362.0>>
 
 	* AE (U+00C6) contains a short segment L<<398.0,693.0>--<398.0,700.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<312.0,350.0>-<303.0,350.0>-<291.5,348.5>>
+
+	* germandbls (U+00DF) contains a short segment B<<291.5,348.5>-<280.0,347.0>-<270.0,345.0>>
 
 	* ae (U+00E6) contains a short segment B<<395.0,431.0>-<396.0,432.0>-<397.0,434.0>>
 
@@ -4220,9 +4212,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -4425,7 +4414,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=192.0,Y=699.0 (should be at cap-height 700?)
 
-	* Agrave (U+00C0): X=218.0,Y=951.0 (should be at ascender 950?)
+	* Agrave (U+00C0): X=224.0,Y=951.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=443.5,Y=698.0 (should be at cap-height 700?)
 
@@ -4492,6 +4481,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B5 (U+00B5) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
 	* AE (U+00C6) contains a short segment L<<394.0,692.0>--<394.0,700.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<311.0,342.0>-<303.0,342.0>-<292.5,341.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<292.5,341.0>-<282.0,340.0>-<272.0,337.0>>
 
 	* ae (U+00E6) contains a short segment B<<398.0,435.0>-<398.0,436.0>-<399.0,436.0>>
 
@@ -4885,9 +4878,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -5036,16 +5026,16 @@ lessequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 404, 931)
-	* ('Acircumflex', 269, 920)
-	* ('Acircumflex', 316, 920)
-	* ('Agrave', 182, 931)
-	* ('Aring', 266, 934)
-	* ('Aring', 293, 934)
-	* ('Aring', 320, 934)
-	* ('Atilde', 213, 893)
-	* ('Atilde', 234, 893)
-	* ('Atilde', 246, 893)
+	* ('Aacute', 411, 931)
+	* ('Acircumflex', 276, 920)
+	* ('Acircumflex', 323, 920)
+	* ('Agrave', 189, 931)
+	* ('Aring', 273, 934)
+	* ('Aring', 300, 934)
+	* ('Aring', 327, 934)
+	* ('Atilde', 221, 893)
+	* ('Atilde', 242, 893)
+	* ('Atilde', 254, 893)
 	* ('Eacute', 391, 931)
 	* ('Ecircumflex', 256, 920)
 	* ('Ecircumflex', 303, 920)
@@ -5169,6 +5159,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<383.0,58.0>-<383.0,63.0>-<382.0,68.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<313.0,364.0>-<303.0,364.0>-<291.0,362.0>>
 
 	* ae (U+00E6) contains a short segment B<<396.0,427.0>-<398.0,430.0>-<401.0,433.0>>
 
@@ -5560,9 +5552,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -5783,7 +5772,7 @@ lessequal
 
 	* uni030C (U+030C): X=281.0,Y=701.0 (should be at cap-height 700?)
 
-	* pi (U+03C0): X=637.0,Y=1.0 (should be at baseline 0?)
+	* pi (U+03C0): X=626.0,Y=1.0 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5822,6 +5811,8 @@ lessequal
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<380.0,52.0>-<379.0,58.0>-<379.0,63.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<313.0,359.0>-<304.0,359.0>-<292.5,357.0>>
 
 	* ae (U+00E6) contains a short segment B<<399.0,432.0>-<400.0,434.0>-<402.0,436.0>>
 
@@ -6207,9 +6198,6 @@ lessequal
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -6347,7 +6335,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 495 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6891,9 +6879,6 @@ multiply
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
 
 
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
 
 
@@ -7031,7 +7016,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7495,9 +7480,6 @@ multiply
 
 
 	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x00DF (LATIN SMALL LETTER SHARP S)
 
 
 	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
