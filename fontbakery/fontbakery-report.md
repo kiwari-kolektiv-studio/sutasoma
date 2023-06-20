@@ -395,9 +395,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -418,17 +422,14 @@ The following math glyphs have a different width, though:
 Width = 512:
 plus
 
-Width = 537:
-greaterequal, less, greater
+Width = 535:
+greaterequal, greater, lessequal, less
 
 Width = 488:
 multiply
 
-Width = 509:
+Width = 519:
 approxequal
-
-Width = 520:
-lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
@@ -470,6 +471,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=95.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=95.0,Y=-2.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=431.0,Y=1.0 (should be at baseline 0?)
 
 	* S (U+0053): X=372.0,Y=698.5 (should be at cap-height 700?)
 
@@ -573,7 +576,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* product (U+220F): X=37.0,Y=701.0 (should be at cap-height 700?) 
 
-	* product (U+220F): X=799.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* product (U+220F): X=797.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -633,7 +636,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Euro (U+20AC) contains a short segment B<<92.0,350.0>-<92.0,358.0>-<92.0,366.0>>
 
-	* notequal (U+2260) contains a short segment L<<117.0,285.0>--<118.0,292.0>>
+	* partialdiff (U+2202) contains a short segment B<<353.0,416.0>-<358.0,413.0>-<362.0,409.0>>
+
+	* emptyset (U+2205) contains a short segment B<<143.0,37.0>-<140.0,38.0>-<138.0,39.0>>
+
+	* emptyset (U+2205) contains a short segment B<<61.0,115.0>-<59.0,119.0>-<57.0,123.0>>
+
+	* emptyset (U+2205) contains a short segment B<<406.0,470.0>-<408.0,469.0>-<411.0,468.0>>
+
+	* emptyset (U+2205) contains a short segment B<<488.0,392.0>-<490.0,389.0>-<492.0,385.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -1109,17 +1120,14 @@ The following math glyphs have a different width, though:
 Width = 495:
 plus
 
-Width = 508:
-greaterequal, less, greater
+Width = 499:
+greaterequal, greater, lessequal, less
 
 Width = 468:
 multiply
 
-Width = 486:
+Width = 492:
 approxequal
-
-Width = 498:
-lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1198,13 +1206,9 @@ lessequal
 
 	* quotedblbase (U+201E): X=250.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=89.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=89.0,Y=-2.0 (should be at baseline 0?) 
 
-	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?)
-
-	* product (U+220F): X=44.0,Y=701.0 (should be at cap-height 700?) 
-
-	* product (U+220F): X=773.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1702,9 +1706,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -1725,8 +1733,8 @@ The following math glyphs have a different width, though:
 Width = 512:
 plus
 
-Width = 537:
-greaterequal, less, greater
+Width = 538:
+greater, less
 
 Width = 466:
 multiply
@@ -1737,8 +1745,11 @@ minus
 Width = 509:
 approxequal
 
-Width = 520:
+Width = 518:
 lessequal
+
+Width = 535:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -1765,6 +1776,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=105.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=105.0,Y=-2.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=428.0,Y=1.0 (should be at baseline 0?)
 
 	* S (U+0053): X=386.5,Y=698.0 (should be at cap-height 700?)
 
@@ -1863,8 +1876,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Euro (U+20AC) contains a short segment B<<259.0,366.0>-<259.0,360.0>-<259.0,354.0>>
 
 	* Euro (U+20AC) contains a short segment B<<92.0,350.0>-<92.0,358.0>-<92.0,366.0>>
-
-	* notequal (U+2260) contains a short segment L<<117.0,285.0>--<118.0,292.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -2312,9 +2323,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -2333,16 +2348,16 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+plus
+
+Width = 484:
+greaterequal, greater, lessequal, less
 
 Width = 460:
 multiply
 
-Width = 477:
+Width = 481:
 approxequal
-
-Width = 483:
-lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
@@ -2470,13 +2485,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=81.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?) 
 
-	* Euro (U+20AC): X=482.0,Y=-0.5 (should be at baseline 0?)
-
-	* product (U+220F): X=49.0,Y=701.0 (should be at cap-height 700?) 
-
-	* product (U+220F): X=755.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* Euro (U+20AC): X=482.0,Y=-0.5 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -2501,10 +2512,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
-
-	* notequal (U+2260) contains a short segment L<<89.0,261.0>--<89.0,262.0>>
-
-	* notequal (U+2260) contains a short segment L<<89.0,262.0>--<89.0,262.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -2568,11 +2575,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<255.0,-143.0>--<255.0,114.0>> -> L<<255.0,114.0>--<260.0,175.0>>
+	* daggerdbl (U+2021): L<<255.0,-143.0>--<255.0,114.0>> -> L<<255.0,114.0>--<260.0,175.0>> 
 
-	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>> 
-
-	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2970,7 +2975,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -2989,16 +2998,22 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, less, plus, greater
+plus
+
+Width = 484:
+greaterequal, greater, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus
 
-Width = 477:
+Width = 478:
 approxequal
+
+Width = 480:
+lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
@@ -3164,10 +3179,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
 
-	* notequal (U+2260) contains a short segment L<<89.0,261.0>--<89.0,262.0>>
-
-	* notequal (U+2260) contains a short segment L<<89.0,262.0>--<89.0,262.0>>
-
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
 	* uni261C (U+261C) contains a short segment B<<375.5,91.5>-<369.0,93.0>-<357.5,94.5>>
@@ -3232,11 +3243,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dagger (U+2020): L<<255.0,-175.0>--<255.0,343.0>> -> L<<255.0,343.0>--<261.0,408.0>>
 
-	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,98.0>> -> L<<255.0,98.0>--<260.0,159.0>>
+	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,98.0>> -> L<<255.0,98.0>--<260.0,159.0>> 
 
-	* daggerdbl (U+2021): L<<307.0,159.0>--<312.0,98.0>> -> L<<312.0,98.0>--<312.0,-175.0>> 
-
-	* notequal (U+2260): L<<362.0,307.0>--<322.0,294.0>> -> L<<322.0,294.0>--<100.0,232.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<307.0,159.0>--<312.0,98.0>> -> L<<312.0,98.0>--<312.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3261,7 +3270,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* thorn (U+00FE): L<<145.0,700.0>--<144.0,415.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3634,9 +3643,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -3655,19 +3668,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus
+approxequal, plus
 
-Width = 518:
-greaterequal, less, greater
+Width = 511:
+greaterequal, greater, lessequal, less
 
 Width = 475:
 multiply
-
-Width = 494:
-approxequal
-
-Width = 505:
-lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -3789,13 +3796,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
 
-	* Euro (U+20AC): X=497.0,Y=1.5 (should be at baseline 0?)
+	* Euro (U+20AC): X=497.0,Y=1.5 (should be at baseline 0?) 
 
-	* product (U+220F): X=42.0,Y=701.0 (should be at cap-height 700?)
-
-	* product (U+220F): X=782.0,Y=701.0 (should be at cap-height 700?) 
-
-	* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3904,12 +3907,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* daggerdbl (U+2021): L<<251.0,-151.0>--<251.0,105.0>> -> L<<251.0,105.0>--<256.0,166.0>> 
 
 	* daggerdbl (U+2021): L<<322.0,166.0>--<327.0,105.0>> -> L<<327.0,105.0>--<327.0,-151.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* notequal (U+2260): L<<389.0,327.0>--<368.0,325.0>>/L<<368.0,325.0>--<419.0,321.0>> = 9.924938040550094 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4300,9 +4297,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -4323,17 +4324,14 @@ The following math glyphs have a different width, though:
 Width = 507:
 plus
 
-Width = 528:
-greaterequal, less, greater
+Width = 523:
+greaterequal, greater, lessequal, less
 
 Width = 481:
 multiply
 
-Width = 501:
+Width = 510:
 approxequal
-
-Width = 513:
-lessequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -4448,9 +4446,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=39.0,Y=701.0 (should be at cap-height 700?) 
+	* product (U+220F): X=40.0,Y=701.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=791.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* product (U+220F): X=786.0,Y=701.0 (should be at cap-height 700?) 
+
+	* integral (U+222B): X=383.5,Y=698.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4502,15 +4502,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Euro (U+20AC) contains a short segment B<<97.0,350.0>-<97.0,354.0>-<97.0,358.0>>
 
-	* notequal (U+2260) contains a short segment L<<90.0,264.0>--<88.0,267.0>>
+	* emptyset (U+2205) contains a short segment B<<142.0,37.0>-<139.0,39.0>-<135.0,41.0>>
 
-	* notequal (U+2260) contains a short segment L<<88.0,267.0>--<89.0,267.0>>
-
-	* notequal (U+2260) contains a short segment L<<225.0,416.0>--<226.0,417.0>>
-
-	* notequal (U+2260) contains a short segment L<<400.0,368.0>--<402.0,365.0>>
-
-	* notequal (U+2260) contains a short segment L<<117.0,221.0>--<116.0,223.0>>
+	* emptyset (U+2205) contains a short segment B<<404.0,466.0>-<407.0,464.0>-<411.0,462.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -4574,13 +4568,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<249.0,-153.0>--<249.0,102.0>> -> L<<249.0,102.0>--<254.0,163.0>>
+	* daggerdbl (U+2021): L<<249.0,-153.0>--<249.0,102.0>> -> L<<249.0,102.0>--<254.0,163.0>> 
 
-	* daggerdbl (U+2021): L<<328.0,163.0>--<333.0,102.0>> -> L<<333.0,102.0>--<333.0,-153.0>>
-
-	* notequal (U+2260): L<<226.0,417.0>--<346.0,383.0>> -> L<<346.0,383.0>--<400.0,368.0>> 
-
-	* notequal (U+2260): L<<349.0,283.0>--<225.0,251.0>> -> L<<225.0,251.0>--<117.0,221.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<328.0,163.0>--<333.0,102.0>> -> L<<333.0,102.0>--<333.0,-153.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4597,7 +4587,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> 
 
 	* uni0304 (U+0304): L<<45.0,700.0>--<346.0,702.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4970,7 +4960,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: fi	Contours detected: 2	Expected: 3
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -4991,8 +4985,8 @@ The following math glyphs have a different width, though:
 Width = 501:
 plus
 
-Width = 518:
-greaterequal, less, greater
+Width = 513:
+greater, less
 
 Width = 464:
 multiply
@@ -5003,8 +4997,11 @@ minus
 Width = 494:
 approxequal
 
-Width = 505:
+Width = 500:
 lessequal
+
+Width = 511:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -5065,8 +5062,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=99.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=99.0,Y=-2.0 (should be at baseline 0?)
-
-	* Q (U+0051): X=427.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=367.0,Y=698.5 (should be at cap-height 700?)
 
@@ -5243,12 +5238,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* daggerdbl (U+2021): L<<248.0,-175.0>--<248.0,93.0>> -> L<<248.0,93.0>--<253.0,154.0>> 
 
 	* daggerdbl (U+2021): L<<325.0,154.0>--<330.0,93.0>> -> L<<330.0,93.0>--<330.0,-175.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* notequal (U+2260): L<<389.0,327.0>--<368.0,325.0>>/L<<368.0,325.0>--<419.0,321.0>> = 9.924938040550094 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -5637,9 +5626,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2 
+	- Glyph name: fl	Contours detected: 1	Expected: 2
+
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -5660,8 +5653,8 @@ The following math glyphs have a different width, though:
 Width = 507:
 plus
 
-Width = 528:
-greaterequal, less, greater
+Width = 525:
+greater, less
 
 Width = 465:
 multiply
@@ -5669,11 +5662,14 @@ multiply
 Width = 512:
 minus
 
-Width = 501:
+Width = 502:
 approxequal
 
-Width = 513:
+Width = 509:
 lessequal
+
+Width = 523:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -5692,7 +5688,7 @@ lessequal
 
 	* Q (U+0051): X=519.0,Y=1.0 (should be at baseline 0?)
 
-	* Q (U+0051): X=426.0,Y=1.0 (should be at baseline 0?)
+	* Q (U+0051): X=430.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=376.5,Y=698.5 (should be at cap-height 700?)
 
@@ -5818,16 +5814,6 @@ lessequal
 
 	* Euro (U+20AC) contains a short segment B<<97.0,350.0>-<97.0,354.0>-<97.0,358.0>>
 
-	* notequal (U+2260) contains a short segment L<<90.0,264.0>--<88.0,267.0>>
-
-	* notequal (U+2260) contains a short segment L<<88.0,267.0>--<89.0,267.0>>
-
-	* notequal (U+2260) contains a short segment L<<225.0,416.0>--<226.0,417.0>>
-
-	* notequal (U+2260) contains a short segment L<<400.0,368.0>--<402.0,365.0>>
-
-	* notequal (U+2260) contains a short segment L<<117.0,221.0>--<116.0,223.0>>
-
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
 	* uni261C (U+261C) contains a short segment B<<375.5,91.5>-<369.0,93.0>-<357.5,94.5>>
@@ -5890,13 +5876,9 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<244.0,-175.0>--<244.0,91.0>> -> L<<244.0,91.0>--<249.0,152.0>>
+	* daggerdbl (U+2021): L<<244.0,-175.0>--<244.0,91.0>> -> L<<244.0,91.0>--<249.0,152.0>> 
 
-	* daggerdbl (U+2021): L<<334.0,152.0>--<339.0,91.0>> -> L<<339.0,91.0>--<339.0,-175.0>>
-
-	* notequal (U+2260): L<<226.0,417.0>--<346.0,383.0>> -> L<<346.0,383.0>--<400.0,368.0>> 
-
-	* notequal (U+2260): L<<349.0,283.0>--<225.0,251.0>> -> L<<225.0,251.0>--<117.0,221.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<334.0,152.0>--<339.0,91.0>> -> L<<339.0,91.0>--<339.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -6598,7 +6580,7 @@ multiply
 	* macron (U+00AF): L<<53.0,643.0>--<326.0,644.0>> 
 
 	* thorn (U+00FE): L<<144.0,700.0>--<143.0,395.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6992,7 +6974,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
-* ⚠ **WARN** The most common width is 468 among a set of 11 math glyphs.
+* ⚠ **WARN** The most common width is 468 among a set of 10 math glyphs.
 The following math glyphs have a different width, though:
 
 Width = 480:
@@ -7000,6 +6982,9 @@ plus
 
 Width = 451:
 multiply
+
+Width = 469:
+approxequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
@@ -7020,6 +7005,10 @@ multiply
 
 	* dollar (U+0024): X=330.0,Y=702.0 (should be at cap-height 700?)
 
+	* percent (U+0025): X=191.0,Y=2.0 (should be at baseline 0?)
+
+	* percent (U+0025): X=554.0,Y=698.0 (should be at cap-height 700?)
+
 	* comma (U+002C): X=75.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=75.0,Y=-2.0 (should be at baseline 0?)
@@ -7039,6 +7028,18 @@ multiply
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
 
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
+
+	* onequarter (U+00BC): X=114.0,Y=2.0 (should be at baseline 0?)
+
+	* onequarter (U+00BC): X=477.0,Y=698.0 (should be at cap-height 700?)
+
+	* onehalf (U+00BD): X=114.0,Y=2.0 (should be at baseline 0?)
+
+	* onehalf (U+00BD): X=477.0,Y=698.0 (should be at cap-height 700?)
+
+	* threequarters (U+00BE): X=197.0,Y=2.0 (should be at baseline 0?)
+
+	* threequarters (U+00BE): X=560.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=410.0,Y=702.0 (should be at cap-height 700?)
 
@@ -7061,6 +7062,14 @@ multiply
 	* quotedblbase (U+201E): X=194.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=73.0,Y=-2.0 (should be at baseline 0?)
+
+	* perthousand (U+2030): X=190.0,Y=2.0 (should be at baseline 0?)
+
+	* perthousand (U+2030): X=553.0,Y=698.0 (should be at cap-height 700?)
+
+	* fraction (U+2044): X=-105.0,Y=2.0 (should be at baseline 0?)
+
+	* fraction (U+2044): X=258.0,Y=698.0 (should be at cap-height 700?)
 
 	* Euro (U+20AC): X=470.0,Y=702.0 (should be at cap-height 700?) 
 
@@ -7175,6 +7184,12 @@ multiply
 	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>> 
 
 	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* partialdiff (U+2202): B<<353.0,398.0>-<387.0,371.0>-<399.0,332.0>>/B<<399.0,332.0>-<396.0,388.0>-<383.0,440.0>> = 14.036243467926457 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -7592,8 +7607,8 @@ The following math glyphs have a different width, though:
 Width = 495:
 plus
 
-Width = 508:
-greaterequal, less, greater
+Width = 500:
+greater, less
 
 Width = 463:
 multiply
@@ -7601,11 +7616,14 @@ multiply
 Width = 497:
 minus
 
-Width = 486:
+Width = 487:
 approxequal
 
-Width = 498:
+Width = 491:
 lessequal
+
+Width = 499:
+greaterequal
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
@@ -7805,7 +7823,7 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 49 | 178 | 1394 | 78 | 1066 | 0 |
+| 0 | 49 | 177 | 1394 | 78 | 1067 | 0 |
 | 0% | 2% | 6% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
