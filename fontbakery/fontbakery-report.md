@@ -419,7 +419,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -620,9 +620,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A) contains a short segment B<<91.0,-4.0>-<92.0,-3.0>-<92.0,-1.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<121.0,548.0>-<120.0,547.0>-<120.0,545.0>>
+	* quotedblleft (U+201C) contains a short segment B<<129.0,548.0>-<128.0,547.0>-<128.0,545.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<334.0,548.0>-<333.0,547.0>-<333.0,545.0>>
+	* quotedblleft (U+201C) contains a short segment B<<343.0,548.0>-<342.0,547.0>-<342.0,545.0>>
 
 	* quotedblright (U+201D) contains a short segment B<<305.0,543.0>-<306.0,544.0>-<306.0,546.0>>
 
@@ -1113,7 +1113,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
@@ -1732,7 +1732,7 @@ Width = 512:
 plus
 
 Width = 537:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 466:
 multiply
@@ -2339,13 +2339,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, plus, greater, less
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -2468,9 +2468,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=81.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=131.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=141.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=272.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=282.0,Y=699.0 (should be at cap-height 700?)
 
 	* quotedblbase (U+201E): X=222.0,Y=-2.0 (should be at baseline 0?)
 
@@ -2995,13 +2995,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greaterequal, plus, greater, less
+plus, greaterequal, less, greater
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -3664,7 +3664,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -3788,9 +3788,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=90.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=151.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=154.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=330.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=333.0,Y=699.0 (should be at cap-height 700?)
 
 	* quotedblbase (U+201E): X=269.0,Y=-2.0 (should be at baseline 0?)
 
@@ -4333,7 +4333,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -4450,9 +4450,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=91.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=153.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=158.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=349.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=354.0,Y=699.0 (should be at cap-height 700?)
 
 	* quotedblbase (U+201E): X=287.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5004,7 +5004,7 @@ Width = 501:
 plus
 
 Width = 518:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 464:
 multiply
@@ -5673,7 +5673,7 @@ Width = 507:
 plus
 
 Width = 528:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 465:
 multiply
@@ -7605,7 +7605,7 @@ Width = 495:
 plus
 
 Width = 508:
-less, greater, greaterequal
+greaterequal, less, greater
 
 Width = 463:
 multiply
