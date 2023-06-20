@@ -22,7 +22,7 @@ Fontbakery version: 0.8.13
   - SutasomaModerat-Bold.ttf (nameID 1)
   - SutasomaModerat-ExtraLight.ttf (nameID 16)
   - SutasomaModerat-Regular.ttf (nameID 1) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -204,9 +204,6 @@ Fontbakery version: 0.8.13
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -359,10 +356,6 @@ Fontbakery version: 0.8.13
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -446,7 +439,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 534 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -469,8 +462,8 @@ lessequal
 	* ('eacute', 353, 760)
 	* ('oacute', 364, 760)
 	* ('uacute', 358, 760)
-	* ('periodcentered', 83, 382)
-	* ('periodcentered', 125, 382) and ('periodcentered', 167, 382)
+	* ('periodcentered', 71, 382)
+	* ('periodcentered', 112, 382) and ('periodcentered', 155, 382)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -480,9 +473,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=372.0,Y=699.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=95.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=110.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=95.0,Y=-2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=372.0,Y=698.5 (should be at cap-height 700?)
 
@@ -510,7 +503,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=226.0,Y=497.0 (should be at x-height 498?)
 
-	* t (U+0074): X=356.0,Y=497.0 (should be at x-height 498?)
+	* t (U+0074): X=358.0,Y=497.0 (should be at x-height 498?)
 
 	* x (U+0078): X=31.0,Y=497.0 (should be at x-height 498?)
 
@@ -536,9 +529,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=204.0,Y=-1.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=199.0,Y=-1.0 (should be at baseline 0?)
 
-	* questiondown (U+00BF): X=55.5,Y=-2.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=51.0,Y=-2.0 (should be at baseline 0?)
 
 	* atilde (U+00E3): X=228.5,Y=700.5 (should be at cap-height 700?)
 
@@ -578,11 +571,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030C (U+030C): X=356.0,Y=701.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=105.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=92.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=319.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=306.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=105.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=92.0,Y=-1.0 (should be at baseline 0?)
 
 	* product (U+220F): X=37.0,Y=701.0 (should be at cap-height 700?) 
 
@@ -592,9 +585,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* comma (U+002C) contains a short segment B<<105.0,-6.0>-<106.0,-4.0>-<107.0,-2.0>>
+	* comma (U+002C) contains a short segment B<<92.0,-6.0>-<93.0,-4.0>-<95.0,-2.0>>
 
-	* semicolon (U+003B) contains a short segment B<<107.0,-6.0>-<108.0,-4.0>-<110.0,-2.0>>
+	* semicolon (U+003B) contains a short segment B<<92.0,-6.0>-<93.0,-4.0>-<95.0,-2.0>>
 
 	* R (U+0052) contains a short segment B<<308.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
@@ -608,7 +601,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
-	* AE (U+00C6) contains a short segment L<<385.0,695.0>--<385.0,700.0>>
+	* AE (U+00C6) contains a short segment L<<391.0,695.0>--<391.0,700.0>>
 
 	* oe (U+0153) contains a short segment B<<516.0,211.0>-<516.0,211.0>-<516.0,210.0>>
 
@@ -620,23 +613,23 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC) contains a short segment B<<376.0,43.0>-<376.0,50.0>-<376.0,58.0>>
 
-	* quoteleft (U+2018) contains a short segment B<<142.0,548.0>-<141.0,547.0>-<140.0,545.0>>
+	* quoteleft (U+2018) contains a short segment B<<129.0,548.0>-<128.0,547.0>-<128.0,545.0>>
 
-	* quoteright (U+2019) contains a short segment B<<103.0,545.0>-<104.0,546.0>-<105.0,548.0>>
+	* quoteright (U+2019) contains a short segment B<<91.0,545.0>-<92.0,546.0>-<92.0,548.0>>
 
-	* quotesinglbase (U+201A) contains a short segment B<<103.0,-4.0>-<104.0,-3.0>-<105.0,-1.0>>
+	* quotesinglbase (U+201A) contains a short segment B<<91.0,-4.0>-<92.0,-3.0>-<92.0,-1.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<142.0,548.0>-<141.0,547.0>-<140.0,545.0>>
+	* quotedblleft (U+201C) contains a short segment B<<121.0,548.0>-<120.0,547.0>-<120.0,545.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<356.0,548.0>-<355.0,547.0>-<354.0,545.0>>
+	* quotedblleft (U+201C) contains a short segment B<<334.0,548.0>-<333.0,547.0>-<333.0,545.0>>
 
-	* quotedblright (U+201D) contains a short segment B<<317.0,543.0>-<318.0,544.0>-<319.0,546.0>>
+	* quotedblright (U+201D) contains a short segment B<<305.0,543.0>-<306.0,544.0>-<306.0,546.0>>
 
-	* quotedblright (U+201D) contains a short segment B<<103.0,543.0>-<104.0,544.0>-<105.0,546.0>>
+	* quotedblright (U+201D) contains a short segment B<<91.0,543.0>-<92.0,544.0>-<92.0,546.0>>
 
-	* quotedblbase (U+201E) contains a short segment B<<317.0,-4.0>-<318.0,-3.0>-<319.0,-1.0>>
+	* quotedblbase (U+201E) contains a short segment B<<305.0,-4.0>-<306.0,-3.0>-<306.0,-1.0>>
 
-	* quotedblbase (U+201E) contains a short segment B<<103.0,-4.0>-<104.0,-3.0>-<105.0,-1.0>>
+	* quotedblbase (U+201E) contains a short segment B<<91.0,-4.0>-<92.0,-3.0>-<92.0,-1.0>>
 
 	* Euro (U+20AC) contains a short segment B<<259.0,366.0>-<259.0,358.0>-<259.0,350.0>>
 
@@ -725,7 +718,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -907,9 +900,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -1062,10 +1052,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -1154,9 +1140,9 @@ lessequal
 
 	* dollar (U+0024): X=362.0,Y=701.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=89.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=110.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=89.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=437.5,Y=0.5 (should be at baseline 0?)
 
@@ -1186,7 +1172,7 @@ lessequal
 
 	* t (U+0074): X=182.0,Y=488.0 (should be at x-height 490?)
 
-	* t (U+0074): X=312.0,Y=488.0 (should be at x-height 490?)
+	* t (U+0074): X=318.0,Y=488.0 (should be at x-height 490?)
 
 	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
@@ -1210,17 +1196,17 @@ lessequal
 
 	* pi (U+03C0): X=591.5,Y=-1.0 (should be at baseline 0?)
 
-	* quoteleft (U+2018): X=169.0,Y=698.0 (should be at cap-height 700?)
+	* quoteleft (U+2018): X=151.0,Y=698.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=107.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=89.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=169.0,Y=698.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=151.0,Y=698.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=330.0,Y=698.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=312.0,Y=698.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=268.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=250.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=107.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=89.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=490.5,Y=0.5 (should be at baseline 0?)
 
@@ -1351,7 +1337,7 @@ lessequal
 	* macron (U+00AF): L<<58.0,663.0>--<346.0,664.0>> 
 
 	* uni0304 (U+0304): L<<46.0,677.0>--<335.0,679.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1533,9 +1519,6 @@ lessequal
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -1688,10 +1671,6 @@ lessequal
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -1781,9 +1760,9 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 599)
-	* ('periodcentered', 83, 382)
-	* ('periodcentered', 125, 382)
-	* ('periodcentered', 167, 382)
+	* ('periodcentered', 71, 382)
+	* ('periodcentered', 112, 382)
+	* ('periodcentered', 155, 382)
 	* ('figuredash', 18, 386) and ('figuredash', 464, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
@@ -1794,9 +1773,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=386.0,Y=698.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=118.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=105.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=120.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=105.0,Y=-2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=386.5,Y=698.0 (should be at cap-height 700?)
 
@@ -1830,17 +1809,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dotaccent (U+02D9): X=172.5,Y=699.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=133.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=120.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=115.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=102.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=347.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=334.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=329.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=316.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=133.0,Y=-1.0 (should be at baseline 0?) 
+	* quotedblbase (U+201E): X=120.0,Y=-1.0 (should be at baseline 0?) 
 
-	* quotedblbase (U+201E): X=115.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+	* quotedblbase (U+201E): X=102.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1873,6 +1852,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* uni00B5 (U+00B5) contains a short segment B<<376.0,46.0>-<376.0,52.0>-<376.0,58.0>>
 
 	* ae (U+00E6) contains a short segment B<<401.0,437.0>-<402.0,438.0>-<403.0,439.0>>
+
+	* eth (U+00F0) contains a short segment B<<311.0,550.0>-<311.0,551.0>-<310.0,551.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<184.0,437.0>-<184.0,436.0>-<184.0,435.0>>
 
@@ -1967,7 +1948,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* arrowdown (U+2193): L<<328.0,705.0>--<323.0,123.0>> 
 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2149,9 +2130,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -2304,10 +2282,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -2371,13 +2345,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+less, greater, greaterequal, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -2385,7 +2359,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 513 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 511 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2404,9 +2378,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=346.0,Y=701.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=101.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=82.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=104.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=82.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=175.0,Y=1.0 (should be at baseline 0?)
 
@@ -2450,7 +2424,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=164.0,Y=484.0 (should be at x-height 485?)
 
-	* t (U+0074): X=293.0,Y=484.0 (should be at x-height 485?)
+	* t (U+0074): X=296.0,Y=484.0 (should be at x-height 485?)
 
 	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
@@ -2494,19 +2468,19 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=576.5,Y=-1.5 (should be at baseline 0?)
 
-	* quoteleft (U+2018): X=160.0,Y=699.0 (should be at cap-height 700?)
+	* quoteleft (U+2018): X=141.0,Y=699.0 (should be at cap-height 700?)
 
-	* quoteright (U+2019): X=69.0,Y=698.5 (should be at cap-height 700?)
+	* quoteright (U+2019): X=50.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=100.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=81.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=160.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=131.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=301.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=272.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=241.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=222.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=81.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=478.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2635,7 +2609,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* uni0304 (U+0304): L<<47.0,663.0>--<328.0,665.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2817,9 +2791,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -2972,10 +2943,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -3037,13 +3004,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, greaterequal, plus, less
+less, greater, greaterequal, plus
 
 Width = 462:
 multiply
 
 Width = 483:
-minus, lessequal
+lessequal, minus
 
 Width = 477:
 approxequal
@@ -3051,7 +3018,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 505 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3070,13 +3037,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* comma (U+002C): X=120.0,Y=-1.0 (should be at baseline 0?)
+	* comma (U+002C): X=101.0,Y=-1.0 (should be at baseline 0?)
 
-	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=88.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=124.0,Y=-1.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=101.0,Y=-1.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=111.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=88.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=423.5,Y=698.0 (should be at cap-height 700?)
 
@@ -3096,7 +3063,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* r (U+0072): X=335.0,Y=486.0 (should be at x-height 485?)
 
-	* t (U+0074): X=163.0,Y=483.0 (should be at x-height 485?)
+	* t (U+0074): X=258.5,Y=-0.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3148,17 +3115,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=468.5,Y=2.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=117.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=98.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=104.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=85.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=258.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=239.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=245.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=226.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=117.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=98.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=104.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=85.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=479.5,Y=698.0 (should be at cap-height 700?)
 
@@ -3309,7 +3276,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
 
 	* thorn (U+00FE): L<<145.0,700.0>--<144.0,415.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -3491,9 +3458,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -3646,10 +3610,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -3751,9 +3711,9 @@ lessequal
 	* ('icircumflex', 162, 723)
 	* ('oacute', 368, 738)
 	* ('uacute', 359, 738)
-	* ('periodcentered', 86, 362)
-	* ('periodcentered', 118, 362)
-	* ('periodcentered', 152, 362)
+	* ('periodcentered', 70, 362)
+	* ('periodcentered', 102, 362)
+	* ('periodcentered', 136, 362)
 	* ('figuredash', 22, 388) and ('figuredash', 468, 388)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
@@ -3762,9 +3722,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* comma (U+002C): X=108.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=91.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=110.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=91.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=438.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3802,7 +3762,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=197.0,Y=491.0 (should be at x-height 493?)
 
-	* t (U+0074): X=327.0,Y=491.0 (should be at x-height 493?)
+	* t (U+0074): X=331.0,Y=491.0 (should be at x-height 493?)
 
 	* x (U+0078): X=38.0,Y=491.0 (should be at x-height 493?)
 
@@ -3836,17 +3796,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=615.5,Y=1.0 (should be at baseline 0?)
 
-	* quoteleft (U+2018): X=171.0,Y=699.0 (should be at cap-height 700?)
+	* quoteleft (U+2018): X=154.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=90.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=171.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=151.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=350.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=330.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=285.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=269.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=90.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
 
@@ -3878,7 +3838,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<209.0,377.0>-<209.0,369.0>-<210.0,362.0>>
 
-	* AE (U+00C6) contains a short segment L<<390.0,693.0>--<390.0,700.0>>
+	* AE (U+00C6) contains a short segment L<<398.0,693.0>--<398.0,700.0>>
 
 	* ae (U+00E6) contains a short segment B<<395.0,431.0>-<396.0,432.0>-<397.0,434.0>>
 
@@ -3991,7 +3951,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4173,9 +4133,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -4328,10 +4285,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -4424,9 +4377,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=369.0,Y=699.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=108.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=93.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=110.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=93.0,Y=-2.0 (should be at baseline 0?)
 
 	* C (U+0043): X=443.5,Y=698.0 (should be at cap-height 700?)
 
@@ -4454,7 +4407,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=211.0,Y=494.0 (should be at x-height 495?)
 
-	* t (U+0074): X=342.0,Y=494.0 (should be at x-height 495?)
+	* t (U+0074): X=345.0,Y=494.0 (should be at x-height 495?)
 
 	* x (U+0078): X=35.0,Y=494.0 (should be at x-height 495?)
 
@@ -4504,17 +4457,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030F (U+030F): X=166.0,Y=702.0 (should be at cap-height 700?)
 
-	* quoteleft (U+2018): X=172.0,Y=699.0 (should be at cap-height 700?)
+	* quoteleft (U+2018): X=158.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=91.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblleft (U+201C): X=172.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=153.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblleft (U+201C): X=368.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblleft (U+201C): X=349.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=302.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=287.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=91.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
 
@@ -4538,7 +4491,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni00B5 (U+00B5) contains a short segment B<<379.0,45.0>-<379.0,54.0>-<379.0,62.0>>
 
-	* AE (U+00C6) contains a short segment L<<388.0,692.0>--<388.0,700.0>>
+	* AE (U+00C6) contains a short segment L<<394.0,692.0>--<394.0,700.0>>
 
 	* ae (U+00E6) contains a short segment B<<398.0,435.0>-<398.0,436.0>-<399.0,436.0>>
 
@@ -4549,6 +4502,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ecircumflex (U+00EA) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
 
 	* edieresis (U+00EB) contains a short segment L<<355.0,293.0>--<355.0,295.0>>
+
+	* eth (U+00F0) contains a short segment B<<302.0,548.0>-<301.0,549.0>-<300.0,550.0>>
 
 	* thorn (U+00FE) contains a short segment B<<193.0,450.0>-<194.0,452.0>-<196.0,453.0>>
 
@@ -4661,7 +4616,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> 
 
 	* uni0304 (U+0304): L<<45.0,700.0>--<346.0,702.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[21] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -4843,9 +4798,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -4998,10 +4950,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -5123,9 +5071,9 @@ lessequal
 	* ('Ugrave', 236, 931)
 	* ('Yacute', 427, 931)
 	* ('icircumflex', 252, 584)
-	* ('periodcentered', 86, 362)
-	* ('periodcentered', 118, 362)
-	* ('periodcentered', 152, 362)
+	* ('periodcentered', 70, 362)
+	* ('periodcentered', 102, 362)
+	* ('periodcentered', 136, 362)
 	* ('figuredash', 22, 378) and ('figuredash', 468, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
@@ -5136,9 +5084,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dollar (U+0024): X=367.0,Y=698.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=115.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=99.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=118.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=99.0,Y=-2.0 (should be at baseline 0?)
 
 	* Q (U+0051): X=427.0,Y=2.0 (should be at baseline 0?)
 
@@ -5154,7 +5102,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067): X=369.5,Y=-2.0 (should be at baseline 0?)
 
-	* t (U+0074): X=278.0,Y=-1.5 (should be at baseline 0?)
+	* t (U+0074): X=295.0,Y=1.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=13.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5190,11 +5138,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0307 (U+0307): X=151.0,Y=698.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=112.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=96.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=291.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=275.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=112.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=96.0,Y=-2.0 (should be at baseline 0?)
 
 	* arrowupdn (U+2195): X=233.0,Y=-1.0 (should be at baseline 0?)
 
@@ -5343,7 +5291,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* arrowup (U+2191): L<<306.0,603.0>--<311.0,0.0>> 
 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -5525,9 +5473,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -5680,10 +5625,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -5768,9 +5709,9 @@ lessequal
 
 	* dollar (U+0024): X=377.0,Y=698.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=117.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=102.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=119.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=102.0,Y=-2.0 (should be at baseline 0?)
 
 	* Q (U+0051): X=519.0,Y=1.0 (should be at baseline 0?)
 
@@ -5793,8 +5734,6 @@ lessequal
 	* Y (U+0059): X=477.0,Y=701.0 (should be at cap-height 700?)
 
 	* Y (U+0059): X=564.0,Y=701.0 (should be at cap-height 700?)
-
-	* t (U+0074): X=299.5,Y=2.0 (should be at baseline 0?)
 
 	* y (U+0079): X=214.0,Y=2.0 (should be at baseline 0?)
 
@@ -5846,11 +5785,11 @@ lessequal
 
 	* pi (U+03C0): X=637.0,Y=1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=114.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=310.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=295.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=114.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=99.0,Y=-2.0 (should be at baseline 0?)
 
 	* arrowupdn (U+2195): X=233.0,Y=699.0 (should be at cap-height 700?) 
 
@@ -5999,7 +5938,7 @@ lessequal
 	* arrowup (U+2191): L<<315.0,593.0>--<320.0,0.0>> 
 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6181,9 +6120,6 @@ lessequal
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -6336,10 +6272,6 @@ lessequal
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -6415,7 +6347,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 496 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6425,19 +6357,19 @@ multiply
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* exclam (U+0021): X=117.5,Y=0.5 (should be at baseline 0?)
+	* exclam (U+0021): X=101.5,Y=0.5 (should be at baseline 0?)
 
-	* exclam (U+0021): X=173.5,Y=0.5 (should be at baseline 0?)
+	* exclam (U+0021): X=157.5,Y=0.5 (should be at baseline 0?)
 
 	* dollar (U+0024): X=333.0,Y=702.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=108.0,Y=-1.0 (should be at baseline 0?)
+	* comma (U+002C): X=88.0,Y=-1.0 (should be at baseline 0?)
 
-	* comma (U+002C): X=100.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=80.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=112.0,Y=-1.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=88.0,Y=-1.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=104.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=80.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=176.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6507,23 +6439,23 @@ multiply
 
 	* pi (U+03C0): X=564.5,Y=0.5 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=68.0,Y=699.0 (should be at cap-height 700?)
+	* quoteright (U+2019): X=48.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=105.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=85.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=97.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=77.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=189.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=169.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblright (U+201D): X=68.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=48.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=226.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=206.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=218.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=198.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=105.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=85.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=97.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=77.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=470.5,Y=702.0 (should be at cap-height 700?)
 
@@ -6690,7 +6622,7 @@ multiply
 	* macron (U+00AF): L<<53.0,643.0>--<326.0,644.0>> 
 
 	* thorn (U+00FE): L<<144.0,700.0>--<143.0,395.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -6872,9 +6804,6 @@ multiply
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -7027,10 +6956,6 @@ multiply
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -7106,7 +7031,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 521 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7116,15 +7041,15 @@ multiply
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* exclam (U+0021): X=117.5,Y=0.5 (should be at baseline 0?)
+	* exclam (U+0021): X=101.5,Y=0.5 (should be at baseline 0?)
 
-	* exclam (U+0021): X=173.5,Y=0.5 (should be at baseline 0?)
+	* exclam (U+0021): X=157.5,Y=0.5 (should be at baseline 0?)
 
 	* dollar (U+0024): X=330.0,Y=702.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=95.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=75.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=99.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=75.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=176.0,Y=-2.0 (should be at baseline 0?)
 
@@ -7152,17 +7077,17 @@ multiply
 
 	* pi (U+03C0): X=561.0,Y=-2.0 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=126.0,Y=698.5 (should be at cap-height 700?)
+	* quoteright (U+2019): X=106.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=93.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=73.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=247.0,Y=698.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=227.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblright (U+201D): X=126.0,Y=698.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=106.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=214.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=194.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=93.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=73.0,Y=-2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=470.0,Y=702.0 (should be at cap-height 700?) 
 
@@ -7303,7 +7228,7 @@ multiply
 	* thorn (U+00FE): L<<127.0,700.0>--<126.0,399.0>> 
 
 	* uni0304 (U+0304): L<<48.0,649.0>--<321.0,650.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SutasomaModerat-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7485,9 +7410,6 @@ multiply
 	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
 
 
-	- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
 	- 0x010F (LATIN SMALL LETTER D WITH CARON)
 
 
@@ -7640,10 +7562,6 @@ multiply
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 999, but got 0 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 230, but got 0 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -7730,9 +7648,9 @@ lessequal
 
 	* dollar (U+0024): X=357.0,Y=699.0 (should be at cap-height 700?)
 
-	* comma (U+002C): X=114.0,Y=-2.0 (should be at baseline 0?)
+	* comma (U+002C): X=96.0,Y=-2.0 (should be at baseline 0?)
 
-	* semicolon (U+003B): X=117.0,Y=-2.0 (should be at baseline 0?)
+	* semicolon (U+003B): X=96.0,Y=-2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=357.0,Y=698.5 (should be at cap-height 700?)
 
@@ -7747,6 +7665,8 @@ lessequal
 	* g (U+0067): X=370.5,Y=1.0 (should be at baseline 0?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
+
+	* t (U+0074): X=279.5,Y=-0.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=12.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7780,11 +7700,11 @@ lessequal
 
 	* uni03BC (U+03BC): X=172.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=111.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=93.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=272.0,Y=-2.0 (should be at baseline 0?) 
+	* quotedblbase (U+201E): X=254.0,Y=-2.0 (should be at baseline 0?) 
 
-	* quotedblbase (U+201E): X=111.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+	* quotedblbase (U+201E): X=93.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -7915,8 +7835,8 @@ lessequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 61 | 178 | 1394 | 78 | 1054 | 0 |
-| 0% | 2% | 6% | 50% | 3% | 38% | 0% |
+| 0 | 49 | 178 | 1394 | 78 | 1066 | 0 |
+| 0% | 2% | 6% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
