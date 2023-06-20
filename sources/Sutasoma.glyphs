@@ -319,50 +319,50 @@ pos = -175;
 name = "Modern ExtraLight";
 userData = {
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d colon",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"bracketleft h",
+"d hyphen",
 "r n",
+"guilsinglleft h",
+"d underscore",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"d endash",
+"endash endash",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 visible = 1;
@@ -590,14 +590,14 @@ name = "Modern ExtraBold";
 userData = {
 KernOnIndependentPairs = (
 "guilsinglleft h",
-"d underscore",
-"d quoteright",
-"quoteright h"
+"d underscore"
 );
 KernOnModels = (
 "d period",
 "d colon",
+"quoteright h",
 "d quoteleft",
+"d quoteright",
 "quoteleft h",
 "i n",
 "l n",
@@ -731,50 +731,49 @@ KernOnIndependentPairs = (
 "d colon"
 );
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"bracketleft h",
+"d hyphen",
 "r n",
+"guilsinglleft h",
+"d underscore",
+"v n",
+"n a",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
+"d endash",
+"endash endash",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 },
@@ -867,54 +866,52 @@ pos = -175;
 name = "Moderat Regular";
 userData = {
 KernOnIndependentPairs = (
-"d colon",
-"d hyphen"
+"d colon"
 );
 KernOnModels = (
-"n n",
-"v n",
-"n o",
-"o n",
-"n a",
+"d period",
+"d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
 "i n",
-"n u",
 "l n",
+"d exclam",
+"d parenleft",
+"parenleft h",
+"bracketleft h",
+"d hyphen",
+"guilsinglleft h",
+"d underscore",
 "r n",
+"v n",
+"n a",
+"d endash",
+"endash endash",
+"n n",
+"n u",
+"n at",
+"o n",
+"n o",
 "l H",
-"H o",
-"H n",
+"one comma",
+"one n",
 "H s",
 "H x",
-"H H",
-"H O",
-"H T",
-"H V",
-"E H",
+"H n",
+"H o",
+"H ampersand",
+"one H",
 "one zero",
-"one one",
 "one two",
 "one three",
 "one four",
-"one n",
-"one H",
-"d exclam",
-"d colon",
-"one comma",
-"d period",
-"H ampersand",
-"n at",
-"d hyphen",
-"d endash",
-"d underscore",
-"endash endash",
-"d quoteright",
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"guilsinglleft h",
-"d parenleft",
-"parenleft h",
-"bracketleft h"
+"one one",
+"E H",
+"H T",
+"H V",
+"H O",
+"H H"
 );
 };
 },
@@ -1012,8 +1009,8 @@ KernOnIndependentPairs = (
 );
 KernOnModels = (
 "d period",
-"d quoteleft",
 "quoteright h",
+"d quoteleft",
 "d quoteright",
 "quoteleft h",
 "d exclam",
@@ -1406,7 +1403,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (222,210);
+pos = (225,210);
 ref = acutecomb;
 }
 );
@@ -1426,7 +1423,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -1435,7 +1432,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (236,200);
+pos = (240,200);
 ref = acutecomb;
 }
 );
@@ -1455,7 +1452,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -1464,7 +1461,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (198,220);
+pos = (207,220);
 ref = acutecomb;
 }
 );
@@ -1484,7 +1481,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -1493,7 +1490,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (212,210);
+pos = (215,210);
 ref = acutecomb;
 }
 );
@@ -1513,7 +1510,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -1586,7 +1583,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (149,210);
+pos = (152,210);
 ref = circumflexcomb;
 }
 );
@@ -1606,7 +1603,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -1615,7 +1612,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (163,200);
+pos = (167,200);
 ref = circumflexcomb;
 }
 );
@@ -1635,7 +1632,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -1644,7 +1641,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (148,220);
+pos = (157,220);
 ref = circumflexcomb;
 }
 );
@@ -1664,7 +1661,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -1673,7 +1670,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (141,212);
+pos = (144,212);
 ref = circumflexcomb;
 }
 );
@@ -1693,7 +1690,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -1766,7 +1763,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (148,210);
+pos = (151,210);
 ref = dieresiscomb;
 }
 );
@@ -1786,7 +1783,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -1795,7 +1792,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (163,200);
+pos = (167,200);
 ref = dieresiscomb;
 }
 );
@@ -1815,7 +1812,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -1824,7 +1821,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (147,220);
+pos = (156,220);
 ref = dieresiscomb;
 }
 );
@@ -1844,7 +1841,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -1853,7 +1850,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (140,212);
+pos = (143,212);
 ref = dieresiscomb;
 }
 );
@@ -1873,7 +1870,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -1946,7 +1943,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (76,210);
+pos = (79,210);
 ref = gravecomb;
 }
 );
@@ -1966,7 +1963,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -1975,7 +1972,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (90,200);
+pos = (94,200);
 ref = gravecomb;
 }
 );
@@ -1995,7 +1992,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -2004,7 +2001,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (99,220);
+pos = (108,220);
 ref = gravecomb;
 }
 );
@@ -2024,7 +2021,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -2033,7 +2030,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (108,210);
+pos = (111,210);
 ref = gravecomb;
 }
 );
@@ -2053,7 +2050,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -2126,7 +2123,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (149,210);
+pos = (152,210);
 ref = ringcomb;
 }
 );
@@ -2146,7 +2143,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -2155,7 +2152,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (163,200);
+pos = (167,200);
 ref = ringcomb;
 }
 );
@@ -2175,7 +2172,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -2184,7 +2181,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (148,220);
+pos = (157,220);
 ref = ringcomb;
 }
 );
@@ -2204,7 +2201,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -2213,7 +2210,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (141,212);
+pos = (144,212);
 ref = ringcomb;
 }
 );
@@ -2233,7 +2230,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -2306,7 +2303,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (149,210);
+pos = (152,210);
 ref = tildecomb;
 }
 );
@@ -2326,7 +2323,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 602;
+width = 608;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -2335,7 +2332,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (162,200);
+pos = (166,200);
 ref = tildecomb;
 }
 );
@@ -2355,7 +2352,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 633;
 },
 {
 layerId = m004;
@@ -2364,7 +2361,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (146,220);
+pos = (155,220);
 ref = tildecomb;
 }
 );
@@ -2384,7 +2381,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 589;
+width = 607;
 },
 {
 layerId = m005;
@@ -2393,7 +2390,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (139,212);
+pos = (142,212);
 ref = tildecomb;
 }
 );
@@ -2413,7 +2410,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 619;
 },
 {
 layerId = m006;
@@ -15913,7 +15910,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (228,210);
+pos = (238,210);
 ref = acutecomb;
 }
 );
@@ -15933,7 +15930,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 559;
+width = 588;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -15942,7 +15939,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (270,200);
+pos = (277,200);
 ref = acutecomb;
 }
 );
@@ -15962,7 +15959,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 595;
+width = 614;
 },
 {
 layerId = m004;
@@ -16000,7 +15997,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (188,210);
+pos = (198,210);
 ref = acutecomb;
 }
 );
@@ -16020,7 +16017,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 572;
+width = 592;
 },
 {
 layerId = m006;
@@ -16093,7 +16090,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (154,210);
+pos = (164,210);
 ref = dieresiscomb;
 }
 );
@@ -16113,7 +16110,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 559;
+width = 588;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -16122,7 +16119,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (197,200);
+pos = (204,200);
 ref = dieresiscomb;
 }
 );
@@ -16142,7 +16139,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 595;
+width = 614;
 },
 {
 layerId = m004;
@@ -16180,7 +16177,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (116,212);
+pos = (126,212);
 ref = dieresiscomb;
 }
 );
@@ -16200,7 +16197,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 572;
+width = 592;
 },
 {
 layerId = m006;
@@ -50784,12 +50781,12 @@ alignment = 1;
 ref = one.numr;
 },
 {
-pos = (237,0);
+pos = (241,0);
 ref = fraction;
 },
 {
 alignment = 1;
-pos = (415,0);
+pos = (419,0);
 ref = two.dnom;
 }
 );
@@ -50809,7 +50806,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 724;
+width = 728;
 },
 {
 layerId = m006;
@@ -50854,12 +50851,12 @@ alignment = 1;
 ref = one.numr;
 },
 {
-pos = (219,0);
+pos = (223,0);
 ref = fraction;
 },
 {
 alignment = 1;
-pos = (372,0);
+pos = (376,0);
 ref = two.dnom;
 }
 );
@@ -50879,7 +50876,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 666;
+width = 670;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -50889,12 +50886,12 @@ alignment = 1;
 ref = one.numr;
 },
 {
-pos = (239,0);
+pos = (241,0);
 ref = fraction;
 },
 {
 alignment = 1;
-pos = (417,0);
+pos = (419,0);
 ref = two.dnom;
 }
 );
@@ -50914,7 +50911,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 726;
+width = 728;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -50924,12 +50921,12 @@ alignment = 1;
 ref = one.numr;
 },
 {
-pos = (217,0);
+pos = (219,0);
 ref = fraction;
 },
 {
 alignment = 1;
-pos = (421,0);
+pos = (423,0);
 ref = two.dnom;
 }
 );
@@ -50949,7 +50946,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 714;
+width = 716;
 }
 );
 unicode = 189;
@@ -61804,7 +61801,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 360;
+width = 326;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -101003,6 +101000,1490 @@ name = "Moderat ExtraBold";
 weightClass = 800;
 }
 );
+kerningLTR = {
+m004 = {
+endash = {
+endash = 0;
+};
+a = {
+g = 10;
+s = 3;
+v = -5;
+};
+r = {
+a = -9;
+c = -15;
+e = -15;
+g = -13;
+n = 0;
+o = -15;
+y = 28;
+quoteright = 26;
+};
+f = {
+f = 79;
+i = 44;
+r = 20;
+};
+P = {
+a = -5;
+};
+M = {
+a = -4;
+};
+e = {
+c = 11;
+d = 12;
+l = -2;
+n = -2;
+q = 12;
+r = -2;
+s = 13;
+period = -4;
+comma = -3;
+colon = 15;
+};
+B = {
+};
+two = {
+zero = 2;
+one = 15;
+};
+L = {
+e = -26;
+};
+n = {
+a = 0;
+g = 11;
+n = 0;
+o = 0;
+s = 3;
+u = 0;
+colon = 4;
+parenright = -27;
+at = 0;
+};
+y = {
+o = -3;
+};
+p = {
+a = 4;
+e = 19;
+l = 2;
+p = 2;
+};
+l = {
+H = 0;
+a = -3;
+d = 2;
+i = 2;
+n = 0;
+o = 2;
+};
+v = {
+e = -2;
+n = 0;
+o = -2;
+};
+g = {
+h = 33;
+r = 25;
+u = 21;
+colon = 43;
+};
+seven = {
+period = -79;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+five = 15;
+period = -26;
+};
+o = {
+l = 2;
+n = 0;
+};
+b = {
+a = 4;
+e = 19;
+};
+w = {
+h = 4;
+};
+u = {
+a = -3;
+g = 8;
+};
+parenright = {
+period = -13;
+};
+d = {
+a = -3;
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+a = -3;
+n = 0;
+t = 12;
+};
+six = {
+comma = -4;
+};
+S = {
+p = -3;
+dollar = 5;
+};
+D = {
+};
+Y = {
+o = -66;
+};
+W = {
+N = 10;
+};
+quotedblleft = {
+Y = 36;
+};
+bracketleft = {
+h = 0;
+};
+h = {
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+seven = 11;
+period = -2;
+comma = 0;
+};
+F = {
+r = -22;
+};
+s = {
+h = -3;
+comma = 5;
+};
+O = {
+f = 34;
+};
+U = {
+S = 7;
+};
+q = {
+};
+A = {
+p = 4;
+comma = 36;
+};
+zero = {
+one = -2;
+};
+parenleft = {
+F = -3;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -61;
+};
+m = {
+};
+k = {
+n = -2;
+};
+period = {
+nine = -5;
+quotedblright = -79;
+};
+c = {
+a = 8;
+t = 6;
+};
+E = {
+H = 0;
+};
+t = {
+e = 15;
+h = 30;
+i = 30;
+o = 15;
+s = 48;
+t = 44;
+period = 66;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+m005 = {
+endash = {
+endash = 0;
+};
+a = {
+g = 10;
+v = -11;
+};
+r = {
+a = -10;
+c = -17;
+e = -17;
+g = -10;
+n = 0;
+o = -17;
+y = 26;
+quoteright = 44;
+};
+f = {
+f = 70;
+i = 43;
+r = 9;
+};
+P = {
+a = -13;
+};
+M = {
+a = -2;
+};
+e = {
+c = 14;
+d = 14;
+l = -2;
+n = -2;
+q = 14;
+r = -2;
+s = 11;
+v = -7;
+y = -4;
+period = -4;
+comma = -4;
+colon = 12;
+};
+B = {
+};
+two = {
+one = 8;
+};
+L = {
+e = -21;
+};
+n = {
+a = 0;
+g = 10;
+n = 0;
+o = 0;
+u = 0;
+colon = 4;
+parenright = -27;
+at = 0;
+};
+y = {
+o = -8;
+};
+p = {
+a = 4;
+e = 20;
+i = 2;
+l = 2;
+p = 2;
+};
+l = {
+H = 0;
+a = -3;
+d = 2;
+e = 2;
+i = 2;
+n = 0;
+o = 2;
+};
+v = {
+a = -2;
+e = -7;
+n = 0;
+o = -7;
+};
+g = {
+h = 25;
+r = 20;
+u = 20;
+colon = 40;
+};
+seven = {
+period = -97;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+five = 9;
+period = -22;
+};
+o = {
+l = 2;
+n = 0;
+w = -5;
+};
+b = {
+a = 4;
+e = 19;
+};
+w = {
+e = -5;
+};
+u = {
+a = -3;
+g = 8;
+};
+parenright = {
+period = -11;
+};
+d = {
+a = -3;
+e = 2;
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+a = -3;
+d = 2;
+n = 0;
+t = 9;
+};
+six = {
+};
+S = {
+h = 3;
+dollar = 3;
+};
+D = {
+};
+Y = {
+o = -68;
+};
+W = {
+N = 7;
+};
+quotedblleft = {
+Y = 29;
+};
+bracketleft = {
+h = 0;
+};
+h = {
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+seven = 7;
+period = -2;
+comma = 0;
+};
+F = {
+r = -26;
+};
+s = {
+e = 7;
+h = -2;
+o = 6;
+t = 11;
+comma = 8;
+};
+O = {
+f = 35;
+};
+U = {
+};
+q = {
+};
+A = {
+p = 5;
+comma = 24;
+};
+zero = {
+one = -2;
+two = -2;
+};
+parenleft = {
+F = -3;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -49;
+};
+m = {
+};
+k = {
+n = -2;
+};
+period = {
+quotedblright = -97;
+};
+c = {
+a = 6;
+e = -2;
+o = -2;
+t = 14;
+};
+E = {
+H = 0;
+};
+t = {
+e = 2;
+h = 15;
+i = 15;
+o = 2;
+s = 33;
+t = 31;
+period = 39;
+parenright = -12;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+m006 = {
+endash = {
+endash = 0;
+};
+a = {
+d = 2;
+g = 2;
+v = -20;
+};
+r = {
+a = -9;
+c = -18;
+e = -17;
+g = -9;
+n = 0;
+o = -16;
+s = -10;
+};
+f = {
+f = 39;
+i = 13;
+r = 10;
+};
+P = {
+a = -14;
+};
+M = {
+};
+e = {
+c = 16;
+d = 16;
+q = 16;
+s = 3;
+v = -13;
+y = -17;
+colon = 6;
+};
+B = {
+A = -18;
+};
+two = {
+zero = -7;
+one = -2;
+};
+L = {
+e = -5;
+};
+n = {
+a = 0;
+d = 5;
+g = 3;
+n = 0;
+o = 0;
+u = 0;
+colon = 5;
+parenright = -33;
+at = 0;
+};
+y = {
+o = -21;
+};
+p = {
+a = 5;
+e = 16;
+i = 2;
+l = 4;
+p = 5;
+};
+l = {
+H = 0;
+d = 4;
+n = 0;
+};
+v = {
+a = -7;
+e = -18;
+n = 0;
+o = -17;
+};
+g = {
+h = 31;
+r = 26;
+u = 19;
+colon = 36;
+};
+seven = {
+period = -104;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+period = -20;
+};
+o = {
+n = 0;
+w = -16;
+};
+b = {
+a = 5;
+e = 16;
+};
+w = {
+e = -16;
+};
+u = {
+a = -2;
+};
+parenright = {
+period = -18;
+};
+d = {
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+a = -2;
+d = 2;
+n = 0;
+t = 4;
+};
+six = {
+comma = -3;
+};
+S = {
+p = -3;
+dollar = -5;
+};
+D = {
+a = -3;
+};
+Y = {
+o = -73;
+};
+W = {
+N = 2;
+};
+quotedblleft = {
+};
+bracketleft = {
+h = 0;
+};
+h = {
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+six = 3;
+seven = 4;
+nine = 7;
+comma = 0;
+};
+F = {
+r = -23;
+};
+s = {
+e = 8;
+o = 9;
+};
+O = {
+f = 23;
+};
+U = {
+S = 4;
+};
+q = {
+};
+A = {
+comma = 5;
+};
+zero = {
+one = -11;
+two = -16;
+};
+parenleft = {
+F = -2;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -42;
+};
+m = {
+};
+k = {
+n = -4;
+};
+period = {
+quotedblright = -120;
+};
+c = {
+e = -16;
+h = -2;
+i = -2;
+o = -15;
+};
+E = {
+H = 0;
+};
+t = {
+e = -8;
+o = -7;
+parenright = -30;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+m01 = {
+endash = {
+endash = 0;
+};
+a = {
+g = 10;
+s = 7;
+v = -3;
+};
+r = {
+a = -8;
+c = -20;
+e = -21;
+g = -13;
+i = -2;
+n = 0;
+o = -20;
+y = 34;
+quoteright = 23;
+};
+f = {
+f = 74;
+i = 49;
+r = 17;
+};
+P = {
+a = -14;
+};
+M = {
+a = -4;
+};
+e = {
+c = 13;
+d = 13;
+l = -3;
+n = -3;
+q = 13;
+r = -3;
+s = 17;
+v = 6;
+y = 4;
+period = -2;
+comma = -2;
+colon = 20;
+};
+B = {
+A = 5;
+};
+two = {
+one = 16;
+};
+L = {
+e = -32;
+};
+n = {
+a = 0;
+g = 9;
+n = 0;
+o = 0;
+s = 6;
+u = 0;
+colon = 9;
+parenright = -24;
+at = 0;
+};
+y = {
+o = -2;
+};
+p = {
+a = 6;
+e = 24;
+p = 2;
+};
+l = {
+H = 0;
+a = -3;
+n = 0;
+o = 2;
+};
+v = {
+a = -2;
+e = -2;
+n = 0;
+o = -2;
+};
+g = {
+h = 33;
+r = 24;
+u = 24;
+colon = 43;
+};
+seven = {
+period = -79;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+five = 13;
+period = -27;
+};
+o = {
+l = 2;
+n = 0;
+};
+b = {
+a = 6;
+e = 24;
+};
+w = {
+h = 3;
+};
+u = {
+a = -3;
+g = 7;
+s = 4;
+};
+parenright = {
+period = -15;
+};
+d = {
+a = -3;
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+a = -3;
+n = 0;
+t = 9;
+};
+six = {
+comma = -7;
+};
+S = {
+p = -2;
+dollar = 10;
+};
+D = {
+};
+Y = {
+o = -70;
+};
+W = {
+N = 10;
+};
+quotedblleft = {
+Y = 33;
+};
+bracketleft = {
+h = 0;
+};
+h = {
+H = -2;
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+period = -4;
+comma = 0;
+};
+F = {
+r = -26;
+};
+s = {
+e = 3;
+h = -3;
+o = 4;
+comma = 4;
+};
+O = {
+f = 14;
+};
+U = {
+S = 7;
+};
+q = {
+};
+A = {
+p = 6;
+comma = 32;
+};
+zero = {
+one = -3;
+two = -12;
+};
+parenleft = {
+F = -4;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -60;
+};
+m = {
+};
+k = {
+n = -4;
+};
+period = {
+nine = -2;
+quotedblright = -79;
+};
+c = {
+a = 8;
+};
+E = {
+H = 0;
+};
+t = {
+e = 14;
+h = 30;
+i = 28;
+o = 15;
+s = 55;
+t = 37;
+period = 69;
+parenright = -2;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+"BF6BA5B2-0556-42F4-A103-614BEBF16A1A" = {
+endash = {
+endash = 0;
+};
+a = {
+g = 7;
+s = 4;
+v = -11;
+};
+r = {
+a = -13;
+c = -23;
+e = -24;
+g = -12;
+i = -2;
+n = 0;
+o = -23;
+y = 23;
+quoteright = 39;
+};
+f = {
+f = 62;
+i = 37;
+r = 11;
+};
+P = {
+a = -13;
+};
+M = {
+a = -2;
+};
+e = {
+c = 13;
+d = 13;
+q = 13;
+s = 17;
+y = -2;
+comma = -2;
+colon = 17;
+};
+B = {
+};
+two = {
+one = 7;
+};
+L = {
+e = -28;
+};
+n = {
+a = 0;
+g = 8;
+n = 0;
+o = 0;
+s = 4;
+u = 0;
+colon = 13;
+parenright = -27;
+at = 0;
+};
+y = {
+o = -12;
+};
+p = {
+a = 2;
+e = 19;
+l = 2;
+p = 2;
+};
+l = {
+H = 0;
+a = -3;
+d = 2;
+n = 0;
+};
+v = {
+a = -5;
+e = -6;
+n = 0;
+o = -5;
+};
+g = {
+h = 29;
+r = 22;
+u = 21;
+colon = 40;
+};
+seven = {
+period = -91;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+five = 9;
+period = -17;
+};
+o = {
+m = 4;
+n = 0;
+w = -4;
+};
+b = {
+a = 2;
+e = 19;
+};
+w = {
+e = -5;
+};
+u = {
+a = -2;
+g = 6;
+};
+parenright = {
+period = -15;
+};
+d = {
+a = -2;
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+a = -3;
+n = 0;
+v = -2;
+};
+six = {
+};
+S = {
+dollar = 12;
+};
+D = {
+};
+Y = {
+o = -72;
+};
+W = {
+N = 7;
+};
+quotedblleft = {
+Y = 25;
+};
+bracketleft = {
+h = 0;
+};
+h = {
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+six = 2;
+seven = 5;
+period = -2;
+comma = 0;
+};
+F = {
+r = -26;
+};
+s = {
+e = 5;
+h = -3;
+o = 4;
+comma = 10;
+};
+O = {
+f = 17;
+};
+U = {
+S = 2;
+};
+q = {
+u = 2;
+};
+A = {
+p = 4;
+comma = 25;
+};
+zero = {
+one = -3;
+two = -2;
+};
+parenleft = {
+F = -5;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -45;
+};
+m = {
+};
+k = {
+n = -5;
+};
+period = {
+quotedblright = -97;
+};
+c = {
+a = 9;
+t = 3;
+};
+E = {
+H = 0;
+};
+t = {
+e = 3;
+h = 15;
+i = 15;
+s = 33;
+t = 26;
+period = 51;
+parenright = -13;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+"FF73925E-1E34-445B-881D-5A7CAAA8E8BE" = {
+endash = {
+endash = 0;
+};
+a = {
+g = 3;
+t = -7;
+v = -17;
+};
+r = {
+a = -15;
+c = -23;
+e = -24;
+g = -13;
+i = -2;
+n = 0;
+o = -23;
+s = -19;
+};
+f = {
+e = -12;
+f = 38;
+i = 53;
+};
+P = {
+a = -17;
+};
+M = {
+};
+e = {
+c = 13;
+d = 13;
+l = 3;
+q = 13;
+s = 2;
+v = -7;
+y = -12;
+colon = 13;
+};
+B = {
+A = -20;
+};
+two = {
+zero = -7;
+one = -2;
+};
+L = {
+e = -23;
+};
+n = {
+a = 0;
+d = 4;
+g = 4;
+n = 0;
+o = 0;
+u = 0;
+colon = 5;
+parenright = -32;
+at = 0;
+};
+y = {
+o = -23;
+};
+p = {
+e = 16;
+i = 2;
+l = 2;
+p = 2;
+};
+l = {
+H = 0;
+d = 2;
+e = 2;
+i = 6;
+n = 0;
+o = 2;
+};
+v = {
+a = -13;
+e = -17;
+n = 0;
+o = -17;
+};
+g = {
+h = 37;
+r = 32;
+u = 18;
+colon = 38;
+};
+seven = {
+period = -88;
+};
+N = {
+};
+H = {
+H = 0;
+O = 0;
+T = 0;
+V = 0;
+n = 0;
+o = 0;
+s = 0;
+x = 0;
+ampersand = 0;
+};
+nine = {
+five = -4;
+period = -21;
+};
+o = {
+i = 2;
+l = 2;
+n = 0;
+t = -9;
+w = -12;
+};
+b = {
+e = 16;
+};
+w = {
+e = -14;
+h = 2;
+};
+u = {
+a = -2;
+g = 2;
+};
+parenright = {
+period = -20;
+};
+d = {
+e = 2;
+period = 0;
+colon = 0;
+exclam = 0;
+hyphen = 0;
+endash = 0;
+underscore = 0;
+parenleft = 0;
+quoteleft = 0;
+quoteright = 0;
+};
+i = {
+c = 2;
+d = 2;
+e = 2;
+n = 0;
+};
+six = {
+comma = -5;
+};
+S = {
+p = -3;
+};
+D = {
+a = -3;
+};
+Y = {
+o = -77;
+};
+W = {
+N = 2;
+};
+quotedblleft = {
+};
+bracketleft = {
+h = 0;
+};
+h = {
+};
+C = {
+};
+one = {
+H = 0;
+n = 0;
+zero = 0;
+one = 0;
+two = 0;
+three = 0;
+four = 0;
+six = 2;
+seven = 3;
+nine = 6;
+comma = 0;
+};
+F = {
+r = -27;
+};
+s = {
+e = -2;
+o = -2;
+};
+O = {
+};
+U = {
+S = -4;
+};
+q = {
+u = 2;
+};
+A = {
+comma = 6;
+};
+zero = {
+one = -17;
+two = -11;
+};
+parenleft = {
+F = -2;
+h = 0;
+};
+quoteright = {
+h = 0;
+s = -45;
+};
+m = {
+};
+k = {
+n = -2;
+};
+period = {
+nine = -3;
+quotedblright = -120;
+};
+c = {
+a = 3;
+e = -13;
+i = -2;
+o = -12;
+};
+E = {
+H = 0;
+};
+t = {
+e = -16;
+o = -15;
+period = 7;
+parenright = -31;
+};
+T = {
+};
+quoteleft = {
+h = 0;
+};
+guilsinglleft = {
+h = 0;
+};
+};
+};
 metrics = (
 {
 type = ascender;
@@ -102050,14 +103531,14 @@ name = "Modern ExtraBold";
 userData = {
 KernOnIndependentPairs = (
 "guilsinglleft h",
-"d underscore",
-"d quoteright",
-"quoteright h"
+"d underscore"
 );
 KernOnModels = (
 "d period",
 "d colon",
+"quoteright h",
 "d quoteleft",
+"d quoteright",
 "quoteleft h",
 "i n",
 "l n",
