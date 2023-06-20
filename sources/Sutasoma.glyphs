@@ -103471,12 +103471,12 @@ m01 = {
 axesValues = (
 45,
 0,
-0
+-100
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = I;
+value = O;
 },
 {
 name = typoAscender;
@@ -103516,12 +103516,16 @@ value = (
 {
 Axis = Weight;
 Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
 }
 );
 iconName = Light;
-id = m004;
+id = m01;
 metricValues = (
 {
 over = 10;
@@ -103552,8 +103556,12 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraLight";
+name = "Moderat ExtraLight";
 userData = {
+KernOnIndependentPairs = (
+"d endash",
+"d hyphen"
+);
 KernOnModels = (
 "d period",
 "d colon",
@@ -103567,7 +103575,6 @@ KernOnModels = (
 "d parenleft",
 "parenleft h",
 "bracketleft h",
-"d hyphen",
 "r n",
 "guilsinglleft h",
 "d underscore",
@@ -103578,7 +103585,6 @@ KernOnModels = (
 "n at",
 "o n",
 "n o",
-"d endash",
 "endash endash",
 "l H",
 "one comma",
@@ -103591,9 +103597,9 @@ KernOnModels = (
 "one H",
 "one zero",
 "one two",
+"one one",
 "one three",
 "one four",
-"one one",
 "E H",
 "H T",
 "H V",
