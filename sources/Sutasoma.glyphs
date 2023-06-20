@@ -62332,7 +62332,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 494;
+width = 512;
 },
 {
 layerId = m005;
@@ -62358,7 +62358,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 494;
+width = 508;
 },
 {
 layerId = m006;
@@ -62384,7 +62384,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 478;
+width = 480;
 },
 {
 layerId = m01;
@@ -62410,7 +62410,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 500;
+width = 516;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -62436,7 +62436,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 494;
+width = 508;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -62462,7 +62462,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 478;
+width = 480;
 }
 );
 metricRight = "=|";
@@ -101574,14 +101574,14 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-169,
+45,
 0,
--100
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = I;
 },
 {
 name = typoAscender;
@@ -101620,17 +101620,13 @@ name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
+Location = 200;
 }
 );
 }
 );
-iconName = Regular;
-id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+iconName = Light;
+id = m004;
 metricValues = (
 {
 over = 10;
@@ -101642,7 +101638,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 500;
+pos = 480;
 },
 {
 over = -10;
@@ -101661,55 +101657,53 @@ over = -10;
 pos = -175;
 }
 );
-name = "Moderat ExtraBold";
+name = "Modern ExtraLight";
 userData = {
-KernOnIndependentPairs = (
-"d colon",
-"d underscore"
-);
 KernOnModels = (
-"d period",
-"quoteright h",
-"d quoteleft",
-"d quoteright",
-"quoteleft h",
-"d exclam",
-"i n",
-"l n",
-"bracketleft h",
-"d hyphen",
-"d parenleft",
-"parenleft h",
-"guilsinglleft h",
-"r n",
-"d endash",
-"endash endash",
-"v n",
-"n a",
 "n n",
-"n u",
-"n at",
-"o n",
+"v n",
 "n o",
+"o n",
+"n a",
+"i n",
+"n u",
+"l n",
+"r n",
 "l H",
-"one comma",
-"one n",
+"H o",
+"H n",
 "H s",
 "H x",
-"H n",
-"H o",
-"H ampersand",
-"one H",
+"H H",
+"H O",
+"H T",
+"H V",
+"E H",
 "one zero",
+"one one",
 "one two",
 "one three",
 "one four",
-"one one",
-"E H",
-"H T",
-"H V",
-"H O",
-"H H"
+"one n",
+"one H",
+"d exclam",
+"d colon",
+"one comma",
+"d period",
+"H ampersand",
+"n at",
+"d hyphen",
+"d endash",
+"d underscore",
+"endash endash",
+"d quoteright",
+"quoteright h",
+"d quoteleft",
+"quoteleft h",
+"guilsinglleft h",
+"d parenleft",
+"parenleft h",
+"bracketleft h"
 );
 };
 };
