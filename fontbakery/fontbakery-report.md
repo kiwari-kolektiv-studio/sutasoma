@@ -363,14 +363,6 @@ Fontbakery version: 0.8.13
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -400,9 +392,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: equal	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -430,7 +426,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, greaterequal, less, greater
+lessequal, less, greater, greaterequal
 
 Width = 488:
 multiply
@@ -441,7 +437,11 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 524 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 536 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -504,13 +504,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=358.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=23.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=21.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=194.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=192.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=365.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=364.0,Y=497.0 (should be at x-height 498?)
 
-	* x (U+0078): X=514.0,Y=497.0 (should be at x-height 498?)
+	* x (U+0078): X=513.0,Y=497.0 (should be at x-height 498?)
 
 	* y (U+0079): X=202.0,Y=1.0 (should be at baseline 0?)
 
@@ -524,9 +524,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dieresis (U+00A8): X=172.5,Y=699.5 (should be at cap-height 700?)
 
-	* uni00B2 (U+00B2): X=267.0,Y=701.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=265.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni00B3 (U+00B3): X=190.0,Y=699.0 (should be at cap-height 700?)
+	* uni00B3 (U+00B3): X=189.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni00B5 (U+00B5): X=205.0,Y=1.0 (should be at baseline 0?)
 
@@ -594,7 +594,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B) contains a short segment B<<94.0,-6.0>-<95.0,-4.0>-<97.0,-2.0>>
 
-	* R (U+0052) contains a short segment B<<308.0,258.0>-<299.0,258.0>-<291.0,258.0>>
+	* R (U+0052) contains a short segment B<<307.0,258.0>-<299.0,258.0>-<291.0,258.0>>
 
 	* g (U+0067) contains a short segment B<<428.0,428.0>-<425.0,427.0>-<422.0,425.0>>
 
@@ -710,11 +710,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<218.0,390.0>--<304.0,494.0>> -> L<<304.0,494.0>--<474.0,700.0>>
-
-	* daggerdbl (U+2021): L<<248.0,-156.0>--<248.0,99.0>> -> L<<248.0,99.0>--<253.0,160.0>>
-
-	* daggerdbl (U+2021): L<<333.0,160.0>--<338.0,99.0>> -> L<<338.0,99.0>--<338.0,-156.0>> 
+	* K (U+004B): L<<218.0,390.0>--<304.0,494.0>> -> L<<304.0,494.0>--<474.0,700.0>> 
 
 	* k (U+006B): L<<205.0,342.0>--<263.0,405.0>> -> L<<263.0,405.0>--<349.0,498.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1074,14 +1070,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1134,7 +1122,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, greaterequal, less, greater
+lessequal, less, greater, greaterequal
 
 Width = 468:
 multiply
@@ -1142,6 +1130,10 @@ multiply
 Width = 492:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1185,15 +1177,15 @@ approxequal
 
 	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
-	* x (U+0078): X=35.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=31.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=144.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=140.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=345.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=341.0,Y=488.0 (should be at x-height 490?)
 
-	* x (U+0078): X=443.0,Y=488.0 (should be at x-height 490?)
+	* x (U+0078): X=439.0,Y=488.0 (should be at x-height 490?)
 
-	* uni00B2 (U+00B2): X=272.0,Y=702.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=269.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=438.0,Y=1.0 (should be at baseline 0?)
 
@@ -1313,11 +1305,7 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<186.0,338.0>--<274.0,441.0>> -> L<<274.0,441.0>--<496.0,700.0>>
-
-	* daggerdbl (U+2021): L<<252.0,-148.0>--<252.0,108.0>> -> L<<252.0,108.0>--<257.0,169.0>>
-
-	* daggerdbl (U+2021): L<<317.0,169.0>--<322.0,108.0>> -> L<<322.0,108.0>--<322.0,-148.0>> 
+	* K (U+004B): L<<186.0,338.0>--<274.0,441.0>> -> L<<274.0,441.0>--<496.0,700.0>> 
 
 	* k (U+006B): L<<169.0,299.0>--<231.0,363.0>> -> L<<231.0,363.0>--<354.0,490.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1685,14 +1673,6 @@ approxequal
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1769,6 +1749,10 @@ lessequal
 Width = 535:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -1777,7 +1761,7 @@ greaterequal
 	* ('periodcentered', 73, 382)
 	* ('periodcentered', 114, 382)
 	* ('periodcentered', 157, 382)
-	* ('figuredash', 21, 386) and ('figuredash', 467, 386)
+	* ('figuredash', 20, 386) and ('figuredash', 466, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -1795,13 +1779,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* S (U+0053): X=386.5,Y=698.0 (should be at cap-height 700?)
 
-	* W (U+0057): X=589.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=267.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=326.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=648.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=162.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=484.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=753.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=432.0,Y=1.0 (should be at baseline 0?)
 
 	* bracketleft (U+005B): X=287.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1864,6 +1848,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
 	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
+
+	* registered (U+00AE) contains a short segment B<<285.0,467.0>-<284.0,467.0>-<283.0,467.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<312.0,353.0>-<305.0,353.0>-<294.0,351.5>>
 
@@ -1947,9 +1933,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<239.0,-175.0>--<239.0,90.0>> -> L<<239.0,90.0>--<244.0,151.0>> 
+	* daggerdbl (U+2021): L<<237.0,-175.0>--<237.0,80.0>> -> L<<237.0,80.0>--<242.0,139.0>> 
 
-	* daggerdbl (U+2021): L<<342.0,151.0>--<347.0,90.0>> -> L<<347.0,90.0>--<347.0,-175.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<344.0,139.0>--<349.0,80.0>> -> L<<349.0,80.0>--<349.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1958,7 +1944,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* arrowdown (U+2193): L<<328.0,705.0>--<323.0,123.0>> 
 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -2299,14 +2285,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2336,9 +2314,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: equal	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -2366,7 +2348,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, greaterequal, less, greater
+lessequal, less, greater, greaterequal
 
 Width = 460:
 multiply
@@ -2374,10 +2356,10 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 524 but it should be 514 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -2396,9 +2378,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=82.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=175.0,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=169.0,Y=1.0 (should be at baseline 0?)
 
-	* question (U+003F): X=239.5,Y=1.0 (should be at baseline 0?)
+	* question (U+003F): X=233.5,Y=1.0 (should be at baseline 0?)
 
 	* C (U+0043): X=422.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2411,8 +2393,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=14.0,Y=484.0 (should be at x-height 485?)
 
 	* f (U+0066): X=96.0,Y=484.0 (should be at x-height 485?)
-
-	* f (U+0066): X=313.5,Y=698.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=165.0,Y=484.0 (should be at x-height 485?)
 
@@ -2442,25 +2422,25 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
-	* x (U+0078): X=40.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=37.0,Y=484.0 (should be at x-height 485?)
 
-	* x (U+0078): X=123.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=120.0,Y=484.0 (should be at x-height 485?)
 
-	* x (U+0078): X=341.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=337.0,Y=484.0 (should be at x-height 485?)
 
-	* x (U+0078): X=417.0,Y=484.0 (should be at x-height 485?)
+	* x (U+0078): X=414.0,Y=484.0 (should be at x-height 485?)
 
-	* y (U+0079): X=208.0,Y=-1.0 (should be at baseline 0?)
+	* y (U+0079): X=207.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni00B2 (U+00B2): X=196.0,Y=699.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=193.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni00B9 (U+00B9): X=27.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=422.0,Y=701.0 (should be at cap-height 700?)
 
-	* yacute (U+00FD): X=208.0,Y=-1.0 (should be at baseline 0?)
+	* yacute (U+00FD): X=207.0,Y=-1.0 (should be at baseline 0?)
 
-	* ydieresis (U+00FF): X=208.0,Y=-1.0 (should be at baseline 0?)
+	* ydieresis (U+00FF): X=207.0,Y=-1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=345.5,Y=701.5 (should be at cap-height 700?)
 
@@ -2515,6 +2495,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<97.0,344.0>-<97.0,347.0>-<96.0,351.0>>
 
 	* sterling (U+00A3) contains a short segment B<<168.0,358.0>-<169.0,351.0>-<170.0,344.0>>
+
+	* registered (U+00AE) contains a short segment B<<289.0,472.0>-<287.0,472.0>-<284.0,472.0>>
 
 	* ae (U+00E6) contains a short segment B<<383.0,412.0>-<388.0,420.0>-<394.0,428.0>>
 
@@ -2590,11 +2572,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<168.0,319.0>--<264.0,429.0>> -> L<<264.0,429.0>--<501.0,700.0>>
-
-	* daggerdbl (U+2021): L<<255.0,-143.0>--<255.0,114.0>> -> L<<255.0,114.0>--<260.0,175.0>>
-
-	* daggerdbl (U+2021): L<<307.0,175.0>--<312.0,114.0>> -> L<<312.0,114.0>--<312.0,-143.0>> 
+	* K (U+004B): L<<168.0,319.0>--<264.0,429.0>> -> L<<264.0,429.0>--<501.0,700.0>> 
 
 	* k (U+006B): L<<150.0,287.0>--<205.0,344.0>> -> L<<205.0,344.0>--<347.0,487.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -2962,14 +2940,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3027,7 +2997,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater
+less, greater, greaterequal
 
 Width = 462:
 multiply
@@ -3044,7 +3014,11 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 524 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -3079,8 +3053,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=544.0,Y=701.0 (should be at cap-height 700?)
 
-	* f (U+0066): X=315.5,Y=699.5 (should be at cap-height 700?)
-
 	* r (U+0072): X=335.0,Y=486.0 (should be at x-height 485?)
 
 	* t (U+0074): X=258.5,Y=-0.5 (should be at baseline 0?)
@@ -3093,7 +3065,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* yen (U+00A5): X=529.0,Y=701.0 (should be at cap-height 700?)
 
-	* uni00B2 (U+00B2): X=262.0,Y=698.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=259.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=423.5,Y=698.0 (should be at cap-height 700?)
 
@@ -3172,6 +3144,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* n (U+006E) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
 	* u (U+0075) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
+
+	* x (U+0078) contains a short segment L<<189.0,227.0>--<189.0,231.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
@@ -3269,11 +3243,29 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
+	* X (U+0058): L<<250.0,0.0>--<272.0,319.0>> -> L<<272.0,319.0>--<272.0,339.0>>
+
+	* X (U+0058): L<<272.0,319.0>--<272.0,339.0>> -> L<<272.0,339.0>--<278.0,700.0>>
+
+	* X (U+0058): L<<341.0,363.0>--<338.0,279.0>> -> L<<338.0,279.0>--<333.0,0.0>>
+
+	* X (U+0058): L<<341.0,408.0>--<341.0,363.0>> -> L<<341.0,363.0>--<338.0,279.0>>
+
+	* X (U+0058): L<<354.0,700.0>--<341.0,408.0>> -> L<<341.0,408.0>--<341.0,363.0>>
+
 	* dagger (U+2020): L<<255.0,-175.0>--<255.0,343.0>> -> L<<255.0,343.0>--<261.0,408.0>>
 
-	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,98.0>> -> L<<255.0,98.0>--<260.0,159.0>> 
+	* daggerdbl (U+2021): L<<255.0,-175.0>--<255.0,81.0>> -> L<<255.0,81.0>--<260.0,141.0>>
 
-	* daggerdbl (U+2021): L<<307.0,159.0>--<312.0,98.0>> -> L<<312.0,98.0>--<312.0,-175.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<307.0,141.0>--<311.0,81.0>> -> L<<311.0,81.0>--<311.0,-175.0>>
+
+	* x (U+0078): L<<176.0,0.0>--<189.0,227.0>> -> L<<189.0,227.0>--<189.0,231.0>>
+
+	* x (U+0078): L<<189.0,227.0>--<189.0,231.0>> -> L<<189.0,231.0>--<191.0,485.0>>
+
+	* x (U+0078): L<<253.0,264.0>--<253.0,256.0>> -> L<<253.0,256.0>--<251.0,0.0>> 
+
+	* x (U+0078): L<<265.0,485.0>--<253.0,264.0>> -> L<<253.0,264.0>--<253.0,256.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3295,9 +3287,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowup (U+2191): L<<287.0,627.0>--<290.0,0.0>>
 
-	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>> 
+	* macron (U+00AF): L<<56.0,653.0>--<336.0,654.0>>
 
-	* thorn (U+00FE): L<<151.0,700.0>--<150.0,415.0>> [code: found-semi-vertical]
+	* thorn (U+00FE): L<<151.0,700.0>--<150.0,415.0>>
+
+	* x (U+0078): L<<189.0,231.0>--<191.0,485.0>> 
+
+	* x (U+0078): L<<253.0,256.0>--<251.0,0.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[19] SutasomaModern-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
@@ -3639,14 +3635,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3706,11 +3694,15 @@ Width = 501:
 plus, approxequal
 
 Width = 511:
-lessequal, greaterequal, less, greater
+lessequal, less, greater, greaterequal
 
 Width = 475:
 multiply
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -3732,7 +3724,7 @@ multiply
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 136, 362)
-	* ('figuredash', 28, 388) and ('figuredash', 474, 388)
+	* ('figuredash', 26, 388) and ('figuredash', 472, 388)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3744,7 +3736,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=92.0,Y=-2.0 (should be at baseline 0?)
 
-	* C (U+0043): X=438.0,Y=699.0 (should be at cap-height 700?)
+	* C (U+0043): X=438.5,Y=699.0 (should be at cap-height 700?)
 
 	* C (U+0043): X=445.0,Y=1.5 (should be at baseline 0?)
 
@@ -3761,6 +3753,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* f (U+0066): X=10.0,Y=491.0 (should be at x-height 493?)
 
 	* f (U+0066): X=89.0,Y=491.0 (should be at x-height 493?)
+
+	* f (U+0066): X=325.0,Y=699.0 (should be at cap-height 700?)
 
 	* f (U+0066): X=201.0,Y=491.0 (should be at x-height 493?)
 
@@ -3782,25 +3776,25 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=331.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=31.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=28.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=161.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=157.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=352.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=349.0,Y=491.0 (should be at x-height 493?)
 
-	* x (U+0078): X=467.0,Y=491.0 (should be at x-height 493?)
+	* x (U+0078): X=464.0,Y=491.0 (should be at x-height 493?)
 
-	* y (U+0079): X=208.0,Y=2.0 (should be at baseline 0?)
+	* y (U+0079): X=206.0,Y=2.0 (should be at baseline 0?)
 
-	* uni00B2 (U+00B2): X=270.0,Y=702.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=268.0,Y=702.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=438.0,Y=699.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=438.5,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=445.0,Y=2.0 (should be at baseline 0?)
 
-	* yacute (U+00FD): X=208.0,Y=2.0 (should be at baseline 0?)
+	* yacute (U+00FD): X=206.0,Y=2.0 (should be at baseline 0?)
 
-	* ydieresis (U+00FF): X=208.0,Y=2.0 (should be at baseline 0?)
+	* ydieresis (U+00FF): X=206.0,Y=2.0 (should be at baseline 0?)
 
 	* breve (U+02D8): X=57.0,Y=702.0 (should be at cap-height 700?)
 
@@ -3826,7 +3820,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=490.5,Y=699.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=491.5,Y=699.0 (should be at cap-height 700?)
 
 	* Euro (U+20AC): X=497.0,Y=1.5 (should be at baseline 0?) 
 
@@ -3851,6 +3845,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<100.0,277.0>-<100.0,281.0>-<99.0,286.0>>
 
 	* sterling (U+00A3) contains a short segment B<<209.0,377.0>-<209.0,369.0>-<210.0,362.0>>
+
+	* registered (U+00AE) contains a short segment B<<296.0,454.0>-<292.0,454.0>-<289.0,454.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
 
@@ -3940,11 +3936,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<197.0,355.0>--<284.0,459.0>> -> L<<284.0,459.0>--<489.0,700.0>>
-
-	* daggerdbl (U+2021): L<<251.0,-151.0>--<251.0,105.0>> -> L<<251.0,105.0>--<256.0,166.0>>
-
-	* daggerdbl (U+2021): L<<322.0,166.0>--<327.0,105.0>> -> L<<327.0,105.0>--<327.0,-151.0>> 
+	* K (U+004B): L<<197.0,355.0>--<284.0,459.0>> -> L<<284.0,459.0>--<489.0,700.0>> 
 
 	* k (U+006B): L<<181.0,313.0>--<242.0,377.0>> -> L<<242.0,377.0>--<352.0,493.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -4312,14 +4304,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4342,9 +4326,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: equal	Contours detected: 1	Expected: 2
+
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
+
+	- Glyph name: equal	Contours detected: 1	Expected: 2
 
 	- Glyph name: fi	Contours detected: 1	Expected: 3
 
@@ -4372,7 +4360,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, greaterequal, less, greater
+lessequal, less, greater, greaterequal
 
 Width = 481:
 multiply
@@ -4380,6 +4368,10 @@ multiply
 Width = 510:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -4399,7 +4391,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B): X=95.0,Y=-2.0 (should be at baseline 0?)
 
-	* C (U+0043): X=443.5,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=445.0,Y=698.0 (should be at cap-height 700?)
 
 	* S (U+0053): X=369.0,Y=699.5 (should be at cap-height 700?)
 
@@ -4427,25 +4419,25 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* t (U+0074): X=345.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=27.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=25.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=177.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=175.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=359.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=356.0,Y=494.0 (should be at x-height 495?)
 
-	* x (U+0078): X=491.0,Y=494.0 (should be at x-height 495?)
+	* x (U+0078): X=488.0,Y=494.0 (should be at x-height 495?)
 
-	* y (U+0079): X=205.0,Y=2.0 (should be at baseline 0?)
+	* y (U+0079): X=204.0,Y=2.0 (should be at baseline 0?)
 
 	* braceleft (U+007B): X=260.0,Y=698.0 (should be at cap-height 700?)
 
-	* uni00B2 (U+00B2): X=269.0,Y=702.0 (should be at cap-height 700?)
+	* uni00B2 (U+00B2): X=267.0,Y=702.0 (should be at cap-height 700?)
 
-	* uni00B3 (U+00B3): X=193.0,Y=699.0 (should be at cap-height 700?)
+	* uni00B3 (U+00B3): X=191.0,Y=699.0 (should be at cap-height 700?)
 
 	* Agrave (U+00C0): X=229.0,Y=951.0 (should be at ascender 950?)
 
-	* Ccedilla (U+00C7): X=443.5,Y=698.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=445.0,Y=698.0 (should be at cap-height 700?)
 
 	* Egrave (U+00C8): X=188.0,Y=951.0 (should be at ascender 950?)
 
@@ -4461,9 +4453,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* otilde (U+00F5): X=380.0,Y=701.0 (should be at cap-height 700?)
 
-	* yacute (U+00FD): X=205.0,Y=2.0 (should be at baseline 0?)
+	* yacute (U+00FD): X=204.0,Y=2.0 (should be at baseline 0?)
 
-	* ydieresis (U+00FF): X=205.0,Y=2.0 (should be at baseline 0?)
+	* ydieresis (U+00FF): X=204.0,Y=2.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=369.0,Y=699.5 (should be at cap-height 700?)
 
@@ -4487,7 +4479,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=102.0,Y=-2.0 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=495.0,Y=698.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=496.0,Y=698.0 (should be at cap-height 700?)
 
 	* product (U+220F): X=29.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4611,11 +4603,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<208.0,373.0>--<294.0,477.0>> -> L<<294.0,477.0>--<481.0,700.0>>
-
-	* daggerdbl (U+2021): L<<249.0,-153.0>--<249.0,102.0>> -> L<<249.0,102.0>--<254.0,163.0>>
-
-	* daggerdbl (U+2021): L<<328.0,163.0>--<333.0,102.0>> -> L<<333.0,102.0>--<333.0,-153.0>> 
+	* K (U+004B): L<<208.0,373.0>--<294.0,477.0>> -> L<<294.0,477.0>--<481.0,700.0>> 
 
 	* k (U+006B): L<<193.0,327.0>--<253.0,391.0>> -> L<<253.0,391.0>--<351.0,495.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -4975,14 +4963,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5057,6 +5037,10 @@ lessequal
 Width = 511:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -5109,7 +5093,7 @@ greaterequal
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 136, 362)
-	* ('figuredash', 28, 378) and ('figuredash', 474, 378)
+	* ('figuredash', 26, 378) and ('figuredash', 472, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -5132,6 +5116,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Y (U+0059): X=485.0,Y=701.0 (should be at cap-height 700?)
 
 	* Y (U+0059): X=563.0,Y=701.0 (should be at cap-height 700?)
+
+	* f (U+0066): X=325.0,Y=700.5 (should be at cap-height 700?)
 
 	* g (U+0067): X=369.5,Y=-2.0 (should be at baseline 0?)
 
@@ -5210,6 +5196,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<93.0,348.0>-<93.0,355.0>-<92.0,362.0>>
 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
+
+	* registered (U+00AE) contains a short segment B<<284.0,474.0>-<283.0,474.0>-<282.0,474.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<313.0,364.0>-<304.0,364.0>-<292.0,362.0>>
 
@@ -5301,9 +5289,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<248.0,-175.0>--<248.0,93.0>> -> L<<248.0,93.0>--<253.0,154.0>> 
+	* daggerdbl (U+2021): L<<247.0,-175.0>--<247.0,79.0>> -> L<<247.0,79.0>--<252.0,140.0>> 
 
-	* daggerdbl (U+2021): L<<325.0,154.0>--<330.0,93.0>> -> L<<330.0,93.0>--<330.0,-175.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<326.0,140.0>--<331.0,79.0>> -> L<<331.0,79.0>--<331.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -5673,14 +5661,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5750,6 +5730,10 @@ lessequal
 Width = 523:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -5767,13 +5751,9 @@ greaterequal
 
 	* S (U+0053): X=376.5,Y=698.5 (should be at cap-height 700?)
 
-	* W (U+0057): X=598.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=384.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=315.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=173.0,Y=1.0 (should be at baseline 0?)
-
-	* W (U+0057): X=741.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=530.0,Y=1.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=29.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5783,7 +5763,7 @@ greaterequal
 
 	* Y (U+0059): X=573.0,Y=701.0 (should be at cap-height 700?)
 
-	* y (U+0079): X=216.0,Y=2.0 (should be at baseline 0?)
+	* y (U+0079): X=215.0,Y=2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=22.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5803,9 +5783,9 @@ greaterequal
 
 	* Yacute (U+00DD): X=573.0,Y=701.0 (should be at cap-height 700?)
 
-	* yacute (U+00FD): X=216.0,Y=2.0 (should be at baseline 0?)
+	* yacute (U+00FD): X=215.0,Y=2.0 (should be at baseline 0?)
 
-	* ydieresis (U+00FF): X=216.0,Y=2.0 (should be at baseline 0?)
+	* ydieresis (U+00FF): X=215.0,Y=2.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=376.5,Y=698.5 (should be at cap-height 700?)
 
@@ -5863,6 +5843,8 @@ greaterequal
 
 	* ampersand (U+0026) contains a short segment B<<204.0,385.0>-<196.0,388.0>-<189.0,391.0>>
 
+	* W (U+0057) contains a short segment L<<695.0,657.0>--<703.0,657.0>>
+
 	* b (U+0062) contains a short segment B<<174.0,68.0>-<174.0,62.0>-<173.0,57.0>>
 
 	* g (U+0067) contains a short segment B<<385.0,463.0>-<388.0,460.0>-<391.0,458.0>>
@@ -5874,6 +5856,8 @@ greaterequal
 	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
 
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
+
+	* registered (U+00AE) contains a short segment B<<285.0,471.0>-<283.0,471.0>-<282.0,471.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<313.0,359.0>-<304.0,359.0>-<293.0,357.0>>
 
@@ -5953,9 +5937,17 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<244.0,-175.0>--<244.0,91.0>> -> L<<244.0,91.0>--<249.0,152.0>> 
+	* X (U+0058): L<<220.0,0.0>--<245.0,237.0>> -> L<<245.0,237.0>--<248.0,327.0>>
 
-	* daggerdbl (U+2021): L<<334.0,152.0>--<339.0,91.0>> -> L<<339.0,91.0>--<339.0,-175.0>> [code: found-colinear-vectors]
+	* X (U+0058): L<<245.0,237.0>--<248.0,327.0>> -> L<<248.0,327.0>--<266.0,700.0>>
+
+	* X (U+0058): L<<375.0,464.0>--<373.0,375.0>> -> L<<373.0,375.0>--<354.0,0.0>>
+
+	* X (U+0058): L<<400.0,700.0>--<375.0,464.0>> -> L<<375.0,464.0>--<373.0,375.0>>
+
+	* daggerdbl (U+2021): L<<242.0,-175.0>--<242.0,80.0>> -> L<<242.0,80.0>--<247.0,140.0>> 
+
+	* daggerdbl (U+2021): L<<335.0,140.0>--<340.0,80.0>> -> L<<340.0,80.0>--<340.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -5973,7 +5965,15 @@ greaterequal
 
 	* arrowup (U+2191): L<<229.0,0.0>--<233.0,593.0>>
 
-	* arrowup (U+2191): L<<315.0,593.0>--<320.0,0.0>> 
+	* arrowup (U+2191): L<<315.0,593.0>--<320.0,0.0>>
+
+	* daggerdbl (U+2021): L<<247.0,140.0>--<70.0,139.0>>
+
+	* daggerdbl (U+2021): L<<247.0,399.0>--<70.0,398.0>>
+
+	* daggerdbl (U+2021): L<<513.0,139.0>--<335.0,140.0>>
+
+	* daggerdbl (U+2021): L<<513.0,398.0>--<335.0,399.0>> 
 
 	* macron (U+00AF): L<<62.0,680.0>--<362.0,681.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[19] SutasomaModerat-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
@@ -6317,14 +6317,6 @@ greaterequal
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -6389,7 +6381,11 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 524 but it should be 498 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 498 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -6409,9 +6405,9 @@ multiply
 
 	* semicolon (U+003B): X=80.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=176.0,Y=-2.0 (should be at baseline 0?)
+	* question (U+003F): X=170.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=227.0,Y=-1.5 (should be at baseline 0?)
+	* question (U+003F): X=221.0,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=410.5,Y=702.0 (should be at cap-height 700?)
 
@@ -6631,9 +6627,9 @@ multiply
 
 	* dagger (U+2020): L<<296.0,411.0>--<300.0,350.0>> -> L<<300.0,350.0>--<300.0,-175.0>>
 
-	* daggerdbl (U+2021): L<<257.0,-175.0>--<257.0,101.0>> -> L<<257.0,101.0>--<262.0,162.0>> 
+	* daggerdbl (U+2021): L<<258.0,-175.0>--<258.0,83.0>> -> L<<258.0,83.0>--<262.0,141.0>> 
 
-	* daggerdbl (U+2021): L<<296.0,162.0>--<301.0,101.0>> -> L<<301.0,101.0>--<301.0,-175.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<296.0,141.0>--<300.0,83.0>> -> L<<300.0,83.0>--<300.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -7001,14 +6997,6 @@ multiply
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -7076,7 +7064,11 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 524 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -7096,9 +7088,9 @@ approxequal
 
 	* semicolon (U+003B): X=75.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=176.0,Y=-2.0 (should be at baseline 0?)
+	* question (U+003F): X=170.0,Y=-2.0 (should be at baseline 0?)
 
-	* question (U+003F): X=227.0,Y=-1.5 (should be at baseline 0?)
+	* question (U+003F): X=221.0,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=410.0,Y=702.0 (should be at cap-height 700?)
 
@@ -7120,9 +7112,9 @@ approxequal
 
 	* onehalf (U+00BD): X=476.0,Y=698.0 (should be at cap-height 700?)
 
-	* threequarters (U+00BE): X=197.0,Y=2.0 (should be at baseline 0?)
+	* threequarters (U+00BE): X=196.0,Y=2.0 (should be at baseline 0?)
 
-	* threequarters (U+00BE): X=550.0,Y=698.0 (should be at cap-height 700?)
+	* threequarters (U+00BE): X=549.0,Y=698.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=410.0,Y=702.0 (should be at cap-height 700?)
 
@@ -7187,6 +7179,8 @@ approxequal
 	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
 
 	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
+
+	* registered (U+00AE) contains a short segment B<<282.0,486.0>-<280.0,486.0>-<279.0,486.0>>
 
 	* ae (U+00E6) contains a short segment L<<389.0,238.0>--<389.0,223.0>>
 
@@ -7270,13 +7264,9 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* K (U+004B): L<<150.0,301.0>--<253.0,417.0>> -> L<<253.0,417.0>--<505.0,700.0>>
+	* K (U+004B): L<<150.0,301.0>--<253.0,417.0>> -> L<<253.0,417.0>--<505.0,700.0>> 
 
-	* K (U+004B): L<<270.0,371.0>--<264.0,365.0>> -> L<<264.0,365.0>--<150.0,238.0>>
-
-	* daggerdbl (U+2021): L<<257.0,-138.0>--<257.0,120.0>> -> L<<257.0,120.0>--<262.0,181.0>> 
-
-	* daggerdbl (U+2021): L<<296.0,181.0>--<301.0,120.0>> -> L<<301.0,120.0>--<301.0,-138.0>> [code: found-colinear-vectors]
+	* K (U+004B): L<<270.0,371.0>--<264.0,365.0>> -> L<<264.0,365.0>--<150.0,238.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -7648,14 +7638,6 @@ approxequal
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -7723,6 +7705,10 @@ lessequal
 Width = 499:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -7810,6 +7796,8 @@ greaterequal
 
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
+	* registered (U+00AE) contains a short segment B<<283.0,477.0>-<282.0,477.0>-<281.0,477.0>>
+
 	* uni00B5 (U+00B5) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
 	* ae (U+00E6) contains a short segment B<<393.0,422.0>-<397.0,426.0>-<400.0,430.0>>
@@ -7886,9 +7874,9 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* daggerdbl (U+2021): L<<252.0,-175.0>--<252.0,94.0>> -> L<<252.0,94.0>--<257.0,155.0>> 
+	* daggerdbl (U+2021): L<<252.0,-175.0>--<252.0,79.0>> -> L<<252.0,79.0>--<257.0,140.0>> 
 
-	* daggerdbl (U+2021): L<<317.0,155.0>--<322.0,94.0>> -> L<<322.0,94.0>--<322.0,-175.0>> [code: found-colinear-vectors]
+	* daggerdbl (U+2021): L<<317.0,140.0>--<322.0,79.0>> -> L<<322.0,79.0>--<322.0,-175.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -7917,7 +7905,7 @@ greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 49 | 178 | 1382 | 79 | 1077 | 0 |
+| 0 | 49 | 177 | 1394 | 79 | 1066 | 0 |
 | 0% | 2% | 6% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
