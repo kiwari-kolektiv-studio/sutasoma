@@ -429,7 +429,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -1129,7 +1129,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
@@ -1758,7 +1758,7 @@ Width = 512:
 plus
 
 Width = 537:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 466:
 multiply
@@ -2371,13 +2371,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, greaterequal, plus
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3037,13 +3037,13 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 488:
-greater, less, greaterequal, plus
+greater, greaterequal, plus, less
 
 Width = 462:
 multiply
 
 Width = 483:
-lessequal, minus
+minus, lessequal
 
 Width = 477:
 approxequal
@@ -3051,7 +3051,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 523 but it should be 505 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -3081,6 +3081,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* C (U+0043): X=423.5,Y=698.0 (should be at cap-height 700?)
 
 	* G (U+0047): X=430.0,Y=698.5 (should be at cap-height 700?)
+
+	* Q (U+0051): X=487.0,Y=2.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=28.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3184,9 +3186,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<97.0,338.0>-<97.0,344.0>-<96.0,351.0>>
 
-	* Oslash (U+00D8) contains a short segment B<<484.0,584.0>-<482.0,586.0>-<481.0,589.0>>
+	* Oslash (U+00D8) contains a short segment B<<483.0,583.0>-<481.0,586.0>-<480.0,589.0>>
 
-	* Oslash (U+00D8) contains a short segment B<<187.0,116.0>-<188.0,114.0>-<190.0,111.0>>
+	* Oslash (U+00D8) contains a short segment B<<186.0,117.0>-<188.0,114.0>-<190.0,111.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<138.0,411.0>-<138.0,407.0>-<139.0,401.0>>
 
@@ -3714,7 +3716,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -4389,7 +4391,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -5064,7 +5066,7 @@ Width = 501:
 plus
 
 Width = 518:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 464:
 multiply
@@ -5108,13 +5110,13 @@ lessequal
 	* ('Ntilde', 252, 893)
 	* ('Ntilde', 273, 893)
 	* ('Ntilde', 285, 893)
-	* ('Oacute', 447, 931)
-	* ('Ocircumflex', 312, 920)
-	* ('Ocircumflex', 359, 920)
-	* ('Ograve', 225, 931)
-	* ('Otilde', 257, 893)
-	* ('Otilde', 278, 893)
-	* ('Otilde', 290, 893)
+	* ('Oacute', 446, 931)
+	* ('Ocircumflex', 311, 920)
+	* ('Ocircumflex', 358, 920)
+	* ('Ograve', 224, 931)
+	* ('Otilde', 256, 893)
+	* ('Otilde', 277, 893)
+	* ('Otilde', 289, 893)
 	* ('Uacute', 458, 931)
 	* ('Ucircumflex', 323, 920)
 	* ('Ucircumflex', 370, 920)
@@ -5137,6 +5139,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=115.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=118.0,Y=-2.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=427.0,Y=2.0 (should be at baseline 0?)
 
 	* S (U+0053): X=367.0,Y=698.5 (should be at cap-height 700?)
 
@@ -5739,7 +5743,7 @@ Width = 507:
 plus
 
 Width = 528:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 465:
 multiply
@@ -5768,6 +5772,10 @@ lessequal
 
 	* semicolon (U+003B): X=119.0,Y=-2.0 (should be at baseline 0?)
 
+	* Q (U+0051): X=519.0,Y=1.0 (should be at baseline 0?)
+
+	* Q (U+0051): X=426.0,Y=1.0 (should be at baseline 0?)
+
 	* S (U+0053): X=376.5,Y=698.5 (should be at cap-height 700?)
 
 	* W (U+0057): X=593.0,Y=1.0 (should be at baseline 0?)
@@ -5788,6 +5796,8 @@ lessequal
 
 	* t (U+0074): X=299.5,Y=2.0 (should be at baseline 0?)
 
+	* y (U+0079): X=214.0,Y=2.0 (should be at baseline 0?)
+
 	* yen (U+00A5): X=14.0,Y=701.0 (should be at cap-height 700?)
 
 	* yen (U+00A5): X=169.0,Y=701.0 (should be at cap-height 700?)
@@ -5803,6 +5813,10 @@ lessequal
 	* Yacute (U+00DD): X=477.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=564.0,Y=701.0 (should be at cap-height 700?)
+
+	* yacute (U+00FD): X=214.0,Y=2.0 (should be at baseline 0?)
+
+	* ydieresis (U+00FF): X=214.0,Y=2.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=376.5,Y=698.5 (should be at cap-height 700?)
 
@@ -6523,6 +6537,8 @@ multiply
 
 	* M (U+004D) contains a short segment L<<439.0,0.0>--<409.0,0.0>>
 
+	* Q (U+0051) contains a short segment B<<425.0,4.0>-<425.0,4.0>-<425.0,4.0>>
+
 	* Y (U+0059) contains a short segment L<<294.0,298.0>--<296.0,295.0>>
 
 	* Y (U+0059) contains a short segment L<<296.0,295.0>--<293.0,295.0>>
@@ -7158,6 +7174,8 @@ multiply
 
 	* ampersand (U+0026) contains a short segment B<<207.0,367.0>-<216.0,369.0>-<225.0,372.0>>
 
+	* Q (U+0051) contains a short segment B<<437.0,9.0>-<437.0,9.0>-<437.0,9.0>>
+
 	* d (U+0064) contains a short segment B<<413.0,72.0>-<413.0,75.0>-<413.0,79.0>>
 
 	* e (U+0065) contains a short segment L<<105.0,231.0>--<105.0,227.0>>
@@ -7687,7 +7705,7 @@ Width = 495:
 plus
 
 Width = 508:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 463:
 multiply
