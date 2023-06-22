@@ -49979,7 +49979,25 @@ width = 417;
 anchors = (
 {
 name = top;
-pos = (255,490);
+pos = (254,490);
+}
+);
+guides = (
+{
+angle = 80.5;
+pos = (37,245);
+},
+{
+angle = 80.5;
+pos = (385,245);
+},
+{
+angle = 80.5;
+pos = (82,245);
+},
+{
+angle = 80.5;
+pos = (51,245);
 }
 );
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
@@ -49987,53 +50005,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(279,-10,o),
-(351,36,o),
-(365,119,cs),
-(366,127,o),
-(367,135,o),
-(367,143,cs),
-(367,208,o),
-(318,240,o),
-(251,279,cs),
-(216,298,o),
-(165,325,o),
-(165,367,cs),
-(165,370,o),
-(165,373,o),
-(166,376,cs),
-(172,409,o),
-(201,426,o),
-(236,426,cs),
-(275,426,o),
-(325,401,o),
-(355,359,c),
-(414,416,l),
-(370,470,o),
-(303,501,o),
-(232,501,cs),
-(151,501,o),
-(87,457,o),
-(72,376,cs),
-(71,368,o),
-(70,360,o),
-(70,352,cs),
-(70,287,o),
+(293,-10,o),
+(366,55,o),
+(366,143,cs),
+(366,208,o),
+(317,240,o),
+(250,279,cs),
+(215,298,o),
+(164,325,o),
+(164,367,cs),
+(164,404,o),
+(197,427,o),
+(235,427,cs),
+(274,427,o),
+(324,402,o),
+(354,359,c),
+(413,416,l),
+(369,470,o),
+(302,501,o),
+(231,501,cs),
+(134,501,o),
+(71,435,o),
+(71,352,cs),
+(71,287,o),
 (120,254,o),
-(186,215,cs),
-(220,196,o),
-(273,169,o),
-(273,127,cs),
-(273,90,o),
-(237,65,o),
-(196,65,cs),
-(153,65,o),
-(101,92,o),
-(65,140,c),
-(9,77,l),
-(53,21,o),
-(121,-10,o),
-(194,-10,cs)
+(185,215,cs),
+(219,196,o),
+(272,169,o),
+(272,127,cs),
+(272,89,o),
+(236,64,o),
+(195,64,cs),
+(152,64,o),
+(101,91,o),
+(64,137,c),
+(9,78,l),
+(57,22,o),
+(120,-10,o),
+(193,-10,cs)
 );
 }
 );
@@ -50053,7 +50062,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 434;
+width = 433;
 },
 {
 anchors = (
@@ -50531,7 +50540,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (53,2);
+pos = (85,2);
 ref = caroncomb;
 }
 );
@@ -50551,7 +50560,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 462;
+width = 433;
 },
 {
 layerId = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
@@ -154100,21 +154109,21 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-45,
+93,
 9.5,
 0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = O;
+value = T;
 },
 {
 name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 200;
+Location = 400;
 },
 {
 Axis = Slant;
@@ -154159,8 +154168,8 @@ name = winDescent;
 value = 0;
 }
 );
-iconName = Light;
-id = "4E5694F4-F64E-4331-B998-78BE273203C7";
+iconName = Regular;
+id = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
 metricValues = (
 {
 over = 10;
@@ -154172,7 +154181,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 478;
+pos = 490;
 },
 {
 over = -10;
@@ -154191,36 +154200,34 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraLight Italic";
+name = "Modern Italic";
 userData = {
-GSExtrudeAngle = 30;
-GSExtrudeOffset = 15;
 KernOnModels = (
 "d period",
-"d colon",
 "d quoteleft",
 "quoteright h",
 "d quoteright",
 "quoteleft h",
+"d colon",
 "i n",
 "l n",
 "d exclam",
 "guilsinglleft h",
 "d parenleft",
 "parenleft h",
-"bracketleft h",
 "d hyphen",
-"r n",
+"bracketleft h",
 "d underscore",
-"v n",
+"r n",
 "n a",
+"v n",
+"d endash",
+"endash endash",
 "n n",
 "n u",
 "n at",
 "o n",
 "n o",
-"d endash",
-"endash endash",
 "l H",
 "one comma",
 "one n",
