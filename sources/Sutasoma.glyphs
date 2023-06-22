@@ -22629,8 +22629,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(805,0,l),
-(989,700,l),
+(1300,0,l),
+(1484,700,l),
 (937,700,l),
 (770,51,l),
 (795,52,l),
@@ -50569,7 +50569,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (39,2);
+pos = (78,2);
 ref = caroncomb;
 }
 );
@@ -50589,7 +50589,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 476;
+width = 457;
 }
 );
 unicode = 353;
