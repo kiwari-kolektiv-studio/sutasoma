@@ -154564,20 +154564,20 @@ m01 = {
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
 0,
-169,
+45,
 9.5
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = O;
 },
 {
 name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 800;
+Location = 200;
 },
 {
 Axis = Slant;
@@ -154622,8 +154622,8 @@ name = winDescent;
 value = 0;
 }
 );
-iconName = Bold;
-id = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
+iconName = Light;
+id = "4E5694F4-F64E-4331-B998-78BE273203C7";
 metricValues = (
 {
 over = 10;
@@ -154635,7 +154635,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 502;
+pos = 478;
 },
 {
 over = -10;
@@ -154647,50 +154647,50 @@ pos = -250;
 },
 {
 over = -10;
-pos = 9.462;
+pos = 9.5;
 },
 {
 over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraBold Italic";
+name = "Modern ExtraLight Italic";
 userData = {
-KernOnIndependentPairs = (
-"d underscore"
-);
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
 KernOnModels = (
 "d period",
+"d colon",
 "d quoteleft",
 "quoteright h",
 "d quoteright",
 "quoteleft h",
-"d colon",
-"d exclam",
 "i n",
 "l n",
-"bracketleft h",
-"d hyphen",
+"d exclam",
 "guilsinglleft h",
 "d parenleft",
 "parenleft h",
+"bracketleft h",
+"d hyphen",
 "r n",
-"d endash",
-"endash endash",
-"n a",
+"d underscore",
 "v n",
+"n a",
 "n n",
 "n u",
 "n at",
 "o n",
 "n o",
+"d endash",
+"endash endash",
 "l H",
 "one comma",
 "one n",
 "H s",
+"H x",
 "H n",
 "H o",
-"H x",
 "H ampersand",
 "one H",
 "one zero",
@@ -154700,9 +154700,9 @@ KernOnModels = (
 "one one",
 "E H",
 "H T",
+"H V",
 "H O",
-"H H",
-"H V"
+"H H"
 );
 };
 };
