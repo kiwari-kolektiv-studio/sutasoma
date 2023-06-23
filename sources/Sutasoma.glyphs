@@ -4548,7 +4548,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 623;
+width = 619;
 },
 {
 background = {
@@ -4966,7 +4966,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 623;
+width = 619;
 }
 );
 metricLeft = "=H";
@@ -154883,28 +154883,20 @@ m01 = {
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
 0,
-93,
-9.5
+169,
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = T;
+value = K;
 },
 {
 name = "Axis Location";
 value = (
 {
 Axis = Weight;
-Location = 400;
-},
-{
-Axis = Slant;
-Location = 9.5;
-},
-{
-Axis = Grade;
-Location = 0;
+Location = 800;
 }
 );
 },
@@ -154941,8 +154933,8 @@ name = winDescent;
 value = 0;
 }
 );
-iconName = Regular;
-id = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
+iconName = Bold;
+id = m006;
 metricValues = (
 {
 over = 10;
@@ -154954,7 +154946,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 490;
+pos = 502;
 },
 {
 over = -10;
@@ -154966,61 +154958,61 @@ pos = -250;
 },
 {
 over = -10;
-pos = 9.462;
+pos = 0;
 },
 {
 over = -10;
 pos = -175;
 }
 );
-name = "Modern Italic";
+name = "Modern ExtraBold";
 userData = {
 KernOnIndependentPairs = (
-"n a",
-"guilsinglleft h",
-"one four",
-"d period",
-"H H",
-"bracketleft h",
-"H O",
-"one three",
-"H ampersand",
-"one two",
-"one n",
-"one one",
-"one comma",
-"d underscore",
-"quoteleft h",
-"d quoteright"
+"d underscore"
 );
 KernOnModels = (
-"quoteright h",
+"d period",
 "d quoteleft",
+"quoteright h",
+"d quoteright",
+"quoteleft h",
+"d colon",
+"d exclam",
 "i n",
 "l n",
-"d colon",
+"bracketleft h",
 "d hyphen",
-"d exclam",
-"r n",
-"parenleft h",
+"guilsinglleft h",
 "d parenleft",
-"v n",
+"parenleft h",
+"r n",
 "d endash",
 "endash endash",
+"n a",
+"v n",
 "n n",
 "n u",
 "n at",
 "o n",
 "n o",
 "l H",
+"one comma",
+"one n",
 "H s",
-"H x",
 "H n",
 "H o",
-"one zero",
+"H x",
+"H ampersand",
 "one H",
+"one zero",
+"one two",
+"one three",
+"one four",
+"one one",
 "E H",
 "H T",
+"H O",
+"H H",
 "H V"
 );
 };
