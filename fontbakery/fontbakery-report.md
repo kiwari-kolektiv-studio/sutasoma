@@ -353,14 +353,6 @@ Fontbakery version: 0.8.13
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -422,9 +414,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: equal	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
+	- Glyph name: fi	Contours detected: 2	Expected: 3
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
@@ -452,7 +442,7 @@ Width = 512:
 plus
 
 Width = 535:
-less, greaterequal, greater, lessequal
+less, lessequal, greater, greaterequal
 
 Width = 488:
 multiply
@@ -460,6 +450,10 @@ multiply
 Width = 519:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -721,9 +715,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
+
+	* fi (U+FB01) contains a short segment B<<401.0,641.0>-<401.0,648.0>-<402.0,654.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1079,14 +1075,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1140,10 +1128,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -1171,7 +1155,11 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 500 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -1461,11 +1449,9 @@ multiply
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
-
-	* fl (U+FB02) contains a short segment L<<16.0,452.0>--<16.0,472.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1833,14 +1819,6 @@ multiply
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1887,8 +1865,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -1928,6 +1904,10 @@ lessequal
 Width = 499:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -2495,14 +2475,6 @@ greaterequal
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -2549,10 +2521,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -2575,7 +2543,7 @@ Width = 495:
 plus
 
 Width = 499:
-less, greaterequal, greater, lessequal
+less, lessequal, greater, greaterequal
 
 Width = 468:
 multiply
@@ -2583,6 +2551,10 @@ multiply
 Width = 492:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -3144,14 +3116,6 @@ approxequal
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3206,9 +3170,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: equal	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
+	- Glyph name: fi	Contours detected: 2	Expected: 3
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
@@ -3236,7 +3198,7 @@ Width = 507:
 plus
 
 Width = 523:
-less, greaterequal, greater, lessequal
+less, lessequal, greater, greaterequal
 
 Width = 481:
 multiply
@@ -3244,21 +3206,25 @@ multiply
 Width = 510:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('oneeighth', 722, 145)
-	* ('oneeighth', 722, 108)
-	* ('oneeighth', 722, 54)
+	* ('oneeighth', 695, 145)
+	* ('oneeighth', 695, 108)
+	* ('oneeighth', 695, 54)
 	* ('threeeighths', 789, 145)
 	* ('threeeighths', 789, 108)
 	* ('threeeighths', 789, 54)
 	* ('fiveeighths', 790, 145)
 	* ('fiveeighths', 790, 108)
 	* ('fiveeighths', 790, 54)
-	* ('seveneighths', 719, 145)
-	* ('seveneighths', 719, 108) and ('seveneighths', 719, 54)
+	* ('seveneighths', 752, 145)
+	* ('seveneighths', 752, 108) and ('seveneighths', 752, 54)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3409,6 +3375,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment B<<406.0,436.0>-<406.0,437.0>-<407.0,437.0>>
 
 	* eth (U+00F0) contains a short segment B<<311.0,548.0>-<310.0,549.0>-<309.0,550.0>>
+
+	* oslash (U+00F8) contains a short segment B<<359.0,361.0>-<359.0,362.0>-<358.0,363.0>>
+
+	* oslash (U+00F8) contains a short segment B<<207.0,134.0>-<207.0,134.0>-<208.0,134.0>>
 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
@@ -3838,14 +3808,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3901,8 +3863,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: perthousand	Contours detected: 8	Expected: 6 or 7 
@@ -3944,6 +3904,10 @@ lessequal
 Width = 511:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -4181,9 +4145,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowupdn (U+2195): X=233.0,Y=-1.0 (should be at baseline 0?)
 
-	* arrowupdn (U+2195): X=305.0,Y=-1.0 (should be at baseline 0?) 
+	* arrowupdn (U+2195): X=305.0,Y=-1.0 (should be at baseline 0?)
 
-	* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?)
+
+	* fi (U+FB01): X=325.0,Y=700.5 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=325.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4653,14 +4623,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4714,8 +4676,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -4755,7 +4715,11 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 507 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 506 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -4902,13 +4866,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* fiveeighths (U+215D): X=241.0,Y=702.0 (should be at cap-height 700?)
 
-	* seveneighths (U+215E): X=23.0,Y=702.0 (should be at cap-height 700?)
+	* seveneighths (U+215E): X=23.0,Y=702.0 (should be at cap-height 700?) 
 
-	* seveneighths (U+215E): X=258.0,Y=702.0 (should be at cap-height 700?)
-
-	* fi (U+FB01): X=315.5,Y=699.5 (should be at cap-height 700?) 
-
-	* fl (U+FB02): X=315.5,Y=699.5 (should be at cap-height 700?) [code: found-misalignments]
+	* seveneighths (U+215E): X=258.0,Y=702.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -5384,14 +5344,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -5442,8 +5394,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
@@ -5485,15 +5435,22 @@ lessequal
 Width = 523:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('oneeighth', 724, 143)
-	* ('oneeighth', 724, 106)
-	* ('oneeighth', 724, 51)
-	* ('seveneighths', 730, 143)
-	* ('seveneighths', 730, 106) and ('seveneighths', 730, 51)
+	* ('oneeighth', 695, 143)
+	* ('oneeighth', 695, 106)
+	* ('oneeighth', 695, 51)
+	* ('threeeighths', 773, 143)
+	* ('threeeighths', 773, 106)
+	* ('threeeighths', 773, 51)
+	* ('seveneighths', 752, 143)
+	* ('seveneighths', 752, 106) and ('seveneighths', 752, 51)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -5797,9 +5754,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
+
+	* fi (U+FB01) contains a short segment B<<400.0,640.0>-<400.0,646.0>-<401.0,652.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -6167,14 +6126,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -6232,8 +6183,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: perthousand	Contours detected: 9	Expected: 6 or 7 
@@ -6275,6 +6224,10 @@ lessequal
 Width = 535:
 greaterequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -6546,9 +6499,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
+
+	* fi (U+FB01) contains a short segment B<<401.0,641.0>-<401.0,642.0>-<401.0,644.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -6902,14 +6857,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -6967,10 +6914,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -6994,14 +6937,18 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-less, greaterequal, greater, lessequal
+less, lessequal, greater, greaterequal
 
 Width = 475:
 multiply
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -7137,9 +7084,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* seveneighths (U+215E): X=13.0,Y=702.0 (should be at cap-height 700?)
 
-	* seveneighths (U+215E): X=267.0,Y=702.0 (should be at cap-height 700?) 
+	* seveneighths (U+215E): X=267.0,Y=702.0 (should be at cap-height 700?)
 
-	* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?)
+
+	* fi (U+FB01): X=325.0,Y=699.0 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=325.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -7603,14 +7556,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -7664,19 +7609,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: oslash	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: equal	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: oslash	Contours detected: 2	Expected: 3 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -7698,7 +7635,7 @@ Width = 488:
 plus
 
 Width = 484:
-less, greaterequal, greater, lessequal
+less, lessequal, greater, greaterequal
 
 Width = 460:
 multiply
@@ -7706,6 +7643,10 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
@@ -8304,14 +8245,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-
-	- f + i 
-
-	- i + l [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -8365,10 +8298,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: fi	Contours detected: 1	Expected: 3
-
-	- Glyph name: fl	Contours detected: 1	Expected: 2
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -8399,7 +8328,11 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 505 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 522 but it should be 504 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -8670,7 +8603,7 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 37 | 177 | 1382 | 80 | 1089 | 0 |
+| 0 | 37 | 177 | 1394 | 80 | 1077 | 0 |
 | 0% | 1% | 6% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
