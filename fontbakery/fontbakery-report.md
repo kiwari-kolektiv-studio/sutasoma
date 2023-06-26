@@ -424,7 +424,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, lessequal, greaterequal, less
+lessequal, greater, greaterequal, less
 
 Width = 488:
 multiply
@@ -445,23 +445,19 @@ approxequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Aacute', 402, 963)
-	* ('Eacute', 360, 963)
-	* ('Iacute', 228, 963)
-	* ('Iacute', 302, 885)
-	* ('Idieresis', 302, 891)
-	* ('Idieresis', 302, 859)
-	* ('Idieresis', 302, 828)
-	* ('Oacute', 432, 963)
-	* ('Uacute', 413, 963)
+	* ('Eacute', 363, 963)
+	* ('Iacute', 230, 963)
+	* ('Oacute', 434, 963)
+	* ('Uacute', 415, 963)
 	* ('Yacute', 397, 963)
-	* ('aring', 218, 798)
-	* ('aring', 260, 798)
-	* ('aring', 304, 798)
+	* ('aring', 215, 798)
+	* ('aring', 257, 798)
+	* ('aring', 301, 798)
 	* ('eacute', 358, 762)
 	* ('iacute', 219, 762)
 	* ('uacute', 359, 762)
 	* ('yacute', 349, 762)
-	* ('aacute.ss01', 349, 760)
+	* ('aacute.ss01', 347, 760)
 	* ('periodcentered', 74, 382)
 	* ('periodcentered', 116, 382) and ('periodcentered', 158, 382)
 
@@ -601,8 +597,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* germandbls (U+00DF) contains a short segment B<<293.5,333.0>-<284.0,332.0>-<277.0,330.0>>
 
-	* oslash (U+00F8) contains a short segment B<<213.0,145.0>-<214.0,144.0>-<214.0,144.0>>
-
 	* thorn (U+00FE) contains a short segment B<<208.0,40.0>-<207.0,40.0>-<207.0,41.0>>
 
 	* OE (U+0152) contains a short segment B<<460.0,671.0>-<465.0,667.0>-<471.0,663.0>>
@@ -617,9 +611,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A) contains a short segment B<<101.0,-4.0>-<102.0,-3.0>-<103.0,-1.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<133.0,568.0>-<132.0,567.0>-<131.0,565.0>>
+	* quotedblleft (U+201C) contains a short segment B<<131.0,568.0>-<130.0,567.0>-<129.0,565.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<350.0,568.0>-<349.0,567.0>-<348.0,565.0>>
+	* quotedblleft (U+201C) contains a short segment B<<348.0,568.0>-<347.0,567.0>-<346.0,565.0>>
 
 	* quotedblright (U+201D) contains a short segment B<<318.0,562.0>-<319.0,563.0>-<320.0,565.0>>
 
@@ -2455,7 +2449,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, lessequal, greaterequal, less
+lessequal, greater, greaterequal, less
 
 Width = 468:
 multiply
@@ -3078,7 +3072,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, lessequal, greaterequal, less
+lessequal, greater, greaterequal, less
 
 Width = 481:
 multiply
@@ -3097,12 +3091,9 @@ approxequal
 	* ('oneeighth', 695, 145)
 	* ('oneeighth', 695, 108)
 	* ('oneeighth', 695, 54)
-	* ('threeeighths', 789, 145)
-	* ('threeeighths', 789, 108)
-	* ('threeeighths', 789, 54)
-	* ('fiveeighths', 787, 145)
-	* ('fiveeighths', 787, 108)
-	* ('fiveeighths', 787, 54)
+	* ('threeeighths', 773, 145)
+	* ('threeeighths', 773, 108)
+	* ('threeeighths', 773, 54)
 	* ('seveneighths', 752, 145)
 	* ('seveneighths', 752, 108) and ('seveneighths', 752, 54)
 
@@ -3164,17 +3155,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Ugrave (U+00D9): X=239.0,Y=951.0 (should be at ascender 950?)
 
-	* atilde (U+00E3): X=195.0,Y=701.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=194.0,Y=701.0 (should be at cap-height 700?)
 
-	* atilde (U+00E3): X=361.0,Y=702.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=360.0,Y=702.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=244.0,Y=701.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=410.0,Y=702.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=219.0,Y=701.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=218.0,Y=701.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=385.0,Y=702.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=384.0,Y=702.0 (should be at cap-height 700?)
 
 	* yacute (U+00FD): X=199.0,Y=2.0 (should be at baseline 0?)
 
@@ -3248,9 +3239,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<401.0,436.0>-<401.0,437.0>-<402.0,437.0>>
 
-	* eth (U+00F0) contains a short segment B<<306.0,548.0>-<305.0,549.0>-<304.0,550.0>>
+	* eth (U+00F0) contains a short segment B<<306.0,548.0>-<305.0,549.0>-<305.0,549.0>>
 
-	* oslash (U+00F8) contains a short segment B<<355.0,360.0>-<354.0,361.0>-<353.0,363.0>>
+	* oslash (U+00F8) contains a short segment B<<354.0,361.0>-<354.0,362.0>-<353.0,363.0>>
+
+	* oslash (U+00F8) contains a short segment B<<202.0,134.0>-<202.0,134.0>-<203.0,134.0>>
 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
@@ -4543,7 +4536,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -5258,6 +5251,9 @@ greaterequal
 	* ('oneeighth', 695, 143)
 	* ('oneeighth', 695, 106)
 	* ('oneeighth', 695, 51)
+	* ('threeeighths', 773, 143)
+	* ('threeeighths', 773, 106)
+	* ('threeeighths', 773, 51)
 	* ('seveneighths', 752, 143)
 	* ('seveneighths', 752, 106) and ('seveneighths', 752, 51)
 
@@ -5365,9 +5361,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=262.0,Y=-0.5 (should be at baseline 0?)
 
-	* scaron (U+0161): X=99.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=98.0,Y=702.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=361.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=360.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=24.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6017,12 +6013,6 @@ greaterequal
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Icircumflex', 279, 802)
 	* ('icircumflex', 268, 601)
-	* ('threeeighths', 779, 142)
-	* ('threeeighths', 779, 107)
-	* ('threeeighths', 779, 51)
-	* ('fiveeighths', 778, 142)
-	* ('fiveeighths', 778, 107)
-	* ('fiveeighths', 778, 51)
 	* ('periodcentered', 74, 382)
 	* ('periodcentered', 116, 382)
 	* ('periodcentered', 158, 382)
@@ -6699,7 +6689,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-greater, lessequal, greaterequal, less
+lessequal, greater, greaterequal, less
 
 Width = 475:
 multiply
@@ -6713,23 +6703,20 @@ multiply
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Aacute', 408, 947)
-	* ('Eacute', 376, 947)
-	* ('Iacute', 232, 947)
-	* ('Oacute', 439, 947)
-	* ('Uacute', 422, 947)
+	* ('Eacute', 377, 947)
+	* ('Iacute', 233, 947)
+	* ('Oacute', 440, 947)
+	* ('Uacute', 423, 947)
 	* ('Yacute', 395, 947)
-	* ('acircumflex', 216, 722)
-	* ('acircumflex', 288, 722)
+	* ('acircumflex', 215, 722)
+	* ('acircumflex', 287, 722)
 	* ('eacute', 362, 740)
 	* ('iacute', 220, 740)
-	* ('ocircumflex', 241, 722)
-	* ('ocircumflex', 313, 722)
+	* ('ocircumflex', 240, 722)
+	* ('ocircumflex', 312, 722)
 	* ('uacute', 362, 740)
 	* ('yacute', 348, 740)
 	* ('aacute.ss01', 355, 738)
-	* ('ellipsis', 616, 97)
-	* ('ellipsis', 616, 64)
-	* ('ellipsis', 616, 32)
 	* ('periodcentered', 71, 362)
 	* ('periodcentered', 103, 362) and ('periodcentered', 137, 362)
 
@@ -6994,7 +6981,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7386,7 +7373,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, lessequal, greaterequal, less
+lessequal, greater, greaterequal, less
 
 Width = 460:
 multiply
@@ -7394,6 +7381,10 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 508 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -8320,8 +8311,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 37 | 179 | 1394 | 79 | 1076 | 0 |
-| 0% | 1% | 6% | 50% | 3% | 39% | 0% |
+| 0 | 37 | 180 | 1394 | 78 | 1076 | 0 |
+| 0% | 1% | 7% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
