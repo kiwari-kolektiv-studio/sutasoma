@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greaterequal, less, lessequal, greater
+greater, less, greaterequal, lessequal
 
 Width = 488:
 multiply
@@ -479,10 +479,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=401.5,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=350.5,Y=501.0 (should be at x-height 499?)
-
-	* c (U+0063): X=353.5,Y=-1.5 (should be at baseline 0?)
-
 	* d (U+0064): X=166.5,Y=498.0 (should be at x-height 499?)
 
 	* g (U+0067): X=326.0,Y=500.0 (should be at x-height 499?)
@@ -494,8 +490,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* p (U+0070): X=401.5,Y=1.0 (should be at baseline 0?)
 
 	* q (U+0071): X=166.5,Y=498.0 (should be at x-height 499?)
-
-	* cent (U+00A2): X=354.0,Y=-2.0 (should be at baseline 0?)
 
 	* dieresis (U+00A8): X=253.0,Y=699.0 (should be at cap-height 700?)
 
@@ -520,8 +514,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* onehalf (U+00BD): X=190.0,Y=702.0 (should be at cap-height 700?)
 
 	* questiondown (U+00BF): X=207.0,Y=-0.5 (should be at baseline 0?)
-
-	* ccedilla (U+00E7): X=354.0,Y=-2.0 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=403.5,Y=1.0 (should be at baseline 0?)
 
@@ -1187,10 +1179,6 @@ multiply
 
 	* b (U+0062): X=354.0,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=315.0,Y=479.5 (should be at x-height 478?)
-
-	* c (U+0063): X=317.5,Y=-0.5 (should be at baseline 0?)
-
 	* d (U+0064): X=189.0,Y=477.0 (should be at x-height 478?)
 
 	* g (U+0067): X=314.0,Y=477.0 (should be at x-height 478?)
@@ -1835,7 +1823,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -1883,10 +1871,6 @@ greaterequal
 
 	* b (U+0062): X=383.0,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=340.5,Y=489.0 (should be at x-height 490?)
-
-	* c (U+0063): X=343.5,Y=2.0 (should be at baseline 0?)
-
 	* d (U+0064): X=184.0,Y=489.0 (should be at x-height 490?)
 
 	* d (U+0064): X=323.5,Y=488.5 (should be at x-height 490?)
@@ -1902,8 +1886,6 @@ greaterequal
 	* q (U+0071): X=184.0,Y=489.0 (should be at x-height 490?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
-
-	* cent (U+00A2): X=344.0,Y=2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=22.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1934,8 +1916,6 @@ greaterequal
 	* Yacute (U+00DD): X=485.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=553.0,Y=701.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=344.0,Y=2.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=342.5,Y=2.0 (should be at baseline 0?)
 
@@ -2471,7 +2451,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, less, lessequal, greater
+greater, less, greaterequal, lessequal
 
 Width = 468:
 multiply
@@ -2516,10 +2496,6 @@ approxequal
 
 	* b (U+0062): X=385.0,Y=1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=332.0,Y=491.0 (should be at x-height 490?)
-
-	* c (U+0063): X=333.5,Y=-1.0 (should be at baseline 0?)
-
 	* d (U+0064): X=182.0,Y=488.5 (should be at x-height 490?)
 
 	* g (U+0067): X=64.0,Y=1.0 (should be at baseline 0?)
@@ -2529,8 +2505,6 @@ approxequal
 	* p (U+0070): X=385.0,Y=1.5 (should be at baseline 0?)
 
 	* q (U+0071): X=182.0,Y=488.5 (should be at x-height 490?)
-
-	* cent (U+00A2): X=334.0,Y=-1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=185.0,Y=698.5 (should be at cap-height 700?)
 
@@ -2549,8 +2523,6 @@ approxequal
 	* questiondown (U+00BF): X=74.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=448.0,Y=1.0 (should be at baseline 0?)
-
-	* ccedilla (U+00E7): X=334.0,Y=-1.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=342.5,Y=2.0 (should be at baseline 0?)
 
@@ -3104,7 +3076,7 @@ Width = 507:
 plus
 
 Width = 523:
-greaterequal, less, lessequal, greater
+greater, less, greaterequal, lessequal
 
 Width = 481:
 multiply
@@ -3153,10 +3125,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=396.0,Y=1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=344.0,Y=497.5 (should be at x-height 496?)
-
-	* c (U+0063): X=347.5,Y=-1.5 (should be at baseline 0?)
-
 	* d (U+0064): X=172.0,Y=495.0 (should be at x-height 496?)
 
 	* g (U+0067): X=419.0,Y=498.0 (should be at x-height 496?)
@@ -3168,8 +3136,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=172.0,Y=495.0 (should be at x-height 496?)
 
 	* y (U+0079): X=199.0,Y=2.0 (should be at baseline 0?)
-
-	* cent (U+00A2): X=347.0,Y=-1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=71.0,Y=699.0 (should be at cap-height 700?)
 
@@ -3198,8 +3164,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* atilde (U+00E3): X=194.0,Y=701.0 (should be at cap-height 700?)
 
 	* atilde (U+00E3): X=360.0,Y=702.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=347.0,Y=-1.0 (should be at baseline 0?)
 
 	* ntilde (U+00F1): X=244.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3776,7 +3740,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -3914,10 +3878,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=387.0,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=342.5,Y=492.5 (should be at x-height 493?)
-
-	* c (U+0063): X=347.0,Y=1.5 (should be at baseline 0?)
-
 	* d (U+0064): X=180.0,Y=492.0 (should be at x-height 493?)
 
 	* d (U+0064): X=316.0,Y=492.5 (should be at x-height 493?)
@@ -3939,8 +3899,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=180.0,Y=492.0 (should be at x-height 493?)
 
 	* r (U+0072): X=367.0,Y=491.0 (should be at x-height 493?)
-
-	* cent (U+00A2): X=347.0,Y=2.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3973,8 +3931,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Yacute (U+00DD): X=483.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=560.0,Y=701.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=347.0,Y=2.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=347.5,Y=2.0 (should be at baseline 0?)
 
@@ -4559,7 +4515,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -4625,10 +4581,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=368.5,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=328.0,Y=484.5 (should be at x-height 484?)
-
-	* c (U+0063): X=330.5,Y=1.0 (should be at baseline 0?)
-
 	* d (U+0064): X=186.5,Y=483.0 (should be at x-height 484?)
 
 	* p (U+0070): X=368.5,Y=1.0 (should be at baseline 0?)
@@ -4636,8 +4588,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=186.5,Y=483.0 (should be at x-height 484?)
 
 	* r (U+0072): X=335.0,Y=485.0 (should be at x-height 484?)
-
-	* cent (U+00A2): X=331.0,Y=1.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=27.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4676,8 +4626,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Yacute (U+00DD): X=491.0,Y=701.0 (should be at cap-height 700?)
 
 	* Yacute (U+00DD): X=544.0,Y=701.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=331.0,Y=1.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=336.0,Y=2.0 (should be at baseline 0?)
 
@@ -5263,7 +5211,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -5343,10 +5291,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=392.0,Y=1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=344.0,Y=495.5 (should be at x-height 496?)
-
-	* c (U+0063): X=350.0,Y=1.0 (should be at baseline 0?)
-
 	* d (U+0064): X=175.0,Y=495.0 (should be at x-height 496?)
 
 	* d (U+0064): X=308.0,Y=497.0 (should be at x-height 496?)
@@ -5368,8 +5312,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=176.0,Y=495.0 (should be at x-height 496?)
 
 	* q (U+0071): X=318.5,Y=494.0 (should be at x-height 496?)
-
-	* cent (U+00A2): X=350.0,Y=1.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=17.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5406,8 +5348,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Yacute (U+00DD): X=568.0,Y=701.0 (should be at cap-height 700?)
 
 	* atilde (U+00E3): X=192.0,Y=698.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=350.0,Y=1.0 (should be at baseline 0?)
 
 	* ntilde (U+00F1): X=244.0,Y=698.0 (should be at cap-height 700?)
 
@@ -5509,7 +5449,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* q (U+0071) contains a short segment B<<393.0,428.0>-<394.0,434.0>-<394.0,440.0>>
 
-	* r (U+0072) contains a short segment B<<175.0,422.0>-<175.0,420.0>-<175.0,418.0>>
+	* r (U+0072) contains a short segment B<<175.0,422.0>-<175.0,420.0>-<175.0,419.0>>
+
+	* cent (U+00A2) contains a short segment B<<255.0,440.0>-<253.0,439.0>-<251.0,438.0>>
 
 	* sterling (U+00A3) contains a short segment B<<99.0,288.0>-<98.0,293.0>-<97.0,299.0>>
 
@@ -6040,7 +5982,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6116,8 +6058,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=396.0,Y=1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=353.5,Y=0.5 (should be at baseline 0?)
-
 	* d (U+0064): X=171.0,Y=498.0 (should be at x-height 499?)
 
 	* d (U+0064): X=300.5,Y=501.0 (should be at x-height 499?)
@@ -6137,8 +6077,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=172.0,Y=497.5 (should be at x-height 499?)
 
 	* q (U+0071): X=312.5,Y=498.0 (should be at x-height 499?)
-
-	* cent (U+00A2): X=353.0,Y=1.0 (should be at baseline 0?)
 
 	* dieresis (U+00A8): X=253.0,Y=699.0 (should be at cap-height 700?)
 
@@ -6163,8 +6101,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* threequarters (U+00BE): X=214.0,Y=698.0 (should be at cap-height 700?)
 
 	* aring (U+00E5): X=256.0,Y=702.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=353.0,Y=1.0 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=399.0,Y=1.0 (should be at baseline 0?)
 
@@ -6236,7 +6172,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* q (U+0071) contains a short segment B<<383.0,439.0>-<384.0,442.0>-<384.0,445.0>>
 
-	* r (U+0072) contains a short segment B<<185.0,427.0>-<185.0,424.0>-<186.0,422.0>>
+	* r (U+0072) contains a short segment B<<185.0,427.0>-<185.0,425.0>-<185.0,423.0>>
 
 	* sterling (U+00A3) contains a short segment B<<97.0,298.0>-<97.0,298.0>-<97.0,298.0>>
 
@@ -6750,10 +6686,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-greaterequal, less, lessequal, greater
+greater, less, greaterequal, lessequal
 
 Width = 475:
 multiply
@@ -6822,10 +6758,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=390.5,Y=1.5 (should be at baseline 0?)
 
-	* c (U+0063): X=338.5,Y=494.5 (should be at x-height 493?)
-
-	* c (U+0063): X=340.5,Y=-1.0 (should be at baseline 0?)
-
 	* d (U+0064): X=177.0,Y=491.5 (should be at x-height 493?)
 
 	* g (U+0067): X=61.0,Y=-1.0 (should be at baseline 0?)
@@ -6837,8 +6769,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* p (U+0070): X=390.5,Y=1.5 (should be at baseline 0?)
 
 	* q (U+0071): X=177.0,Y=491.5 (should be at x-height 493?)
-
-	* cent (U+00A2): X=340.0,Y=-1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=73.0,Y=699.5 (should be at cap-height 700?)
 
@@ -6859,8 +6789,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Ccedilla (U+00C7): X=448.5,Y=699.0 (should be at cap-height 700?)
 
 	* Ccedilla (U+00C7): X=454.0,Y=2.0 (should be at baseline 0?)
-
-	* ccedilla (U+00E7): X=340.0,Y=-1.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=347.5,Y=2.0 (should be at baseline 0?)
 
@@ -7449,7 +7377,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, lessequal, greater
+greater, less, greaterequal, lessequal
 
 Width = 460:
 multiply
@@ -7503,10 +7431,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* b (U+0062): X=369.0,Y=1.0 (should be at baseline 0?)
 
-	* c (U+0063): X=322.5,Y=485.5 (should be at x-height 484?)
-
-	* c (U+0063): X=326.0,Y=-0.5 (should be at baseline 0?)
-
 	* d (U+0064): X=186.0,Y=483.0 (should be at x-height 484?)
 
 	* g (U+0067): X=315.0,Y=483.0 (should be at x-height 484?)
@@ -7518,8 +7442,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* r (U+0072): X=335.0,Y=483.0 (should be at x-height 484?)
 
 	* y (U+0079): X=202.0,Y=1.0 (should be at baseline 0?)
-
-	* cent (U+00A2): X=326.0,Y=-1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=75.5,Y=700.5 (should be at cap-height 700?)
 
@@ -7542,8 +7464,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* questiondown (U+00BF): X=79.5,Y=-0.5 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=431.0,Y=701.0 (should be at cap-height 700?)
-
-	* ccedilla (U+00E7): X=326.0,Y=-1.0 (should be at baseline 0?)
 
 	* eth (U+00F0): X=336.0,Y=2.0 (should be at baseline 0?)
 
@@ -8167,10 +8087,6 @@ approxequal
 	* a (U+0061): X=302.5,Y=477.0 (should be at x-height 478?)
 
 	* b (U+0062): X=353.0,Y=0.5 (should be at baseline 0?)
-
-	* c (U+0063): X=313.0,Y=480.0 (should be at x-height 478?)
-
-	* c (U+0063): X=318.0,Y=-0.5 (should be at baseline 0?)
 
 	* d (U+0064): X=190.0,Y=477.5 (should be at x-height 478?)
 
