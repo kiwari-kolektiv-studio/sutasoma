@@ -74,10 +74,10 @@
             <tr>
                 <td>0</td>
                 <td>37</td>
-                <td>179</td>
+                <td>180</td>
                 <td>1394</td>
                 <td>79</td>
-                <td>1076</td>
+                <td>1075</td>
             </tr>
             <tr>
                 <td>0%</td>
@@ -4361,7 +4361,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 512:
 plus</p>
 <p>Width = 535:
-greater, lessequal, greaterequal, less</p>
+greater, lessequal, less, greaterequal</p>
 <p>Width = 488:
 multiply</p>
 <p>Width = 519:
@@ -4399,7 +4399,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 495:
 plus</p>
 <p>Width = 499:
-greater, lessequal, greaterequal, less</p>
+greater, lessequal, less, greaterequal</p>
 <p>Width = 468:
 multiply</p>
 <p>Width = 492:
@@ -4411,7 +4411,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 507:
 plus</p>
 <p>Width = 523:
-greater, lessequal, greaterequal, less</p>
+greater, lessequal, less, greaterequal</p>
 <p>Width = 481:
 multiply</p>
 <p>Width = 510:
@@ -4441,7 +4441,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 488:
 plus</p>
 <p>Width = 484:
-greater, greaterequal, less</p>
+greater, less, greaterequal</p>
 <p>Width = 462:
 multiply</p>
 <p>Width = 483:
@@ -4491,9 +4491,9 @@ greaterequal
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 499 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 501:
-approxequal, plus</p>
+plus, approxequal</p>
 <p>Width = 511:
-greater, lessequal, greaterequal, less</p>
+greater, lessequal, less, greaterequal</p>
 <p>Width = 475:
 multiply
 [code: width-outliers]</p>
@@ -4503,7 +4503,7 @@ The following math glyphs have a different width, though:</p>
 <p>Width = 488:
 plus</p>
 <p>Width = 484:
-greater, lessequal, greaterequal, less</p>
+greater, lessequal, less, greaterequal</p>
 <p>Width = 460:
 multiply</p>
 <p>Width = 481:
@@ -4757,7 +4757,7 @@ approxequal
 * ('Iacute', 267, 882) and ('icircumflex', 241, 580)</p>
 <p>This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
@@ -4770,21 +4770,31 @@ approxequal
 
 * semicolon (U+003B): X=97.0,Y=-2.0 (should be at baseline 0?)
 
+* question (U+003F): X=188.0,Y=698.0 (should be at cap-height 700?)
+
 * question (U+003F): X=372.5,Y=699.0 (should be at cap-height 700?)
 
 * G (U+0047): X=462.0,Y=698.5 (should be at cap-height 700?)
 
 * b (U+0062): X=401.5,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=350.5,Y=501.0 (should be at x-height 499?)
+
+* c (U+0063): X=353.5,Y=-1.5 (should be at baseline 0?)
+
 * d (U+0064): X=166.5,Y=498.0 (should be at x-height 499?)
 
 * g (U+0067): X=326.0,Y=500.0 (should be at x-height 499?)
+
+* g (U+0067): X=172.0,Y=2.0 (should be at baseline 0?)
 
 * g (U+0067): X=322.0,Y=-1.0 (should be at baseline 0?)
 
 * p (U+0070): X=401.5,Y=1.0 (should be at baseline 0?)
 
 * q (U+0071): X=166.5,Y=498.0 (should be at x-height 499?)
+
+* cent (U+00A2): X=354.0,Y=-2.0 (should be at baseline 0?)
 
 * dieresis (U+00A8): X=253.0,Y=699.0 (should be at cap-height 700?)
 
@@ -4809,6 +4819,8 @@ approxequal
 * onehalf (U+00BD): X=190.0,Y=702.0 (should be at cap-height 700?)
 
 * questiondown (U+00BF): X=207.0,Y=-0.5 (should be at baseline 0?)
+
+* ccedilla (U+00E7): X=354.0,Y=-2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=403.5,Y=1.0 (should be at baseline 0?)
 
@@ -4856,9 +4868,11 @@ approxequal
 
 * seveneighths (U+215E): X=270.0,Y=702.0 (should be at cap-height 700?)
 
-* product (U+220F): X=20.0,Y=701.0 (should be at cap-height 700?) 
+* product (U+220F): X=20.0,Y=701.0 (should be at cap-height 700?)
 
-* product (U+220F): X=780.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+* product (U+220F): X=780.0,Y=701.0 (should be at cap-height 700?) 
+
+* fi (U+FB01): X=366.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModerat-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
@@ -4876,7 +4890,11 @@ approxequal
 
 * zero (U+0030): X=371.5,Y=0.5 (should be at baseline 0?)
 
+* two (U+0032): X=327.0,Y=699.0 (should be at cap-height 700?)
+
 * three (U+0033): X=153.5,Y=1.0 (should be at baseline 0?)
+
+* five (U+0035): X=168.0,Y=1.0 (should be at baseline 0?)
 
 * six (U+0036): X=238.5,Y=699.5 (should be at cap-height 700?)
 
@@ -4885,6 +4903,8 @@ approxequal
 * semicolon (U+003B): X=88.0,Y=-1.0 (should be at baseline 0?)
 
 * semicolon (U+003B): X=80.0,Y=-2.0 (should be at baseline 0?)
+
+* question (U+003F): X=183.0,Y=701.0 (should be at cap-height 700?)
 
 * question (U+003F): X=336.5,Y=699.5 (should be at cap-height 700?)
 
@@ -4914,11 +4934,13 @@ approxequal
 
 * b (U+0062): X=354.0,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=315.0,Y=479.5 (should be at x-height 478?)
+
+* c (U+0063): X=317.5,Y=-0.5 (should be at baseline 0?)
+
 * d (U+0064): X=189.0,Y=477.0 (should be at x-height 478?)
 
 * g (U+0067): X=314.0,Y=477.0 (should be at x-height 478?)
-
-* g (U+0067): X=111.0,Y=-1.0 (should be at baseline 0?)
 
 * p (U+0070): X=354.0,Y=1.0 (should be at baseline 0?)
 
@@ -4927,8 +4949,6 @@ approxequal
 * t (U+0074): X=99.0,Y=476.0 (should be at x-height 478?)
 
 * t (U+0074): X=145.0,Y=476.0 (should be at x-height 478?)
-
-* t (U+0074): X=236.5,Y=-1.0 (should be at baseline 0?)
 
 * yen (U+00A5): X=31.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4981,10 +5001,6 @@ approxequal
 * Ydieresis (U+0178): X=496.0,Y=701.0 (should be at cap-height 700?)
 
 * Ydieresis (U+0178): X=535.0,Y=701.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=493.0,Y=-2.0 (should be at baseline 0?)
-
-* pi (U+03C0): X=578.5,Y=-1.0 (should be at baseline 0?)
 
 * quoteright (U+2019): X=66.0,Y=699.0 (should be at cap-height 700?)
 
@@ -5050,9 +5066,15 @@ approxequal
 
 * b (U+0062): X=383.0,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=340.5,Y=489.0 (should be at x-height 490?)
+
+* c (U+0063): X=343.5,Y=2.0 (should be at baseline 0?)
+
 * d (U+0064): X=184.0,Y=489.0 (should be at x-height 490?)
 
 * d (U+0064): X=323.5,Y=488.5 (should be at x-height 490?)
+
+* g (U+0067): X=128.0,Y=1.0 (should be at baseline 0?)
 
 * g (U+0067): X=372.5,Y=1.0 (should be at baseline 0?)
 
@@ -5064,7 +5086,7 @@ approxequal
 
 * r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
 
-* t (U+0074): X=279.5,Y=-0.5 (should be at baseline 0?)
+* cent (U+00A2): X=344.0,Y=2.0 (should be at baseline 0?)
 
 * yen (U+00A5): X=22.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5096,6 +5118,8 @@ approxequal
 
 * Yacute (U+00DD): X=553.0,Y=701.0 (should be at cap-height 700?)
 
+* ccedilla (U+00E7): X=344.0,Y=2.0 (should be at baseline 0?)
+
 * eth (U+00F0): X=342.5,Y=2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=385.0,Y=1.0 (should be at baseline 0?)
@@ -5109,10 +5133,6 @@ approxequal
 * Ydieresis (U+0178): X=485.0,Y=701.0 (should be at cap-height 700?)
 
 * Ydieresis (U+0178): X=553.0,Y=701.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=554.5,Y=-0.5 (should be at baseline 0?)
-
-* pi (U+03C0): X=612.5,Y=-0.5 (should be at baseline 0?)
 
 * quotesinglbase (U+201A): X=103.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5144,6 +5164,8 @@ approxequal
 
 * zero (U+0030): X=383.5,Y=-0.5 (should be at baseline 0?)
 
+* two (U+0032): X=348.5,Y=698.5 (should be at cap-height 700?)
+
 * six (U+0036): X=238.0,Y=699.5 (should be at cap-height 700?)
 
 * nine (U+0039): X=334.5,Y=0.5 (should be at baseline 0?)
@@ -5162,6 +5184,10 @@ approxequal
 
 * b (U+0062): X=385.0,Y=1.5 (should be at baseline 0?)
 
+* c (U+0063): X=332.0,Y=491.0 (should be at x-height 490?)
+
+* c (U+0063): X=333.5,Y=-1.0 (should be at baseline 0?)
+
 * d (U+0064): X=182.0,Y=488.5 (should be at x-height 490?)
 
 * g (U+0067): X=64.0,Y=1.0 (should be at baseline 0?)
@@ -5172,7 +5198,7 @@ approxequal
 
 * q (U+0071): X=182.0,Y=488.5 (should be at x-height 490?)
 
-* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
+* cent (U+00A2): X=334.0,Y=-1.0 (should be at baseline 0?)
 
 * ordfeminine (U+00AA): X=185.0,Y=698.5 (should be at cap-height 700?)
 
@@ -5192,6 +5218,8 @@ approxequal
 
 * Ccedilla (U+00C7): X=448.0,Y=1.0 (should be at baseline 0?)
 
+* ccedilla (U+00E7): X=334.0,Y=-1.0 (should be at baseline 0?)
+
 * eth (U+00F0): X=342.5,Y=2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=387.0,Y=1.5 (should be at baseline 0?)
@@ -5199,10 +5227,6 @@ approxequal
 * Scedilla (U+015E): X=190.0,Y=2.0 (should be at baseline 0?)
 
 * Scaron (U+0160): X=189.5,Y=2.0 (should be at baseline 0?)
-
-* uni03BC (U+03BC): X=564.0,Y=1.5 (should be at baseline 0?)
-
-* pi (U+03C0): X=613.5,Y=1.0 (should be at baseline 0?)
 
 * quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5238,6 +5262,8 @@ approxequal
 
 * semicolon (U+003B): X=95.0,Y=-2.0 (should be at baseline 0?)
 
+* question (U+003F): X=186.0,Y=698.5 (should be at cap-height 700?)
+
 * question (U+003F): X=364.0,Y=699.5 (should be at cap-height 700?)
 
 * C (U+0043): X=454.0,Y=698.0 (should be at cap-height 700?)
@@ -5245,6 +5271,10 @@ approxequal
 * G (U+0047): X=460.5,Y=698.5 (should be at cap-height 700?)
 
 * b (U+0062): X=396.0,Y=1.5 (should be at baseline 0?)
+
+* c (U+0063): X=344.0,Y=497.5 (should be at x-height 496?)
+
+* c (U+0063): X=347.5,Y=-1.5 (should be at baseline 0?)
 
 * d (U+0064): X=172.0,Y=495.0 (should be at x-height 496?)
 
@@ -5257,6 +5287,8 @@ approxequal
 * q (U+0071): X=172.0,Y=495.0 (should be at x-height 496?)
 
 * y (U+0079): X=199.0,Y=2.0 (should be at baseline 0?)
+
+* cent (U+00A2): X=347.0,Y=-1.0 (should be at baseline 0?)
 
 * ordfeminine (U+00AA): X=71.0,Y=699.0 (should be at cap-height 700?)
 
@@ -5286,6 +5318,8 @@ approxequal
 
 * atilde (U+00E3): X=360.0,Y=702.0 (should be at cap-height 700?)
 
+* ccedilla (U+00E7): X=347.0,Y=-1.0 (should be at baseline 0?)
+
 * ntilde (U+00F1): X=244.0,Y=701.0 (should be at cap-height 700?)
 
 * ntilde (U+00F1): X=410.0,Y=702.0 (should be at cap-height 700?)
@@ -5303,6 +5337,10 @@ approxequal
 * tildecomb (U+0303): X=291.0,Y=701.0 (should be at cap-height 700?)
 
 * uni0304 (U+0304): X=346.0,Y=702.0 (should be at cap-height 700?)
+
+* uni0307 (U+0307): X=138.0,Y=700.5 (should be at cap-height 700?)
+
+* uni0307 (U+0307): X=232.5,Y=701.0 (should be at cap-height 700?)
 
 * quotesinglbase (U+201A): X=102.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5350,6 +5388,8 @@ approxequal
 
 * semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
 
+* question (U+003F): X=184.0,Y=698.0 (should be at cap-height 700?)
+
 * Y (U+0059): X=29.0,Y=701.0 (should be at cap-height 700?)
 
 * Y (U+0059): X=162.0,Y=701.0 (should be at cap-height 700?)
@@ -5360,11 +5400,13 @@ approxequal
 
 * b (U+0062): X=387.0,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=342.5,Y=492.5 (should be at x-height 493?)
+
+* c (U+0063): X=347.0,Y=1.5 (should be at baseline 0?)
+
 * d (U+0064): X=180.0,Y=492.0 (should be at x-height 493?)
 
 * d (U+0064): X=316.0,Y=492.5 (should be at x-height 493?)
-
-* f (U+0066): X=325.0,Y=700.5 (should be at cap-height 700?)
 
 * g (U+0067): X=324.0,Y=492.0 (should be at x-height 493?)
 
@@ -5384,7 +5426,7 @@ approxequal
 
 * r (U+0072): X=367.0,Y=491.0 (should be at x-height 493?)
 
-* t (U+0074): X=295.0,Y=1.5 (should be at baseline 0?)
+* cent (U+00A2): X=347.0,Y=2.0 (should be at baseline 0?)
 
 * yen (U+00A5): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5418,6 +5460,8 @@ approxequal
 
 * Yacute (U+00DD): X=560.0,Y=701.0 (should be at cap-height 700?)
 
+* ccedilla (U+00E7): X=347.0,Y=2.0 (should be at baseline 0?)
+
 * eth (U+00F0): X=347.5,Y=2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=390.0,Y=1.0 (should be at baseline 0?)
@@ -5440,11 +5484,7 @@ approxequal
 
 * uni0307 (U+0307): X=151.0,Y=698.0 (should be at cap-height 700?)
 
-* uni03BC (U+03BC): X=562.0,Y=1.0 (should be at baseline 0?)
-
 * uni03BC (U+03BC): X=171.0,Y=2.0 (should be at baseline 0?)
-
-* pi (U+03C0): X=627.0,Y=1.5 (should be at baseline 0?)
 
 * quoteright (U+2019): X=57.5,Y=698.0 (should be at cap-height 700?)
 
@@ -5478,13 +5518,9 @@ approxequal
 
 * arrowupdn (U+2195): X=305.0,Y=-1.0 (should be at baseline 0?)
 
-* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?)
+* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?) 
 
-* fi (U+FB01): X=325.0,Y=700.5 (should be at cap-height 700?)
-
-* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
-
-* fl (U+FB02): X=325.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
+* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModerat-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
@@ -5496,9 +5532,13 @@ approxequal
 
 * zero (U+0030): X=377.0,Y=0.5 (should be at baseline 0?)
 
+* two (U+0032): X=335.5,Y=698.5 (should be at cap-height 700?)
+
 * semicolon (U+003B): X=101.0,Y=-1.0 (should be at baseline 0?)
 
 * semicolon (U+003B): X=88.0,Y=-2.0 (should be at baseline 0?)
+
+* question (U+003F): X=182.5,Y=699.5 (should be at cap-height 700?)
 
 * C (U+0043): X=432.5,Y=698.0 (should be at cap-height 700?)
 
@@ -5516,6 +5556,10 @@ approxequal
 
 * b (U+0062): X=368.5,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=328.0,Y=484.5 (should be at x-height 484?)
+
+* c (U+0063): X=330.5,Y=1.0 (should be at baseline 0?)
+
 * d (U+0064): X=186.5,Y=483.0 (should be at x-height 484?)
 
 * p (U+0070): X=368.5,Y=1.0 (should be at baseline 0?)
@@ -5524,7 +5568,7 @@ approxequal
 
 * r (U+0072): X=335.0,Y=485.0 (should be at x-height 484?)
 
-* t (U+0074): X=258.5,Y=-0.5 (should be at baseline 0?)
+* cent (U+00A2): X=331.0,Y=1.0 (should be at baseline 0?)
 
 * yen (U+00A5): X=27.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5564,6 +5608,8 @@ approxequal
 
 * Yacute (U+00DD): X=544.0,Y=701.0 (should be at cap-height 700?)
 
+* ccedilla (U+00E7): X=331.0,Y=1.0 (should be at baseline 0?)
+
 * eth (U+00F0): X=336.0,Y=2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=370.5,Y=1.0 (should be at baseline 0?)
@@ -5591,10 +5637,6 @@ approxequal
 * ring (U+02DA): X=101.0,Y=699.0 (should be at cap-height 700?)
 
 * uni030A (U+030A): X=150.0,Y=701.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=524.0,Y=-1.0 (should be at baseline 0?)
-
-* pi (U+03C0): X=595.5,Y=-0.5 (should be at baseline 0?)
 
 * quotesinglbase (U+201A): X=112.0,Y=-1.0 (should be at baseline 0?)
 
@@ -5644,6 +5686,8 @@ approxequal
 
 * semicolon (U+003B): X=104.0,Y=-2.0 (should be at baseline 0?)
 
+* question (U+003F): X=186.0,Y=698.0 (should be at cap-height 700?)
+
 * question (U+003F): X=364.5,Y=700.5 (should be at cap-height 700?)
 
 * Q (U+0051): X=526.0,Y=2.0 (should be at baseline 0?)
@@ -5670,6 +5714,10 @@ approxequal
 
 * b (U+0062): X=392.0,Y=1.5 (should be at baseline 0?)
 
+* c (U+0063): X=344.0,Y=495.5 (should be at x-height 496?)
+
+* c (U+0063): X=350.0,Y=1.0 (should be at baseline 0?)
+
 * d (U+0064): X=175.0,Y=495.0 (should be at x-height 496?)
 
 * d (U+0064): X=308.0,Y=497.0 (should be at x-height 496?)
@@ -5678,6 +5726,8 @@ approxequal
 
 * g (U+0067): X=459.0,Y=495.0 (should be at x-height 496?)
 
+* g (U+0067): X=138.0,Y=-1.0 (should be at baseline 0?)
+
 * p (U+0070): X=393.0,Y=1.0 (should be at baseline 0?)
 
 * p (U+0070): X=260.0,Y=-0.5 (should be at baseline 0?)
@@ -5685,6 +5735,8 @@ approxequal
 * q (U+0071): X=176.0,Y=495.0 (should be at x-height 496?)
 
 * q (U+0071): X=318.5,Y=494.0 (should be at x-height 496?)
+
+* cent (U+00A2): X=350.0,Y=1.0 (should be at baseline 0?)
 
 * yen (U+00A5): X=17.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5722,6 +5774,8 @@ approxequal
 
 * atilde (U+00E3): X=192.0,Y=698.0 (should be at cap-height 700?)
 
+* ccedilla (U+00E7): X=350.0,Y=1.0 (should be at baseline 0?)
+
 * ntilde (U+00F1): X=244.0,Y=698.0 (should be at cap-height 700?)
 
 * otilde (U+00F5): X=219.0,Y=698.0 (should be at cap-height 700?)
@@ -5753,8 +5807,6 @@ approxequal
 * uni030C (U+030C): X=19.0,Y=701.0 (should be at cap-height 700?)
 
 * uni030C (U+030C): X=281.0,Y=701.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=569.5,Y=2.0 (should be at baseline 0?)
 
 * uni03BC (U+03BC): X=183.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5810,6 +5862,8 @@ approxequal
 
 * semicolon (U+003B): X=107.0,Y=-2.0 (should be at baseline 0?)
 
+* question (U+003F): X=188.0,Y=698.5 (should be at cap-height 700?)
+
 * question (U+003F): X=374.0,Y=700.5 (should be at cap-height 700?)
 
 * Q (U+0051): X=438.0,Y=1.0 (should be at baseline 0?)
@@ -5834,11 +5888,15 @@ approxequal
 
 * b (U+0062): X=396.0,Y=1.5 (should be at baseline 0?)
 
+* c (U+0063): X=353.5,Y=0.5 (should be at baseline 0?)
+
 * d (U+0064): X=171.0,Y=498.0 (should be at x-height 499?)
 
 * d (U+0064): X=300.5,Y=501.0 (should be at x-height 499?)
 
 * g (U+0067): X=446.0,Y=500.0 (should be at x-height 499?)
+
+* g (U+0067): X=143.0,Y=-2.0 (should be at baseline 0?)
 
 * p (U+0070): X=397.0,Y=1.0 (should be at baseline 0?)
 
@@ -5847,6 +5905,8 @@ approxequal
 * q (U+0071): X=172.0,Y=497.5 (should be at x-height 499?)
 
 * q (U+0071): X=312.5,Y=498.0 (should be at x-height 499?)
+
+* cent (U+00A2): X=353.0,Y=1.0 (should be at baseline 0?)
 
 * dieresis (U+00A8): X=253.0,Y=699.0 (should be at cap-height 700?)
 
@@ -5871,6 +5931,8 @@ approxequal
 * threequarters (U+00BE): X=214.0,Y=698.0 (should be at cap-height 700?)
 
 * aring (U+00E5): X=256.0,Y=702.0 (should be at cap-height 700?)
+
+* ccedilla (U+00E7): X=353.0,Y=1.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=399.0,Y=1.0 (should be at baseline 0?)
 
@@ -5920,11 +5982,15 @@ approxequal
 
 * zero (U+0030): X=235.5,Y=700.5 (should be at cap-height 700?)
 
+* two (U+0032): X=352.0,Y=698.0 (should be at cap-height 700?)
+
 * six (U+0036): X=238.0,Y=699.5 (should be at cap-height 700?)
 
 * nine (U+0039): X=339.0,Y=0.5 (should be at baseline 0?)
 
 * semicolon (U+003B): X=92.0,Y=-2.0 (should be at baseline 0?)
+
+* question (U+003F): X=184.0,Y=699.5 (should be at cap-height 700?)
 
 * question (U+003F): X=356.0,Y=699.5 (should be at cap-height 700?)
 
@@ -5944,9 +6010,11 @@ approxequal
 
 * b (U+0062): X=390.5,Y=1.5 (should be at baseline 0?)
 
-* d (U+0064): X=177.0,Y=491.5 (should be at x-height 493?)
+* c (U+0063): X=338.5,Y=494.5 (should be at x-height 493?)
 
-* f (U+0066): X=325.0,Y=699.0 (should be at cap-height 700?)
+* c (U+0063): X=340.5,Y=-1.0 (should be at baseline 0?)
+
+* d (U+0064): X=177.0,Y=491.5 (should be at x-height 493?)
 
 * g (U+0067): X=61.0,Y=-1.0 (should be at baseline 0?)
 
@@ -5957,6 +6025,8 @@ approxequal
 * p (U+0070): X=390.5,Y=1.5 (should be at baseline 0?)
 
 * q (U+0071): X=177.0,Y=491.5 (should be at x-height 493?)
+
+* cent (U+00A2): X=340.0,Y=-1.0 (should be at baseline 0?)
 
 * ordfeminine (U+00AA): X=73.0,Y=699.5 (should be at cap-height 700?)
 
@@ -5978,6 +6048,8 @@ approxequal
 
 * Ccedilla (U+00C7): X=454.0,Y=2.0 (should be at baseline 0?)
 
+* ccedilla (U+00E7): X=340.0,Y=-1.0 (should be at baseline 0?)
+
 * eth (U+00F0): X=347.5,Y=2.0 (should be at baseline 0?)
 
 * thorn (U+00FE): X=392.5,Y=1.5 (should be at baseline 0?)
@@ -5991,8 +6063,6 @@ approxequal
 * uni0306 (U+0306): X=54.0,Y=698.0 (should be at cap-height 700?)
 
 * uni0306 (U+0306): X=300.0,Y=698.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=573.0,Y=2.0 (should be at baseline 0?)
 
 * quoteright (U+2019): X=59.0,Y=698.5 (should be at cap-height 700?)
 
@@ -6028,13 +6098,9 @@ approxequal
 
 * seveneighths (U+215E): X=267.0,Y=702.0 (should be at cap-height 700?)
 
-* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?)
+* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?) 
 
-* fi (U+FB01): X=325.0,Y=699.0 (should be at cap-height 700?)
-
-* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
-
-* fl (U+FB02): X=325.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
@@ -6044,11 +6110,15 @@ approxequal
 
 * zero (U+0030): X=236.0,Y=700.5 (should be at cap-height 700?)
 
+* two (U+0032): X=338.5,Y=699.0 (should be at cap-height 700?)
+
 * six (U+0036): X=237.5,Y=699.5 (should be at cap-height 700?)
 
 * nine (U+0039): X=330.0,Y=0.5 (should be at baseline 0?)
 
 * semicolon (U+003B): X=82.0,Y=-2.0 (should be at baseline 0?)
+
+* question (U+003F): X=181.0,Y=701.5 (should be at cap-height 700?)
 
 * question (U+003F): X=341.0,Y=699.5 (should be at cap-height 700?)
 
@@ -6064,11 +6134,13 @@ approxequal
 
 * b (U+0062): X=369.0,Y=1.0 (should be at baseline 0?)
 
+* c (U+0063): X=322.5,Y=485.5 (should be at x-height 484?)
+
+* c (U+0063): X=326.0,Y=-0.5 (should be at baseline 0?)
+
 * d (U+0064): X=186.0,Y=483.0 (should be at x-height 484?)
 
 * g (U+0067): X=315.0,Y=483.0 (should be at x-height 484?)
-
-* g (U+0067): X=128.0,Y=-1.0 (should be at baseline 0?)
 
 * p (U+0070): X=369.0,Y=1.0 (should be at baseline 0?)
 
@@ -6076,9 +6148,9 @@ approxequal
 
 * r (U+0072): X=335.0,Y=483.0 (should be at x-height 484?)
 
-* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
-
 * y (U+0079): X=202.0,Y=1.0 (should be at baseline 0?)
+
+* cent (U+00A2): X=326.0,Y=-1.0 (should be at baseline 0?)
 
 * ordfeminine (U+00AA): X=75.5,Y=700.5 (should be at cap-height 700?)
 
@@ -6101,6 +6173,8 @@ approxequal
 * questiondown (U+00BF): X=79.5,Y=-0.5 (should be at baseline 0?)
 
 * Ccedilla (U+00C7): X=431.0,Y=701.0 (should be at cap-height 700?)
+
+* ccedilla (U+00E7): X=326.0,Y=-1.0 (should be at baseline 0?)
 
 * eth (U+00F0): X=336.0,Y=2.0 (should be at baseline 0?)
 
@@ -6129,10 +6203,6 @@ approxequal
 * uni030B (U+030B): X=255.0,Y=699.0 (should be at cap-height 700?)
 
 * uni030F (U+030F): X=65.0,Y=699.0 (should be at cap-height 700?)
-
-* uni03BC (U+03BC): X=537.5,Y=-2.0 (should be at baseline 0?)
-
-* pi (U+03C0): X=601.5,Y=-0.5 (should be at baseline 0?)
 
 * quotesinglbase (U+201A): X=95.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6178,6 +6248,8 @@ approxequal
 
 * comma (U+002C): X=75.0,Y=-2.0 (should be at baseline 0?)
 
+* two (U+0032): X=328.0,Y=699.0 (should be at cap-height 700?)
+
 * six (U+0036): X=236.5,Y=699.5 (should be at cap-height 700?)
 
 * nine (U+0039): X=325.0,Y=0.5 (should be at baseline 0?)
@@ -6203,6 +6275,10 @@ approxequal
 * a (U+0061): X=302.5,Y=477.0 (should be at x-height 478?)
 
 * b (U+0062): X=353.0,Y=0.5 (should be at baseline 0?)
+
+* c (U+0063): X=313.0,Y=480.0 (should be at x-height 478?)
+
+* c (U+0063): X=318.0,Y=-0.5 (should be at baseline 0?)
 
 * d (U+0064): X=190.0,Y=477.5 (should be at x-height 478?)
 
@@ -6285,7 +6361,9 @@ approxequal
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* ampersand (U+0026) contains a short segment B&lt;&lt;534.0,61.0&gt;-&lt;528.0,65.0&gt;-&lt;523.0,69.0&gt;&gt;
+<pre><code>* dollar (U+0024) contains a short segment B&lt;&lt;334.0,573.0&gt;-&lt;329.0,575.0&gt;-&lt;323.0,576.0&gt;&gt;
+
+* ampersand (U+0026) contains a short segment B&lt;&lt;534.0,61.0&gt;-&lt;528.0,65.0&gt;-&lt;523.0,69.0&gt;&gt;
 
 * ampersand (U+0026) contains a short segment B&lt;&lt;600.0,181.0&gt;-&lt;599.0,177.0&gt;-&lt;597.0,173.0&gt;&gt;
 
@@ -6305,8 +6383,6 @@ approxequal
 
 * d (U+0064) contains a short segment B&lt;&lt;362.0,460.0&gt;-&lt;362.0,459.0&gt;-&lt;363.0,459.0&gt;&gt;
 
-* g (U+0067) contains a short segment B&lt;&lt;100.0,29.0&gt;-&lt;94.0,32.0&gt;-&lt;88.0,36.0&gt;&gt;
-
 * g (U+0067) contains a short segment B&lt;&lt;387.0,479.0&gt;-&lt;385.0,476.0&gt;-&lt;383.0,474.0&gt;&gt;
 
 * p (U+0070) contains a short segment B&lt;&lt;206.0,40.0&gt;-&lt;205.0,40.0&gt;-&lt;205.0,41.0&gt;&gt;
@@ -6322,6 +6398,8 @@ approxequal
 * thorn (U+00FE) contains a short segment B&lt;&lt;208.0,40.0&gt;-&lt;207.0,40.0&gt;-&lt;207.0,41.0&gt;&gt;
 
 * OE (U+0152) contains a short segment B&lt;&lt;460.0,671.0&gt;-&lt;465.0,667.0&gt;-&lt;471.0,663.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;336.0,507.0&gt;-&lt;335.0,503.0&gt;-&lt;334.0,499.0&gt;&gt;
 
 * quoteleft (U+2018) contains a short segment B&lt;&lt;131.0,568.0&gt;-&lt;130.0,567.0&gt;-&lt;129.0,565.0&gt;&gt;
 
@@ -6345,9 +6423,9 @@ approxequal
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;268.0,366.0&gt;-&lt;268.0,358.0&gt;-&lt;268.0,350.0&gt;&gt;
 
-* Euro (U+20AC) contains a short segment B&lt;&lt;101.0,350.0&gt;-&lt;101.0,358.0&gt;-&lt;101.0,366.0&gt;&gt;
+* Euro (U+20AC) contains a short segment B&lt;&lt;277.0,262.0&gt;-&lt;279.0,253.0&gt;-&lt;281.0,245.0&gt;&gt;
 
-* partialdiff (U+2202) contains a short segment B&lt;&lt;353.0,416.0&gt;-&lt;358.0,413.0&gt;-&lt;362.0,409.0&gt;&gt;
+* Euro (U+20AC) contains a short segment B&lt;&lt;101.0,350.0&gt;-&lt;101.0,358.0&gt;-&lt;101.0,366.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -6423,6 +6501,8 @@ approxequal
 
 * Y (U+0059) contains a short segment L&lt;&lt;311.0,295.0&gt;--&lt;310.0,294.0&gt;&gt;
 
+* g (U+0067) contains a short segment B&lt;&lt;123.0,44.0&gt;-&lt;120.0,45.0&gt;-&lt;118.0,46.0&gt;&gt;
+
 * g (U+0067) contains a short segment B&lt;&lt;331.0,470.0&gt;-&lt;332.0,470.0&gt;-&lt;333.0,470.0&gt;&gt;
 
 * m (U+006D) contains a short segment B&lt;&lt;124.0,413.0&gt;-&lt;124.0,405.0&gt;-&lt;124.0,395.0&gt;&gt;
@@ -6465,7 +6545,9 @@ approxequal
 
 * Ydieresis (U+0178) contains a short segment L&lt;&lt;311.0,295.0&gt;--&lt;310.0,294.0&gt;&gt;
 
-* florin (U+0192) contains a short segment B&lt;&lt;238.0,492.0&gt;-&lt;238.0,484.0&gt;-&lt;238.0,476.0&gt;&gt;
+* florin (U+0192) contains a short segment B&lt;&lt;238.0,500.0&gt;-&lt;238.0,492.0&gt;-&lt;239.0,485.0&gt;&gt;
+
+* florin (U+0192) contains a short segment B&lt;&lt;239.0,485.0&gt;-&lt;239.0,480.0&gt;-&lt;239.0,476.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -6547,6 +6629,8 @@ approxequal
 
 * germandbls (U+00DF) contains a short segment B&lt;&lt;316.0,369.0&gt;-&lt;306.0,369.0&gt;-&lt;294.0,367.5&gt;&gt;
 
+* ae (U+00E6) contains a short segment B&lt;&lt;368.0,103.0&gt;-&lt;365.0,110.0&gt;-&lt;362.0,118.0&gt;&gt;
+
 * ae (U+00E6) contains a short segment B&lt;&lt;394.0,422.0&gt;-&lt;398.0,426.0&gt;-&lt;401.0,430.0&gt;&gt;
 
 * OE (U+0152) contains a short segment B&lt;&lt;522.0,64.0&gt;-&lt;515.0,56.0&gt;-&lt;508.0,50.0&gt;&gt;
@@ -6554,6 +6638,8 @@ approxequal
 * oe (U+0153) contains a short segment B&lt;&lt;449.0,70.0&gt;-&lt;444.0,63.0&gt;-&lt;439.0,57.0&gt;&gt;
 
 * uni03BC (U+03BC) contains a short segment B&lt;&lt;163.0,6.0&gt;-&lt;161.0,7.0&gt;-&lt;159.0,8.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;230.0,250.0&gt;-&lt;231.0,241.0&gt;-&lt;233.0,233.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -6619,6 +6705,8 @@ approxequal
 
 * ampersand (U+0026) contains a short segment B&lt;&lt;506.0,203.0&gt;-&lt;507.0,207.0&gt;-&lt;509.0,211.0&gt;&gt;
 
+* five (U+0035) contains a short segment B&lt;&lt;157.0,430.0&gt;-&lt;163.0,436.0&gt;-&lt;171.0,441.0&gt;&gt;
+
 * at (U+0040) contains a short segment B&lt;&lt;563.0,154.0&gt;-&lt;560.0,161.0&gt;-&lt;556.0,169.0&gt;&gt;
 
 * Q (U+0051) contains a short segment B&lt;&lt;522.0,50.0&gt;-&lt;519.0,47.0&gt;-&lt;517.0,45.0&gt;&gt;
@@ -6626,8 +6714,6 @@ approxequal
 * Q (U+0051) contains a short segment B&lt;&lt;450.0,7.0&gt;-&lt;447.0,6.0&gt;-&lt;444.0,5.0&gt;&gt;
 
 * R (U+0052) contains a short segment B&lt;&lt;283.0,296.0&gt;-&lt;280.0,296.0&gt;-&lt;277.0,296.0&gt;&gt;
-
-* g (U+0067) contains a short segment B&lt;&lt;109.0,37.0&gt;-&lt;102.0,41.0&gt;-&lt;96.0,45.0&gt;&gt;
 
 * g (U+0067) contains a short segment B&lt;&lt;427.5,508.5&gt;-&lt;421.0,510.0&gt;-&lt;413.0,510.0&gt;&gt;
 
@@ -6641,7 +6727,13 @@ approxequal
 
 * OE (U+0152) contains a short segment B&lt;&lt;517.0,59.0&gt;-&lt;512.0,54.0&gt;-&lt;507.0,49.0&gt;&gt;
 
+* florin (U+0192) contains a short segment B&lt;&lt;286.0,504.0&gt;-&lt;285.0,497.0&gt;-&lt;284.0,490.0&gt;&gt;
+
 * uni03BC (U+03BC) contains a short segment B&lt;&lt;184.0,8.0&gt;-&lt;176.0,13.0&gt;-&lt;169.0,20.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;233.0,250.0&gt;-&lt;235.0,241.0&gt;-&lt;237.0,233.0&gt;&gt;
+
+* partialdiff (U+2202) contains a short segment B&lt;&lt;379.0,382.0&gt;-&lt;380.0,380.0&gt;-&lt;382.0,377.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -6707,6 +6799,8 @@ approxequal
 
 * ampersand (U+0026) contains a short segment B&lt;&lt;594.0,178.0&gt;-&lt;591.0,170.0&gt;-&lt;588.0,163.0&gt;&gt;
 
+* five (U+0035) contains a short segment B&lt;&lt;179.0,430.0&gt;-&lt;180.0,432.0&gt;-&lt;182.0,433.0&gt;&gt;
+
 * at (U+0040) contains a short segment B&lt;&lt;564.0,143.0&gt;-&lt;562.0,146.0&gt;-&lt;561.0,150.0&gt;&gt;
 
 * Q (U+0051) contains a short segment B&lt;&lt;450.0,5.0&gt;-&lt;449.0,5.0&gt;-&lt;449.0,5.0&gt;&gt;
@@ -6714,8 +6808,6 @@ approxequal
 * R (U+0052) contains a short segment B&lt;&lt;294.0,282.0&gt;-&lt;292.0,282.0&gt;-&lt;290.0,282.0&gt;&gt;
 
 * d (U+0064) contains a short segment B&lt;&lt;370.0,455.0&gt;-&lt;372.0,452.0&gt;-&lt;375.0,450.0&gt;&gt;
-
-* g (U+0067) contains a short segment B&lt;&lt;103.0,32.0&gt;-&lt;97.0,35.0&gt;-&lt;91.0,39.0&gt;&gt;
 
 * g (U+0067) contains a short segment B&lt;&lt;382.0,483.0&gt;-&lt;378.0,478.0&gt;-&lt;375.0,473.0&gt;&gt;
 
@@ -6741,9 +6833,15 @@ approxequal
 
 * OE (U+0152) contains a short segment B&lt;&lt;468.0,670.0&gt;-&lt;478.0,664.0&gt;-&lt;486.0,656.0&gt;&gt;
 
+* florin (U+0192) contains a short segment B&lt;&lt;319.0,506.0&gt;-&lt;318.0,501.0&gt;-&lt;318.0,496.0&gt;&gt;
+
+* uni03BC (U+03BC) contains a short segment B&lt;&lt;390.0,62.0&gt;-&lt;388.0,64.0&gt;-&lt;387.0,67.0&gt;&gt;
+
 * uni03BC (U+03BC) contains a short segment B&lt;&lt;196.0,5.0&gt;-&lt;194.0,6.0&gt;-&lt;193.0,7.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;254.0,358.0&gt;-&lt;254.0,354.0&gt;-&lt;254.0,350.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;262.0,258.0&gt;-&lt;264.0,249.0&gt;-&lt;266.0,241.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;107.0,350.0&gt;-&lt;107.0,354.0&gt;-&lt;107.0,358.0&gt;&gt;
 
@@ -6831,6 +6929,8 @@ approxequal
 
 * germandbls (U+00DF) contains a short segment B&lt;&lt;316.0,364.0&gt;-&lt;306.0,364.0&gt;-&lt;294.5,362.5&gt;&gt;
 
+* ae (U+00E6) contains a short segment B&lt;&lt;370.0,105.0&gt;-&lt;367.0,111.0&gt;-&lt;365.0,118.0&gt;&gt;
+
 * ae (U+00E6) contains a short segment B&lt;&lt;398.0,427.0&gt;-&lt;400.0,430.0&gt;-&lt;403.0,433.0&gt;&gt;
 
 * egrave (U+00E8) contains a short segment B&lt;&lt;374.0,280.0&gt;-&lt;374.0,280.0&gt;-&lt;375.0,281.0&gt;&gt;
@@ -6848,6 +6948,8 @@ approxequal
 * oe (U+0153) contains a short segment B&lt;&lt;448.0,60.0&gt;-&lt;447.0,59.0&gt;-&lt;446.0,57.0&gt;&gt;
 
 * oe (U+0153) contains a short segment B&lt;&lt;721.0,280.0&gt;-&lt;721.0,280.0&gt;-&lt;722.0,281.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;245.0,254.0&gt;-&lt;246.0,244.0&gt;-&lt;248.0,234.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -6919,9 +7021,11 @@ approxequal
 
 * d (U+0064) contains a short segment B&lt;&lt;417.0,85.0&gt;-&lt;416.0,88.0&gt;-&lt;416.0,92.0&gt;&gt;
 
+* g (U+0067) contains a short segment B&lt;&lt;120.0,37.0&gt;-&lt;120.0,37.0&gt;-&lt;119.0,37.0&gt;&gt;
+
 * g (U+0067) contains a short segment B&lt;&lt;337.0,475.0&gt;-&lt;337.0,475.0&gt;-&lt;337.0,475.0&gt;&gt;
 
-* m (U+006D) contains a short segment B&lt;&lt;137.0,409.0&gt;-&lt;137.0,408.0&gt;-&lt;137.0,407.0&gt;&gt;
+* m (U+006D) contains a short segment B&lt;&lt;138.0,410.0&gt;-&lt;138.0,407.0&gt;-&lt;138.0,404.0&gt;&gt;
 
 * n (U+006E) contains a short segment B&lt;&lt;138.0,410.0&gt;-&lt;138.0,406.0&gt;-&lt;139.0,400.0&gt;&gt;
 
@@ -6940,6 +7044,8 @@ approxequal
 * Oslash (U+00D8) contains a short segment B&lt;&lt;492.0,583.0&gt;-&lt;490.0,586.0&gt;-&lt;489.0,589.0&gt;&gt;
 
 * Oslash (U+00D8) contains a short segment B&lt;&lt;195.0,117.0&gt;-&lt;197.0,114.0&gt;-&lt;199.0,111.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment B&lt;&lt;368.0,105.0&gt;-&lt;366.0,108.0&gt;-&lt;365.0,112.0&gt;&gt;
 
 * ntilde (U+00F1) contains a short segment B&lt;&lt;138.0,410.0&gt;-&lt;138.0,406.0&gt;-&lt;139.0,400.0&gt;&gt;
 
@@ -7063,6 +7169,8 @@ approxequal
 
 * aring (U+00E5) contains a short segment B&lt;&lt;341.0,65.0&gt;-&lt;341.0,71.0&gt;-&lt;341.0,78.0&gt;&gt;
 
+* ae (U+00E6) contains a short segment B&lt;&lt;372.0,107.0&gt;-&lt;370.0,113.0&gt;-&lt;368.0,119.0&gt;&gt;
+
 * ae (U+00E6) contains a short segment B&lt;&lt;402.0,433.0&gt;-&lt;403.0,435.0&gt;-&lt;405.0,437.0&gt;&gt;
 
 * egrave (U+00E8) contains a short segment B&lt;&lt;361.0,281.0&gt;-&lt;361.0,282.0&gt;-&lt;362.0,284.0&gt;&gt;
@@ -7077,7 +7185,11 @@ approxequal
 
 * oe (U+0153) contains a short segment B&lt;&lt;701.0,281.0&gt;-&lt;701.0,282.0&gt;-&lt;702.0,284.0&gt;&gt;
 
+* uni03BC (U+03BC) contains a short segment B&lt;&lt;378.0,57.0&gt;-&lt;374.0,64.0&gt;-&lt;371.0,73.0&gt;&gt;
+
 * Euro (U+20AC) contains a short segment B&lt;&lt;253.0,358.0&gt;-&lt;253.0,355.0&gt;-&lt;253.0,353.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;259.0,258.0&gt;-&lt;260.0,246.0&gt;-&lt;263.0,235.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;107.0,350.0&gt;-&lt;107.0,354.0&gt;-&lt;107.0,358.0&gt;&gt;
 
@@ -7161,7 +7273,7 @@ approxequal
 
 * g (U+0067) contains a short segment B&lt;&lt;380.0,490.0&gt;-&lt;376.0,486.0&gt;-&lt;372.0,482.0&gt;&gt;
 
-* m (U+006D) contains a short segment B&lt;&lt;182.0,464.0&gt;-&lt;183.0,453.0&gt;-&lt;184.0,442.0&gt;&gt;
+* m (U+006D) contains a short segment B&lt;&lt;182.0,464.0&gt;-&lt;184.0,453.0&gt;-&lt;184.0,441.0&gt;&gt;
 
 * p (U+0070) contains a short segment B&lt;&lt;184.0,445.0&gt;-&lt;184.0,442.0&gt;-&lt;184.0,439.0&gt;&gt;
 
@@ -7195,11 +7307,15 @@ approxequal
 
 * aring (U+00E5) contains a short segment B&lt;&lt;337.0,64.0&gt;-&lt;336.0,68.0&gt;-&lt;336.0,71.0&gt;&gt;
 
+* ae (U+00E6) contains a short segment B&lt;&lt;374.0,109.0&gt;-&lt;372.0,114.0&gt;-&lt;370.0,119.0&gt;&gt;
+
 * ae (U+00E6) contains a short segment B&lt;&lt;405.0,438.0&gt;-&lt;406.0,439.0&gt;-&lt;407.0,440.0&gt;&gt;
 
 * eth (U+00F0) contains a short segment B&lt;&lt;316.0,550.0&gt;-&lt;316.0,551.0&gt;-&lt;315.0,551.0&gt;&gt;
 
 * OE (U+0152) contains a short segment B&lt;&lt;454.0,668.0&gt;-&lt;463.0,660.0&gt;-&lt;472.0,652.0&gt;&gt;
+
+* uni03BC (U+03BC) contains a short segment B&lt;&lt;371.0,60.0&gt;-&lt;368.0,65.0&gt;-&lt;366.0,70.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;274.0,446.0&gt;-&lt;272.0,436.0&gt;-&lt;271.0,425.0&gt;&gt;
 
@@ -7271,6 +7387,8 @@ approxequal
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
 <pre><code>* ampersand (U+0026) contains a short segment B&lt;&lt;184.0,373.0&gt;-&lt;184.0,373.0&gt;-&lt;184.0,373.0&gt;&gt;
 
+* five (U+0035) contains a short segment B&lt;&lt;168.0,430.0&gt;-&lt;172.0,433.0&gt;-&lt;176.0,437.0&gt;&gt;
+
 * at (U+0040) contains a short segment B&lt;&lt;564.0,148.0&gt;-&lt;561.0,153.0&gt;-&lt;559.0,159.0&gt;&gt;
 
 * Q (U+0051) contains a short segment B&lt;&lt;450.0,6.0&gt;-&lt;448.0,5.0&gt;-&lt;446.0,5.0&gt;&gt;
@@ -7278,8 +7396,6 @@ approxequal
 * R (U+0052) contains a short segment B&lt;&lt;289.0,289.0&gt;-&lt;286.0,289.0&gt;-&lt;284.0,289.0&gt;&gt;
 
 * d (U+0064) contains a short segment B&lt;&lt;378.0,450.0&gt;-&lt;382.0,445.0&gt;-&lt;386.0,440.0&gt;&gt;
-
-* g (U+0067) contains a short segment B&lt;&lt;106.0,35.0&gt;-&lt;99.0,38.0&gt;-&lt;93.0,42.0&gt;&gt;
 
 * g (U+0067) contains a short segment B&lt;&lt;432.5,502.0&gt;-&lt;425.0,504.0&gt;-&lt;416.0,504.0&gt;&gt;
 
@@ -7307,7 +7423,13 @@ approxequal
 
 * oe (U+0153) contains a short segment B&lt;&lt;448.0,63.0&gt;-&lt;446.0,60.0&gt;-&lt;443.0,57.0&gt;&gt;
 
+* florin (U+0192) contains a short segment B&lt;&lt;303.0,505.0&gt;-&lt;302.0,499.0&gt;-&lt;301.0,493.0&gt;&gt;
+
+* uni03BC (U+03BC) contains a short segment B&lt;&lt;396.0,59.0&gt;-&lt;392.0,67.0&gt;-&lt;390.0,75.0&gt;&gt;
+
 * uni03BC (U+03BC) contains a short segment B&lt;&lt;190.0,7.0&gt;-&lt;185.0,9.0&gt;-&lt;181.0,13.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;248.0,254.0&gt;-&lt;249.0,245.0&gt;-&lt;252.0,237.0&gt;&gt;
 
 * uni261C (U+261C) contains a short segment B&lt;&lt;390.0,88.5&gt;-&lt;382.0,90.0&gt;-&lt;375.5,91.5&gt;&gt;
 
@@ -7390,6 +7512,8 @@ approxequal
 * registered (U+00AE) contains a short segment B&lt;&lt;294.0,472.0&gt;-&lt;291.0,472.0&gt;-&lt;288.0,472.0&gt;&gt;
 
 * threequarters (U+00BE) contains a short segment B&lt;&lt;184.0,531.0&gt;-&lt;188.0,530.0&gt;-&lt;192.0,529.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment B&lt;&lt;368.0,105.0&gt;-&lt;367.0,107.0&gt;-&lt;366.0,109.0&gt;&gt;
 
 * ae (U+00E6) contains a short segment B&lt;&lt;384.0,411.0&gt;-&lt;390.0,419.0&gt;-&lt;396.0,427.0&gt;&gt;
 
@@ -7490,6 +7614,8 @@ approxequal
 * section (U+00A7) contains a short segment B&lt;&lt;245.0,414.0&gt;-&lt;244.0,414.0&gt;-&lt;244.0,415.0&gt;&gt;
 
 * registered (U+00AE) contains a short segment B&lt;&lt;287.0,486.0&gt;-&lt;286.0,486.0&gt;-&lt;284.0,486.0&gt;&gt;
+
+* ae (U+00E6) contains a short segment B&lt;&lt;368.0,104.0&gt;-&lt;366.0,108.0&gt;-&lt;364.0,113.0&gt;&gt;
 
 * ae (U+00E6) contains a short segment L&lt;&lt;391.0,237.0&gt;--&lt;391.0,222.0&gt;&gt;
 
@@ -7650,8 +7776,12 @@ approxequal
 <h3>Do outlines contain any jaggy segments?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
 
+<details><summary>⚠️ <strong>fonts/ttf/SutasomaModerat-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* partialdiff (U+2202): B&lt;&lt;380.0,372.0&gt;-&lt;393.0,354.0&gt;-&lt;399.0,333.0&gt;&gt;/B&lt;&lt;399.0,333.0&gt;-&lt;395.0,390.0&gt;-&lt;383.0,444.0&gt;&gt; = 11.931220205511854 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModerat-ExtraBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* three (U+0033): B&lt;&lt;362.0,415.0&gt;-&lt;323.0,393.0&gt;-&lt;273.0,377.0&gt;&gt;/B&lt;&lt;273.0,377.0&gt;-&lt;321.0,380.0&gt;-&lt;362.0,367.0&gt;&gt; = 14.168337250059563 [code: found-jaggy-segments]
+<pre><code>* three (U+0033): B&lt;&lt;334.0,400.0&gt;-&lt;306.0,387.0&gt;-&lt;273.0,377.0&gt;&gt;/B&lt;&lt;273.0,377.0&gt;-&lt;321.0,380.0&gt;-&lt;362.0,367.0&gt;&gt; = 13.28206439274089 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
@@ -7659,7 +7789,7 @@ approxequal
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/SutasomaModern-ExtraLight.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* partialdiff (U+2202): B&lt;&lt;353.0,398.0&gt;-&lt;387.0,371.0&gt;-&lt;399.0,332.0&gt;&gt;/B&lt;&lt;399.0,332.0&gt;-&lt;396.0,388.0&gt;-&lt;383.0,440.0&gt;&gt; = 14.036243467926457 [code: found-jaggy-segments]
+<pre><code>* partialdiff (U+2202): B&lt;&lt;380.0,372.0&gt;-&lt;393.0,354.0&gt;-&lt;399.0,333.0&gt;&gt;/B&lt;&lt;399.0,333.0&gt;-&lt;395.0,389.0&gt;-&lt;383.0,440.0&gt;&gt; = 11.859779120947936 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
