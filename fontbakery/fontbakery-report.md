@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, lessequal, less, greaterequal
+greaterequal, less, lessequal, greater
 
 Width = 488:
 multiply
@@ -612,6 +612,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* germandbls (U+00DF) contains a short segment B<<311.0,334.0>-<303.0,334.0>-<293.5,333.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<293.5,333.0>-<284.0,332.0>-<277.0,330.0>>
+
+	* thorn (U+00FE) contains a short segment B<<207.0,459.0>-<207.0,459.0>-<207.0,459.0>>
 
 	* thorn (U+00FE) contains a short segment B<<208.0,40.0>-<207.0,40.0>-<207.0,41.0>>
 
@@ -1181,7 +1183,7 @@ multiply
 
 	* grave (U+0060): X=73.0,Y=699.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=305.0,Y=477.5 (should be at x-height 478?)
+	* a (U+0061): X=303.5,Y=477.0 (should be at x-height 478?)
 
 	* b (U+0062): X=354.0,Y=1.0 (should be at baseline 0?)
 
@@ -1833,7 +1835,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
@@ -2469,7 +2471,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, lessequal, less, greaterequal
+greaterequal, less, lessequal, greater
 
 Width = 468:
 multiply
@@ -2609,6 +2611,8 @@ approxequal
 	* sterling (U+00A3) contains a short segment B<<197.0,290.0>-<198.0,286.0>-<198.0,283.0>>
 
 	* ae (U+00E6) contains a short segment B<<393.0,426.0>-<395.0,428.0>-<397.0,431.0>>
+
+	* thorn (U+00FE) contains a short segment B<<171.0,432.0>-<176.0,438.0>-<181.0,444.0>>
 
 	* OE (U+0152) contains a short segment B<<517.0,59.0>-<512.0,54.0>-<507.0,49.0>>
 
@@ -3100,7 +3104,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, lessequal, less, greaterequal
+greaterequal, less, lessequal, greater
 
 Width = 481:
 multiply
@@ -3288,6 +3292,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* oslash (U+00F8) contains a short segment B<<354.0,361.0>-<354.0,362.0>-<353.0,363.0>>
 
 	* oslash (U+00F8) contains a short segment B<<202.0,134.0>-<202.0,134.0>-<203.0,134.0>>
+
+	* thorn (U+00FE) contains a short segment B<<195.0,450.0>-<197.0,452.0>-<199.0,454.0>>
 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
@@ -3770,7 +3776,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -3863,16 +3869,16 @@ greaterequal
 	* ('ucircumflex', 291, 713)
 	* ('ugrave', 157, 724)
 	* ('yacute', 381, 724)
-	* ('aacute.ss01', 371, 722)
-	* ('acircumflex.ss01', 236, 711)
-	* ('acircumflex.ss01', 283, 711)
-	* ('agrave.ss01', 149, 722)
-	* ('aring.ss01', 233, 725)
-	* ('aring.ss01', 260, 725)
-	* ('aring.ss01', 287, 725)
-	* ('atilde.ss01', 181, 684)
-	* ('atilde.ss01', 202, 684)
-	* ('atilde.ss01', 214, 684)
+	* ('aacute.ss01', 375, 722)
+	* ('acircumflex.ss01', 240, 711)
+	* ('acircumflex.ss01', 287, 711)
+	* ('agrave.ss01', 153, 722)
+	* ('aring.ss01', 237, 725)
+	* ('aring.ss01', 264, 725)
+	* ('aring.ss01', 291, 725)
+	* ('atilde.ss01', 185, 684)
+	* ('atilde.ss01', 206, 684)
+	* ('atilde.ss01', 218, 684)
 	* ('periodcentered', 71, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 137, 362)
@@ -4069,6 +4075,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ecircumflex (U+00EA) contains a short segment B<<374.0,280.0>-<374.0,280.0>-<375.0,281.0>>
 
 	* edieresis (U+00EB) contains a short segment B<<374.0,280.0>-<374.0,280.0>-<375.0,281.0>>
+
+	* thorn (U+00FE) contains a short segment B<<183.0,444.0>-<187.0,448.0>-<191.0,453.0>>
 
 	* OE (U+0152) contains a short segment B<<505.0,59.0>-<501.0,54.0>-<497.0,50.0>>
 
@@ -4551,7 +4559,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, greaterequal
+greaterequal, less, greater
 
 Width = 462:
 multiply
@@ -4613,7 +4621,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Y (U+0059): X=544.0,Y=701.0 (should be at cap-height 700?)
 
-	* a (U+0061): X=317.5,Y=482.5 (should be at x-height 484?)
+	* a (U+0061): X=316.5,Y=482.5 (should be at x-height 484?)
 
 	* b (U+0062): X=368.5,Y=1.0 (should be at baseline 0?)
 
@@ -5255,7 +5263,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -5343,11 +5351,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* d (U+0064): X=308.0,Y=497.0 (should be at x-height 496?)
 
+	* d (U+0064): X=318.5,Y=2.0 (should be at baseline 0?)
+
 	* g (U+0067): X=332.0,Y=494.0 (should be at x-height 496?)
 
 	* g (U+0067): X=459.0,Y=495.0 (should be at x-height 496?)
 
 	* g (U+0067): X=138.0,Y=-1.0 (should be at baseline 0?)
+
+	* p (U+0070): X=249.5,Y=494.0 (should be at x-height 496?)
 
 	* p (U+0070): X=393.0,Y=1.0 (should be at baseline 0?)
 
@@ -5493,7 +5505,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067) contains a short segment B<<373.0,493.0>-<367.0,488.0>-<362.0,481.0>>
 
-	* p (U+0070) contains a short segment B<<173.0,440.0>-<174.0,434.0>-<174.0,428.0>>
+	* p (U+0070) contains a short segment B<<173.0,440.0>-<174.0,434.0>-<174.0,427.0>>
 
 	* q (U+0071) contains a short segment B<<393.0,428.0>-<394.0,434.0>-<394.0,440.0>>
 
@@ -5532,6 +5544,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ecircumflex (U+00EA) contains a short segment B<<361.0,281.0>-<361.0,282.0>-<362.0,284.0>>
 
 	* edieresis (U+00EB) contains a short segment B<<361.0,281.0>-<361.0,282.0>-<362.0,284.0>>
+
+	* thorn (U+00FE) contains a short segment B<<195.0,455.0>-<197.0,457.0>-<198.0,459.0>>
 
 	* OE (U+0152) contains a short segment B<<489.0,54.0>-<487.0,52.0>-<486.0,51.0>>
 
@@ -6026,7 +6040,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -6108,9 +6122,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* d (U+0064): X=300.5,Y=501.0 (should be at x-height 499?)
 
+	* d (U+0064): X=312.5,Y=1.5 (should be at baseline 0?)
+
 	* g (U+0067): X=446.0,Y=500.0 (should be at x-height 499?)
 
 	* g (U+0067): X=143.0,Y=-2.0 (should be at baseline 0?)
+
+	* p (U+0070): X=256.0,Y=498.0 (should be at x-height 499?)
 
 	* p (U+0070): X=397.0,Y=1.0 (should be at baseline 0?)
 
@@ -6204,7 +6222,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* at (U+0040) contains a short segment B<<647.0,140.5>-<659.0,128.0>-<678.0,128.0>>
 
-	* a (U+0061) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* a (U+0061) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
 	* b (U+0062) contains a short segment B<<185.0,61.0>-<184.0,57.0>-<184.0,54.0>>
 
@@ -6214,7 +6232,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* m (U+006D) contains a short segment B<<182.0,464.0>-<184.0,453.0>-<184.0,441.0>>
 
-	* p (U+0070) contains a short segment B<<184.0,445.0>-<184.0,442.0>-<184.0,439.0>>
+	* p (U+0070) contains a short segment B<<184.0,445.0>-<184.0,442.0>-<184.0,438.0>>
 
 	* q (U+0071) contains a short segment B<<383.0,439.0>-<384.0,442.0>-<384.0,445.0>>
 
@@ -6234,17 +6252,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* germandbls (U+00DF) contains a short segment B<<316.0,353.0>-<306.0,353.0>-<295.0,351.5>>
 
-	* agrave (U+00E0) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* agrave (U+00E0) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
-	* aacute (U+00E1) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* aacute (U+00E1) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
-	* acircumflex (U+00E2) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* acircumflex (U+00E2) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
-	* atilde (U+00E3) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* atilde (U+00E3) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
-	* adieresis (U+00E4) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* adieresis (U+00E4) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
-	* aring (U+00E5) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
+	* aring (U+00E5) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
 	* ae (U+00E6) contains a short segment B<<374.0,109.0>-<372.0,114.0>-<370.0,119.0>>
 
@@ -6732,10 +6750,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-greater, lessequal, less, greaterequal
+greaterequal, less, lessequal, greater
 
 Width = 475:
 multiply
@@ -6929,6 +6947,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* germandbls (U+00DF) contains a short segment B<<293.0,348.5>-<282.0,347.0>-<272.0,345.0>>
 
 	* ae (U+00E6) contains a short segment B<<397.0,431.0>-<398.0,433.0>-<399.0,434.0>>
+
+	* thorn (U+00FE) contains a short segment B<<183.0,441.0>-<186.0,445.0>-<190.0,449.0>>
 
 	* thorn (U+00FE) contains a short segment B<<192.0,44.0>-<187.0,49.0>-<183.0,55.0>>
 
@@ -7429,7 +7449,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, lessequal, less, greaterequal
+greaterequal, less, lessequal, greater
 
 Width = 460:
 multiply
