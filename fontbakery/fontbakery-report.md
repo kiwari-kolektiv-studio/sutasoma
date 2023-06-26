@@ -422,8 +422,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: equal	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -450,7 +448,7 @@ Width = 512:
 plus
 
 Width = 535:
-greaterequal, greater, less, lessequal
+lessequal, greater, less, greaterequal
 
 Width = 488:
 multiply
@@ -461,29 +459,35 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 530 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 529 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 403, 963)
+	* ('Aacute', 402, 963)
 	* ('Eacute', 360, 963)
 	* ('Iacute', 228, 963)
 	* ('Iacute', 302, 885)
 	* ('Idieresis', 302, 891)
 	* ('Idieresis', 302, 859)
 	* ('Idieresis', 302, 828)
-	* ('Oacute', 434, 963)
+	* ('Oacute', 432, 963)
 	* ('Uacute', 413, 963)
-	* ('Yacute', 398, 963)
-	* ('aring', 220, 798)
-	* ('aring', 262, 798)
-	* ('aring', 306, 798)
-	* ('eacute', 363, 762)
+	* ('Yacute', 397, 963)
+	* ('aring', 218, 798)
+	* ('aring', 260, 798)
+	* ('aring', 304, 798)
+	* ('eacute', 361, 762)
 	* ('iacute', 219, 762)
 	* ('uacute', 359, 762)
-	* ('yacute', 350, 762)
-	* ('aacute.ss01', 351, 760)
+	* ('yacute', 349, 762)
+	* ('aacute.ss01', 349, 760)
+	* ('oneeighth', 714, 146)
+	* ('oneeighth', 714, 108)
+	* ('oneeighth', 714, 55)
+	* ('ellipsis', 671, 118)
+	* ('ellipsis', 671, 78)
+	* ('ellipsis', 671, 39)
 	* ('periodcentered', 73, 382)
 	* ('periodcentered', 114, 382) and ('periodcentered', 157, 382)
 
@@ -543,7 +547,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* onehalf (U+00BD): X=190.0,Y=702.0 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=212.0,Y=-0.5 (should be at baseline 0?)
+	* questiondown (U+00BF): X=206.0,Y=-0.5 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=403.5,Y=1.0 (should be at baseline 0?)
 
@@ -551,9 +555,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Scaron (U+0160): X=378.5,Y=698.5 (should be at cap-height 700?)
 
-	* Scaron (U+0160): X=177.0,Y=951.0 (should be at ascender 950?)
+	* Scaron (U+0160): X=175.0,Y=951.0 (should be at ascender 950?)
 
-	* Scaron (U+0160): X=405.0,Y=951.0 (should be at ascender 950?)
+	* Scaron (U+0160): X=403.0,Y=951.0 (should be at ascender 950?)
 
 	* Zcaron (U+017D): X=166.0,Y=951.0 (should be at ascender 950?)
 
@@ -632,8 +636,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* germandbls (U+00DF) contains a short segment B<<311.0,334.0>-<303.0,334.0>-<293.5,333.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<293.5,333.0>-<284.0,332.0>-<277.0,330.0>>
-
-	* oslash (U+00F8) contains a short segment B<<216.0,145.0>-<216.0,144.0>-<217.0,144.0>>
 
 	* thorn (U+00FE) contains a short segment B<<208.0,40.0>-<207.0,40.0>-<207.0,41.0>>
 
@@ -723,11 +725,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni261E (U+261E) contains a short segment B<<827.0,184.0>-<832.0,184.0>-<836.0,189.0>>
 
-	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>>
+	* uni261E (U+261E) contains a short segment L<<286.0,198.0>--<295.0,203.0>> 
 
-	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
-
-	* fi (U+FB01) contains a short segment B<<401.0,641.0>-<401.0,648.0>-<402.0,654.0>> [code: found-short-segments]
+	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1171,7 +1171,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -2573,7 +2573,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, greater, less, lessequal
+lessequal, greater, less, greaterequal
 
 Width = 468:
 multiply
@@ -2640,7 +2640,7 @@ approxequal
 
 	* onehalf (U+00BD): X=180.0,Y=702.0 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=98.0,Y=-1.0 (should be at baseline 0?)
+	* questiondown (U+00BF): X=74.0,Y=-1.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=448.0,Y=1.0 (should be at baseline 0?)
 
@@ -2707,8 +2707,6 @@ approxequal
 	* sterling (U+00A3) contains a short segment B<<197.0,290.0>-<198.0,286.0>-<198.0,283.0>>
 
 	* ae (U+00E6) contains a short segment B<<393.0,426.0>-<395.0,428.0>-<397.0,431.0>>
-
-	* oslash (U+00F8) contains a short segment B<<369.0,376.0>-<369.0,376.0>-<369.0,377.0>>
 
 	* OE (U+0152) contains a short segment B<<517.0,59.0>-<512.0,54.0>-<507.0,49.0>>
 
@@ -3200,8 +3198,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: equal	Contours detected: 1	Expected: 2
 
-	- Glyph name: fi	Contours detected: 2	Expected: 3
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
@@ -3228,7 +3224,7 @@ Width = 507:
 plus
 
 Width = 523:
-greaterequal, greater, less, lessequal
+lessequal, greater, less, greaterequal
 
 Width = 481:
 multiply
@@ -3240,14 +3236,14 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('oneeighth', 695, 145)
-	* ('oneeighth', 695, 108)
-	* ('oneeighth', 695, 54)
-	* ('threeeighths', 773, 145)
-	* ('threeeighths', 773, 108)
-	* ('threeeighths', 773, 54)
-	* ('seveneighths', 752, 145)
-	* ('seveneighths', 752, 108) and ('seveneighths', 752, 54)
+	* ('fi', 579, 677)
+	* ('fi', 579, 640)
+	* ('fi', 579, 616)
+	* ('threeeighths', 789, 145)
+	* ('threeeighths', 789, 108)
+	* ('threeeighths', 789, 54)
+	* ('fiveeighths', 787, 145)
+	* ('fiveeighths', 787, 108) and ('fiveeighths', 787, 54)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3297,7 +3293,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* onehalf (U+00BD): X=187.0,Y=702.0 (should be at cap-height 700?)
 
-	* Agrave (U+00C0): X=227.0,Y=951.0 (should be at ascender 950?)
+	* Agrave (U+00C0): X=225.0,Y=951.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=453.0,Y=698.0 (should be at cap-height 700?)
 
@@ -3305,21 +3301,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Igrave (U+00CC): X=50.0,Y=951.0 (should be at ascender 950?)
 
-	* Ograve (U+00D2): X=259.0,Y=951.0 (should be at ascender 950?)
+	* Ograve (U+00D2): X=255.0,Y=951.0 (should be at ascender 950?)
 
 	* Ugrave (U+00D9): X=237.0,Y=951.0 (should be at ascender 950?)
 
-	* atilde (U+00E3): X=199.0,Y=701.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=195.0,Y=701.0 (should be at cap-height 700?)
 
-	* atilde (U+00E3): X=365.0,Y=702.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=361.0,Y=702.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=244.0,Y=701.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=410.0,Y=702.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=223.0,Y=701.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=219.0,Y=701.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=389.0,Y=702.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=385.0,Y=702.0 (should be at cap-height 700?)
 
 	* yacute (U+00FD): X=199.0,Y=2.0 (should be at baseline 0?)
 
@@ -3400,6 +3396,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment B<<403.0,436.0>-<403.0,437.0>-<403.0,437.0>>
 
 	* eth (U+00F0) contains a short segment B<<307.0,548.0>-<306.0,549.0>-<306.0,550.0>>
+
+	* oslash (U+00F8) contains a short segment B<<356.0,361.0>-<355.0,362.0>-<355.0,363.0>>
+
+	* oslash (U+00F8) contains a short segment B<<204.0,134.0>-<204.0,134.0>-<204.0,134.0>>
 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
@@ -3935,16 +3935,16 @@ greaterequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 418, 931)
-	* ('Acircumflex', 283, 920)
-	* ('Acircumflex', 330, 920)
-	* ('Agrave', 196, 931)
-	* ('Aring', 280, 934)
-	* ('Aring', 307, 934)
-	* ('Aring', 334, 934)
-	* ('Atilde', 227, 893)
-	* ('Atilde', 248, 893)
-	* ('Atilde', 260, 893)
+	* ('Aacute', 415, 931)
+	* ('Acircumflex', 280, 920)
+	* ('Acircumflex', 327, 920)
+	* ('Agrave', 193, 931)
+	* ('Aring', 277, 934)
+	* ('Aring', 304, 934)
+	* ('Aring', 331, 934)
+	* ('Atilde', 224, 893)
+	* ('Atilde', 245, 893)
+	* ('Atilde', 257, 893)
 	* ('Eacute', 391, 931)
 	* ('Ecircumflex', 256, 920)
 	* ('Ecircumflex', 303, 920)
@@ -3957,32 +3957,32 @@ greaterequal
 	* ('Ntilde', 252, 893)
 	* ('Ntilde', 273, 893)
 	* ('Ntilde', 285, 893)
-	* ('Oacute', 461, 931)
-	* ('Ocircumflex', 326, 920)
-	* ('Ocircumflex', 373, 920)
-	* ('Ograve', 239, 931)
-	* ('Otilde', 271, 893)
-	* ('Otilde', 292, 893)
-	* ('Otilde', 304, 893)
+	* ('Oacute', 455, 931)
+	* ('Ocircumflex', 320, 920)
+	* ('Ocircumflex', 367, 920)
+	* ('Ograve', 233, 931)
+	* ('Otilde', 265, 893)
+	* ('Otilde', 286, 893)
+	* ('Otilde', 298, 893)
 	* ('Uacute', 458, 931)
 	* ('Ucircumflex', 323, 920)
 	* ('Ucircumflex', 370, 920)
 	* ('Ugrave', 236, 931)
-	* ('Yacute', 436, 931)
-	* ('aacute', 363, 724)
-	* ('acircumflex', 228, 713)
-	* ('acircumflex', 275, 713)
-	* ('agrave', 141, 724)
-	* ('aring', 225, 727)
-	* ('aring', 252, 727)
-	* ('aring', 279, 727)
-	* ('atilde', 172, 686)
-	* ('atilde', 193, 686)
-	* ('atilde', 205, 686)
-	* ('eacute', 395, 724)
-	* ('ecircumflex', 260, 713)
-	* ('ecircumflex', 307, 713)
-	* ('egrave', 173, 724)
+	* ('Yacute', 433, 931)
+	* ('aacute', 358, 724)
+	* ('acircumflex', 223, 713)
+	* ('acircumflex', 270, 713)
+	* ('agrave', 136, 724)
+	* ('aring', 220, 727)
+	* ('aring', 247, 727)
+	* ('aring', 274, 727)
+	* ('atilde', 168, 686)
+	* ('atilde', 189, 686)
+	* ('atilde', 201, 686)
+	* ('eacute', 390, 724)
+	* ('ecircumflex', 255, 713)
+	* ('ecircumflex', 302, 713)
+	* ('egrave', 168, 724)
 	* ('iacute', 237, 724)
 	* ('icircumflex', 102, 713)
 	* ('icircumflex', 149, 713)
@@ -3991,28 +3991,28 @@ greaterequal
 	* ('ntilde', 221, 686)
 	* ('ntilde', 242, 686)
 	* ('ntilde', 254, 686)
-	* ('oacute', 393, 724)
-	* ('ocircumflex', 258, 713)
-	* ('ocircumflex', 305, 713)
-	* ('ograve', 171, 724)
-	* ('otilde', 202, 686)
-	* ('otilde', 223, 686)
-	* ('otilde', 235, 686)
+	* ('oacute', 388, 724)
+	* ('ocircumflex', 253, 713)
+	* ('ocircumflex', 300, 713)
+	* ('ograve', 166, 724)
+	* ('otilde', 198, 686)
+	* ('otilde', 219, 686)
+	* ('otilde', 231, 686)
 	* ('uacute', 379, 724)
 	* ('ucircumflex', 244, 713)
 	* ('ucircumflex', 291, 713)
 	* ('ugrave', 157, 724)
-	* ('yacute', 384, 724)
-	* ('aacute.ss01', 377, 722)
-	* ('acircumflex.ss01', 242, 711)
-	* ('acircumflex.ss01', 289, 711)
-	* ('agrave.ss01', 155, 722)
-	* ('aring.ss01', 239, 725)
-	* ('aring.ss01', 266, 725)
-	* ('aring.ss01', 293, 725)
-	* ('atilde.ss01', 186, 684)
-	* ('atilde.ss01', 207, 684)
-	* ('atilde.ss01', 219, 684)
+	* ('yacute', 381, 724)
+	* ('aacute.ss01', 372, 722)
+	* ('acircumflex.ss01', 237, 711)
+	* ('acircumflex.ss01', 284, 711)
+	* ('agrave.ss01', 150, 722)
+	* ('aring.ss01', 234, 725)
+	* ('aring.ss01', 261, 725)
+	* ('aring.ss01', 288, 725)
+	* ('atilde.ss01', 182, 684)
+	* ('atilde.ss01', 203, 684)
+	* ('atilde.ss01', 215, 684)
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362)
 	* ('periodcentered', 136, 362)
@@ -4731,7 +4731,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, greater, less
+greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -4938,8 +4938,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* Oslash (U+00D8) contains a short segment B<<195.0,117.0>-<197.0,114.0>-<199.0,111.0>>
 
 	* ntilde (U+00F1) contains a short segment B<<138.0,410.0>-<138.0,406.0>-<139.0,400.0>>
-
-	* oslash (U+00F8) contains a short segment B<<162.0,85.0>-<163.0,83.0>-<164.0,81.0>>
 
 	* ugrave (U+00F9) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
@@ -5480,14 +5478,8 @@ greaterequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('oneeighth', 695, 143)
-	* ('oneeighth', 695, 106)
-	* ('oneeighth', 695, 51)
-	* ('threeeighths', 773, 143)
-	* ('threeeighths', 773, 106)
-	* ('threeeighths', 773, 51)
-	* ('seveneighths', 752, 143)
-	* ('seveneighths', 752, 106) and ('seveneighths', 752, 51)
+	* ('oneeighth', 719, 143)
+	* ('oneeighth', 719, 106) and ('oneeighth', 719, 51)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -5587,11 +5579,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Yacute (U+00DD): X=568.0,Y=701.0 (should be at cap-height 700?)
 
-	* atilde (U+00E3): X=197.0,Y=698.0 (should be at cap-height 700?)
+	* atilde (U+00E3): X=193.0,Y=698.0 (should be at cap-height 700?)
 
 	* ntilde (U+00F1): X=244.0,Y=698.0 (should be at cap-height 700?)
 
-	* otilde (U+00F5): X=224.0,Y=698.0 (should be at cap-height 700?)
+	* otilde (U+00F5): X=220.0,Y=698.0 (should be at cap-height 700?)
 
 	* thorn (U+00FE): X=395.0,Y=1.0 (should be at baseline 0?)
 
@@ -5601,9 +5593,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Scaron (U+0160): X=383.5,Y=698.5 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=102.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=99.0,Y=702.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=364.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=361.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=24.0,Y=701.0 (should be at cap-height 700?)
 
@@ -6274,6 +6266,15 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 601)
+	* ('threeeighths', 779, 142)
+	* ('threeeighths', 779, 107)
+	* ('threeeighths', 779, 51)
+	* ('fiveeighths', 778, 142)
+	* ('fiveeighths', 778, 107)
+	* ('fiveeighths', 778, 51)
+	* ('seveneighths', 728, 142)
+	* ('seveneighths', 728, 107)
+	* ('seveneighths', 728, 51)
 	* ('periodcentered', 73, 382)
 	* ('periodcentered', 114, 382)
 	* ('periodcentered', 157, 382)
@@ -6361,7 +6362,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* threequarters (U+00BE): X=214.0,Y=698.0 (should be at cap-height 700?)
 
-	* aring (U+00E5): X=261.0,Y=702.0 (should be at cap-height 700?)
+	* aring (U+00E5): X=258.0,Y=702.0 (should be at cap-height 700?)
 
 	* thorn (U+00FE): X=399.0,Y=1.0 (should be at baseline 0?)
 
@@ -6981,10 +6982,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-greaterequal, greater, less, lessequal
+lessequal, greater, less, greaterequal
 
 Width = 475:
 multiply
@@ -6993,22 +6994,22 @@ multiply
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 411, 947)
+	* ('Aacute', 408, 947)
 	* ('Eacute', 376, 947)
 	* ('Iacute', 232, 947)
 	* ('Igrave', -11, 886)
-	* ('Oacute', 445, 947)
+	* ('Oacute', 439, 947)
 	* ('Uacute', 422, 947)
-	* ('Yacute', 398, 947)
-	* ('acircumflex', 220, 722)
-	* ('acircumflex', 292, 722)
-	* ('eacute', 367, 740)
+	* ('Yacute', 395, 947)
+	* ('acircumflex', 216, 722)
+	* ('acircumflex', 288, 722)
+	* ('eacute', 363, 740)
 	* ('iacute', 220, 740)
-	* ('ocircumflex', 246, 722)
-	* ('ocircumflex', 318, 722)
+	* ('ocircumflex', 241, 722)
+	* ('ocircumflex', 313, 722)
 	* ('uacute', 362, 740)
-	* ('yacute', 350, 740)
-	* ('aacute.ss01', 360, 738)
+	* ('yacute', 348, 740)
+	* ('aacute.ss01', 355, 738)
 	* ('periodcentered', 70, 362)
 	* ('periodcentered', 103, 362) and ('periodcentered', 136, 362)
 
@@ -7132,7 +7133,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* fi (U+FB01): X=325.0,Y=699.0 (should be at cap-height 700?)
 
-	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
+	* fi (U+FB01): X=440.0,Y=700.5 (should be at cap-height 700?) 
 
 	* fl (U+FB02): X=325.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -7163,8 +7164,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* germandbls (U+00DF) contains a short segment B<<293.0,348.5>-<282.0,347.0>-<272.0,345.0>>
 
 	* ae (U+00E6) contains a short segment B<<398.0,431.0>-<399.0,433.0>-<400.0,434.0>>
-
-	* oslash (U+00F8) contains a short segment B<<363.0,367.0>-<362.0,368.0>-<362.0,370.0>>
 
 	* thorn (U+00FE) contains a short segment B<<192.0,44.0>-<187.0,49.0>-<183.0,55.0>>
 
@@ -7275,7 +7274,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7693,7 +7692,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, greater, less, lessequal
+lessequal, greater, less, greaterequal
 
 Width = 460:
 multiply
@@ -7701,11 +7700,18 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 509 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for points out of bounds. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds">com.google.fonts/check/points_out_of_bounds</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 267, 882) and ('icircumflex', 241, 580)
+	* ('Iacute', 267, 882)
+	* ('icircumflex', 241, 580)
+	* ('fi', 505, 655)
+	* ('fi', 505, 632) and ('fi', 505, 617)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -7773,7 +7779,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* threequarters (U+00BE): X=205.0,Y=698.0 (should be at cap-height 700?)
 
-	* questiondown (U+00BF): X=91.5,Y=-0.5 (should be at baseline 0?)
+	* questiondown (U+00BF): X=79.5,Y=-0.5 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=431.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7872,8 +7878,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment B<<384.0,411.0>-<390.0,419.0>-<396.0,427.0>>
 
 	* ae (U+00E6) contains a short segment L<<409.0,227.0>--<409.0,226.0>>
-
-	* oslash (U+00F8) contains a short segment B<<372.0,384.0>-<372.0,385.0>-<372.0,385.0>>
 
 	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
 
@@ -8392,7 +8396,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 500 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -8663,8 +8667,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 37 | 179 | 1382 | 79 | 1088 | 0 |
-| 0% | 1% | 6% | 50% | 3% | 39% | 0% |
+| 0 | 37 | 180 | 1382 | 78 | 1088 | 0 |
+| 0% | 1% | 7% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
