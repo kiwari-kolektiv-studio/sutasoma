@@ -369,11 +369,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -424,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, less, greaterequal, greater
+greater, lessequal, greaterequal, less
 
 Width = 488:
 multiply
@@ -435,7 +431,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 530 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 531 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -543,6 +539,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=103.0,Y=-1.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=562.5,Y=1.0 (should be at baseline 0?)
+
 	* uni2080 (U+2080): X=189.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni2080 (U+2080): X=189.0,Y=-1.0 (should be at baseline 0?)
@@ -575,6 +573,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B) contains a short segment B<<94.0,-6.0>-<95.0,-4.0>-<97.0,-2.0>>
 
+	* at (U+0040) contains a short segment B<<565.0,138.0>-<564.0,139.0>-<563.0,141.0>>
+
+	* at (U+0040) contains a short segment B<<656.5,173.0>-<669.0,162.0>-<688.0,162.0>>
+
 	* Q (U+0051) contains a short segment B<<451.0,5.0>-<451.0,5.0>-<451.0,5.0>>
 
 	* R (U+0052) contains a short segment B<<458.0,299.0>-<451.0,296.0>-<445.0,294.0>>
@@ -600,10 +602,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* thorn (U+00FE) contains a short segment B<<208.0,40.0>-<207.0,40.0>-<207.0,41.0>>
 
 	* OE (U+0152) contains a short segment B<<460.0,671.0>-<465.0,667.0>-<471.0,663.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<415.0,66.0>-<420.0,68.0>-<427.5,73.5>>
 
 	* quoteleft (U+2018) contains a short segment B<<131.0,568.0>-<130.0,567.0>-<129.0,565.0>>
 
@@ -1061,11 +1059,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1107,7 +1101,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1194,6 +1188,8 @@ multiply
 	* yen (U+00A5): X=517.0,Y=701.0 (should be at cap-height 700?)
 
 	* ordfeminine (U+00AA): X=176.0,Y=699.5 (should be at cap-height 700?)
+
+	* degree (U+00B0): X=77.5,Y=698.0 (should be at cap-height 700?)
 
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1338,10 +1334,6 @@ multiply
 	* Ydieresis (U+0178) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
 
 	* florin (U+0192) contains a short segment B<<238.0,492.0>-<238.0,484.0>-<238.0,476.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<246.0,39.0>-<240.0,42.0>-<229.0,48.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<400.0,35.0>-<407.0,37.0>-<419.0,43.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -1776,11 +1768,7 @@ multiply
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1817,7 +1805,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -1889,9 +1877,9 @@ greaterequal
 
 	* yen (U+00A5): X=540.0,Y=701.0 (should be at cap-height 700?)
 
-	* section (U+00A7): X=270.0,Y=699.0 (should be at cap-height 700?)
-
 	* ordfeminine (U+00AA): X=187.5,Y=698.5 (should be at cap-height 700?)
+
+	* registered (U+00AE): X=189.0,Y=702.0 (should be at cap-height 700?)
 
 	* onequarter (U+00BC): X=145.0,Y=702.0 (should be at cap-height 700?)
 
@@ -1959,11 +1947,15 @@ greaterequal
 
 	* ampersand (U+0026) contains a short segment B<<331.0,353.0>-<331.0,353.0>-<331.0,354.0>>
 
+	* at (U+0040) contains a short segment B<<627.5,147.5>-<642.0,135.0>-<660.0,135.0>>
+
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
 	* sterling (U+00A3) contains a short segment B<<196.0,300.0>-<197.0,291.0>-<198.0,283.0>>
 
-	* registered (U+00AE) contains a short segment B<<290.0,477.0>-<289.0,477.0>-<288.0,477.0>>
+	* registered (U+00AE) contains a short segment B<<355.0,488.0>-<353.0,487.0>-<351.0,487.0>>
+
+	* registered (U+00AE) contains a short segment B<<285.0,478.0>-<284.0,478.0>-<283.0,478.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
@@ -1974,10 +1966,6 @@ greaterequal
 	* OE (U+0152) contains a short segment B<<522.0,64.0>-<515.0,56.0>-<508.0,50.0>>
 
 	* oe (U+0153) contains a short segment B<<449.0,70.0>-<444.0,63.0>-<439.0,57.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<407.0,49.0>-<413.0,51.0>-<423.0,56.5>>
 
 	* uni03BC (U+03BC) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
@@ -2408,11 +2396,7 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -2449,7 +2433,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, less, greaterequal, greater
+greater, lessequal, greaterequal, less
 
 Width = 468:
 multiply
@@ -2506,6 +2490,8 @@ approxequal
 
 	* ordfeminine (U+00AA): X=185.0,Y=698.5 (should be at cap-height 700?)
 
+	* registered (U+00AE): X=189.0,Y=699.0 (should be at cap-height 700?)
+
 	* uni00B2 (U+00B2): X=121.5,Y=701.5 (should be at cap-height 700?)
 
 	* onequarter (U+00BC): X=145.0,Y=702.0 (should be at cap-height 700?)
@@ -2538,6 +2524,8 @@ approxequal
 
 	* quotedblbase (U+201E): X=99.0,Y=-2.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=545.0,Y=0.5 (should be at baseline 0?)
+
 	* uni2080 (U+2080): X=314.5,Y=2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=500.5,Y=0.5 (should be at baseline 0?)
@@ -2562,6 +2550,8 @@ approxequal
 
 	* ampersand (U+0026) contains a short segment B<<506.0,203.0>-<507.0,207.0>-<509.0,211.0>>
 
+	* at (U+0040) contains a short segment B<<563.0,154.0>-<560.0,161.0>-<556.0,169.0>>
+
 	* Q (U+0051) contains a short segment B<<522.0,50.0>-<519.0,47.0>-<517.0,45.0>>
 
 	* Q (U+0051) contains a short segment B<<450.0,7.0>-<447.0,6.0>-<444.0,5.0>>
@@ -2581,10 +2571,6 @@ approxequal
 	* ae (U+00E6) contains a short segment B<<393.0,426.0>-<395.0,428.0>-<397.0,431.0>>
 
 	* OE (U+0152) contains a short segment B<<517.0,59.0>-<512.0,54.0>-<507.0,49.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<234.0,55.0>-<228.0,58.0>-<217.5,63.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<407.0,49.0>-<413.0,51.0>-<423.0,56.5>>
 
 	* uni03BC (U+03BC) contains a short segment B<<184.0,8.0>-<176.0,13.0>-<169.0,20.0>>
 
@@ -3017,11 +3003,7 @@ approxequal
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3072,7 +3054,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, less, greaterequal, greater
+greater, lessequal, greaterequal, less
 
 Width = 481:
 multiply
@@ -3183,6 +3165,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=102.0,Y=-2.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=557.0,Y=1.0 (should be at baseline 0?)
+
 	* uni2070 (U+2070): X=189.0,Y=701.0 (should be at cap-height 700?)
 
 	* uni2080 (U+2080): X=213.5,Y=-0.5 (should be at baseline 0?)
@@ -3215,6 +3199,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<594.0,178.0>-<591.0,170.0>-<588.0,163.0>>
 
+	* at (U+0040) contains a short segment B<<564.0,143.0>-<562.0,146.0>-<561.0,150.0>>
+
 	* Q (U+0051) contains a short segment B<<450.0,5.0>-<449.0,5.0>-<449.0,5.0>>
 
 	* R (U+0052) contains a short segment B<<294.0,282.0>-<292.0,282.0>-<290.0,282.0>>
@@ -3228,8 +3214,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* p (U+0070) contains a short segment B<<198.0,42.0>-<195.0,44.0>-<193.0,47.0>>
 
 	* sterling (U+00A3) contains a short segment B<<228.0,387.0>-<228.0,378.0>-<229.0,370.0>>
-
-	* registered (U+00AE) contains a short segment B<<303.0,450.0>-<300.0,450.0>-<296.0,450.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
@@ -3248,10 +3232,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
 	* OE (U+0152) contains a short segment B<<468.0,670.0>-<478.0,664.0>-<486.0,656.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<413.0,60.0>-<418.0,62.0>-<426.0,67.5>>
 
 	* uni03BC (U+03BC) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
@@ -3687,11 +3667,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3704,13 +3680,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: perthousand	Contours detected: 8	Expected: 6 or 7
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: perthousand	Contours detected: 8	Expected: 6 or 7 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -3732,7 +3704,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -4006,6 +3978,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<222.0,384.0>-<209.0,389.0>-<199.0,393.0>>
 
+	* at (U+0040) contains a short segment B<<634.0,145.5>-<648.0,133.0>-<666.0,133.0>>
+
 	* e (U+0065) contains a short segment B<<374.0,280.0>-<374.0,280.0>-<375.0,281.0>>
 
 	* r (U+0072) contains a short segment B<<164.0,416.0>-<164.0,416.0>-<164.0,415.0>>
@@ -4014,7 +3988,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<217.0,299.0>-<217.0,298.0>-<217.0,297.0>>
 
-	* registered (U+00AE) contains a short segment B<<291.0,474.0>-<289.0,474.0>-<288.0,474.0>>
+	* registered (U+00AE) contains a short segment B<<357.0,485.0>-<355.0,484.0>-<353.0,483.0>>
+
+	* registered (U+00AE) contains a short segment B<<287.0,475.0>-<285.0,475.0>-<284.0,475.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<316.0,364.0>-<306.0,364.0>-<294.5,362.5>>
 
@@ -4035,14 +4011,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* oe (U+0153) contains a short segment B<<448.0,60.0>-<447.0,59.0>-<446.0,57.0>>
 
 	* oe (U+0153) contains a short segment B<<721.0,280.0>-<721.0,280.0>-<722.0,281.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<410.0,55.0>-<415.0,57.0>-<424.5,62.5>>
-
-	* perthousand (U+2030) contains a short segment B<<608.0,283.0>-<609.0,283.0>-<610.0,282.0>>
-
-	* perthousand (U+2030) contains a short segment B<<610.0,15.0>-<609.0,14.0>-<608.0,14.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -4478,11 +4446,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -4519,7 +4483,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -4536,7 +4500,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 503 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4600,6 +4564,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* yen (U+00A5): X=529.0,Y=701.0 (should be at cap-height 700?)
 
 	* ordfeminine (U+00AA): X=182.0,Y=699.0 (should be at cap-height 700?)
+
+	* degree (U+00B0): X=76.5,Y=698.0 (should be at cap-height 700?)
 
 	* uni00B2 (U+00B2): X=35.0,Y=698.0 (should be at cap-height 700?)
 
@@ -4740,10 +4706,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* udieresis (U+00FC) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
 	* eng (U+014B) contains a short segment B<<138.0,410.0>-<138.0,406.0>-<139.0,400.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<154.0,9.0>-<146.0,13.0>-<140.0,18.0>>
 
@@ -5176,11 +5138,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5193,15 +5151,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: perthousand	Contours detected: 5	Expected: 6 or 7 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -5223,7 +5177,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -5439,6 +5393,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<214.0,385.0>-<206.0,388.0>-<199.0,391.0>>
 
+	* at (U+0040) contains a short segment B<<641.0,143.5>-<654.0,131.0>-<672.0,131.0>>
+
 	* a (U+0061) contains a short segment B<<341.0,65.0>-<341.0,71.0>-<341.0,78.0>>
 
 	* b (U+0062) contains a short segment B<<174.0,69.0>-<174.0,63.0>-<173.0,57.0>>
@@ -5459,7 +5415,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<92.0,352.0>-<91.0,360.0>-<91.0,368.0>>
 
-	* registered (U+00AE) contains a short segment B<<291.0,471.0>-<290.0,471.0>-<289.0,471.0>>
+	* registered (U+00AE) contains a short segment B<<359.0,481.0>-<358.0,481.0>-<357.0,480.0>>
+
+	* registered (U+00AE) contains a short segment B<<289.0,471.0>-<288.0,471.0>-<287.0,471.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<316.0,359.0>-<306.0,359.0>-<294.5,357.5>>
 
@@ -5488,10 +5446,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* OE (U+0152) contains a short segment B<<489.0,54.0>-<487.0,52.0>-<486.0,51.0>>
 
 	* oe (U+0153) contains a short segment B<<701.0,281.0>-<701.0,282.0>-<702.0,284.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<224.0,68.0>-<218.0,71.0>-<208.0,76.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<413.0,60.0>-<418.0,62.0>-<426.0,67.5>>
 
 	* Euro (U+20AC) contains a short segment B<<253.0,358.0>-<253.0,355.0>-<253.0,353.0>>
 
@@ -5939,11 +5893,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5956,15 +5906,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
-	- Glyph name: perthousand	Contours detected: 9	Expected: 6 or 7
-
 	- Glyph name: notequal	Contours detected: 2	Expected: 1
 
 	- Glyph name: fi	Contours detected: 2	Expected: 3
 
-	- Glyph name: notequal	Contours detected: 2	Expected: 1
-
-	- Glyph name: perthousand	Contours detected: 9	Expected: 6 or 7 
+	- Glyph name: notequal	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
  [code: contour-count]
@@ -5986,7 +5932,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6118,10 +6064,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=113.0,Y=-2.0 (should be at baseline 0?)
 
-	* perthousand (U+2030): X=627.0,Y=-2.0 (should be at baseline 0?)
-
-	* perthousand (U+2030): X=627.0,Y=-2.0 (should be at baseline 0?)
-
 	* uni2080 (U+2080): X=227.0,Y=-1.5 (should be at baseline 0?)
 
 	* uni2083 (U+2083): X=10.0,Y=-1.0 (should be at baseline 0?)
@@ -6156,6 +6098,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<206.0,385.0>-<202.0,387.0>-<199.0,388.0>>
 
+	* at (U+0040) contains a short segment B<<647.0,140.5>-<659.0,128.0>-<678.0,128.0>>
+
 	* a (U+0061) contains a short segment B<<337.0,64.0>-<336.0,68.0>-<336.0,71.0>>
 
 	* b (U+0062) contains a short segment B<<185.0,61.0>-<184.0,57.0>-<184.0,54.0>>
@@ -6176,7 +6120,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<91.0,357.0>-<90.0,365.0>-<89.0,374.0>>
 
-	* registered (U+00AE) contains a short segment B<<291.0,467.0>-<290.0,467.0>-<289.0,467.0>>
+	* section (U+00A7) contains a short segment B<<326.0,164.0>-<327.0,164.0>-<328.0,163.0>>
+
+	* section (U+00A7) contains a short segment B<<231.0,381.0>-<230.0,381.0>-<229.0,382.0>>
+
+	* registered (U+00AE) contains a short segment B<<361.0,478.0>-<360.0,477.0>-<360.0,477.0>>
+
+	* registered (U+00AE) contains a short segment B<<290.0,468.0>-<289.0,468.0>-<288.0,468.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<316.0,353.0>-<306.0,353.0>-<295.0,351.5>>
 
@@ -6197,14 +6147,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* eth (U+00F0) contains a short segment B<<316.0,550.0>-<316.0,551.0>-<315.0,551.0>>
 
 	* OE (U+0152) contains a short segment B<<454.0,668.0>-<463.0,660.0>-<472.0,652.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<219.0,75.0>-<213.0,77.0>-<203.0,82.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<415.0,66.0>-<420.0,68.0>-<427.5,73.5>>
-
-	* perthousand (U+2030) contains a short segment B<<712.0,59.0>-<712.0,60.0>-<712.0,61.0>>
-
-	* perthousand (U+2030) contains a short segment B<<712.0,248.0>-<712.0,248.0>-<712.0,249.0>>
 
 	* Euro (U+20AC) contains a short segment B<<274.0,446.0>-<272.0,436.0>-<271.0,425.0>>
 
@@ -6640,11 +6582,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -6689,7 +6627,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-lessequal, less, greaterequal, greater
+greater, lessequal, greaterequal, less
 
 Width = 475:
 multiply
@@ -6816,6 +6754,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=551.0,Y=0.5 (should be at baseline 0?)
+
 	* uni2070 (U+2070): X=164.0,Y=700.5 (should be at cap-height 700?)
 
 	* uni2083 (U+2083): X=110.0,Y=-2.0 (should be at baseline 0?)
@@ -6850,6 +6790,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<184.0,373.0>-<184.0,373.0>-<184.0,373.0>>
 
+	* at (U+0040) contains a short segment B<<564.0,148.0>-<561.0,153.0>-<559.0,159.0>>
+
 	* Q (U+0051) contains a short segment B<<450.0,6.0>-<448.0,5.0>-<446.0,5.0>>
 
 	* R (U+0052) contains a short segment B<<289.0,289.0>-<286.0,289.0>-<284.0,289.0>>
@@ -6863,6 +6805,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* sterling (U+00A3) contains a short segment B<<100.0,277.0>-<100.0,281.0>-<99.0,286.0>>
 
 	* sterling (U+00A3) contains a short segment B<<209.0,377.0>-<209.0,369.0>-<210.0,362.0>>
+
+	* section (U+00A7) contains a short segment B<<225.0,389.0>-<224.0,388.0>-<222.0,387.0>>
+
+	* registered (U+00AE) contains a short segment B<<299.0,454.0>-<295.0,454.0>-<292.0,454.0>>
 
 	* uni00B5 (U+00B5) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
 
@@ -6879,10 +6825,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* oe (U+0153) contains a short segment B<<449.0,430.0>-<451.0,432.0>-<453.0,435.0>>
 
 	* oe (U+0153) contains a short segment B<<448.0,63.0>-<446.0,60.0>-<443.0,57.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<229.0,62.0>-<223.0,64.0>-<212.5,69.5>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<410.0,55.0>-<415.0,57.0>-<424.5,62.5>>
 
 	* uni03BC (U+03BC) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
 
@@ -6981,7 +6923,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<60.0,671.0>--<354.0,672.0>> 
 
 	* uni0304 (U+0304): L<<46.0,688.0>--<341.0,690.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -7328,11 +7270,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7373,7 +7311,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, less, greaterequal, greater
+greater, lessequal, greaterequal, less
 
 Width = 460:
 multiply
@@ -7381,10 +7319,6 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 508 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7447,6 +7381,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ordfeminine (U+00AA): X=180.5,Y=699.0 (should be at cap-height 700?)
 
+	* registered (U+00AE): X=186.5,Y=701.5 (should be at cap-height 700?)
+
+	* degree (U+00B0): X=76.5,Y=698.0 (should be at cap-height 700?)
+
 	* onequarter (U+00BC): X=144.0,Y=702.0 (should be at cap-height 700?)
 
 	* onequarter (U+00BC): X=174.0,Y=702.0 (should be at cap-height 700?)
@@ -7499,6 +7437,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E): X=95.0,Y=-2.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=539.0,Y=0.5 (should be at baseline 0?)
+
 	* uni2074 (U+2074): X=191.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni2080 (U+2080): X=311.0,Y=2.0 (should be at baseline 0?)
@@ -7537,6 +7477,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<509.0,179.0>-<514.0,188.0>-<517.0,198.0>>
 
+	* at (U+0040) contains a short segment B<<561.0,160.0>-<556.0,170.0>-<552.0,182.0>>
+
 	* Q (U+0051) contains a short segment B<<447.0,8.0>-<443.0,6.0>-<440.0,5.0>>
 
 	* g (U+0067) contains a short segment B<<419.0,514.5>-<412.0,516.0>-<404.0,516.0>>
@@ -7545,17 +7487,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* sterling (U+00A3) contains a short segment B<<168.0,358.0>-<169.0,351.0>-<170.0,344.0>>
 
-	* registered (U+00AE) contains a short segment B<<295.0,472.0>-<293.0,472.0>-<290.0,472.0>>
+	* registered (U+00AE) contains a short segment B<<294.0,472.0>-<291.0,472.0>-<288.0,472.0>>
 
 	* threequarters (U+00BE) contains a short segment B<<184.0,531.0>-<188.0,530.0>-<192.0,529.0>>
 
 	* ae (U+00E6) contains a short segment B<<384.0,411.0>-<390.0,419.0>-<396.0,427.0>>
 
 	* ae (U+00E6) contains a short segment L<<409.0,227.0>--<409.0,226.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<240.0,47.0>-<234.0,50.0>-<223.5,56.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<404.0,42.0>-<410.0,44.0>-<421.0,50.0>>
 
 	* threeeighths (U+215C) contains a short segment B<<184.0,531.0>-<188.0,530.0>-<192.0,529.0>>
 
@@ -7995,11 +7933,7 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL
-
-	- _part.copyright.c
-
-	- _part.registered.r 
+	- NULL 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -8044,7 +7978,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 500 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -8100,6 +8034,8 @@ approxequal
 
 	* ordfeminine (U+00AA): X=175.5,Y=699.5 (should be at cap-height 700?)
 
+	* degree (U+00B0): X=77.5,Y=698.0 (should be at cap-height 700?)
+
 	* acute (U+00B4): X=215.0,Y=699.0 (should be at cap-height 700?)
 
 	* onequarter (U+00BC): X=143.0,Y=702.0 (should be at cap-height 700?)
@@ -8140,6 +8076,8 @@ approxequal
 
 	* quotedblbase (U+201E): X=91.0,Y=-2.0 (should be at baseline 0?)
 
+	* perthousand (U+2030): X=532.0,Y=0.5 (should be at baseline 0?)
+
 	* uni2080 (U+2080): X=307.0,Y=2.0 (should be at baseline 0?)
 
 	* Euro (U+20AC): X=478.0,Y=702.0 (should be at cap-height 700?)
@@ -8170,6 +8108,8 @@ approxequal
 
 	* ampersand (U+0026) contains a short segment B<<476.0,105.0>-<477.0,107.0>-<479.0,109.0>>
 
+	* at (U+0040) contains a short segment B<<559.0,167.0>-<553.0,180.0>-<548.0,197.0>>
+
 	* K (U+004B) contains a short segment L<<270.0,371.0>--<264.0,365.0>>
 
 	* Q (U+0051) contains a short segment B<<445.0,9.0>-<445.0,9.0>-<445.0,9.0>>
@@ -8186,17 +8126,17 @@ approxequal
 
 	* yen (U+00A5) contains a short segment L<<282.0,295.0>--<282.0,289.0>>
 
-	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
+	* section (U+00A7) contains a short segment B<<182.0,438.0>-<181.0,439.0>-<180.0,440.0>>
 
-	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
+	* section (U+00A7) contains a short segment B<<343.0,108.0>-<344.0,107.0>-<346.0,107.0>>
 
-	* registered (U+00AE) contains a short segment B<<287.0,486.0>-<285.0,486.0>-<284.0,486.0>>
+	* section (U+00A7) contains a short segment B<<280.0,132.0>-<280.0,132.0>-<281.0,132.0>>
+
+	* section (U+00A7) contains a short segment B<<245.0,414.0>-<244.0,414.0>-<244.0,415.0>>
+
+	* registered (U+00AE) contains a short segment B<<287.0,486.0>-<286.0,486.0>-<284.0,486.0>>
 
 	* ae (U+00E6) contains a short segment L<<391.0,237.0>--<391.0,222.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<246.0,39.0>-<240.0,42.0>-<229.0,48.0>>
-
-	* uni03A9 (U+03A9) contains a short segment B<<400.0,35.0>-<407.0,37.0>-<419.0,43.0>>
 
 	* summation (U+2211) contains a short segment L<<52.0,-88.0>--<52.0,-68.0>>
 
@@ -8311,8 +8251,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 37 | 180 | 1394 | 78 | 1076 | 0 |
-| 0% | 1% | 7% | 50% | 3% | 39% | 0% |
+| 0 | 37 | 179 | 1394 | 79 | 1076 | 0 |
+| 0% | 1% | 6% | 50% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
