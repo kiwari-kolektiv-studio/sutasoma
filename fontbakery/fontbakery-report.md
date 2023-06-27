@@ -369,7 +369,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -420,7 +422,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, greaterequal, lessequal, less
+greater, greaterequal, less, lessequal
 
 Width = 488:
 multiply
@@ -482,8 +484,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* d (U+0064): X=166.5,Y=498.0 (should be at x-height 499?)
 
 	* g (U+0067): X=326.0,Y=500.0 (should be at x-height 499?)
-
-	* g (U+0067): X=172.0,Y=2.0 (should be at baseline 0?)
 
 	* g (U+0067): X=322.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1067,7 +1067,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1295,9 +1297,11 @@ multiply
 
 	* Y (U+0059) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
 
-	* g (U+0067) contains a short segment B<<123.0,44.0>-<120.0,45.0>-<118.0,46.0>>
+	* g (U+0067) contains a short segment B<<126.0,46.0>-<122.0,47.0>-<118.0,49.0>>
 
-	* g (U+0067) contains a short segment B<<331.0,470.0>-<332.0,470.0>-<333.0,470.0>>
+	* g (U+0067) contains a short segment B<<331.0,470.0>-<332.0,470.0>-<333.0,469.0>>
+
+	* g (U+0067) contains a short segment B<<153.0,197.0>-<152.0,197.0>-<151.0,198.0>>
 
 	* m (U+006D) contains a short segment B<<124.0,413.0>-<124.0,405.0>-<124.0,395.0>>
 
@@ -1782,7 +1786,9 @@ multiply
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -1872,8 +1878,6 @@ greaterequal
 	* d (U+0064): X=323.5,Y=488.5 (should be at x-height 490?)
 
 	* g (U+0067): X=128.0,Y=1.0 (should be at baseline 0?)
-
-	* g (U+0067): X=372.5,Y=1.0 (should be at baseline 0?)
 
 	* p (U+0070): X=383.0,Y=1.0 (should be at baseline 0?)
 
@@ -2412,7 +2416,9 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -2449,7 +2455,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, greaterequal, lessequal, less
+greater, greaterequal, less, lessequal
 
 Width = 468:
 multiply
@@ -3025,7 +3031,9 @@ approxequal
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3076,7 +3084,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, greaterequal, lessequal, less
+greater, greaterequal, less, lessequal
 
 Width = 481:
 multiply
@@ -3709,7 +3717,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -3893,8 +3903,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* g (U+0067): X=324.0,Y=492.0 (should be at x-height 493?)
 
 	* g (U+0067): X=366.0,Y=495.0 (should be at x-height 493?)
-
-	* g (U+0067): X=372.5,Y=-2.0 (should be at baseline 0?)
 
 	* i (U+0069): X=87.0,Y=700.5 (should be at cap-height 700?)
 
@@ -4492,7 +4500,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -4529,7 +4539,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -4596,6 +4606,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* b (U+0062): X=368.5,Y=1.0 (should be at baseline 0?)
 
 	* d (U+0064): X=186.5,Y=483.0 (should be at x-height 484?)
+
+	* g (U+0067): X=315.0,Y=483.0 (should be at x-height 484?)
 
 	* p (U+0070): X=368.5,Y=1.0 (should be at baseline 0?)
 
@@ -4719,9 +4731,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* d (U+0064) contains a short segment B<<417.0,85.0>-<416.0,88.0>-<416.0,92.0>>
 
-	* g (U+0067) contains a short segment B<<120.0,37.0>-<120.0,37.0>-<119.0,37.0>>
+	* g (U+0067) contains a short segment B<<121.0,37.0>-<120.0,38.0>-<119.0,38.0>>
 
-	* g (U+0067) contains a short segment B<<337.0,475.0>-<337.0,475.0>-<337.0,475.0>>
+	* g (U+0067) contains a short segment B<<336.0,475.0>-<337.0,475.0>-<337.0,475.0>>
 
 	* m (U+006D) contains a short segment B<<138.0,410.0>-<138.0,407.0>-<138.0,404.0>>
 
@@ -5188,7 +5200,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -5965,7 +5979,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -6186,7 +6202,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* d (U+0064) contains a short segment B<<384.0,54.0>-<384.0,57.0>-<383.0,60.0>>
 
-	* g (U+0067) contains a short segment B<<380.0,490.0>-<376.0,486.0>-<372.0,482.0>>
+	* g (U+0067) contains a short segment B<<380.0,490.0>-<375.0,486.0>-<371.0,481.0>>
 
 	* m (U+006D) contains a short segment B<<182.0,464.0>-<184.0,453.0>-<184.0,441.0>>
 
@@ -6666,7 +6682,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -6708,10 +6726,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-greater, greaterequal, lessequal, less
+greater, greaterequal, less, lessequal
 
 Width = 475:
 multiply
@@ -7364,7 +7382,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -7405,7 +7425,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, lessequal, less
+greater, greaterequal, less, lessequal
 
 Width = 460:
 multiply
@@ -8027,7 +8047,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- NULL 
+	- NULL
+
+	- g.001 
 
 	- slash_component
  [code: unreachable-glyphs]
@@ -8072,7 +8094,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 500 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
