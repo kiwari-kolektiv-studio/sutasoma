@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, less, greaterequal, lessequal
+lessequal, less, greater, greaterequal
 
 Width = 488:
 multiply
@@ -1823,7 +1823,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
@@ -2451,7 +2451,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, less, greaterequal, lessequal
+lessequal, less, greater, greaterequal
 
 Width = 468:
 multiply
@@ -3076,7 +3076,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, less, greaterequal, lessequal
+lessequal, less, greater, greaterequal
 
 Width = 481:
 multiply
@@ -3740,7 +3740,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -4515,7 +4515,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, greaterequal
+less, greater, greaterequal
 
 Width = 462:
 multiply
@@ -5211,7 +5211,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -5357,9 +5357,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=262.0,Y=-0.5 (should be at baseline 0?)
 
-	* scaron (U+0161): X=98.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=99.0,Y=702.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=360.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=361.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=24.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5982,7 +5982,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -6689,7 +6689,7 @@ Width = 501:
 plus, approxequal
 
 Width = 511:
-greater, less, greaterequal, lessequal
+lessequal, less, greater, greaterequal
 
 Width = 475:
 multiply
@@ -7377,7 +7377,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, greaterequal, lessequal
+lessequal, less, greater, greaterequal
 
 Width = 460:
 multiply
