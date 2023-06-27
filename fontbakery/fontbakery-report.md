@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, less, greater, greaterequal
+greater, greaterequal, lessequal, less
 
 Width = 488:
 multiply
@@ -561,11 +561,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* seveneighths (U+215E): X=270.0,Y=702.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=20.0,Y=701.0 (should be at cap-height 700?)
+	* product (U+220F): X=20.0,Y=701.0 (should be at cap-height 700?) 
 
-	* product (U+220F): X=780.0,Y=701.0 (should be at cap-height 700?) 
-
-	* fi (U+FB01): X=366.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
+	* product (U+220F): X=780.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -1187,9 +1185,7 @@ multiply
 
 	* q (U+0071): X=189.0,Y=477.0 (should be at x-height 478?)
 
-	* t (U+0074): X=99.0,Y=476.0 (should be at x-height 478?)
-
-	* t (U+0074): X=145.0,Y=476.0 (should be at x-height 478?)
+	* t (U+0074): X=236.5,Y=-1.0 (should be at baseline 0?)
 
 	* yen (U+00A5): X=31.0,Y=701.0 (should be at cap-height 700?)
 
@@ -1823,7 +1819,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -1886,6 +1882,8 @@ greaterequal
 	* q (U+0071): X=184.0,Y=489.0 (should be at x-height 490?)
 
 	* r (U+0072): X=356.0,Y=489.0 (should be at x-height 490?)
+
+	* t (U+0074): X=279.5,Y=-0.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=22.0,Y=701.0 (should be at cap-height 700?)
 
@@ -2451,7 +2449,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, less, greater, greaterequal
+greater, greaterequal, lessequal, less
 
 Width = 468:
 multiply
@@ -2505,6 +2503,8 @@ approxequal
 	* p (U+0070): X=385.0,Y=1.5 (should be at baseline 0?)
 
 	* q (U+0071): X=182.0,Y=488.5 (should be at x-height 490?)
+
+	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
 
 	* ordfeminine (U+00AA): X=185.0,Y=698.5 (should be at cap-height 700?)
 
@@ -3076,7 +3076,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, less, greater, greaterequal
+greater, greaterequal, lessequal, less
 
 Width = 481:
 multiply
@@ -3111,7 +3111,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* six (U+0036): X=238.5,Y=699.5 (should be at cap-height 700?)
 
-	* nine (U+0039): X=344.0,Y=0.5 (should be at baseline 0?)
+	* nine (U+0039): X=347.5,Y=0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=95.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3126,6 +3126,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* b (U+0062): X=396.0,Y=1.5 (should be at baseline 0?)
 
 	* d (U+0064): X=172.0,Y=495.0 (should be at x-height 496?)
+
+	* f (U+0066): X=164.0,Y=699.5 (should be at cap-height 700?)
 
 	* g (U+0067): X=419.0,Y=498.0 (should be at x-height 496?)
 
@@ -3215,9 +3217,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* product (U+220F): X=27.0,Y=701.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=773.0,Y=701.0 (should be at cap-height 700?) 
+	* product (U+220F): X=773.0,Y=701.0 (should be at cap-height 700?)
 
-	* integral (U+222B): X=383.5,Y=698.5 (should be at cap-height 700?) [code: found-misalignments]
+	* integral (U+222B): X=383.5,Y=698.5 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=164.0,Y=699.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=164.0,Y=699.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3740,7 +3746,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -3882,6 +3888,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* d (U+0064): X=316.0,Y=492.5 (should be at x-height 493?)
 
+	* f (U+0066): X=324.5,Y=700.5 (should be at cap-height 700?)
+
 	* g (U+0067): X=324.0,Y=492.0 (should be at x-height 493?)
 
 	* g (U+0067): X=366.0,Y=495.0 (should be at x-height 493?)
@@ -3899,6 +3907,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=180.0,Y=492.0 (should be at x-height 493?)
 
 	* r (U+0072): X=367.0,Y=491.0 (should be at x-height 493?)
+
+	* t (U+0074): X=295.0,Y=1.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=20.0,Y=701.0 (should be at cap-height 700?)
 
@@ -3988,9 +3998,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowupdn (U+2195): X=305.0,Y=-1.0 (should be at baseline 0?)
 
-	* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?) 
+	* integral (U+222B): X=282.0,Y=2.0 (should be at baseline 0?)
 
-	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
+	* fi (U+FB01): X=324.5,Y=700.5 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=324.5,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -4515,7 +4529,7 @@ Width = 488:
 plus
 
 Width = 484:
-less, greater, greaterequal
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -4588,6 +4602,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=186.5,Y=483.0 (should be at x-height 484?)
 
 	* r (U+0072): X=335.0,Y=485.0 (should be at x-height 484?)
+
+	* t (U+0074): X=258.5,Y=-0.5 (should be at baseline 0?)
 
 	* yen (U+00A5): X=27.0,Y=701.0 (should be at cap-height 700?)
 
@@ -5211,7 +5227,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -5296,6 +5312,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* d (U+0064): X=308.0,Y=497.0 (should be at x-height 496?)
 
 	* d (U+0064): X=318.5,Y=2.0 (should be at baseline 0?)
+
+	* f (U+0066): X=164.0,Y=698.5 (should be at cap-height 700?)
 
 	* g (U+0067): X=332.0,Y=494.0 (should be at x-height 496?)
 
@@ -5417,9 +5435,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* arrowupdn (U+2195): X=314.0,Y=699.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=27.0,Y=701.0 (should be at cap-height 700?) 
+	* product (U+220F): X=27.0,Y=701.0 (should be at cap-height 700?)
 
-	* product (U+220F): X=773.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
+	* product (U+220F): X=773.0,Y=701.0 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=164.0,Y=698.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=164.0,Y=698.5 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -5559,7 +5581,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni261E (U+261E) contains a short segment B<<633.5,140.0>-<624.0,134.0>-<624.0,129.0>> 
 
-	* fi (U+FB01) contains a short segment B<<400.0,640.0>-<400.0,646.0>-<401.0,652.0>> [code: found-short-segments]
+	* fi (U+FB01) contains a short segment B<<400.0,640.0>-<400.0,647.0>-<401.0,653.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -5982,7 +6004,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6689,7 +6711,7 @@ Width = 501:
 plus, approxequal
 
 Width = 511:
-lessequal, less, greater, greaterequal
+greater, greaterequal, lessequal, less
 
 Width = 475:
 multiply
@@ -6734,7 +6756,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* six (U+0036): X=238.0,Y=699.5 (should be at cap-height 700?)
 
-	* nine (U+0039): X=339.0,Y=0.5 (should be at baseline 0?)
+	* nine (U+0039): X=341.0,Y=0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=92.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6759,6 +6781,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* b (U+0062): X=390.5,Y=1.5 (should be at baseline 0?)
 
 	* d (U+0064): X=177.0,Y=491.5 (should be at x-height 493?)
+
+	* f (U+0066): X=325.0,Y=699.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=61.0,Y=-1.0 (should be at baseline 0?)
 
@@ -6838,9 +6862,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* seveneighths (U+215E): X=267.0,Y=702.0 (should be at cap-height 700?)
 
-	* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?) 
+	* integral (U+222B): X=300.0,Y=2.0 (should be at baseline 0?)
 
-	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) [code: found-misalignments]
+	* fi (U+FB01): X=325.0,Y=699.0 (should be at cap-height 700?)
+
+	* fi (U+FB01): X=433.0,Y=700.5 (should be at cap-height 700?) 
+
+	* fl (U+FB02): X=325.0,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -7377,7 +7405,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, less, greater, greaterequal
+greater, greaterequal, lessequal, less
 
 Width = 460:
 multiply
@@ -7440,6 +7468,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* q (U+0071): X=186.0,Y=483.0 (should be at x-height 484?)
 
 	* r (U+0072): X=335.0,Y=483.0 (should be at x-height 484?)
+
+	* t (U+0074): X=264.0,Y=-0.5 (should be at baseline 0?)
 
 	* y (U+0079): X=202.0,Y=1.0 (should be at baseline 0?)
 
