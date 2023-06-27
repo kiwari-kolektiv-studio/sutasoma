@@ -422,7 +422,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, lessequal, greaterequal, less
+greaterequal, lessequal, greater, less
 
 Width = 488:
 multiply
@@ -590,6 +590,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* R (U+0052) contains a short segment B<<300.0,274.0>-<298.0,274.0>-<297.0,274.0>>
 
 	* d (U+0064) contains a short segment B<<362.0,460.0>-<362.0,459.0>-<363.0,459.0>>
+
+	* g (U+0067) contains a short segment B<<100.0,29.0>-<94.0,32.0>-<88.0,36.0>>
 
 	* g (U+0067) contains a short segment B<<387.0,479.0>-<385.0,476.0>-<383.0,474.0>>
 
@@ -1183,6 +1185,8 @@ multiply
 
 	* g (U+0067): X=314.0,Y=477.0 (should be at x-height 478?)
 
+	* g (U+0067): X=111.0,Y=-1.0 (should be at baseline 0?)
+
 	* p (U+0070): X=354.0,Y=1.0 (should be at baseline 0?)
 
 	* q (U+0071): X=189.0,Y=477.0 (should be at x-height 478?)
@@ -1296,8 +1300,6 @@ multiply
 	* Y (U+0059) contains a short segment L<<314.0,295.0>--<311.0,295.0>>
 
 	* Y (U+0059) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
-
-	* g (U+0067) contains a short segment B<<126.0,46.0>-<122.0,47.0>-<118.0,49.0>>
 
 	* g (U+0067) contains a short segment B<<331.0,470.0>-<332.0,470.0>-<333.0,469.0>>
 
@@ -1877,8 +1879,6 @@ greaterequal
 
 	* d (U+0064): X=323.5,Y=488.5 (should be at x-height 490?)
 
-	* g (U+0067): X=128.0,Y=1.0 (should be at baseline 0?)
-
 	* p (U+0070): X=383.0,Y=1.0 (should be at baseline 0?)
 
 	* p (U+0070): X=243.5,Y=1.5 (should be at baseline 0?)
@@ -2455,7 +2455,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, lessequal, greaterequal, less
+greaterequal, lessequal, greater, less
 
 Width = 468:
 multiply
@@ -2505,6 +2505,8 @@ approxequal
 	* g (U+0067): X=64.0,Y=1.0 (should be at baseline 0?)
 
 	* g (U+0067): X=372.0,Y=491.0 (should be at x-height 490?)
+
+	* g (U+0067): X=139.0,Y=-2.0 (should be at baseline 0?)
 
 	* p (U+0070): X=385.0,Y=1.5 (should be at baseline 0?)
 
@@ -2579,6 +2581,8 @@ approxequal
 	* Q (U+0051) contains a short segment B<<450.0,7.0>-<447.0,6.0>-<444.0,5.0>>
 
 	* R (U+0052) contains a short segment B<<283.0,296.0>-<280.0,296.0>-<277.0,296.0>>
+
+	* g (U+0067) contains a short segment B<<109.0,37.0>-<102.0,41.0>-<96.0,45.0>>
 
 	* g (U+0067) contains a short segment B<<427.5,508.5>-<421.0,510.0>-<413.0,510.0>>
 
@@ -3084,7 +3088,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, lessequal, greaterequal, less
+greaterequal, lessequal, greater, less
 
 Width = 481:
 multiply
@@ -3250,6 +3254,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* R (U+0052) contains a short segment B<<294.0,282.0>-<292.0,282.0>-<290.0,282.0>>
 
 	* d (U+0064) contains a short segment B<<370.0,455.0>-<372.0,452.0>-<375.0,450.0>>
+
+	* g (U+0067) contains a short segment B<<103.0,32.0>-<97.0,35.0>-<91.0,39.0>>
 
 	* g (U+0067) contains a short segment B<<382.0,483.0>-<378.0,478.0>-<375.0,473.0>>
 
@@ -4539,7 +4545,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -4728,8 +4734,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* b (U+0062) contains a short segment B<<139.0,93.0>-<139.0,89.0>-<139.0,85.0>>
 
 	* d (U+0064) contains a short segment B<<417.0,85.0>-<416.0,88.0>-<416.0,92.0>>
-
-	* g (U+0067) contains a short segment B<<122.0,38.0>-<122.0,38.0>-<121.0,39.0>>
 
 	* g (U+0067) contains a short segment B<<336.0,475.0>-<336.0,475.0>-<337.0,475.0>>
 
@@ -5330,8 +5334,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* g (U+0067): X=331.0,Y=494.0 (should be at x-height 496?)
 
 	* g (U+0067): X=459.0,Y=495.0 (should be at x-height 496?)
-
-	* g (U+0067): X=138.0,Y=-1.0 (should be at baseline 0?)
 
 	* p (U+0070): X=249.5,Y=494.0 (should be at x-height 496?)
 
@@ -6102,8 +6104,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* g (U+0067): X=445.5,Y=500.0 (should be at x-height 499?)
 
-	* g (U+0067): X=143.0,Y=-2.0 (should be at baseline 0?)
-
 	* p (U+0070): X=256.0,Y=498.0 (should be at x-height 499?)
 
 	* p (U+0070): X=397.0,Y=1.0 (should be at baseline 0?)
@@ -6724,10 +6724,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-greater, lessequal, greaterequal, less
+greaterequal, lessequal, greater, less
 
 Width = 475:
 multiply
@@ -6901,6 +6901,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* R (U+0052) contains a short segment B<<289.0,289.0>-<286.0,289.0>-<284.0,289.0>>
 
 	* d (U+0064) contains a short segment B<<378.0,450.0>-<382.0,445.0>-<386.0,440.0>>
+
+	* g (U+0067) contains a short segment B<<106.0,35.0>-<99.0,38.0>-<93.0,42.0>>
 
 	* g (U+0067) contains a short segment B<<432.5,502.0>-<425.0,504.0>-<416.0,504.0>>
 
@@ -7423,7 +7425,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, lessequal, greaterequal, less
+greaterequal, lessequal, greater, less
 
 Width = 460:
 multiply
@@ -7480,6 +7482,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* d (U+0064): X=186.0,Y=483.0 (should be at x-height 484?)
 
 	* g (U+0067): X=315.0,Y=483.0 (should be at x-height 484?)
+
+	* g (U+0067): X=127.0,Y=1.0 (should be at baseline 0?)
 
 	* p (U+0070): X=369.0,Y=1.0 (should be at baseline 0?)
 
