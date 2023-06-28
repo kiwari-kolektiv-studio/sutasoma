@@ -1571,6 +1571,7 @@ KernOnModels = (
 "H H"
 );
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -77384,7 +77385,17 @@ width = 446;
 anchors = (
 {
 name = top;
-pos = (309,487);
+pos = (304,490);
+}
+);
+guides = (
+{
+angle = 62.468;
+pos = (142,-32);
+},
+{
+angle = 59.0362;
+pos = (386,276);
 }
 );
 layerId = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
@@ -77392,21 +77403,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-3,-184,l),
-(97,-156,o),
-(153,-113,o),
-(211,1,cs),
-(487,487,l),
-(428,487,l),
-(201,71,l),
-(233,81,l),
-(161,487,l),
-(65,487,l),
-(173,-10,l),
-(173,25,l),
-(109,-97,o),
-(77,-122,o),
-(-32,-119,c)
+(-13,-183,l),
+(100,-159,o),
+(152,-113,o),
+(248,46,cs),
+(514,490,l),
+(442,490,l),
+(202,65,l),
+(241,74,l),
+(165,490,l),
+(66,490,l),
+(181,-37,l),
+(190,60,l),
+(125,-64,o),
+(107,-125,o),
+(-34,-108,c)
 );
 }
 );
@@ -77426,7 +77437,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 472;
+width = 498;
 },
 {
 anchors = (
@@ -77788,7 +77799,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (224,1);
+pos = (219,4);
 ref = acutecomb;
 }
 );
@@ -77808,7 +77819,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 472;
+width = 498;
 },
 {
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
@@ -78142,7 +78153,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (160,1);
+pos = (155,4);
 ref = dieresiscomb;
 }
 );
@@ -78162,7 +78173,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 472;
+width = 498;
 },
 {
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
@@ -222436,25 +222447,25 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
-0,
-169,
+-100,
+93,
 9.5
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = R;
 },
 {
 name = "Axis Location";
 value = (
 {
 Axis = Grade;
-Location = 0;
+Location = -100;
 },
 {
 Axis = Weight;
-Location = 800;
+Location = 400;
 },
 {
 Axis = Slant;
@@ -222503,8 +222514,8 @@ name = hheaLineGap;
 value = 0;
 }
 );
-iconName = Bold;
-id = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
+iconName = Regular;
+id = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
 metricValues = (
 {
 over = 10;
@@ -222516,7 +222527,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 502;
+pos = 490;
 },
 {
 over = -10;
@@ -222535,66 +222546,7 @@ over = -10;
 pos = -175;
 }
 );
-name = "Modern ExtraBold Italic";
-userData = {
-KernOnIndependentPairs = (
-"o d",
-"b o",
-"thorn o",
-"d period",
-"one four",
-"guilsinglleft h",
-"d underscore"
-);
-KernOnModels = (
-"quoteright h",
-"d quoteleft",
-"quoteleft h",
-"d quoteright",
-"d colon",
-"d exclam",
-"i n",
-"i i",
-"l l",
-"l n",
-"d hyphen",
-"bracketleft h",
-"d parenleft",
-"parenleft h",
-"r n",
-"d endash",
-"endash endash",
-"n a",
-"v n",
-"n n",
-"n at",
-"n u",
-"o n",
-"n o",
-"o o",
-"l H",
-"one comma",
-"one n",
-"H s",
-"H n",
-"H x",
-"H o",
-"H ampersand",
-"I I",
-"one H",
-"one zero",
-"one two",
-"one one",
-"one three",
-"E H",
-"H T",
-"H V",
-"H H",
-"H O",
-"O H",
-"O O"
-);
-};
+name = "Moderat Italic";
 };
 };
 versionMajor = 1;
