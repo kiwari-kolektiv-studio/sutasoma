@@ -1083,6 +1083,7 @@ KernOnModels = (
 "H H"
 );
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -1244,7 +1245,6 @@ KernOnModels = (
 "O O"
 );
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1407,6 +1407,7 @@ KernOnModels = (
 "H H"
 );
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -173746,10 +173747,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(411,304,l),
-(417,336,l),
-(57,336,l),
-(51,304,l)
+(412,304,l),
+(418,336,l),
+(56,336,l),
+(50,304,l)
 );
 }
 );
@@ -174906,7 +174907,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(411,304,l),
+(412,304,l),
 (418,336,l),
 (56,336,l),
 (50,304,l)
