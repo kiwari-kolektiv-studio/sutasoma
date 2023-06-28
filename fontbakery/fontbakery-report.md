@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, lessequal, less, greaterequal
+greaterequal, lessequal, greater, less
 
 Width = 488:
 multiply
@@ -2443,7 +2443,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, lessequal, less, greaterequal
+greaterequal, lessequal, greater, less
 
 Width = 468:
 multiply
@@ -3074,7 +3074,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, lessequal, less, greaterequal
+greaterequal, lessequal, greater, less
 
 Width = 481:
 multiply
@@ -4525,7 +4525,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, greaterequal
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -6693,7 +6693,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-greater, lessequal, less, greaterequal
+greaterequal, lessequal, greater, less
 
 Width = 475:
 multiply
@@ -7389,7 +7389,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, lessequal, less, greaterequal
+greaterequal, lessequal, greater, less
 
 Width = 460:
 multiply
