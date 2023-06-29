@@ -145,6 +145,14 @@
 
 	  
 	    @font-face{
+    src: url(SutasomaModern-Regular.ttf);
+    font-family: "Sutasoma Modern";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
     src: url(SutasomaModern-ExtraBold.ttf);
     font-family: "Sutasoma Modern";
     font-weight: 800;
@@ -156,30 +164,6 @@
     src: url(SutasomaModern-ExtraLight.ttf);
     font-family: "Sutasoma Modern";
     font-weight: 200;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(SutasomaModern-Bold.ttf);
-    font-family: "Sutasoma Modern";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(SutasomaModerat-Regular.ttf);
-    font-family: "Sutasoma Moderat";
-    font-weight: 400;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url(SutasomaModerat-Bold.ttf);
-    font-family: "Sutasoma Moderat";
-    font-weight: 700;
     
     font-style: normal;
 }
@@ -201,8 +185,24 @@
 }
 	  
 	    @font-face{
-    src: url(SutasomaModern-Regular.ttf);
+    src: url(SutasomaModern-Bold.ttf);
     font-family: "Sutasoma Modern";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(SutasomaModerat-Bold.ttf);
+    font-family: "Sutasoma Moderat";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(SutasomaModerat-Regular.ttf);
+    font-family: "Sutasoma Moderat";
     font-weight: 400;
     
     font-style: normal;
@@ -368,37 +368,6 @@
 		fontToggle.addEventListener("click", switchFonts);
 	}
 
-	function render(node, toplevel) {
-		var wrapper = $("<div> </div>");
-		if (!node) { return wrapper }
-		if (Array.isArray(node)) {
-			var before = $("<span/>");
-			before.addClass("attr-before");
-			before.html(" " + node[0] + " ");
-			var after = $("<span/>");
-			after.addClass("attr-after");
-			after.append(node[1]);
-			wrapper.append(before);
-			wrapper.append(after);
-			return wrapper
-		}
-		for (const [key, value] of Object.entries(node)) {
-			var display = $("<div/>");
-			display.addClass("node")
-			if (!toplevel && ! key.match(/^\d+$/)) {
-				display.hide()
-			}
-			display.append(key);
-			display.append(render(value, false).children());
-			wrapper.append(display)
-		}
-		return wrapper
-
-	}
-	$(function() {
-		$("#difftable").append(render(fontdiff, true).children())
-		$(".node").on("click", function(event){ $(this).children().toggle(); event.stopPropagation() })
-	});
     
 	// break text so that no reflow happens
 async function breakText() {
