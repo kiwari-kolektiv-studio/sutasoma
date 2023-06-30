@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greaterequal, less, greater, lessequal
+greater, less, lessequal, greaterequal
 
 Width = 488:
 multiply
@@ -452,10 +452,7 @@ approxequal
 	* ('eacute', 358, 762)
 	* ('iacute', 219, 762)
 	* ('uacute', 359, 762)
-	* ('yacute', 349, 762)
-	* ('aacute.ss01', 347, 760)
-	* ('periodcentered', 74, 382)
-	* ('periodcentered', 116, 382) and ('periodcentered', 158, 382)
+	* ('yacute', 349, 762) and ('aacute.ss01', 347, 760)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -567,8 +564,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<334.0,573.0>-<329.0,575.0>-<323.0,576.0>>
-
 	* ampersand (U+0026) contains a short segment B<<534.0,61.0>-<528.0,65.0>-<523.0,69.0>>
 
 	* ampersand (U+0026) contains a short segment B<<600.0,181.0>-<599.0,177.0>-<597.0,173.0>>
@@ -577,9 +572,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* semicolon (U+003B) contains a short segment B<<94.0,-6.0>-<95.0,-4.0>-<97.0,-2.0>>
 
-	* at (U+0040) contains a short segment B<<565.0,138.0>-<564.0,139.0>-<563.0,141.0>>
-
-	* at (U+0040) contains a short segment B<<656.5,173.0>-<669.0,162.0>-<688.0,162.0>>
+	* at (U+0040) contains a short segment B<<569.0,138.0>-<568.0,139.0>-<567.0,141.0>>
 
 	* Q (U+0051) contains a short segment B<<451.0,5.0>-<451.0,5.0>-<451.0,5.0>>
 
@@ -1116,7 +1109,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater, lessequal
+greater, less, lessequal, greaterequal
 
 Width = 460:
 multiply
@@ -1236,6 +1229,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030F (U+030F): X=65.0,Y=699.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=537.5,Y=-2.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=601.5,Y=-0.5 (should be at baseline 0?)
+
 	* quotesinglbase (U+201A): X=95.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=236.0,Y=-2.0 (should be at baseline 0?)
@@ -1282,7 +1279,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<509.0,179.0>-<514.0,188.0>-<517.0,198.0>>
 
-	* at (U+0040) contains a short segment B<<561.0,160.0>-<556.0,170.0>-<552.0,182.0>>
+	* at (U+0040) contains a short segment B<<572.0,160.0>-<567.0,170.0>-<563.0,182.0>>
 
 	* Q (U+0051) contains a short segment B<<447.0,8.0>-<443.0,6.0>-<440.0,5.0>>
 
@@ -1780,10 +1777,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-greaterequal, less, greater, lessequal
+greater, less, lessequal, greaterequal
 
 Width = 475:
 multiply
@@ -1809,10 +1806,7 @@ multiply
 	* ('ocircumflex', 240, 722)
 	* ('ocircumflex', 312, 722)
 	* ('uacute', 362, 740)
-	* ('yacute', 348, 740)
-	* ('aacute.ss01', 355, 738)
-	* ('periodcentered', 71, 362)
-	* ('periodcentered', 103, 362) and ('periodcentered', 137, 362)
+	* ('yacute', 348, 740) and ('aacute.ss01', 355, 738)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -1900,6 +1894,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0306 (U+0306): X=300.0,Y=698.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=573.0,Y=2.0 (should be at baseline 0?)
+
 	* quoteright (U+2019): X=59.0,Y=698.5 (should be at cap-height 700?)
 
 	* quotesinglbase (U+201A): X=100.0,Y=-2.0 (should be at baseline 0?)
@@ -1950,7 +1946,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* five (U+0035) contains a short segment B<<168.0,430.0>-<172.0,433.0>-<176.0,437.0>>
 
-	* at (U+0040) contains a short segment B<<564.0,148.0>-<561.0,153.0>-<559.0,159.0>>
+	* at (U+0040) contains a short segment B<<570.0,148.0>-<568.0,153.0>-<565.0,159.0>>
 
 	* Q (U+0051) contains a short segment B<<450.0,6.0>-<448.0,5.0>-<446.0,5.0>>
 
@@ -1991,8 +1987,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* oe (U+0153) contains a short segment B<<448.0,63.0>-<446.0,60.0>-<443.0,57.0>>
 
 	* florin (U+0192) contains a short segment B<<303.0,505.0>-<302.0,499.0>-<301.0,493.0>>
-
-	* uni03BC (U+03BC) contains a short segment B<<396.0,59.0>-<392.0,67.0>-<390.0,75.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
 
@@ -2477,7 +2471,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -2512,10 +2506,10 @@ greaterequal
 	* ('Atilde', 224, 893)
 	* ('Atilde', 245, 893)
 	* ('Atilde', 257, 893)
-	* ('Eacute', 392, 931)
-	* ('Ecircumflex', 257, 920)
-	* ('Ecircumflex', 304, 920)
-	* ('Egrave', 170, 931)
+	* ('Eacute', 393, 931)
+	* ('Ecircumflex', 258, 920)
+	* ('Ecircumflex', 305, 920)
+	* ('Egrave', 171, 931)
 	* ('Iacute', 250, 931)
 	* ('Icircumflex', 115, 920)
 	* ('Icircumflex', 162, 920)
@@ -2580,9 +2574,6 @@ greaterequal
 	* ('atilde.ss01', 185, 684)
 	* ('atilde.ss01', 206, 684)
 	* ('atilde.ss01', 218, 684)
-	* ('periodcentered', 71, 362)
-	* ('periodcentered', 103, 362)
-	* ('periodcentered', 137, 362)
 	* ('figuredash', 25, 378) and ('figuredash', 471, 378)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
@@ -2691,7 +2682,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni0307 (U+0307): X=151.0,Y=698.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=563.0,Y=1.0 (should be at baseline 0?)
+
 	* uni03BC (U+03BC): X=171.0,Y=2.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=627.0,Y=1.5 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=57.5,Y=698.0 (should be at cap-height 700?)
 
@@ -2737,7 +2732,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<316.0,411.0>-<316.0,410.0>-<317.0,410.0>>
+	* dollar (U+0024) contains a short segment B<<316.0,420.0>-<321.0,417.0>-<327.0,415.0>>
 
 	* ampersand (U+0026) contains a short segment B<<429.0,10.0>-<427.0,12.0>-<426.0,14.0>>
 
@@ -2745,7 +2740,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<222.0,384.0>-<209.0,389.0>-<199.0,393.0>>
 
-	* at (U+0040) contains a short segment B<<634.0,145.5>-<648.0,133.0>-<666.0,133.0>>
+	* at (U+0040) contains a short segment B<<641.0,145.5>-<655.0,133.0>-<673.0,133.0>>
 
 	* e (U+0065) contains a short segment B<<374.0,280.0>-<374.0,280.0>-<375.0,281.0>>
 
@@ -3253,7 +3248,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -3419,6 +3414,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030C (U+030C): X=281.0,Y=701.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=572.5,Y=2.0 (should be at baseline 0?)
+
 	* uni03BC (U+03BC): X=183.0,Y=-2.0 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=175.0,Y=700.5 (should be at cap-height 700?)
@@ -3467,7 +3464,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<322.0,422.0>-<329.0,417.0>-<337.0,413.0>>
+	* dollar (U+0024) contains a short segment B<<261.0,290.0>-<257.0,292.0>-<254.0,294.0>>
+
+	* dollar (U+0024) contains a short segment B<<322.0,431.0>-<330.0,427.0>-<340.0,423.0>>
+
+	* dollar (U+0024) contains a short segment B<<259.0,465.0>-<260.0,464.0>-<261.0,463.0>>
 
 	* ampersand (U+0026) contains a short segment B<<429.0,6.0>-<427.0,9.0>-<425.0,12.0>>
 
@@ -3475,7 +3476,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<214.0,385.0>-<206.0,388.0>-<199.0,391.0>>
 
-	* at (U+0040) contains a short segment B<<641.0,143.5>-<654.0,131.0>-<672.0,131.0>>
+	* at (U+0040) contains a short segment B<<646.0,143.5>-<659.0,131.0>-<678.0,131.0>>
 
 	* a (U+0061) contains a short segment B<<341.0,65.0>-<341.0,71.0>-<341.0,78.0>>
 
@@ -3529,13 +3530,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* edieresis (U+00EB) contains a short segment B<<361.0,281.0>-<361.0,282.0>-<362.0,284.0>>
 
+	* eth (U+00F0) contains a short segment B<<311.0,547.0>-<308.0,552.0>-<305.0,557.0>>
+
 	* thorn (U+00FE) contains a short segment B<<195.0,455.0>-<197.0,457.0>-<198.0,459.0>>
 
 	* OE (U+0152) contains a short segment B<<489.0,54.0>-<487.0,52.0>-<486.0,51.0>>
 
 	* oe (U+0153) contains a short segment B<<701.0,281.0>-<701.0,282.0>-<702.0,284.0>>
-
-	* uni03BC (U+03BC) contains a short segment B<<378.0,57.0>-<374.0,64.0>-<371.0,73.0>>
 
 	* Euro (U+20AC) contains a short segment B<<253.0,358.0>-<253.0,355.0>-<253.0,353.0>>
 
@@ -4030,7 +4031,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater
+greater, less, greaterequal
 
 Width = 462:
 multiply
@@ -4170,6 +4171,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni030A (U+030A): X=150.0,Y=701.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=524.0,Y=-1.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=595.5,Y=-0.5 (should be at baseline 0?)
+
 	* quotesinglbase (U+201A): X=112.0,Y=-1.0 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
@@ -4207,6 +4212,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* dollar (U+0024) contains a short segment B<<297.0,396.0>-<301.0,394.0>-<305.0,393.0>>
 
 	* ampersand (U+0026) contains a short segment B<<427.0,18.0>-<418.0,14.0>-<409.0,11.0>>
 
@@ -4871,7 +4878,7 @@ approxequal
 
 	* ampersand (U+0026) contains a short segment B<<476.0,105.0>-<477.0,107.0>-<479.0,109.0>>
 
-	* at (U+0040) contains a short segment B<<559.0,167.0>-<553.0,180.0>-<548.0,197.0>>
+	* at (U+0040) contains a short segment B<<572.0,167.0>-<566.0,180.0>-<561.0,197.0>>
 
 	* K (U+004B) contains a short segment L<<270.0,371.0>--<264.0,365.0>>
 
@@ -5381,7 +5388,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -5487,6 +5494,10 @@ greaterequal
 
 	* Ydieresis (U+0178): X=553.0,Y=701.0 (should be at cap-height 700?)
 
+	* uni03BC (U+03BC): X=554.5,Y=-0.5 (should be at baseline 0?)
+
+	* pi (U+03C0): X=612.5,Y=-0.5 (should be at baseline 0?)
+
 	* quotesinglbase (U+201A): X=103.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=264.0,Y=-2.0 (should be at baseline 0?)
@@ -5511,13 +5522,15 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
+	* dollar (U+0024) contains a short segment B<<310.0,409.0>-<312.0,408.0>-<314.0,407.0>>
+
 	* ampersand (U+0026) contains a short segment B<<429.0,15.0>-<428.0,16.0>-<427.0,17.0>>
 
 	* ampersand (U+0026) contains a short segment B<<427.0,17.0>-<423.0,15.0>-<419.0,13.0>>
 
 	* ampersand (U+0026) contains a short segment B<<331.0,353.0>-<331.0,353.0>-<331.0,354.0>>
 
-	* at (U+0040) contains a short segment B<<627.5,147.5>-<642.0,135.0>-<660.0,135.0>>
+	* at (U+0040) contains a short segment B<<635.5,147.5>-<650.0,135.0>-<668.0,135.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -6009,7 +6022,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, less, greater, lessequal
+greater, less, lessequal, greaterequal
 
 Width = 468:
 multiply
@@ -6094,6 +6107,10 @@ approxequal
 
 	* Scaron (U+0160): X=189.5,Y=2.0 (should be at baseline 0?)
 
+	* uni03BC (U+03BC): X=564.0,Y=1.5 (should be at baseline 0?)
+
+	* pi (U+03C0): X=613.5,Y=1.0 (should be at baseline 0?)
+
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=260.0,Y=-2.0 (should be at baseline 0?)
@@ -6128,7 +6145,7 @@ approxequal
 
 	* five (U+0035) contains a short segment B<<157.0,430.0>-<163.0,436.0>-<171.0,441.0>>
 
-	* at (U+0040) contains a short segment B<<563.0,154.0>-<560.0,161.0>-<556.0,169.0>>
+	* at (U+0040) contains a short segment B<<571.0,154.0>-<568.0,161.0>-<564.0,169.0>>
 
 	* Q (U+0051) contains a short segment B<<522.0,50.0>-<519.0,47.0>-<517.0,45.0>>
 
@@ -6637,7 +6654,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6664,9 +6681,6 @@ greaterequal
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Icircumflex', 279, 802)
 	* ('icircumflex', 268, 601)
-	* ('periodcentered', 74, 382)
-	* ('periodcentered', 116, 382)
-	* ('periodcentered', 158, 382)
 	* ('figuredash', 14, 386) and ('figuredash', 460, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
@@ -6799,7 +6813,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<265.0,274.0>-<258.0,278.0>-<251.0,282.0>>
+	* dollar (U+0024) contains a short segment B<<265.0,278.0>-<256.0,282.0>-<248.0,286.0>>
 
 	* ampersand (U+0026) contains a short segment B<<430.0,1.0>-<427.0,5.0>-<424.0,10.0>>
 
@@ -6807,7 +6821,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<206.0,385.0>-<202.0,387.0>-<199.0,388.0>>
 
-	* at (U+0040) contains a short segment B<<647.0,140.5>-<659.0,128.0>-<678.0,128.0>>
+	* at (U+0040) contains a short segment B<<651.5,140.5>-<664.0,128.0>-<682.0,128.0>>
 
 	* a (U+0061) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
@@ -6855,11 +6869,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<317.0,248.0>-<317.0,249.0>-<317.0,250.0>>
 
-	* eth (U+00F0) contains a short segment B<<316.0,550.0>-<316.0,551.0>-<315.0,551.0>>
-
 	* OE (U+0152) contains a short segment B<<454.0,668.0>-<463.0,660.0>-<472.0,652.0>>
-
-	* uni03BC (U+03BC) contains a short segment B<<371.0,60.0>-<368.0,65.0>-<366.0,70.0>>
 
 	* Euro (U+20AC) contains a short segment B<<274.0,446.0>-<272.0,436.0>-<271.0,425.0>>
 
@@ -7351,7 +7361,7 @@ multiply
 
 	* exclam (U+0021): X=153.0,Y=1.0 (should be at baseline 0?)
 
-	* dollar (U+0024): X=185.0,Y=1.0 (should be at baseline 0?)
+	* dollar (U+0024): X=184.0,Y=1.0 (should be at baseline 0?)
 
 	* comma (U+002C): X=88.0,Y=-1.0 (should be at baseline 0?)
 
@@ -7385,7 +7395,7 @@ multiply
 
 	* G (U+0047): X=426.5,Y=701.5 (should be at cap-height 700?)
 
-	* S (U+0053): X=184.5,Y=1.0 (should be at baseline 0?)
+	* S (U+0053): X=183.5,Y=1.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=49.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7453,9 +7463,9 @@ multiply
 
 	* thorn (U+00FE): X=356.0,Y=1.0 (should be at baseline 0?)
 
-	* Scedilla (U+015E): X=185.0,Y=1.0 (should be at baseline 0?)
+	* Scedilla (U+015E): X=184.0,Y=1.0 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=184.5,Y=1.0 (should be at baseline 0?)
+	* Scaron (U+0160): X=183.5,Y=1.0 (should be at baseline 0?)
 
 	* Ydieresis (U+0178): X=49.0,Y=701.0 (should be at cap-height 700?)
 
@@ -7464,6 +7474,10 @@ multiply
 	* Ydieresis (U+0178): X=496.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=535.0,Y=701.0 (should be at cap-height 700?)
+
+	* uni03BC (U+03BC): X=493.0,Y=-2.0 (should be at baseline 0?)
+
+	* pi (U+03C0): X=578.5,Y=-1.0 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=66.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7509,7 +7523,7 @@ multiply
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<246.0,344.0>-<241.0,346.0>-<235.0,349.0>>
+	* dollar (U+0024) contains a short segment B<<284.0,383.0>-<289.0,380.0>-<295.0,378.0>>
 
 	* M (U+004D) contains a short segment L<<439.0,0.0>--<409.0,0.0>>
 
@@ -8055,7 +8069,7 @@ Width = 507:
 plus
 
 Width = 523:
-greaterequal, less, greater, lessequal
+greater, less, lessequal, greaterequal
 
 Width = 481:
 multiply
@@ -8214,7 +8228,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* five (U+0035) contains a short segment B<<179.0,430.0>-<180.0,432.0>-<182.0,433.0>>
 
-	* at (U+0040) contains a short segment B<<564.0,143.0>-<562.0,146.0>-<561.0,150.0>>
+	* at (U+0040) contains a short segment B<<570.0,143.0>-<568.0,146.0>-<566.0,150.0>>
 
 	* Q (U+0051) contains a short segment B<<450.0,5.0>-<449.0,5.0>-<449.0,5.0>>
 
@@ -8253,8 +8267,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* OE (U+0152) contains a short segment B<<468.0,670.0>-<478.0,664.0>-<486.0,656.0>>
 
 	* florin (U+0192) contains a short segment B<<319.0,506.0>-<318.0,501.0>-<318.0,496.0>>
-
-	* uni03BC (U+03BC) contains a short segment B<<390.0,62.0>-<388.0,64.0>-<387.0,67.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
