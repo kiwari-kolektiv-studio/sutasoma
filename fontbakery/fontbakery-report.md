@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, less, lessequal, greaterequal
+greater, greaterequal, less, lessequal
 
 Width = 488:
 multiply
@@ -624,11 +624,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblbase (U+201E) contains a short segment B<<101.0,-4.0>-<102.0,-3.0>-<103.0,-1.0>>
 
-	* Euro (U+20AC) contains a short segment B<<276.0,437.0>-<275.0,431.0>-<274.0,425.0>>
+	* Euro (U+20AC) contains a short segment B<<276.0,437.0>-<274.0,431.0>-<273.0,425.0>>
 
 	* Euro (U+20AC) contains a short segment B<<268.0,366.0>-<268.0,358.0>-<268.0,350.0>>
-
-	* Euro (U+20AC) contains a short segment B<<277.0,262.0>-<279.0,253.0>-<281.0,245.0>>
 
 	* Euro (U+20AC) contains a short segment B<<101.0,350.0>-<101.0,358.0>-<101.0,366.0>>
 
@@ -1109,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, lessequal, greaterequal
+greater, greaterequal, less, lessequal
 
 Width = 460:
 multiply
@@ -1780,7 +1778,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-greater, less, lessequal, greaterequal
+greater, greaterequal, less, lessequal
 
 Width = 475:
 multiply
@@ -1989,8 +1987,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* florin (U+0192) contains a short segment B<<303.0,505.0>-<302.0,499.0>-<301.0,493.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<190.0,7.0>-<185.0,9.0>-<181.0,13.0>>
-
-	* Euro (U+20AC) contains a short segment B<<248.0,254.0>-<249.0,245.0>-<252.0,237.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -2780,8 +2776,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* oe (U+0153) contains a short segment B<<721.0,280.0>-<721.0,280.0>-<722.0,281.0>>
 
-	* Euro (U+20AC) contains a short segment B<<245.0,254.0>-<246.0,244.0>-<248.0,234.0>>
-
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
 	* uni261C (U+261C) contains a short segment B<<375.5,91.5>-<369.0,93.0>-<357.5,94.5>>
@@ -3540,8 +3534,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Euro (U+20AC) contains a short segment B<<253.0,358.0>-<253.0,355.0>-<253.0,353.0>>
 
-	* Euro (U+20AC) contains a short segment B<<259.0,258.0>-<260.0,246.0>-<263.0,235.0>>
-
 	* Euro (U+20AC) contains a short segment B<<107.0,350.0>-<107.0,354.0>-<107.0,358.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
@@ -4031,7 +4023,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, less, greaterequal
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -4079,7 +4071,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* question (U+003F): X=182.5,Y=699.5 (should be at cap-height 700?)
 
-	* C (U+0043): X=432.5,Y=698.0 (should be at cap-height 700?)
+	* C (U+0043): X=434.5,Y=698.5 (should be at cap-height 700?)
 
 	* G (U+0047): X=439.0,Y=698.5 (should be at cap-height 700?)
 
@@ -4131,9 +4123,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* threequarters (U+00BE): X=206.5,Y=698.0 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=432.5,Y=698.0 (should be at cap-height 700?)
+	* Ccedilla (U+00C7): X=434.5,Y=698.5 (should be at cap-height 700?)
 
-	* Ccedilla (U+00C7): X=434.0,Y=2.0 (should be at baseline 0?)
+	* Ccedilla (U+00C7): X=433.0,Y=2.0 (should be at baseline 0?)
 
 	* Yacute (U+00DD): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4193,7 +4185,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni2083 (U+2083): X=208.5,Y=1.5 (should be at baseline 0?)
 
-	* Euro (U+20AC): X=488.5,Y=698.0 (should be at cap-height 700?)
+	* Euro (U+20AC): X=490.5,Y=698.5 (should be at cap-height 700?)
 
 	* oneeighth (U+215B): X=144.0,Y=702.0 (should be at cap-height 700?)
 
@@ -5556,8 +5548,6 @@ greaterequal
 
 	* uni03BC (U+03BC) contains a short segment B<<163.0,6.0>-<161.0,7.0>-<159.0,8.0>>
 
-	* Euro (U+20AC) contains a short segment B<<230.0,250.0>-<231.0,241.0>-<233.0,233.0>>
-
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
 	* uni261C (U+261C) contains a short segment B<<375.5,91.5>-<369.0,93.0>-<357.5,94.5>>
@@ -6022,7 +6012,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, less, lessequal, greaterequal
+greater, greaterequal, less, lessequal
 
 Width = 468:
 multiply
@@ -6174,8 +6164,6 @@ approxequal
 	* florin (U+0192) contains a short segment B<<286.0,504.0>-<285.0,497.0>-<284.0,490.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<184.0,8.0>-<176.0,13.0>-<169.0,20.0>>
-
-	* Euro (U+20AC) contains a short segment B<<233.0,250.0>-<235.0,241.0>-<237.0,233.0>>
 
 	* partialdiff (U+2202) contains a short segment B<<379.0,382.0>-<380.0,380.0>-<382.0,377.0>>
 
@@ -6871,11 +6859,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* OE (U+0152) contains a short segment B<<454.0,668.0>-<463.0,660.0>-<472.0,652.0>>
 
-	* Euro (U+20AC) contains a short segment B<<274.0,446.0>-<272.0,436.0>-<271.0,425.0>>
+	* Euro (U+20AC) contains a short segment B<<274.0,448.0>-<272.0,437.0>-<271.0,425.0>>
 
 	* Euro (U+20AC) contains a short segment B<<268.0,366.0>-<268.0,360.0>-<268.0,354.0>>
 
-	* Euro (U+20AC) contains a short segment B<<101.0,350.0>-<101.0,358.0>-<101.0,366.0>>
+	* Euro (U+20AC) contains a short segment B<<101.0,349.0>-<101.0,358.0>-<101.0,366.0>>
 
 	* uni261C (U+261C) contains a short segment B<<390.0,88.5>-<382.0,90.0>-<375.5,91.5>>
 
@@ -8069,7 +8057,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, less, lessequal, greaterequal
+greater, greaterequal, less, lessequal
 
 Width = 481:
 multiply
@@ -8270,9 +8258,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC) contains a short segment B<<196.0,5.0>-<194.0,6.0>-<193.0,7.0>>
 
-	* Euro (U+20AC) contains a short segment B<<254.0,358.0>-<254.0,354.0>-<254.0,350.0>>
-
-	* Euro (U+20AC) contains a short segment B<<262.0,258.0>-<264.0,249.0>-<266.0,241.0>>
+	* Euro (U+20AC) contains a short segment B<<253.0,358.0>-<253.0,354.0>-<253.0,350.0>>
 
 	* Euro (U+20AC) contains a short segment B<<107.0,350.0>-<107.0,354.0>-<107.0,358.0>>
 
