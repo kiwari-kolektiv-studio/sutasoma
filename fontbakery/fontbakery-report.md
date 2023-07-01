@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, greaterequal, greater, less
+greater, greaterequal, less, lessequal
 
 Width = 488:
 multiply
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, greaterequal, greater, less
+greater, greaterequal, less, lessequal
 
 Width = 460:
 multiply
@@ -1136,8 +1136,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=82.0,Y=-2.0 (should be at baseline 0?)
 
 	* zero (U+0030): X=236.0,Y=700.5 (should be at cap-height 700?)
-
-	* two (U+0032): X=338.5,Y=699.0 (should be at cap-height 700?)
 
 	* six (U+0036): X=237.5,Y=699.5 (should be at cap-height 700?)
 
@@ -1784,7 +1782,7 @@ Width = 501:
 plus, approxequal
 
 Width = 511:
-lessequal, greaterequal, greater, less
+greater, greaterequal, less, lessequal
 
 Width = 475:
 multiply
@@ -1821,8 +1819,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=92.0,Y=-2.0 (should be at baseline 0?)
 
 	* zero (U+0030): X=235.5,Y=700.5 (should be at cap-height 700?)
-
-	* two (U+0032): X=352.0,Y=698.0 (should be at cap-height 700?)
 
 	* six (U+0036): X=238.0,Y=699.5 (should be at cap-height 700?)
 
@@ -2738,7 +2734,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<316.0,420.0>-<321.0,417.0>-<327.0,415.0>>
+	* dollar (U+0024) contains a short segment B<<316.0,419.0>-<321.0,416.0>-<327.0,414.0>>
 
 	* ampersand (U+0026) contains a short segment B<<429.0,10.0>-<427.0,12.0>-<426.0,14.0>>
 
@@ -3468,11 +3464,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<261.0,290.0>-<257.0,292.0>-<254.0,294.0>>
+	* dollar (U+0024) contains a short segment B<<261.0,293.0>-<257.0,295.0>-<254.0,296.0>>
 
-	* dollar (U+0024) contains a short segment B<<322.0,431.0>-<330.0,427.0>-<340.0,423.0>>
+	* dollar (U+0024) contains a short segment B<<322.0,429.0>-<330.0,424.0>-<340.0,420.0>>
 
-	* dollar (U+0024) contains a short segment B<<259.0,465.0>-<260.0,464.0>-<261.0,463.0>>
+	* dollar (U+0024) contains a short segment B<<259.0,462.0>-<260.0,462.0>-<261.0,461.0>>
 
 	* ampersand (U+0026) contains a short segment B<<429.0,6.0>-<427.0,9.0>-<425.0,12.0>>
 
@@ -4031,7 +4027,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -4070,8 +4066,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=88.0,Y=-2.0 (should be at baseline 0?)
 
 	* zero (U+0030): X=236.0,Y=700.5 (should be at cap-height 700?)
-
-	* two (U+0032): X=335.5,Y=698.5 (should be at cap-height 700?)
 
 	* semicolon (U+003B): X=101.0,Y=-1.0 (should be at baseline 0?)
 
@@ -4769,8 +4763,6 @@ approxequal
 	* dollar (U+0024): X=188.0,Y=1.0 (should be at baseline 0?)
 
 	* comma (U+002C): X=75.0,Y=-2.0 (should be at baseline 0?)
-
-	* two (U+0032): X=328.0,Y=699.0 (should be at cap-height 700?)
 
 	* six (U+0036): X=236.5,Y=699.5 (should be at cap-height 700?)
 
@@ -6028,7 +6020,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, greaterequal, greater, less
+greater, greaterequal, less, lessequal
 
 Width = 468:
 multiply
@@ -6052,8 +6044,6 @@ approxequal
 	* zero (U+0030): X=234.5,Y=700.5 (should be at cap-height 700?)
 
 	* zero (U+0030): X=383.5,Y=-0.5 (should be at baseline 0?)
-
-	* two (U+0032): X=348.5,Y=698.5 (should be at cap-height 700?)
 
 	* six (U+0036): X=238.0,Y=699.5 (should be at cap-height 700?)
 
@@ -6819,7 +6809,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment B<<265.0,278.0>-<256.0,282.0>-<248.0,286.0>>
+	* dollar (U+0024) contains a short segment B<<265.0,282.0>-<256.0,286.0>-<248.0,290.0>>
 
 	* ampersand (U+0026) contains a short segment B<<430.0,1.0>-<427.0,5.0>-<424.0,10.0>>
 
@@ -7374,8 +7364,6 @@ multiply
 	* comma (U+002C): X=88.0,Y=-1.0 (should be at baseline 0?)
 
 	* comma (U+002C): X=80.0,Y=-2.0 (should be at baseline 0?)
-
-	* two (U+0032): X=327.0,Y=699.0 (should be at cap-height 700?)
 
 	* three (U+0033): X=153.5,Y=1.0 (should be at baseline 0?)
 
@@ -8055,7 +8043,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, greaterequal, greater, less
+greater, greaterequal, less, lessequal
 
 Width = 481:
 multiply
