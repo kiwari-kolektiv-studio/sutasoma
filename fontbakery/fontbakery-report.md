@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, greater, greaterequal, less
+lessequal, less, greaterequal, greater
 
 Width = 488:
 multiply
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, greater, greaterequal, less
+lessequal, less, greaterequal, greater
 
 Width = 460:
 multiply
@@ -1229,7 +1229,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC): X=537.5,Y=-2.0 (should be at baseline 0?)
 
-	* pi (U+03C0): X=601.5,Y=-0.5 (should be at baseline 0?)
+	* pi (U+03C0): X=614.5,Y=-0.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=95.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1778,7 +1778,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-lessequal, greater, greaterequal, less
+lessequal, less, greaterequal, greater
 
 Width = 475:
 multiply
@@ -2467,7 +2467,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -2492,16 +2492,16 @@ greaterequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Aacute', 415, 931)
-	* ('Acircumflex', 280, 920)
-	* ('Acircumflex', 327, 920)
-	* ('Agrave', 193, 931)
-	* ('Aring', 277, 934)
-	* ('Aring', 304, 934)
-	* ('Aring', 331, 934)
-	* ('Atilde', 224, 893)
-	* ('Atilde', 245, 893)
-	* ('Atilde', 257, 893)
+	* ('Aacute', 406, 931)
+	* ('Acircumflex', 271, 920)
+	* ('Acircumflex', 318, 920)
+	* ('Agrave', 184, 931)
+	* ('Aring', 268, 934)
+	* ('Aring', 295, 934)
+	* ('Aring', 322, 934)
+	* ('Atilde', 216, 893)
+	* ('Atilde', 237, 893)
+	* ('Atilde', 249, 893)
 	* ('Eacute', 393, 931)
 	* ('Ecircumflex', 258, 920)
 	* ('Ecircumflex', 305, 920)
@@ -2682,7 +2682,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC): X=171.0,Y=2.0 (should be at baseline 0?)
 
-	* pi (U+03C0): X=627.0,Y=1.5 (should be at baseline 0?)
+	* pi (U+03C0): X=640.0,Y=1.5 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=57.5,Y=698.5 (should be at cap-height 700?)
 
@@ -3242,7 +3242,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -4023,7 +4023,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 462:
 multiply
@@ -4165,7 +4165,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC): X=524.0,Y=-1.0 (should be at baseline 0?)
 
-	* pi (U+03C0): X=595.5,Y=-0.5 (should be at baseline 0?)
+	* pi (U+03C0): X=608.5,Y=-0.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=112.0,Y=-1.0 (should be at baseline 0?)
 
@@ -5380,7 +5380,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
@@ -5488,7 +5488,7 @@ greaterequal
 
 	* uni03BC (U+03BC): X=554.5,Y=-0.5 (should be at baseline 0?)
 
-	* pi (U+03C0): X=612.5,Y=-0.5 (should be at baseline 0?)
+	* pi (U+03C0): X=623.5,Y=-0.5 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=103.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6012,7 +6012,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, greater, greaterequal, less
+lessequal, less, greaterequal, greater
 
 Width = 468:
 multiply
@@ -6099,7 +6099,7 @@ approxequal
 
 	* uni03BC (U+03BC): X=564.0,Y=1.5 (should be at baseline 0?)
 
-	* pi (U+03C0): X=613.5,Y=1.0 (should be at baseline 0?)
+	* pi (U+03C0): X=624.5,Y=1.0 (should be at baseline 0?)
 
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6642,7 +6642,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -6811,6 +6811,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* at (U+0040) contains a short segment B<<651.5,140.5>-<664.0,128.0>-<682.0,128.0>>
 
+	* R (U+0052) contains a short segment B<<286.0,299.0>-<286.0,299.0>-<285.0,299.0>>
+
 	* a (U+0061) contains a short segment B<<337.0,64.0>-<336.0,67.0>-<336.0,71.0>>
 
 	* b (U+0062) contains a short segment B<<185.0,61.0>-<184.0,57.0>-<184.0,54.0>>
@@ -6936,6 +6938,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* G (U+0047): L<<535.0,0.0>--<535.0,123.0>>/B<<535.0,123.0>-<521.0,68.0>-<478.0,34.0>> = 14.281095735970814 
 
 	* three (U+0033): B<<334.0,400.0>-<306.0,387.0>-<273.0,377.0>>/B<<273.0,377.0>-<321.0,380.0>-<362.0,367.0>> = 13.28206439274089 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -7465,7 +7469,7 @@ multiply
 
 	* uni03BC (U+03BC): X=493.0,Y=-2.0 (should be at baseline 0?)
 
-	* pi (U+03C0): X=578.5,Y=-1.0 (should be at baseline 0?)
+	* pi (U+03C0): X=593.5,Y=-1.0 (should be at baseline 0?)
 
 	* quoteright (U+2019): X=66.0,Y=699.0 (should be at cap-height 700?)
 
@@ -7517,12 +7521,6 @@ multiply
 
 	* Q (U+0051) contains a short segment B<<433.0,4.0>-<433.0,4.0>-<433.0,4.0>>
 
-	* Y (U+0059) contains a short segment L<<312.0,298.0>--<314.0,295.0>>
-
-	* Y (U+0059) contains a short segment L<<314.0,295.0>--<311.0,295.0>>
-
-	* Y (U+0059) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
-
 	* g (U+0067) contains a short segment B<<331.0,470.0>-<332.0,470.0>-<333.0,469.0>>
 
 	* g (U+0067) contains a short segment B<<153.0,197.0>-<152.0,197.0>-<151.0,198.0>>
@@ -7535,35 +7533,17 @@ multiply
 
 	* yen (U+00A5) contains a short segment L<<244.0,289.0>--<244.0,295.0>>
 
-	* yen (U+00A5) contains a short segment L<<294.0,298.0>--<296.0,295.0>>
-
-	* yen (U+00A5) contains a short segment L<<296.0,295.0>--<293.0,295.0>>
-
-	* yen (U+00A5) contains a short segment L<<293.0,295.0>--<292.0,294.0>>
-
 	* yen (U+00A5) contains a short segment L<<292.0,294.0>--<292.0,289.0>>
 
 	* section (U+00A7) contains a short segment B<<182.0,438.0>-<180.0,439.0>-<178.0,440.0>>
 
 	* section (U+00A7) contains a short segment B<<343.0,108.0>-<345.0,107.0>-<347.0,106.0>>
 
-	* Yacute (U+00DD) contains a short segment L<<312.0,298.0>--<314.0,295.0>>
-
-	* Yacute (U+00DD) contains a short segment L<<314.0,295.0>--<311.0,295.0>>
-
-	* Yacute (U+00DD) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
-
 	* ae (U+00E6) contains a short segment B<<370.0,104.0>-<366.0,112.0>-<363.0,121.0>>
 
 	* oe (U+0153) contains a short segment B<<439.0,375.0>-<439.0,374.0>-<439.0,374.0>>
 
 	* oe (U+0153) contains a short segment B<<462.0,232.0>-<462.0,231.0>-<462.0,230.0>>
-
-	* Ydieresis (U+0178) contains a short segment L<<312.0,298.0>--<314.0,295.0>>
-
-	* Ydieresis (U+0178) contains a short segment L<<314.0,295.0>--<311.0,295.0>>
-
-	* Ydieresis (U+0178) contains a short segment L<<311.0,295.0>--<310.0,294.0>>
 
 	* florin (U+0192) contains a short segment B<<238.0,500.0>-<238.0,492.0>-<239.0,485.0>>
 
@@ -8057,7 +8037,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, greater, greaterequal, less
+lessequal, less, greaterequal, greater
 
 Width = 481:
 multiply
