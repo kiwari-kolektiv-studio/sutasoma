@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, greaterequal, less, lessequal
+greaterequal, greater, less, lessequal
 
 Width = 488:
 multiply
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less, lessequal
+greaterequal, greater, less, lessequal
 
 Width = 460:
 multiply
@@ -1775,10 +1775,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-greater, greaterequal, less, lessequal
+greaterequal, greater, less, lessequal
 
 Width = 475:
 multiply
@@ -4023,7 +4023,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -6012,7 +6012,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, greaterequal, less, lessequal
+greaterequal, greater, less, lessequal
 
 Width = 468:
 multiply
@@ -7335,7 +7335,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 494 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 495 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -8057,7 +8057,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, greaterequal, less, lessequal
+greaterequal, greater, less, lessequal
 
 Width = 481:
 multiply
