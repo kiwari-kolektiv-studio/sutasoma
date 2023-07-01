@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, less, greaterequal, greater
+lessequal, greaterequal, greater, less
 
 Width = 488:
 multiply
@@ -602,7 +602,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE) contains a short segment B<<208.0,40.0>-<207.0,40.0>-<207.0,41.0>>
 
-	* OE (U+0152) contains a short segment B<<460.0,671.0>-<465.0,667.0>-<471.0,663.0>>
+	* OE (U+0152) contains a short segment B<<471.0,37.0>-<465.0,33.0>-<460.0,29.0>>
 
 	* florin (U+0192) contains a short segment B<<336.0,507.0>-<335.0,503.0>-<334.0,499.0>>
 
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, less, greaterequal, greater
+lessequal, greaterequal, greater, less
 
 Width = 460:
 multiply
@@ -1207,6 +1207,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ydieresis (U+00FF): X=202.0,Y=1.0 (should be at baseline 0?)
 
+	* OE (U+0152): X=419.0,Y=0.5 (should be at baseline 0?)
+
 	* Scedilla (U+015E): X=189.0,Y=1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=188.5,Y=1.5 (should be at baseline 0?)
@@ -1294,6 +1296,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment B<<369.0,97.0>-<367.0,93.0>-<365.0,89.0>>
 
 	* ae (U+00E6) contains a short segment B<<386.0,416.0>-<390.0,422.0>-<395.0,428.0>>
+
+	* OE (U+0152) contains a short segment B<<536.0,618.0>-<536.0,617.0>-<537.0,617.0>>
+
+	* OE (U+0152) contains a short segment B<<537.0,83.0>-<536.0,83.0>-<536.0,83.0>>
 
 	* threeeighths (U+215C) contains a short segment B<<184.0,531.0>-<188.0,530.0>-<192.0,529.0>>
 
@@ -1775,10 +1781,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-lessequal, less, greaterequal, greater
+lessequal, greaterequal, greater, less
 
 Width = 475:
 multiply
@@ -1882,6 +1888,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=392.5,Y=1.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=412.5,Y=0.5 (should be at baseline 0?)
+
 	* breve (U+02D8): X=57.0,Y=702.0 (should be at cap-height 700?)
 
 	* breve (U+02D8): X=293.0,Y=702.0 (should be at cap-height 700?)
@@ -1974,11 +1982,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<387.0,453.0>-<391.0,448.0>-<395.0,443.0>>
 
+	* eth (U+00F0) contains a short segment B<<296.0,546.0>-<294.0,549.0>-<291.0,553.0>>
+
 	* thorn (U+00FE) contains a short segment B<<183.0,441.0>-<186.0,445.0>-<190.0,449.0>>
 
 	* thorn (U+00FE) contains a short segment B<<192.0,44.0>-<187.0,49.0>-<183.0,55.0>>
-
-	* OE (U+0152) contains a short segment B<<502.0,52.0>-<500.0,50.0>-<498.0,48.0>>
 
 	* oe (U+0153) contains a short segment B<<449.0,430.0>-<451.0,432.0>-<453.0,435.0>>
 
@@ -2467,7 +2475,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -2662,6 +2670,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=253.5,Y=0.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=410.5,Y=0.5 (should be at baseline 0?)
+
 	* Ydieresis (U+0178): X=29.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=162.0,Y=701.0 (should be at cap-height 700?)
@@ -2767,8 +2777,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* edieresis (U+00EB) contains a short segment B<<374.0,280.0>-<374.0,280.0>-<375.0,281.0>>
 
 	* thorn (U+00FE) contains a short segment B<<183.0,444.0>-<187.0,448.0>-<191.0,453.0>>
-
-	* OE (U+0152) contains a short segment B<<505.0,59.0>-<501.0,54.0>-<497.0,50.0>>
 
 	* oe (U+0153) contains a short segment B<<452.0,429.0>-<453.0,431.0>-<455.0,433.0>>
 
@@ -3242,7 +3250,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -3384,6 +3392,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=262.0,Y=-0.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=402.0,Y=1.0 (should be at baseline 0?)
+
 	* scaron (U+0161): X=99.0,Y=702.0 (should be at cap-height 700?)
 
 	* scaron (U+0161): X=361.0,Y=702.0 (should be at cap-height 700?)
@@ -3524,11 +3534,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* edieresis (U+00EB) contains a short segment B<<361.0,281.0>-<361.0,282.0>-<362.0,284.0>>
 
-	* eth (U+00F0) contains a short segment B<<311.0,547.0>-<308.0,552.0>-<305.0,557.0>>
+	* eth (U+00F0) contains a short segment B<<297.0,547.0>-<295.0,549.0>-<294.0,551.0>>
 
 	* thorn (U+00FE) contains a short segment B<<195.0,455.0>-<197.0,457.0>-<198.0,459.0>>
-
-	* OE (U+0152) contains a short segment B<<489.0,54.0>-<487.0,52.0>-<486.0,51.0>>
 
 	* oe (U+0153) contains a short segment B<<701.0,281.0>-<701.0,282.0>-<702.0,284.0>>
 
@@ -4023,7 +4031,7 @@ Width = 488:
 plus
 
 Width = 484:
-less, greaterequal, greater
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -4138,6 +4146,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* eth (U+00F0): X=336.0,Y=2.0 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=370.5,Y=1.0 (should be at baseline 0?)
+
+	* OE (U+0152): X=418.5,Y=0.5 (should be at baseline 0?)
 
 	* Ydieresis (U+0178): X=42.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4254,6 +4264,10 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* udieresis (U+00FC) contains a short segment B<<383.0,74.0>-<383.0,78.0>-<382.0,83.0>>
 
 	* eng (U+014B) contains a short segment B<<138.0,410.0>-<138.0,406.0>-<139.0,400.0>>
+
+	* OE (U+0152) contains a short segment B<<537.0,618.0>-<538.0,616.0>-<539.0,615.0>>
+
+	* OE (U+0152) contains a short segment B<<539.0,88.0>-<537.0,85.0>-<536.0,83.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<154.0,9.0>-<146.0,13.0>-<140.0,18.0>>
 
@@ -4820,6 +4834,8 @@ approxequal
 
 	* thorn (U+00FE): X=355.0,Y=0.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=419.5,Y=0.5 (should be at baseline 0?)
+
 	* Scedilla (U+015E): X=188.0,Y=1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=187.5,Y=0.5 (should be at baseline 0?)
@@ -5380,7 +5396,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -5478,6 +5494,8 @@ greaterequal
 
 	* thorn (U+00FE): X=245.5,Y=1.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=419.5,Y=0.5 (should be at baseline 0?)
+
 	* Ydieresis (U+0178): X=35.0,Y=701.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=145.0,Y=701.0 (should be at cap-height 700?)
@@ -5541,8 +5559,6 @@ greaterequal
 	* ae (U+00E6) contains a short segment B<<395.0,430.0>-<395.0,430.0>-<396.0,430.0>>
 
 	* ae (U+00E6) contains a short segment L<<336.0,208.0>--<336.0,208.0>>
-
-	* OE (U+0152) contains a short segment B<<522.0,64.0>-<515.0,56.0>-<508.0,50.0>>
 
 	* oe (U+0153) contains a short segment B<<449.0,70.0>-<444.0,63.0>-<439.0,57.0>>
 
@@ -6012,7 +6028,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, less, greaterequal, greater
+lessequal, greaterequal, greater, less
 
 Width = 468:
 multiply
@@ -6093,6 +6109,8 @@ approxequal
 
 	* thorn (U+00FE): X=387.0,Y=1.5 (should be at baseline 0?)
 
+	* OE (U+0152): X=418.5,Y=0.5 (should be at baseline 0?)
+
 	* Scedilla (U+015E): X=190.0,Y=2.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=189.5,Y=2.0 (should be at baseline 0?)
@@ -6158,8 +6176,6 @@ approxequal
 	* ae (U+00E6) contains a short segment B<<334.0,242.0>-<334.0,243.0>-<334.0,245.0>>
 
 	* thorn (U+00FE) contains a short segment B<<171.0,432.0>-<176.0,438.0>-<181.0,444.0>>
-
-	* OE (U+0152) contains a short segment B<<517.0,59.0>-<512.0,54.0>-<507.0,49.0>>
 
 	* florin (U+0192) contains a short segment B<<286.0,504.0>-<285.0,497.0>-<284.0,490.0>>
 
@@ -6642,7 +6658,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6759,6 +6775,8 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE): X=269.5,Y=-2.0 (should be at baseline 0?)
 
+	* OE (U+0152): X=393.0,Y=1.0 (should be at baseline 0?)
+
 	* dotaccent (U+02D9): X=90.0,Y=699.0 (should be at cap-height 700?)
 
 	* dotaccent (U+02D9): X=172.5,Y=699.5 (should be at cap-height 700?)
@@ -6858,8 +6876,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ae (U+00E6) contains a short segment L<<318.0,216.0>--<318.0,216.0>>
 
 	* ae (U+00E6) contains a short segment B<<317.0,248.0>-<317.0,249.0>-<317.0,250.0>>
-
-	* OE (U+0152) contains a short segment B<<454.0,668.0>-<463.0,660.0>-<472.0,652.0>>
 
 	* Euro (U+20AC) contains a short segment B<<274.0,448.0>-<272.0,437.0>-<271.0,425.0>>
 
@@ -7455,6 +7471,8 @@ multiply
 
 	* thorn (U+00FE): X=356.0,Y=1.0 (should be at baseline 0?)
 
+	* OE (U+0152): X=416.5,Y=0.5 (should be at baseline 0?)
+
 	* Scedilla (U+015E): X=184.0,Y=1.0 (should be at baseline 0?)
 
 	* Scaron (U+0160): X=183.5,Y=1.0 (should be at baseline 0?)
@@ -8037,7 +8055,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, less, greaterequal, greater
+lessequal, greaterequal, greater, less
 
 Width = 481:
 multiply
@@ -8222,8 +8240,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<395.0,455.0>-<396.0,453.0>-<397.0,452.0>>
 
-	* eth (U+00F0) contains a short segment B<<306.0,548.0>-<305.0,549.0>-<305.0,549.0>>
-
 	* oslash (U+00F8) contains a short segment B<<354.0,361.0>-<354.0,362.0>-<353.0,363.0>>
 
 	* oslash (U+00F8) contains a short segment B<<202.0,134.0>-<202.0,134.0>-<203.0,134.0>>
@@ -8232,7 +8248,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* thorn (U+00FE) contains a short segment B<<200.0,42.0>-<197.0,44.0>-<195.0,47.0>>
 
-	* OE (U+0152) contains a short segment B<<468.0,670.0>-<478.0,664.0>-<486.0,656.0>>
+	* OE (U+0152) contains a short segment B<<486.0,44.0>-<478.0,36.0>-<468.0,30.0>>
 
 	* florin (U+0192) contains a short segment B<<319.0,506.0>-<318.0,501.0>-<318.0,496.0>>
 
