@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greaterequal, greater, less, lessequal
+lessequal, greater, greaterequal, less
 
 Width = 488:
 multiply
@@ -534,7 +534,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=103.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=320.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=323.0,Y=-1.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=103.0,Y=-1.0 (should be at baseline 0?)
 
@@ -614,13 +614,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotedblleft (U+201C) contains a short segment B<<131.0,568.0>-<130.0,567.0>-<129.0,565.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<348.0,568.0>-<347.0,567.0>-<346.0,565.0>>
-
-	* quotedblright (U+201D) contains a short segment B<<318.0,562.0>-<319.0,563.0>-<320.0,565.0>>
+	* quotedblleft (U+201C) contains a short segment B<<351.0,568.0>-<350.0,567.0>-<349.0,565.0>>
 
 	* quotedblright (U+201D) contains a short segment B<<101.0,562.0>-<102.0,563.0>-<103.0,565.0>>
 
-	* quotedblbase (U+201E) contains a short segment B<<318.0,-4.0>-<319.0,-3.0>-<320.0,-1.0>>
+	* quotedblright (U+201D) contains a short segment B<<321.0,562.0>-<322.0,563.0>-<323.0,565.0>>
+
+	* quotedblbase (U+201E) contains a short segment B<<321.0,-4.0>-<322.0,-3.0>-<323.0,-1.0>>
 
 	* quotedblbase (U+201E) contains a short segment B<<101.0,-4.0>-<102.0,-3.0>-<103.0,-1.0>>
 
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, greater, less, lessequal
+lessequal, greater, greaterequal, less
 
 Width = 460:
 multiply
@@ -1233,7 +1233,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=95.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=236.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=246.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=95.0,Y=-2.0 (should be at baseline 0?)
 
@@ -1775,10 +1775,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-greaterequal, greater, less, lessequal
+lessequal, greater, greaterequal, less
 
 Width = 475:
 multiply
@@ -1898,11 +1898,11 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=100.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=239.0,Y=698.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=246.0,Y=698.5 (should be at cap-height 700?)
 
 	* quotedblright (U+201D): X=59.0,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=280.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=287.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=100.0,Y=-2.0 (should be at baseline 0?)
 
@@ -2511,9 +2511,9 @@ greaterequal
 	* ('Icircumflex', 162, 920)
 	* ('Icircumflex', 265, 792)
 	* ('Igrave', 28, 931)
-	* ('Ntilde', 253, 893)
-	* ('Ntilde', 274, 893)
-	* ('Ntilde', 286, 893)
+	* ('Ntilde', 250, 893)
+	* ('Ntilde', 271, 893)
+	* ('Ntilde', 283, 893)
 	* ('Oacute', 456, 931)
 	* ('Ocircumflex', 321, 920)
 	* ('Ocircumflex', 368, 920)
@@ -2684,17 +2684,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* pi (U+03C0): X=627.0,Y=1.5 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=57.5,Y=698.0 (should be at cap-height 700?)
+	* quoteright (U+2019): X=57.5,Y=698.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=107.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=236.5,Y=698.0 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=57.5,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblright (U+201D): X=57.5,Y=698.0 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=243.5,Y=698.5 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=285.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=293.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=106.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=107.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni2083 (U+2083): X=16.0,Y=-2.0 (should be at baseline 0?)
 
@@ -3412,15 +3412,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* uni03BC (U+03BC): X=183.0,Y=-2.0 (should be at baseline 0?)
 
-	* quoteright (U+2019): X=175.0,Y=700.5 (should be at cap-height 700?)
+	* quoteright (U+2019): X=175.0,Y=701.5 (should be at cap-height 700?)
 
 	* quotesinglbase (U+201A): X=110.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=371.0,Y=700.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=376.0,Y=701.5 (should be at cap-height 700?)
 
-	* quotedblright (U+201D): X=175.0,Y=700.5 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=175.0,Y=701.5 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=306.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=311.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=110.0,Y=-2.0 (should be at baseline 0?)
 
@@ -4023,7 +4023,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, greater, less
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -4171,9 +4171,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=253.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=263.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=240.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=250.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=112.0,Y=-1.0 (should be at baseline 0?)
 
@@ -4830,11 +4830,11 @@ approxequal
 
 	* quotesinglbase (U+201A): X=91.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=189.0,Y=699.0 (should be at cap-height 700?)
-
 	* quotedblright (U+201D): X=68.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=212.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblright (U+201D): X=199.0,Y=699.0 (should be at cap-height 700?)
+
+	* quotedblbase (U+201E): X=222.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=91.0,Y=-2.0 (should be at baseline 0?)
 
@@ -5492,7 +5492,7 @@ greaterequal
 
 	* quotesinglbase (U+201A): X=103.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=264.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=274.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=103.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6012,7 +6012,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, greater, less, lessequal
+lessequal, greater, greaterequal, less
 
 Width = 468:
 multiply
@@ -6103,7 +6103,7 @@ approxequal
 
 	* quotesinglbase (U+201A): X=99.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=260.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=270.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=99.0,Y=-2.0 (should be at baseline 0?)
 
@@ -6763,17 +6763,17 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* dotaccent (U+02D9): X=172.5,Y=699.5 (should be at cap-height 700?)
 
-	* quotesinglbase (U+201A): X=131.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=130.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotesinglbase (U+201A): X=113.0,Y=-2.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=114.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=345.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=346.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=327.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=330.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=131.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=130.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=113.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=114.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni2080 (U+2080): X=227.0,Y=-1.5 (should be at baseline 0?)
 
@@ -7473,13 +7473,13 @@ multiply
 
 	* quotesinglbase (U+201A): X=95.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblright (U+201D): X=187.0,Y=699.0 (should be at cap-height 700?)
+	* quotedblright (U+201D): X=197.0,Y=699.0 (should be at cap-height 700?)
 
 	* quotedblright (U+201D): X=66.0,Y=699.0 (should be at cap-height 700?)
 
-	* quotedblbase (U+201E): X=224.0,Y=-1.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=234.0,Y=-1.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=216.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=226.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=103.0,Y=-1.0 (should be at baseline 0?)
 
@@ -8057,7 +8057,7 @@ Width = 507:
 plus
 
 Width = 523:
-greaterequal, greater, less, lessequal
+lessequal, greater, greaterequal, less
 
 Width = 481:
 multiply
@@ -8172,7 +8172,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A): X=102.0,Y=-2.0 (should be at baseline 0?)
 
-	* quotedblbase (U+201E): X=301.0,Y=-2.0 (should be at baseline 0?)
+	* quotedblbase (U+201E): X=306.0,Y=-2.0 (should be at baseline 0?)
 
 	* quotedblbase (U+201E): X=102.0,Y=-2.0 (should be at baseline 0?)
 
