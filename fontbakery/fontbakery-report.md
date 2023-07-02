@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greater, greaterequal, less, lessequal
+less, lessequal, greaterequal, greater
 
 Width = 488:
 multiply
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less, lessequal
+less, lessequal, greaterequal, greater
 
 Width = 460:
 multiply
@@ -1782,7 +1782,7 @@ Width = 501:
 plus, approxequal
 
 Width = 511:
-greater, greaterequal, less, lessequal
+less, lessequal, greaterequal, greater
 
 Width = 475:
 multiply
@@ -1978,7 +1978,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ae (U+00E6) contains a short segment B<<387.0,453.0>-<391.0,448.0>-<395.0,443.0>>
 
-	* eth (U+00F0) contains a short segment B<<296.0,546.0>-<294.0,549.0>-<291.0,553.0>>
+	* eth (U+00F0) contains a short segment B<<296.0,546.0>-<292.0,551.0>-<287.0,557.0>>
 
 	* thorn (U+00FE) contains a short segment B<<183.0,441.0>-<186.0,445.0>-<190.0,449.0>>
 
@@ -2471,7 +2471,7 @@ Width = 501:
 plus
 
 Width = 513:
-greater, less
+less, greater
 
 Width = 464:
 multiply
@@ -3246,7 +3246,7 @@ Width = 507:
 plus
 
 Width = 525:
-greater, less
+less, greater
 
 Width = 465:
 multiply
@@ -3530,7 +3530,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* edieresis (U+00EB) contains a short segment B<<361.0,281.0>-<361.0,282.0>-<362.0,284.0>>
 
-	* eth (U+00F0) contains a short segment B<<297.0,547.0>-<295.0,549.0>-<294.0,551.0>>
+	* eth (U+00F0) contains a short segment B<<297.0,547.0>-<294.0,551.0>-<291.0,555.0>>
 
 	* thorn (U+00FE) contains a short segment B<<195.0,455.0>-<197.0,457.0>-<198.0,459.0>>
 
@@ -4027,7 +4027,7 @@ Width = 488:
 plus
 
 Width = 484:
-greater, greaterequal, less
+less, greaterequal, greater
 
 Width = 462:
 multiply
@@ -5388,7 +5388,7 @@ Width = 495:
 plus
 
 Width = 500:
-greater, less
+less, greater
 
 Width = 463:
 multiply
@@ -6020,7 +6020,7 @@ Width = 495:
 plus
 
 Width = 499:
-greater, greaterequal, less, lessequal
+less, lessequal, greaterequal, greater
 
 Width = 468:
 multiply
@@ -6648,7 +6648,7 @@ Width = 512:
 plus
 
 Width = 538:
-greater, less
+less, greater
 
 Width = 466:
 multiply
@@ -6947,7 +6947,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* G (U+0047): L<<535.0,0.0>--<535.0,123.0>>/B<<535.0,123.0>-<521.0,68.0>-<478.0,34.0>> = 14.281095735970814 
 
-	* three (U+0033): B<<334.0,400.0>-<306.0,387.0>-<273.0,377.0>>/B<<273.0,377.0>-<321.0,380.0>-<362.0,367.0>> = 13.28206439274089 [code: found-jaggy-segments]
+	* three (U+0033): B<<362.0,415.0>-<323.0,393.0>-<273.0,377.0>>/B<<273.0,377.0>-<321.0,380.0>-<362.0,367.0>> = 14.168337250059563 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -8043,7 +8043,7 @@ Width = 507:
 plus
 
 Width = 523:
-greater, greaterequal, less, lessequal
+less, lessequal, greaterequal, greater
 
 Width = 481:
 multiply
