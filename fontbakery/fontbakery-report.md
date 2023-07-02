@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-greaterequal, less, lessequal, greater
+lessequal, greaterequal, less, greater
 
 Width = 488:
 multiply
@@ -431,7 +431,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -618,9 +618,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* quotesinglbase (U+201A) contains a short segment B<<101.0,-4.0>-<102.0,-3.0>-<103.0,-1.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<133.0,575.0>-<132.0,573.0>-<132.0,572.0>>
+	* quotedblleft (U+201C) contains a short segment B<<132.0,575.0>-<131.0,573.0>-<131.0,572.0>>
 
-	* quotedblleft (U+201C) contains a short segment B<<353.0,575.0>-<352.0,573.0>-<352.0,572.0>>
+	* quotedblleft (U+201C) contains a short segment B<<352.0,575.0>-<351.0,573.0>-<351.0,572.0>>
 
 	* quotedblright (U+201D) contains a short segment B<<321.0,568.0>-<322.0,570.0>-<323.0,571.0>>
 
@@ -725,7 +725,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* macron (U+00AF): L<<63.0,688.0>--<370.0,689.0>> 
 
 	* uni0304 (U+0304): L<<45.0,711.0>--<352.0,713.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SutasomaModern-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -1113,7 +1113,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, lessequal, greater
+lessequal, greaterequal, less, greater
 
 Width = 460:
 multiply
@@ -1121,6 +1121,10 @@ multiply
 Width = 481:
 approxequal
  [code: width-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 509 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1129,9 +1133,7 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 263, 882)
-	* ('icircumflex', 241, 580)
-	* ('figuredash', 478, 380) and ('figuredash', 478, 321)
+	* ('Iacute', 263, 882) and ('icircumflex', 241, 580)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -1796,7 +1798,7 @@ Width = 501:
 approxequal, plus
 
 Width = 511:
-greaterequal, less, lessequal, greater
+lessequal, greaterequal, less, greater
 
 Width = 475:
 multiply
@@ -2574,9 +2576,7 @@ greaterequal
 	* ('aring.ss01', 264, 725)
 	* ('aring.ss01', 291, 725)
 	* ('atilde.ss01', 185, 684)
-	* ('atilde.ss01', 206, 684)
-	* ('atilde.ss01', 218, 684)
-	* ('figuredash', 28, 378) and ('figuredash', 474, 378)
+	* ('atilde.ss01', 206, 684) and ('atilde.ss01', 218, 684)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -3386,9 +3386,9 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* OE (U+0152): X=401.5,Y=1.0 (should be at baseline 0?)
 
-	* scaron (U+0161): X=99.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=100.0,Y=702.0 (should be at cap-height 700?)
 
-	* scaron (U+0161): X=361.0,Y=702.0 (should be at cap-height 700?)
+	* scaron (U+0161): X=362.0,Y=702.0 (should be at cap-height 700?)
 
 	* Ydieresis (U+0178): X=23.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4032,7 +4032,7 @@ lessequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 502 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4042,7 +4042,6 @@ lessequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('Icircumflex', 242, 782)
-	* ('figuredash', 480, 369) and ('figuredash', 480, 332)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -4741,7 +4740,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -6019,7 +6018,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, less, lessequal, greater
+lessequal, greaterequal, less, greater
 
 Width = 468:
 multiply
@@ -6671,7 +6670,6 @@ greaterequal
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
 	* ('icircumflex', 268, 601)
-	* ('figuredash', 21, 386) and ('figuredash', 467, 386)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -7339,7 +7337,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7646,7 +7644,7 @@ multiply
 	* arrowup (U+2191): L<<276.0,640.0>--<278.0,0.0>> 
 
 	* macron (U+00AF): L<<53.0,643.0>--<326.0,644.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SutasomaModern-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -8041,7 +8039,7 @@ Width = 507:
 plus
 
 Width = 523:
-greaterequal, less, lessequal, greater
+lessequal, greaterequal, less, greater
 
 Width = 481:
 multiply
@@ -8049,10 +8047,6 @@ multiply
 Width = 510:
 approxequal
  [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 528 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
