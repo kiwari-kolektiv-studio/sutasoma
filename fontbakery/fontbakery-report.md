@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-lessequal, greaterequal, less, greater
+greater, greaterequal, lessequal, less
 
 Width = 488:
 multiply
@@ -1113,7 +1113,7 @@ Width = 488:
 plus
 
 Width = 484:
-lessequal, greaterequal, less, greater
+greater, greaterequal, lessequal, less
 
 Width = 460:
 multiply
@@ -1133,7 +1133,8 @@ approxequal
 
 
 * ⚠ **WARN** The following glyphs have coordinates which are out of bounds:
-	* ('Iacute', 263, 882) and ('icircumflex', 241, 580)
+	* ('Iacute', 263, 882)
+	* ('Ucircumflex', 444, 796) and ('icircumflex', 241, 580)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
@@ -1795,10 +1796,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-approxequal, plus
+plus, approxequal
 
 Width = 511:
-lessequal, greaterequal, less, greater
+greater, greaterequal, lessequal, less
 
 Width = 475:
 multiply
@@ -2476,7 +2477,7 @@ Width = 501:
 plus
 
 Width = 513:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -2529,10 +2530,10 @@ greaterequal
 	* ('Otilde', 265, 893)
 	* ('Otilde', 286, 893)
 	* ('Otilde', 298, 893)
-	* ('Uacute', 459, 931)
-	* ('Ucircumflex', 324, 920)
-	* ('Ucircumflex', 371, 920)
-	* ('Ugrave', 237, 931)
+	* ('Uacute', 451, 931)
+	* ('Ucircumflex', 316, 920)
+	* ('Ucircumflex', 363, 920)
+	* ('Ugrave', 229, 931)
 	* ('Yacute', 432, 931)
 	* ('aacute', 358, 724)
 	* ('acircumflex', 223, 713)
@@ -3242,7 +3243,7 @@ Width = 507:
 plus
 
 Width = 525:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -4015,7 +4016,7 @@ Width = 488:
 plus
 
 Width = 484:
-greaterequal, less, greater
+greater, greaterequal, less
 
 Width = 462:
 multiply
@@ -5386,7 +5387,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -6018,7 +6019,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, greaterequal, less, greater
+greater, greaterequal, lessequal, less
 
 Width = 468:
 multiply
@@ -6644,7 +6645,7 @@ Width = 512:
 plus
 
 Width = 538:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -8039,7 +8040,7 @@ Width = 507:
 plus
 
 Width = 523:
-lessequal, greaterequal, less, greater
+greater, greaterequal, lessequal, less
 
 Width = 481:
 multiply
