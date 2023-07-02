@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 535:
-less, lessequal, greaterequal, greater
+greaterequal, lessequal, less, greater
 
 Width = 488:
 multiply
@@ -1107,7 +1107,7 @@ Width = 488:
 plus
 
 Width = 484:
-less, lessequal, greaterequal, greater
+greaterequal, lessequal, less, greater
 
 Width = 460:
 multiply
@@ -1779,10 +1779,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 501:
-plus, approxequal
+approxequal, plus
 
 Width = 511:
-less, lessequal, greaterequal, greater
+greaterequal, lessequal, less, greater
 
 Width = 475:
 multiply
@@ -3302,13 +3302,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Q (U+0051): X=438.0,Y=2.0 (should be at baseline 0?)
 
-	* W (U+0057): X=596.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=601.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=313.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=171.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=739.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=743.0,Y=1.0 (should be at baseline 0?)
 
 	* Y (U+0059): X=24.0,Y=701.0 (should be at cap-height 700?)
 
@@ -4027,7 +4027,7 @@ Width = 488:
 plus
 
 Width = 484:
-less, greaterequal, greater
+greaterequal, less, greater
 
 Width = 462:
 multiply
@@ -6020,7 +6020,7 @@ Width = 495:
 plus
 
 Width = 499:
-less, lessequal, greaterequal, greater
+greaterequal, lessequal, less, greater
 
 Width = 468:
 multiply
@@ -6699,13 +6699,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Q (U+0051): X=438.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=584.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=588.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=321.0,Y=1.0 (should be at baseline 0?)
 
 	* W (U+0057): X=157.0,Y=1.0 (should be at baseline 0?)
 
-	* W (U+0057): X=748.0,Y=1.0 (should be at baseline 0?)
+	* W (U+0057): X=753.0,Y=1.0 (should be at baseline 0?)
 
 	* bracketleft (U+005B): X=289.0,Y=699.0 (should be at cap-height 700?)
 
@@ -8043,7 +8043,7 @@ Width = 507:
 plus
 
 Width = 523:
-less, lessequal, greaterequal, greater
+greaterequal, lessequal, less, greater
 
 Width = 481:
 multiply
