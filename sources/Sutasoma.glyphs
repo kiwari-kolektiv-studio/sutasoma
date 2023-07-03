@@ -4194,7 +4194,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (57,210);
+pos = (187,210);
 ref = gravecomb;
 }
 );
@@ -11457,7 +11457,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (28,210);
+pos = (158,210);
 ref = gravecomb;
 }
 );
@@ -15406,7 +15406,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-121,210);
+pos = (9,210);
 ref = gravecomb;
 }
 );
@@ -21358,7 +21358,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (90,220);
+pos = (220,220);
 ref = gravecomb;
 }
 );
@@ -21378,7 +21378,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 676;
+width = 684;
 },
 {
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
@@ -31493,7 +31493,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (77,210);
+pos = (207,210);
 ref = gravecomb;
 }
 );
@@ -38280,7 +38280,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (-78,-2);
+pos = (52,-2);
 ref = gravecomb;
 }
 );
@@ -48590,7 +48590,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-25,0);
+pos = (105,0);
 ref = gravecomb;
 }
 );
@@ -55893,7 +55893,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-168,0);
+pos = (-38,0);
 ref = gravecomb;
 }
 );
@@ -63810,7 +63810,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-17,-2);
+pos = (113,-2);
 ref = gravecomb;
 }
 );
@@ -75690,7 +75690,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (-25,0);
+pos = (105,0);
 ref = gravecomb;
 }
 );
@@ -82643,7 +82643,7 @@ shapes = (
 ref = a.ss01;
 },
 {
-pos = (-13,-2);
+pos = (117,-2);
 ref = gravecomb;
 }
 );
@@ -152590,7 +152590,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 565;
+width = 560;
 }
 );
 metricLeft = "=guilsinglleft";
@@ -153113,25 +153113,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(370,46,l),
-(547,258,l),
-(441,470,l),
-(287,470,l),
-(454,228,l),
-(464,288,l),
-(216,46,l)
+(365,46,l),
+(542,258,l),
+(436,470,l),
+(282,470,l),
+(449,228,l),
+(459,288,l),
+(211,46,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(137,46,l),
-(314,258,l),
-(208,470,l),
-(54,470,l),
-(221,228,l),
-(231,288,l),
-(-17,46,l)
+(132,46,l),
+(309,258,l),
+(203,470,l),
+(49,470,l),
+(216,228,l),
+(226,288,l),
+(-22,46,l)
 );
 }
 );
@@ -153151,7 +153151,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 565;
+width = 560;
 }
 );
 metricLeft = "=|guilsinglleft";
@@ -153780,11 +153780,11 @@ width = 328;
 guides = (
 {
 angle = 80.5;
-pos = (19,251);
+pos = (13,251);
 },
 {
 angle = 80.5;
-pos = (315,251);
+pos = (309,251);
 }
 );
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
@@ -153792,13 +153792,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(281,46,l),
-(113,288,l),
-(103,228,l),
-(351,470,l),
-(197,470,l),
-(20,258,l),
-(127,46,l)
+(275,46,l),
+(107,288,l),
+(97,228,l),
+(345,470,l),
+(191,470,l),
+(14,258,l),
+(121,46,l)
 );
 }
 );
@@ -153818,7 +153818,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 332;
+width = 321;
 }
 );
 metricLeft = "=|*1.10";
@@ -154311,13 +154311,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(137,46,l),
-(314,258,l),
-(208,470,l),
-(54,470,l),
-(221,228,l),
-(231,288,l),
-(-17,46,l)
+(132,46,l),
+(309,258,l),
+(203,470,l),
+(49,470,l),
+(216,228,l),
+(226,288,l),
+(-22,46,l)
 );
 }
 );
@@ -154337,7 +154337,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 332;
+width = 321;
 }
 );
 metricLeft = "=|guilsinglleft";
@@ -169563,7 +169563,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 719;
+width = 720;
 },
 {
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
@@ -169619,7 +169619,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 730;
+width = 726;
 },
 {
 layerId = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
@@ -169675,7 +169675,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 725;
+width = 727;
 },
 {
 layerId = "D2741A44-CB8E-4434-9CC9-735A9A127F4C";
@@ -169843,7 +169843,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 724;
+width = 717;
 }
 );
 metricLeft = "=T*0.5";
@@ -170412,7 +170412,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 260;
+width = 263;
 },
 {
 layerId = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
@@ -191334,7 +191334,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 826;
+width = 861;
 },
 {
 layerId = "D2741A44-CB8E-4434-9CC9-735A9A127F4C";
@@ -191619,7 +191619,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 826;
+width = 886;
 }
 );
 metricLeft = "=zero*0.66";
