@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 534:
-greaterequal, less, lessequal, greater
+greaterequal, greater, less, lessequal
 
 Width = 487:
 multiply
@@ -462,10 +462,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* semicolon (U+003B): X=97.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=377.0,Y=699.0 (should be at cap-height 700?)
-
-	* at (U+0040): X=165.5,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=552.0,Y=-2.0 (should be at baseline 0?)
 
 	* G (U+0047): X=462.5,Y=698.5 (should be at cap-height 700?)
 
@@ -571,17 +567,21 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<229.0,318.0>-<229.0,318.0>-<229.0,318.0>>
 
-	* at (U+0040) contains a short segment B<<577.0,166.0>-<573.0,172.0>-<570.0,178.0>>
+	* at (U+0040) contains a short segment B<<577.0,106.0>-<574.0,111.0>-<571.0,117.0>>
 
-	* at (U+0040) contains a short segment B<<515.0,470.0>-<526.0,463.0>-<534.0,453.0>>
+	* at (U+0040) contains a short segment B<<516.0,410.0>-<526.0,403.0>-<533.0,395.0>>
 
-	* at (U+0040) contains a short segment B<<666.0,204.0>-<678.0,195.0>-<696.0,195.0>>
+	* at (U+0040) contains a short segment B<<649.5,183.5>-<653.0,168.0>-<659.5,158.0>>
 
-	* at (U+0040) contains a short segment B<<696.0,195.0>-<711.0,195.0>-<723.5,201.0>>
+	* at (U+0040) contains a short segment B<<659.5,158.0>-<666.0,148.0>-<675.5,143.0>>
 
-	* at (U+0040) contains a short segment B<<723.5,201.0>-<736.0,207.0>-<745.5,219.0>>
+	* at (U+0040) contains a short segment B<<675.5,143.0>-<685.0,138.0>-<698.0,138.0>>
 
-	* at (U+0040) contains a short segment B<<745.5,219.0>-<755.0,231.0>-<761.5,248.5>>
+	* at (U+0040) contains a short segment B<<698.0,138.0>-<713.0,138.0>-<725.0,144.0>>
+
+	* at (U+0040) contains a short segment B<<725.0,144.0>-<737.0,150.0>-<746.5,161.0>>
+
+	* at (U+0040) contains a short segment B<<746.5,161.0>-<756.0,172.0>-<762.5,189.5>>
 
 	* Q (U+0051) contains a short segment B<<451.0,5.0>-<451.0,5.0>-<451.0,5.0>>
 
@@ -1116,7 +1116,7 @@ Width = 487:
 plus
 
 Width = 482:
-greaterequal, less, lessequal, greater
+greaterequal, greater, less, lessequal
 
 Width = 458:
 multiply
@@ -1353,6 +1353,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ampersand (U+0026) contains a short segment B<<511.0,175.0>-<515.0,183.0>-<519.0,192.0>>
 
 	* ampersand (U+0026) contains a short segment B<<472.0,116.0>-<473.0,118.0>-<474.0,119.0>>
+
+	* at (U+0040) contains a short segment B<<636.5,124.0>-<646.0,110.0>-<660.5,103.5>>
+
+	* at (U+0040) contains a short segment B<<660.5,103.5>-<675.0,97.0>-<694.0,97.0>>
+
+	* at (U+0040) contains a short segment B<<694.0,97.0>-<712.0,97.0>-<726.5,104.5>>
+
+	* at (U+0040) contains a short segment B<<726.5,104.5>-<741.0,112.0>-<751.5,127.5>>
 
 	* Q (U+0051) contains a short segment B<<446.0,8.0>-<443.0,6.0>-<439.0,5.0>>
 
@@ -1901,7 +1909,7 @@ Width = 500:
 plus
 
 Width = 508:
-greaterequal, less, lessequal, greater
+greaterequal, greater, less, lessequal
 
 Width = 473:
 multiply
@@ -1977,10 +1985,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* semicolon (U+003B): X=91.0,Y=-2.0 (should be at baseline 0?)
 
 	* question (U+003F): X=357.0,Y=699.5 (should be at cap-height 700?)
-
-	* at (U+0040): X=169.5,Y=-2.0 (should be at baseline 0?)
-
-	* at (U+0040): X=286.5,Y=-1.5 (should be at baseline 0?)
 
 	* C (U+0043): X=447.0,Y=699.0 (should be at cap-height 700?)
 
@@ -2094,11 +2098,19 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<179.0,371.0>-<183.0,372.0>-<187.0,374.0>>
 
-	* at (U+0040) contains a short segment B<<586.0,161.0>-<578.0,173.0>-<573.0,189.0>>
+	* at (U+0040) contains a short segment B<<587.0,102.0>-<581.0,112.0>-<576.0,124.0>>
 
-	* at (U+0040) contains a short segment B<<692.0,175.0>-<709.0,175.0>-<723.0,182.0>>
+	* at (U+0040) contains a short segment B<<524.0,409.0>-<538.0,399.0>-<548.0,386.0>>
 
-	* at (U+0040) contains a short segment B<<723.0,182.0>-<737.0,189.0>-<747.5,202.5>>
+	* at (U+0040) contains a short segment B<<642.5,176.0>-<646.0,158.0>-<653.5,146.0>>
+
+	* at (U+0040) contains a short segment B<<653.5,146.0>-<661.0,134.0>-<672.0,128.5>>
+
+	* at (U+0040) contains a short segment B<<672.0,128.5>-<683.0,123.0>-<697.0,123.0>>
+
+	* at (U+0040) contains a short segment B<<697.0,123.0>-<714.0,123.0>-<727.5,129.5>>
+
+	* at (U+0040) contains a short segment B<<727.5,129.5>-<741.0,136.0>-<751.0,149.0>>
 
 	* Q (U+0051) contains a short segment B<<449.0,6.0>-<447.0,6.0>-<445.0,5.0>>
 
@@ -2629,7 +2641,7 @@ Width = 500:
 plus
 
 Width = 510:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -2795,11 +2807,13 @@ greaterequal
 
 	* ampersand (U+0026) contains a short segment B<<203.0,379.0>-<214.0,382.0>-<225.0,384.0>>
 
-	* at (U+0040) contains a short segment B<<640.0,145.5>-<654.0,133.0>-<672.0,133.0>>
+	* at (U+0040) contains a short segment B<<653.0,122.5>-<660.0,106.0>-<671.0,98.0>>
 
-	* at (U+0040) contains a short segment B<<672.0,133.0>-<690.0,133.0>-<704.5,141.0>>
+	* at (U+0040) contains a short segment B<<671.0,98.0>-<682.0,90.0>-<697.0,90.0>>
 
-	* at (U+0040) contains a short segment B<<704.5,141.0>-<719.0,149.0>-<730.5,164.0>>
+	* at (U+0040) contains a short segment B<<697.0,90.0>-<713.0,90.0>-<726.0,98.0>>
+
+	* at (U+0040) contains a short segment B<<726.0,98.0>-<739.0,106.0>-<749.5,121.5>>
 
 	* e (U+0065) contains a short segment B<<378.0,279.0>-<378.0,280.0>-<378.0,280.0>>
 
@@ -3307,7 +3321,7 @@ Width = 506:
 plus
 
 Width = 523:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -3494,11 +3508,13 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<217.0,385.0>-<208.0,388.0>-<200.0,391.0>>
 
-	* at (U+0040) contains a short segment B<<646.5,143.5>-<660.0,131.0>-<678.0,131.0>>
+	* at (U+0040) contains a short segment B<<656.5,126.0>-<664.0,110.0>-<674.5,102.0>>
 
-	* at (U+0040) contains a short segment B<<678.0,131.0>-<695.0,131.0>-<709.0,138.5>>
+	* at (U+0040) contains a short segment B<<674.5,102.0>-<685.0,94.0>-<700.0,94.0>>
 
-	* at (U+0040) contains a short segment B<<709.0,138.5>-<723.0,146.0>-<734.0,161.0>>
+	* at (U+0040) contains a short segment B<<700.0,94.0>-<715.0,94.0>-<727.5,101.5>>
+
+	* at (U+0040) contains a short segment B<<727.5,101.5>-<740.0,109.0>-<749.5,124.0>>
 
 	* b (U+0062) contains a short segment B<<173.0,70.0>-<172.0,63.0>-<172.0,57.0>>
 
@@ -4021,7 +4037,7 @@ Width = 487:
 plus
 
 Width = 482:
-less, greaterequal, greater
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -4239,6 +4255,12 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* ampersand (U+0026) contains a short segment B<<331.0,356.0>-<328.0,356.0>-<325.0,356.0>>
 
 	* ampersand (U+0026) contains a short segment B<<408.0,46.0>-<409.0,46.0>-<411.0,47.0>>
+
+	* at (U+0040) contains a short segment B<<634.5,109.5>-<643.0,93.0>-<656.5,84.5>>
+
+	* at (U+0040) contains a short segment B<<656.5,84.5>-<670.0,76.0>-<688.0,76.0>>
+
+	* at (U+0040) contains a short segment B<<688.0,76.0>-<706.0,76.0>-<721.5,85.0>>
 
 	* b (U+0062) contains a short segment B<<137.0,94.0>-<137.0,88.0>-<137.0,84.0>>
 
@@ -5417,7 +5439,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -5559,11 +5581,13 @@ greaterequal
 
 	* ampersand (U+0026) contains a short segment B<<332.0,353.0>-<332.0,353.0>-<332.0,354.0>>
 
-	* at (U+0040) contains a short segment B<<635.5,147.5>-<650.0,135.0>-<668.0,135.0>>
+	* at (U+0040) contains a short segment B<<650.5,119.5>-<658.0,103.0>-<669.0,95.0>>
 
-	* at (U+0040) contains a short segment B<<668.0,135.0>-<686.0,135.0>-<701.0,143.0>>
+	* at (U+0040) contains a short segment B<<669.0,95.0>-<680.0,87.0>-<695.0,87.0>>
 
-	* at (U+0040) contains a short segment B<<701.0,143.0>-<716.0,151.0>-<727.5,166.0>>
+	* at (U+0040) contains a short segment B<<695.0,87.0>-<712.0,87.0>-<725.5,95.0>>
+
+	* at (U+0040) contains a short segment B<<725.5,95.0>-<739.0,103.0>-<750.0,119.0>>
 
 	* sterling (U+00A3) contains a short segment B<<95.0,343.0>-<94.0,349.0>-<94.0,356.0>>
 
@@ -6051,7 +6075,7 @@ Width = 495:
 plus
 
 Width = 499:
-greaterequal, less, lessequal, greater
+greaterequal, greater, less, lessequal
 
 Width = 468:
 multiply
@@ -6174,9 +6198,17 @@ approxequal
 
 	* ampersand (U+0026) contains a short segment B<<459.0,127.0>-<459.0,127.0>-<459.0,128.0>>
 
-	* at (U+0040) contains a short segment B<<690.0,167.0>-<708.0,167.0>-<722.5,174.5>>
+	* at (U+0040) contains a short segment B<<591.0,101.0>-<583.0,113.0>-<577.0,128.0>>
 
-	* at (U+0040) contains a short segment B<<722.5,174.5>-<737.0,182.0>-<748.0,196.5>>
+	* at (U+0040) contains a short segment B<<640.0,173.0>-<644.0,154.0>-<651.5,141.5>>
+
+	* at (U+0040) contains a short segment B<<651.5,141.5>-<659.0,129.0>-<670.5,123.0>>
+
+	* at (U+0040) contains a short segment B<<670.5,123.0>-<682.0,117.0>-<697.0,117.0>>
+
+	* at (U+0040) contains a short segment B<<697.0,117.0>-<714.0,117.0>-<728.0,124.0>>
+
+	* at (U+0040) contains a short segment B<<728.0,124.0>-<742.0,131.0>-<752.5,144.5>>
 
 	* Q (U+0051) contains a short segment B<<521.0,50.0>-<518.0,47.0>-<516.0,45.0>>
 
@@ -6681,7 +6713,7 @@ Width = 512:
 plus
 
 Width = 536:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6861,11 +6893,15 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<210.0,385.0>-<205.0,387.0>-<201.0,388.0>>
 
-	* at (U+0040) contains a short segment B<<653.0,140.5>-<665.0,128.0>-<684.0,128.0>>
+	* at (U+0040) contains a short segment B<<507.0,418.0>-<522.0,410.0>-<533.0,398.0>>
 
-	* at (U+0040) contains a short segment B<<684.0,128.0>-<700.0,128.0>-<714.0,136.0>>
+	* at (U+0040) contains a short segment B<<660.0,129.5>-<667.0,114.0>-<677.5,106.5>>
 
-	* at (U+0040) contains a short segment B<<714.0,136.0>-<728.0,144.0>-<738.0,159.0>>
+	* at (U+0040) contains a short segment B<<677.5,106.5>-<688.0,99.0>-<703.0,99.0>>
+
+	* at (U+0040) contains a short segment B<<703.0,99.0>-<717.0,99.0>-<728.5,106.0>>
+
+	* at (U+0040) contains a short segment B<<728.5,106.0>-<740.0,113.0>-<749.0,127.5>>
 
 	* R (U+0052) contains a short segment B<<288.0,299.0>-<288.0,299.0>-<288.0,299.0>>
 
@@ -8093,7 +8129,7 @@ Width = 506:
 plus
 
 Width = 521:
-greaterequal, less, lessequal, greater
+greaterequal, greater, less, lessequal
 
 Width = 480:
 multiply
@@ -8133,8 +8169,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* question (U+003F): X=367.0,Y=699.5 (should be at cap-height 700?)
 
-	* at (U+0040): X=168.0,Y=-0.5 (should be at baseline 0?)
-
 	* C (U+0043): X=453.0,Y=698.0 (should be at cap-height 700?)
 
 	* G (U+0047): X=459.5,Y=698.5 (should be at cap-height 700?)
@@ -8173,7 +8207,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* onehalf (U+00BD): X=186.0,Y=702.0 (should be at cap-height 700?)
 
-	* Aacute (U+00C1): X=405.0,Y=952.0 (should be at ascender 950?)
+	* Aacute (U+00C1): X=404.0,Y=952.0 (should be at ascender 950?)
 
 	* Ccedilla (U+00C7): X=453.0,Y=698.0 (should be at cap-height 700?)
 
@@ -8263,13 +8297,19 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* ampersand (U+0026) contains a short segment B<<595.0,178.0>-<592.0,169.0>-<588.0,161.0>>
 
-	* at (U+0040) contains a short segment B<<582.0,163.0>-<576.0,172.0>-<571.0,183.0>>
+	* at (U+0040) contains a short segment B<<582.0,104.0>-<577.0,112.0>-<573.0,120.0>>
 
-	* at (U+0040) contains a short segment B<<519.0,469.0>-<532.0,460.0>-<542.0,448.0>>
+	* at (U+0040) contains a short segment B<<520.0,410.0>-<532.0,401.0>-<541.0,390.0>>
 
-	* at (U+0040) contains a short segment B<<694.0,185.0>-<710.0,185.0>-<723.0,191.5>>
+	* at (U+0040) contains a short segment B<<646.0,180.0>-<650.0,163.0>-<656.5,152.0>>
 
-	* at (U+0040) contains a short segment B<<723.0,191.5>-<736.0,198.0>-<746.0,210.5>>
+	* at (U+0040) contains a short segment B<<656.5,152.0>-<663.0,141.0>-<673.5,135.5>>
+
+	* at (U+0040) contains a short segment B<<673.5,135.5>-<684.0,130.0>-<697.0,130.0>>
+
+	* at (U+0040) contains a short segment B<<697.0,130.0>-<713.0,130.0>-<726.0,136.5>>
+
+	* at (U+0040) contains a short segment B<<726.0,136.5>-<739.0,143.0>-<748.5,155.0>>
 
 	* Q (U+0051) contains a short segment B<<450.0,5.0>-<449.0,5.0>-<448.0,5.0>>
 
