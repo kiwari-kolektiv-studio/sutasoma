@@ -343,7 +343,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -420,7 +420,7 @@ Width = 512:
 plus
 
 Width = 534:
-lessequal, less, greaterequal, greater
+greaterequal, greater, lessequal, less
 
 Width = 487:
 multiply
@@ -431,7 +431,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 532 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -460,8 +460,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* six (U+0036): X=238.5,Y=699.0 (should be at cap-height 700?)
 
 	* semicolon (U+003B): X=97.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=191.5,Y=698.0 (should be at cap-height 700?)
 
 	* question (U+003F): X=375.5,Y=699.0 (should be at cap-height 700?)
 
@@ -1037,7 +1035,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 249 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 251 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1104,7 +1102,7 @@ Width = 487:
 plus
 
 Width = 482:
-lessequal, less, greaterequal, greater
+greaterequal, greater, lessequal, less
 
 Width = 458:
 multiply
@@ -1115,7 +1113,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 508 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 508 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1207,8 +1205,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* nine (U+0039): X=327.5,Y=0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=81.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=182.5,Y=701.5 (should be at cap-height 700?)
 
 	* question (U+003F): X=342.0,Y=699.5 (should be at cap-height 700?)
 
@@ -1826,7 +1822,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 237 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 240 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1897,7 +1893,7 @@ Width = 500:
 plus
 
 Width = 508:
-lessequal, less, greaterequal, greater
+greaterequal, greater, lessequal, less
 
 Width = 473:
 multiply
@@ -1940,12 +1936,12 @@ approxequal
 	* ('Odieresis', 234, 901)
 	* ('Odieresis', 261, 901)
 	* ('Odieresis', 287, 901)
-	* ('Udieresis', 384, 901)
-	* ('Udieresis', 411, 901)
-	* ('Udieresis', 438, 901)
-	* ('Udieresis', 218, 901)
-	* ('Udieresis', 245, 901)
-	* ('Udieresis', 271, 901)
+	* ('Udieresis', 383, 901)
+	* ('Udieresis', 410, 901)
+	* ('Udieresis', 437, 901)
+	* ('Udieresis', 217, 901)
+	* ('Udieresis', 244, 901)
+	* ('Udieresis', 270, 901)
 	* ('Ydieresis', 354, 901)
 	* ('Ydieresis', 381, 901)
 	* ('Ydieresis', 408, 901)
@@ -1971,8 +1967,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* nine (U+0039): X=339.0,Y=0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=91.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=186.0,Y=699.5 (should be at cap-height 700?)
 
 	* question (U+003F): X=357.0,Y=699.5 (should be at cap-height 700?)
 
@@ -2556,7 +2550,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 237 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 240 font units wide, non-breaking space named (uni00A0) is 227 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2619,7 +2613,7 @@ Width = 500:
 plus
 
 Width = 510:
-less, greater
+greater, less
 
 Width = 464:
 multiply
@@ -3239,7 +3233,7 @@ greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 230 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 232 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3295,7 +3289,7 @@ Width = 506:
 plus
 
 Width = 523:
-less, greater
+greater, less
 
 Width = 465:
 multiply
@@ -3337,8 +3331,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* nine (U+0039): X=344.5,Y=-0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=103.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=188.5,Y=698.0 (should be at cap-height 700?)
 
 	* Q (U+0051): X=438.0,Y=2.0 (should be at baseline 0?)
 
@@ -3944,7 +3936,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 249 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 251 font units wide, non-breaking space named (uni00A0) is 229 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -4007,7 +3999,7 @@ Width = 487:
 plus
 
 Width = 482:
-less, greaterequal, greater
+greaterequal, greater, less
 
 Width = 462:
 multiply
@@ -4021,7 +4013,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 501 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -4078,8 +4070,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* semicolon (U+003B): X=100.0,Y=-1.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=87.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=184.5,Y=699.5 (should be at cap-height 700?)
 
 	* question (U+003F): X=342.0,Y=699.5 (should be at cap-height 700?)
 
@@ -4770,7 +4760,7 @@ approxequal
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 499 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -5360,7 +5350,7 @@ approxequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 242 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 246 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -5416,7 +5406,7 @@ Width = 495:
 plus
 
 Width = 500:
-less, greater
+greater, less
 
 Width = 463:
 multiply
@@ -5992,7 +5982,7 @@ greaterequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 242 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 246 font units wide, non-breaking space named (uni00A0) is 228 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6048,7 +6038,7 @@ Width = 495:
 plus
 
 Width = 499:
-lessequal, less, greaterequal, greater
+greaterequal, greater, lessequal, less
 
 Width = 468:
 multiply
@@ -6104,6 +6094,8 @@ approxequal
 	* q (U+0071): X=182.0,Y=488.5 (should be at x-height 490?)
 
 	* t (U+0074): X=280.5,Y=1.0 (should be at baseline 0?)
+
+	* braceleft (U+007B): X=250.0,Y=700.5 (should be at cap-height 700?)
 
 	* ordfeminine (U+00AA): X=185.0,Y=698.5 (should be at cap-height 700?)
 
@@ -6609,7 +6601,7 @@ approxequal
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 223 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 224 font units wide, non-breaking space named (uni00A0) is 225 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -6674,7 +6666,7 @@ Width = 512:
 plus
 
 Width = 536:
-less, greater
+greater, less
 
 Width = 466:
 multiply
@@ -6727,8 +6719,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* comma (U+002C): X=107.0,Y=-2.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=107.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=191.5,Y=698.0 (should be at cap-height 700?)
 
 	* question (U+003F): X=377.0,Y=700.5 (should be at cap-height 700?)
 
@@ -7394,7 +7384,7 @@ multiply
 </div></details><details><summary>⚠ <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/xavgcharwidth">com.google.fonts/check/xavgcharwidth</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 xAvgCharWidth is 519 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
+* ⚠ **WARN** OS/2 xAvgCharWidth is 518 but it should be 493 which corresponds to the average of the widths of all glyphs in the font. [code: xAvgCharWidth-wrong]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -7423,8 +7413,6 @@ multiply
 	* semicolon (U+003B): X=88.0,Y=-1.0 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=80.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=185.0,Y=701.0 (should be at cap-height 700?)
 
 	* question (U+003F): X=338.5,Y=699.5 (should be at cap-height 700?)
 
@@ -8022,7 +8010,7 @@ multiply
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 230 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
+* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 232 font units wide, non-breaking space named (uni00A0) is 226 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -8094,7 +8082,7 @@ Width = 506:
 plus
 
 Width = 521:
-lessequal, less, greaterequal, greater
+greaterequal, greater, lessequal, less
 
 Width = 480:
 multiply
@@ -8131,8 +8119,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 	* nine (U+0039): X=345.5,Y=0.5 (should be at baseline 0?)
 
 	* semicolon (U+003B): X=94.0,Y=-2.0 (should be at baseline 0?)
-
-	* question (U+003F): X=189.0,Y=698.5 (should be at cap-height 700?)
 
 	* question (U+003F): X=366.0,Y=699.5 (should be at cap-height 700?)
 
@@ -8186,7 +8172,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 	* Oacute (U+00D3): X=437.0,Y=952.0 (should be at ascender 950?)
 
-	* Uacute (U+00DA): X=421.0,Y=952.0 (should be at ascender 950?)
+	* Uacute (U+00DA): X=419.0,Y=952.0 (should be at ascender 950?)
 
 	* Yacute (U+00DD): X=395.0,Y=952.0 (should be at ascender 950?)
 
