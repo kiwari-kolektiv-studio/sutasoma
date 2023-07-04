@@ -222716,29 +222716,29 @@ m01 = {
 };
 "com.hugojourdan.ColorFlow-selectedMaster" = {
 axesValues = (
--100,
-169,
-9.5
+0,
+93,
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = A;
+value = B;
 },
 {
 name = "Axis Location";
 value = (
 {
 Axis = Grade;
-Location = -100;
+Location = 0;
 },
 {
 Axis = Weight;
-Location = 800;
+Location = 400;
 },
 {
 Axis = Slant;
-Location = 9.5;
+Location = 0;
 }
 );
 },
@@ -222781,14 +222781,30 @@ value = -250;
 {
 name = hheaLineGap;
 value = 0;
+}
+);
+guides = (
+{
+angle = 0;
+filter = "case == 1";
+name = "Uppercase – Lower Mark";
+pos = (
+-500,
+921
+);
 },
 {
-name = "Link Metrics With Master";
-value = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
+angle = 0;
+filter = "case == 1";
+name = "Uppercase – Top Mark";
+pos = (
+-500,
+767
+);
 }
 );
 iconName = Regular;
-id = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
+id = m005;
 metricValues = (
 {
 over = 10;
@@ -222800,7 +222816,7 @@ pos = 700;
 },
 {
 over = 10;
-pos = 502;
+pos = 490;
 },
 {
 over = -10;
@@ -222812,15 +222828,32 @@ pos = -250;
 },
 {
 over = -10;
-pos = 9.5;
+pos = 0;
 },
 {
 over = -10;
 pos = -175;
 }
 );
-name = "Display Extrabold Italic";
+name = "Text Regular";
 userData = {
+KernOnIndependentPairs = (
+"o c",
+"b o",
+"o d",
+"O C",
+"O G",
+"O Q",
+"Q O",
+"thorn o",
+"o e",
+"e o",
+"d period",
+"one comma",
+"O O",
+"guilsinglleft h",
+"o o"
+);
 KernOnModels = (
 "n n",
 "v n",
