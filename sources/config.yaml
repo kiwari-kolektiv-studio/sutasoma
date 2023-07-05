@@ -7,75 +7,87 @@ axisOrder:
 familyName: Sutasoma
 instances:
   Sutasoma[GRAD,slnt,wght].ttf:
-    - familyName: "Sutasoma Modern"
+    - familyName: "Sutasoma Text"
       styleName: "ExtraLight"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 200
-    - familyName: "Sutasoma Modern"
+    - familyName: "Sutasoma Text"
       styleName: "Light"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 300
-    - familyName: "Sutasoma Modern"
+    - familyName: "Sutasoma Text"
       styleName: "Regular"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 400
-    - familyName: "Sutasoma Modern"
+    - familyName: "Sutasoma Text"
       styleName: "Medium"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 500
-    - familyName: "Sutasoma Modern"
-      styleName: "Bold"
+    - familyName: "Sutasoma Text"
+      styleName: "SemiBold"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 600
-    - familyName: "Sutasoma Modern"
-      styleName: "ExtraBold"
+    - familyName: "Sutasoma Text"
+      styleName: "Bold"
       coordinates:
         GRAD: 0
         slnt: 0
         wght: 700
-    - familyName: "Sutasoma Moderat"
+    - familyName: "Sutasoma Text"
+      styleName: "ExtraBold"
+      coordinates:
+        GRAD: 0
+        slnt: 0
+        wght: 800
+    - familyName: "Sutasoma Display"
       styleName: "ExtraLight"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 200
-    - familyName: "Sutasoma Moderat"
+    - familyName: "Sutasoma Display"
       styleName: "Light"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 300
-    - familyName: "Sutasoma Moderat"
+    - familyName: "Sutasoma Display"
       styleName: "Regular"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 400
-    - familyName: "Sutasoma Moderat"
+    - familyName: "Sutasoma Display"
       styleName: "Medium"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 500
-    - familyName: "Sutasoma Moderat"
-      styleName: "Bold"
+    - familyName: "Sutasoma Display"
+      styleName: "SemiBold"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 600
-    - familyName: "Sutasoma Moderat"
-      styleName: "ExtraBold"
+    - familyName: "Sutasoma Display"
+      styleName: "Bold"
       coordinates:
         GRAD: -100
         slnt: 0
         wght: 700
+    - familyName: "Sutasoma Display"
+      styleName: "ExtraBold"
+      coordinates:
+        GRAD: -100
+        slnt: 0
+        wght: 800

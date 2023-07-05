@@ -53,10 +53,6 @@ value = (
 );
 },
 {
-name = "Variable Font Origin";
-value = m005;
-},
-{
 name = "Write DisplayStrings";
 value = 0;
 },
@@ -349,7 +345,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -557,7 +553,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -758,7 +754,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -953,7 +949,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -1157,7 +1153,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -1365,7 +1361,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -1542,7 +1538,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -1798,7 +1794,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -1997,7 +1993,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -2189,7 +2185,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -2384,7 +2380,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -2558,7 +2554,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -36749,7 +36745,7 @@ pos = (282,0);
 },
 {
 name = top;
-pos = (300,700);
+pos = (329,700);
 }
 );
 background = {
@@ -36885,7 +36881,7 @@ pos = (295,0);
 },
 {
 name = top;
-pos = (334,700);
+pos = (348,700);
 }
 );
 background = {
@@ -36998,7 +36994,7 @@ pos = (298,0);
 },
 {
 name = top;
-pos = (321,700);
+pos = (378,700);
 }
 );
 background = {
@@ -37374,7 +37370,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (163,222);
+pos = (192,222);
 ref = acutecomb;
 }
 );
@@ -37403,7 +37399,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (199,210);
+pos = (213,210);
 ref = acutecomb;
 }
 );
@@ -37730,7 +37726,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (110,222);
+pos = (139,222);
 ref = caroncomb;
 }
 );
@@ -37759,7 +37755,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (144,214);
+pos = (158,214);
 ref = caroncomb;
 }
 );
@@ -37788,7 +37784,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (80,198);
+pos = (137,198);
 ref = caroncomb;
 }
 );
@@ -162051,7 +162047,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 230;
+width = 254;
 },
 {
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -162071,7 +162067,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 224;
+width = 216;
 },
 {
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
@@ -162091,7 +162087,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 228;
+width = 246;
 },
 {
 layerId = m004;
@@ -162111,7 +162107,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 230;
+width = 254;
 },
 {
 layerId = m005;
@@ -162131,7 +162127,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 228;
+width = 246;
 },
 {
 layerId = m006;
@@ -162151,7 +162147,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 224;
+width = 216;
 },
 {
 layerId = "4E5694F4-F64E-4331-B998-78BE273203C7";
@@ -162171,7 +162167,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 230;
+width = 254;
 },
 {
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
@@ -162191,7 +162187,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 228;
+width = 246;
 },
 {
 layerId = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
@@ -162211,7 +162207,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 224;
+width = 216;
 },
 {
 layerId = "D2741A44-CB8E-4434-9CC9-735A9A127F4C";
@@ -162231,7 +162227,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 230;
+width = 254;
 },
 {
 layerId = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
@@ -162251,7 +162247,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 228;
+width = 246;
 },
 {
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
@@ -162271,9 +162267,10 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 224;
+width = 216;
 }
 );
+metricWidth = "=space";
 note = uni00A0;
 unicode = 160;
 },
@@ -257851,6 +257848,27 @@ metricRight = "=|";
 );
 instances = (
 {
+customParameters = (
+{
+name = "Variable Font Origin";
+value = m005;
+}
+);
+name = Variable;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Sutasoma;
+}
+);
+}
+);
+type = variable;
+},
+{
 axesValues = (
 0,
 45,
@@ -258085,7 +258103,7 @@ m005 = 0.27632;
 m006 = 0.72368;
 };
 isBold = 1;
-linkStyle = "Modern Regular";
+linkStyle = "Text Regular";
 name = "Text Bold";
 weightClass = 700;
 },
@@ -258701,7 +258719,7 @@ weightClass = 800;
 axesValues = (
 -100,
 45,
-9
+9.5
 );
 customParameters = (
 {
@@ -258731,8 +258749,7 @@ Location = 9.5;
 }
 );
 instanceInterpolations = {
-"D2741A44-CB8E-4434-9CC9-735A9A127F4C" = 0.94737;
-m01 = 0.05263;
+"D2741A44-CB8E-4434-9CC9-735A9A127F4C" = 1;
 };
 isItalic = 1;
 linkStyle = "Display ExtraLight";
@@ -318132,7 +318149,7 @@ m01 = {
 "9" = 0;
 };
 };
-"com.hugojourdan.ColorFlow-selectedLayer" = 1;
+"com.hugojourdan.ColorFlow-selectedLayer" = 0;
 "com.hugojourdan.ColorFlow-selectedLayer-data" = {
 "0" = 0;
 "1" = 0;
@@ -318151,12 +318168,12 @@ m01 = {
 axesValues = (
 0,
 45,
-9.5
+0
 );
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = O;
+value = I;
 },
 {
 name = "Axis Location";
@@ -318171,7 +318188,7 @@ Location = 200;
 },
 {
 Axis = Slant;
-Location = 9.5;
+Location = 0;
 }
 );
 },
@@ -318197,7 +318214,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 984;
+value = 986;
 },
 {
 name = winDescent;
@@ -318214,16 +318231,11 @@ value = -250;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-disabled = 1;
-name = "Link Metrics With Master";
-value = m004;
 }
 );
 guides = (
 {
-angle = 0;
+angle = 180;
 filter = "case == 1";
 name = "Uppercase – Lower Mark";
 pos = (
@@ -318232,7 +318244,7 @@ pos = (
 );
 },
 {
-angle = 0;
+angle = 180;
 filter = "case == 1";
 name = "Uppercase – Top Mark";
 pos = (
@@ -318241,7 +318253,7 @@ pos = (
 );
 },
 {
-angle = 0;
+angle = 180;
 filter = "case == 2";
 name = "Lowercase – Top Mark";
 pos = (
@@ -318250,7 +318262,7 @@ pos = (
 );
 },
 {
-angle = 0;
+angle = 180;
 filter = "case == 2";
 name = "Lowercase – Lower Mark";
 pos = (
@@ -318259,7 +318271,7 @@ pos = (
 );
 },
 {
-angle = 0;
+angle = 180;
 filter = "case == 2";
 name = "Lowercase – Lower Mark";
 pos = (
@@ -318269,7 +318281,7 @@ pos = (
 }
 );
 iconName = Light;
-id = "4E5694F4-F64E-4331-B998-78BE273203C7";
+id = m004;
 metricValues = (
 {
 over = 10;
@@ -318293,33 +318305,38 @@ pos = -250;
 },
 {
 over = -10;
-pos = 9.5;
+pos = 0;
 },
 {
 over = -10;
 pos = -175;
 }
 );
-name = "Text ExtraLight Italic";
+name = "Text ExtraLight";
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
 KernOnIndependentPairs = (
+"o c",
+"b o",
 "O C",
 "O G",
 "O Q",
 "Q O",
-"d period",
-"guilsinglleft h",
-"n at",
-"d endash",
-"d hyphen",
-"b o",
 "o d",
+"o e",
+"e o",
 "p o",
 "o q",
-"eth o",
 "thorn o",
+"eth o",
+"o eth",
+"H o",
+"guilsinglleft h",
+"o o",
+"d period",
+"d endash",
+"d hyphen",
 "d n"
 );
 KernOnModels = (
@@ -318340,20 +318357,20 @@ KernOnModels = (
 "d underscore",
 "v n",
 "n a",
+"n at",
+"n b",
 "n n",
 "n u",
 "o n",
 "n o",
 "endash endash",
 "d o",
-"o o",
 "l H",
 "one comma",
 "one n",
 "H s",
 "H x",
 "H n",
-"H o",
 "H ampersand",
 "I I",
 "one H",
