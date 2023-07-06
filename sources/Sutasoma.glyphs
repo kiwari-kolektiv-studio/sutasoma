@@ -325,19 +325,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -353,11 +353,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -533,19 +533,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -561,11 +561,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -734,19 +734,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -762,11 +762,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -929,19 +929,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -957,11 +957,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -1133,19 +1133,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -1161,11 +1161,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -1341,19 +1341,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -1369,11 +1369,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -1518,19 +1518,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -1546,11 +1546,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -1774,19 +1774,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -1802,11 +1802,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -1973,19 +1973,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -2001,11 +2001,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -2032,6 +2032,12 @@ pos = (-500,556);
 filter = "case == 2";
 name = "Lowercase – Lower Mark";
 pos = (-500,761);
+},
+{
+pos = (307,1000);
+},
+{
+pos = (306,-300);
 }
 );
 id = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
@@ -2165,19 +2171,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -2193,11 +2199,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -2360,19 +2366,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -2388,11 +2394,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -2534,19 +2540,19 @@ Location = 9.5;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -2562,11 +2568,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
@@ -18336,6 +18342,7 @@ com.hugojourdan.ColorFlow = {
 width = 666;
 }
 );
+locked = 1;
 unicode = 290;
 },
 {
@@ -37428,7 +37435,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (176,198);
+pos = (233,198);
 ref = acutecomb;
 }
 );
@@ -122180,6 +122187,12 @@ kernLeft = KO_f;
 kernRight = KO_i;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (269.5,0);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -122209,6 +122222,12 @@ com.hugojourdan.ColorFlow = {
 width = 539;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (291.5,0);
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -122238,6 +122257,12 @@ com.hugojourdan.ColorFlow = {
 width = 583;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (330,0);
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -122267,6 +122292,12 @@ com.hugojourdan.ColorFlow = {
 width = 660;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (269.5,0);
+}
+);
 layerId = "4E5694F4-F64E-4331-B998-78BE273203C7";
 shapes = (
 {
@@ -122296,6 +122327,12 @@ com.hugojourdan.ColorFlow = {
 width = 539;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (291.5,0);
+}
+);
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
 shapes = (
 {
@@ -122325,6 +122362,12 @@ com.hugojourdan.ColorFlow = {
 width = 583;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (330,0);
+}
+);
 layerId = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
 shapes = (
 {
@@ -122354,6 +122397,12 @@ com.hugojourdan.ColorFlow = {
 width = 660;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (269.5,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -122383,6 +122432,12 @@ com.hugojourdan.ColorFlow = {
 width = 539;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (299.5,0);
+}
+);
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
 shapes = (
 {
@@ -122412,6 +122467,12 @@ com.hugojourdan.ColorFlow = {
 width = 599;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (330,0);
+}
+);
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
 shapes = (
 {
@@ -122441,6 +122502,12 @@ com.hugojourdan.ColorFlow = {
 width = 660;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (272,0);
+}
+);
 layerId = "D2741A44-CB8E-4434-9CC9-735A9A127F4C";
 shapes = (
 {
@@ -122470,6 +122537,12 @@ com.hugojourdan.ColorFlow = {
 width = 544;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (300,0);
+}
+);
 layerId = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
 shapes = (
 {
@@ -122499,6 +122572,12 @@ com.hugojourdan.ColorFlow = {
 width = 600;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (330,0);
+}
+);
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
 shapes = (
 {
@@ -122538,6 +122617,12 @@ kernLeft = KO_f;
 kernRight = KO_l;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (271.5,0);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -122567,6 +122652,12 @@ com.hugojourdan.ColorFlow = {
 width = 543;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (293.5,0);
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -122596,6 +122687,12 @@ com.hugojourdan.ColorFlow = {
 width = 587;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (326,0);
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -122625,6 +122722,12 @@ com.hugojourdan.ColorFlow = {
 width = 652;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (271.5,0);
+}
+);
 layerId = "4E5694F4-F64E-4331-B998-78BE273203C7";
 shapes = (
 {
@@ -122654,6 +122757,12 @@ com.hugojourdan.ColorFlow = {
 width = 543;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (293.5,0);
+}
+);
 layerId = "DF4E5521-40BA-460F-874A-364F4D14AAD8";
 shapes = (
 {
@@ -122683,6 +122792,12 @@ com.hugojourdan.ColorFlow = {
 width = 587;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (323,0);
+}
+);
 layerId = "C6DE9ED7-34B3-46A1-8A00-A72C4A5E93A3";
 shapes = (
 {
@@ -122712,6 +122827,12 @@ com.hugojourdan.ColorFlow = {
 width = 646;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (271.5,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -122741,6 +122862,12 @@ com.hugojourdan.ColorFlow = {
 width = 543;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (299,0);
+}
+);
 layerId = "BF6BA5B2-0556-42F4-A103-614BEBF16A1A";
 shapes = (
 {
@@ -122770,6 +122897,12 @@ com.hugojourdan.ColorFlow = {
 width = 598;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (321.5,0);
+}
+);
 layerId = "FF73925E-1E34-445B-881D-5A7CAAA8E8BE";
 shapes = (
 {
@@ -122799,6 +122932,12 @@ com.hugojourdan.ColorFlow = {
 width = 643;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (277.5,0);
+}
+);
 layerId = "D2741A44-CB8E-4434-9CC9-735A9A127F4C";
 shapes = (
 {
@@ -122828,6 +122967,12 @@ com.hugojourdan.ColorFlow = {
 width = 555;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (301.5,0);
+}
+);
 layerId = "0B63B416-D10E-4459-8DAA-360BF3D1BFD2";
 shapes = (
 {
@@ -122857,6 +123002,12 @@ com.hugojourdan.ColorFlow = {
 width = 603;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (322.5,0);
+}
+);
 layerId = "EE3858F4-A475-4EBA-A8F4-31CE9F38567C";
 shapes = (
 {
@@ -318194,19 +318345,19 @@ Location = 0;
 },
 {
 name = "Preview Ascender";
-value = 950;
+value = 986;
 },
 {
 name = "Preview Descender";
-value = -250;
+value = -274;
 },
 {
 name = typoAscender;
-value = 950;
+value = 986;
 },
 {
 name = typoDescender;
-value = -250;
+value = -274;
 },
 {
 name = typoLineGap;
@@ -318222,11 +318373,11 @@ value = 274;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 986;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -274;
 },
 {
 name = hheaLineGap;
