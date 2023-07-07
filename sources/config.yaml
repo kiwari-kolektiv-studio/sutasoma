@@ -2,92 +2,39 @@ sources:
   - Sutasoma.glyphs
 axisOrder:
   - GRAD
-  - slnt
   - wght
+  - slnt
 familyName: Sutasoma
-instances:
-  Sutasoma[GRAD,slnt,wght].ttf:
-    - familyName: "Sutasoma Text"
-      styleName: "ExtraLight"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 200
-    - familyName: "Sutasoma Text"
-      styleName: "Light"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 300
-    - familyName: "Sutasoma Text"
-      styleName: "Regular"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 400
-    - familyName: "Sutasoma Text"
-      styleName: "Medium"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 500
-    - familyName: "Sutasoma Text"
-      styleName: "SemiBold"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 600
-    - familyName: "Sutasoma Text"
-      styleName: "Bold"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 700
-    - familyName: "Sutasoma Text"
-      styleName: "ExtraBold"
-      coordinates:
-        GRAD: 0
-        slnt: 0
-        wght: 800
-    - familyName: "Sutasoma Display"
-      styleName: "ExtraLight"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 200
-    - familyName: "Sutasoma Display"
-      styleName: "Light"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 300
-    - familyName: "Sutasoma Display"
-      styleName: "Regular"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 400
-    - familyName: "Sutasoma Display"
-      styleName: "Medium"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 500
-    - familyName: "Sutasoma Display"
-      styleName: "SemiBold"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 600
-    - familyName: "Sutasoma Display"
-      styleName: "Bold"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 700
-    - familyName: "Sutasoma Display"
-      styleName: "ExtraBold"
-      coordinates:
-        GRAD: -100
-        slnt: 0
-        wght: 800
+stat:
+  - name: Grade
+    tag: GRAD
+    values:
+      - name: Normal
+        value: 0
+        flags: 2
+  - name: Weight
+    tag: wght
+    values:
+      - name: ExtraLight
+        value: 200
+      - name: Light
+        value: 300
+      - name: Regular
+        value: 400
+      - name: Medium
+        value: 500
+      - name: SemiBold
+        value: 600
+      - name: Bold
+        value: 700
+      - name: ExtraBold
+        value: 800
+  - name: Slant
+    tag: slnt
+    values:
+      - name: Default
+        value: 0
+        flags: 2
+        linkedValue: -9
+      - name: Italic
+        value: -9
