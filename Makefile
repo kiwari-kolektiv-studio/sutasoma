@@ -18,6 +18,9 @@ build: build.stamp
 
 venv: venv/touchfile
 
+# TODO:
+# Create python scripts for concurently rename font files
+# To avoid unexpected fontbakery nameID 16
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
 	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp
 
