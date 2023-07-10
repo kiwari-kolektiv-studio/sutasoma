@@ -1,6 +1,6 @@
 name: Build font and specimen
 
-on: [push, release]
+on: [release]
 
 jobs:
   build:
