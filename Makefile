@@ -19,7 +19,7 @@ build: build.stamp
 venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
-	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && python3 scripts/rename-files.py && touch build.stamp;
+	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp;
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
