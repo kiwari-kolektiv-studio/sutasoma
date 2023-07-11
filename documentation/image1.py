@@ -16,14 +16,14 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1048, 128, 1
-FONT_PATH = "fonts/ttf/Sutasoma-BoldItalic.ttf"
+FONT_PATH = "fonts/ttf/SutasomaDisplay-BoldItalic.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 32
 BIG_TEXT_FONT_SIZE = 280
 BIG_TEXT_SIDE_MARGIN = MARGIN * 2
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 4.35
-GRID_VIEW = False # Change this to "True" for a grid overlay
+GRID_VIEW = False  # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -90,7 +90,7 @@ def draw_main_text():
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
-    #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
+    # text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
     text("Sutasoma", (MARGIN, (HEIGHT - (MARGIN * 3.5))))
     text("Text & Display", (MARGIN, MARGIN * 2.5))
 
