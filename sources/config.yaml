@@ -3,15 +3,16 @@ sources:
 axisOrder:
   - GRAD
   - wght
-  - slnt
+  - ital
 familyName: Sutasoma
 stat:
   - name: Grade
     tag: GRAD
     values:
-      - name: Normal
-        value: 0
-        flags: 2
+      - name: Display
+        value: -100
+      - name : Text
+        value : 0
   - name: Weight
     tag: wght
     values:
@@ -29,12 +30,17 @@ stat:
         value: 700
       - name: ExtraBold
         value: 800
-  - name: Slant
-    tag: slnt
+  - name: Italic
+    tag: ital
     values:
-      - name: Default
+      - name: Text
         value: 0
         flags: 2
-        linkedValue: -9
+        linkedValue: 1
+      - name: Display
+        value: 0
+        flags: 2
+        linkedValue: 1
       - name: Italic
-        value: -9
+        value: 1
+

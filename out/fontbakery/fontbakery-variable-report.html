@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✅ PASS</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>4</td>
+                <td>3</td>
+                <td>23</td>
+                <td>2</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>0%</td>
+                <td>7%</td>
+                <td>5%</td>
+                <td>38%</td>
+                <td>3%</td>
+                <td>125%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Does the font contain a soft hyphen?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_hyphen&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<h3>Detect any interpolation issues in the font.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/interpolation_issues&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4110&gt;</p>
+<pre><code>- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4550&gt;
+
+- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b4cd0&gt;
+
+- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5090&gt;
+
+- Contour 1 start point differs in glyph 'zero' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5290&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10c1a49d0&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4550&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b54d0&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b4ad0&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5090&gt;
+
+- Contour 3 start point differs in glyph 'numbersign' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5290&gt;
+
+- Contour 2 start point differs in glyph 'oslash' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 2 start point differs in glyph 'Q' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'six' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'O' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4110&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4550&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b4cd0&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5090&gt;
+
+- Contour 1 start point differs in glyph 'zero.dnom' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5290&gt;
+
+- Contour 1 start point differs in glyph 'OE' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'oe' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 2 start point differs in glyph 'Oslash' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'nine' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4110&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4550&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b4cd0&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5090&gt;
+
+- Contour 1 start point differs in glyph 'uni2080' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7b5290&gt; 
+
+- Contour 1 start point differs in glyph 'o' between location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7ba710&gt; and location &lt;fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a7d4590&gt; [code: interpolation-issues]
+</code></pre>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.fvar&gt; 🔥🔥🔥⏩⏩⏩⏩⏩</h2>
+<h3>The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_wght_coord&gt;</div>
+
+<details><summary>🔥 <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;Regular&quot; instance not present. [code: no-regular-instance]</p>
+</span></li></ul></div></details>
+<h3>The variable font 'ital' (Italic) axis coordinate must be zero on the 'Regular' instance.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/regular_ital_coord&gt;</div>
+
+<details><summary>🔥 <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;Regular&quot; instance not present. [code: no-regular-instance]</p>
+</span></li></ul></div></details>
+<h3>The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/varfont/bold_wght_coord&gt;</div>
+
+<details><summary>🔥 <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;Bold&quot; instance not present. [code: no-bold-instance]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.stat&gt; 🔥</h2>
+<h3>STAT table has Axis Value tables?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/stat_has_axis_value_tables&gt;</div>
+
+<details><summary>🔥 <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>STAT table is missing Axis Value for 'ital' value '9.0' [code: missing-axis-value-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⏩⏩⏩⏩</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/variable/Sutasoma[GRAD,ital,wght].ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* comma (U+002C): X=123.5,Y=1.5 (should be at baseline 0?)
+
+* comma (U+002C): X=100.0,Y=-2.0 (should be at baseline 0?)
+
+* zero (U+0030): X=226.5,Y=700.5 (should be at cap-height 700?)
+
+* zero (U+0030): X=375.5,Y=-0.5 (should be at baseline 0?)
+
+* six (U+0036): X=223.5,Y=700.5 (should be at cap-height 700?)
+
+* nine (U+0039): X=330.5,Y=-0.5 (should be at baseline 0?)
+
+* semicolon (U+003B): X=123.5,Y=1.5 (should be at baseline 0?)
+
+* semicolon (U+003B): X=100.0,Y=-2.0 (should be at baseline 0?)
+
+* b (U+0062): X=388.0,Y=1.0 (should be at baseline 0?)
+
+* d (U+0064): X=180.0,Y=489.0 (should be at x-height 490?)
+
+* d (U+0064): X=319.5,Y=488.5 (should be at x-height 490?)
+
+* p (U+0070): X=377.0,Y=1.0 (should be at baseline 0?)
+
+* p (U+0070): X=237.5,Y=1.5 (should be at baseline 0?)
+
+* q (U+0071): X=180.0,Y=489.0 (should be at x-height 490?)
+
+* r (U+0072): X=350.0,Y=489.0 (should be at x-height 490?)
+
+* t (U+0074): X=279.5,Y=-0.5 (should be at baseline 0?)
+
+* registered (U+00AE): X=184.0,Y=702.0 (should be at cap-height 700?)
+
+* uni00B9 (U+00B9): X=30.0,Y=702.0 (should be at cap-height 700?)
+
+* eth (U+00F0): X=338.5,Y=2.0 (should be at baseline 0?)
+
+* thorn (U+00FE): X=378.0,Y=1.0 (should be at baseline 0?)
+
+* thorn (U+00FE): X=238.5,Y=1.5 (should be at baseline 0?)
+
+* OE (U+0152): X=412.5,Y=0.5 (should be at baseline 0?)
+
+* uni0163 (U+0163): X=279.5,Y=-0.5 (should be at baseline 0?)
+
+* tcaron (U+0165): X=279.5,Y=-0.5 (should be at baseline 0?)
+
+* uni021B (U+021B): X=279.5,Y=-0.5 (should be at baseline 0?)
+
+* uni03BC (U+03BC): X=548.5,Y=-0.5 (should be at baseline 0?)
+
+* pi (U+03C0): X=619.5,Y=-0.5 (should be at baseline 0?)
+
+* quotesinglbase (U+201A): X=131.5,Y=2.0 (should be at baseline 0?)
+
+* quotesinglbase (U+201A): X=107.0,Y=-2.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=131.5,Y=2.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=107.0,Y=-2.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=312.5,Y=2.0 (should be at baseline 0?)
+
+* quotedblbase (U+201E): X=288.0,Y=-2.0 (should be at baseline 0?)
+
+* oneeighth (U+215B): X=546.5,Y=2.0 (should be at baseline 0?)
+
+* threeeighths (U+215C): X=606.5,Y=2.0 (should be at baseline 0?)
+
+* fiveeighths (U+215D): X=611.5,Y=2.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=540.5,Y=2.0 (should be at baseline 0?)
+
+* uni25CC (U+25CC): X=382.0,Y=1.0 (should be at baseline 0?)
+
+* uni25CC (U+25CC): X=439.5,Y=1.0 (should be at baseline 0?)
+
+* uni25CC (U+25CC): X=382.0,Y=699.0 (should be at cap-height 700?) 
+
+* uni25CC (U+25CC): X=439.5,Y=699.0 (should be at cap-height 700?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+                    </body>
+                </html>

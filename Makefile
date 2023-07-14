@@ -19,7 +19,7 @@ build: build.stamp
 venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
-	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && python3 scripts/rename-files.py && touch build.stamp;
+	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp;
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
@@ -29,8 +29,18 @@ venv/touchfile: requirements.txt
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
-test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+check-variable: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-universal -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-variable-report.html --ghmarkdown out/fontbakery/fontbakery-variable-report.md $(shell find fonts/variable -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+check-otf: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-universal -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-static-otf-report.html --ghmarkdown out/fontbakery/fontbakery-static-otf-report.md $(shell find fonts/otf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+
+check-ttf: venv build.stamp
+	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-universal -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-static-ttf-report.html --ghmarkdown out/fontbakery/fontbakery-static-ttf-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+check:
+	make check-variable; make check-otf; make check-ttf
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
