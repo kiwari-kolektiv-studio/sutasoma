@@ -38,71 +38,71 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'OE' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'Q' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'o' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'nine' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 2 start point differs in glyph 'Oslash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 2 start point differs in glyph 'oslash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'nine' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'O' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 2 start point differs in glyph 'Q' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10c879ad0>
 
-	- Contour 2 start point differs in glyph 'oslash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b310>
 
-	- Contour 1 start point differs in glyph 'oe' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76d9d0>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a82b410>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dc90>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76dd90>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e310>
+	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76df90>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10c879ad0>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e6d0>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b310>
 
-	- Contour 1 start point differs in glyph 'uni2080' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e8d0>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76d9d0>
 
-	- Contour 1 start point differs in glyph 'O' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10c990f50>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76dd90>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dc90>
+	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76df90>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86df10>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10c879ad0>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e110>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b310>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e6d0>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76d9d0>
 
-	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e8d0>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'six' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76dd90>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a82b410>
+	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76df90>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dc90>
+	- Contour 1 start point differs in glyph 'OE' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e310>
+	- Contour 2 start point differs in glyph 'Oslash' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74eb10>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e6d0>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b310>
 
-	- Contour 1 start point differs in glyph 'zero' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e8d0>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b9d0>
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a82b410>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76ea10>
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dc90>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76dd90>
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e310>
+	- Contour 3 start point differs in glyph 'numbersign' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a76df90>
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86dcd0>
+	- Contour 1 start point differs in glyph 'oe' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690>
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e6d0> 
+	- Contour 1 start point differs in glyph 'six' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690> 
 
-	- Contour 1 start point differs in glyph 'zero.dnom' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a89ee90> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a86e8d0> [code: interpolation-issues]
+	- Contour 1 start point differs in glyph 'o' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a74ea10> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x10a72b690> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
