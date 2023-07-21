@@ -136,8 +136,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* ae (U+00E6) contains a short segment B<<744.0,264.0>-<742.0,255.0>-<740.0,244.5>>
 
-	* ae (U+00E6) contains a short segment L<<337.0,210.0>--<337.0,210.0>>
-
 	* uni0136 (U+0136) contains a short segment L<<298.0,368.0>--<291.0,362.0>>
 
 	* uni0136 (U+0136) contains a short segment L<<291.0,362.0>--<291.0,362.0>>
@@ -295,7 +293,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE) contains a short segment L<<280.0,478.0>--<278.0,478.0>>
 
-	* ae (U+00E6) contains a short segment L<<332.0,208.0>--<332.0,208.0>>
+	* ae (U+00E6) contains a short segment L<<332.0,209.0>--<332.0,209.0>>
 
 	* Euro (U+20AC) contains a short segment B<<111.0,350.0>-<111.0,360.0>-<111.0,370.0>>
 
@@ -493,10 +491,6 @@ The following glyphs do not have the recommended number of contours:
 	* germandbls (U+00DF) contains a short segment B<<303.0,326.0>-<296.0,326.0>-<287.5,325.0>>
 
 	* germandbls (U+00DF) contains a short segment B<<287.5,325.0>-<279.0,324.0>-<273.0,322.0>>
-
-	* ae (U+00E6) contains a short segment L<<308.0,228.0>--<308.0,228.0>>
-
-	* ae (U+00E6) contains a short segment L<<308.0,228.0>--<308.0,229.0>>
 
 	* oslash (U+00F8) contains a short segment B<<204.0,251.0>-<204.0,251.0>-<204.0,249.5>>
 
@@ -1854,7 +1848,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* germandbls (U+00DF) contains a short segment B<<319.0,347.0>-<313.0,347.0>-<306.0,346.5>>
 
-	* ae (U+00E6) contains a short segment L<<306.0,215.0>--<306.0,215.0>>
+	* ae (U+00E6) contains a short segment L<<306.0,209.0>--<306.0,209.0>>
 
 	* uni03BC (U+03BC) contains a short segment B<<176.0,-10.0>-<166.0,-10.0>-<157.0,-9.0>>
 
@@ -3021,7 +3015,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE) contains a short segment L<<282.0,475.0>--<280.0,475.0>>
 
-	* ae (U+00E6) contains a short segment L<<327.0,210.0>--<327.0,210.0>>
+	* ae (U+00E6) contains a short segment L<<327.0,211.0>--<327.0,211.0>>
 
 	* Euro (U+20AC) contains a short segment B<<107.0,350.0>-<107.0,361.0>-<108.0,371.0>>
 
@@ -3255,8 +3249,6 @@ The following glyphs do not have the recommended number of contours:
 	* germandbls (U+00DF) contains a short segment B<<299.0,377.0>-<288.0,376.0>-<277.0,374.0>>
 
 	* ae (U+00E6) contains a short segment B<<740.0,269.0>-<739.0,260.0>-<737.0,250.5>>
-
-	* ae (U+00E6) contains a short segment L<<343.0,205.0>--<343.0,205.0>>
 
 	* Gcircumflex (U+011C) contains a short segment L<<541.0,348.0>--<541.0,350.0>>
 
@@ -3567,7 +3559,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE) contains a short segment L<<285.0,472.0>--<282.0,472.0>>
 
-	* ae (U+00E6) contains a short segment L<<321.0,213.0>--<321.0,213.0>>
+	* ae (U+00E6) contains a short segment L<<321.0,214.0>--<321.0,214.0>>
 
 	* Euro (U+20AC) contains a short segment B<<103.0,326.0>-<102.0,337.0>-<102.0,350.0>>
 
@@ -5644,11 +5636,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* dollar (U+0024) contains a short segment L<<322.0,429.0>--<323.0,429.0>>
+	* dollar (U+0024) contains a short segment L<<322.0,428.0>--<323.0,428.0>>
 
 	* R (U+0052) contains a short segment L<<295.0,275.0>--<292.0,275.0>>
 
-	* ae (U+00E6) contains a short segment L<<315.0,221.0>--<315.0,221.0>>
+	* ae (U+00E6) contains a short segment L<<315.0,222.0>--<315.0,222.0>>
 
 	* Racute (U+0154) contains a short segment L<<295.0,275.0>--<292.0,275.0>>
 
