@@ -9,5 +9,6 @@ echo "  make test:   Tests the fonts with fontbakery"
 echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 echo "  make images: Creates PNG specimen images in the documentation/ directory"
 echo
+ 
 make: Leaving directory `/Users/deftpyre/Desktop/Projects/Typeworks/sutasoma'
  

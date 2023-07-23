@@ -3,6 +3,7 @@ sources:
 axisOrder:
   - GRAD
   - wght
+  - slnt
   - ital
 familyName: Sutasoma
 stat:
@@ -32,6 +33,15 @@ stat:
         value: 700
       - name: ExtraBold
         value: 800
+  - name: Slant
+    tag: slnt
+    values:
+      - name: Default
+        value: 0
+        flags: 2
+        linkedValue: -9
+      - name: Slant
+        value: -9
   - name: Italic
     tag: ital
     values:

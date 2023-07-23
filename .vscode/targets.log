@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Jul 17 03:14:07 2023
+# Make data base, printed on Sun Jul 23 19:47:59 2023
 
 # Variables
 
@@ -59,7 +59,7 @@ PYENV_ROOT = /Users/deftpyre/.pyenv
 # environment
 LS_COLORS = di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.VQhLjzxjeo/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.gMRVXOX1Q7/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -132,6 +132,8 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.66138484.66138490
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -161,9 +163,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 41605
+VSCODE_PID = 14204
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=1/103=1%
+# Load=75/1024=7%, Rehash=0, Collisions=1/104=1%
 
 # Pattern-specific Variable Values
 
@@ -171,7 +173,7 @@ VSCODE_PID = 41605
 
 # Directories
 
-# . (device 16777223, inode 58759325): 21 files, no impossibilities.
+# . (device 16777231, inode 58759325): 21 files, no impossibilities.
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -228,7 +230,7 @@ check-variable: venv build.stamp
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2023-07-15 01:14:30
+#  Last modified 2023-07-17 04:48:39
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -279,8 +281,8 @@ help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
 	@echo "###"
-	@echo
  
+	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
 	@echo "  make test:   Tests the fonts with fontbakery"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
@@ -379,6 +381,6 @@ documentation/image1.png:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jul 17 03:14:07 2023
+# Finished Make data base on Sun Jul 23 19:47:59 2023
 
  
