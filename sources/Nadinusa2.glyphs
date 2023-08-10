@@ -18,7 +18,7 @@ tag = slnt;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega";
+code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L Lslash M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron Delta Omega";
 name = Uppercase;
 }
 );
@@ -121,17 +121,6 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
-languagesystem latn NLD;
 ";
 name = Languagesystems;
 }
@@ -139,18 +128,9 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;
-feature locl;
-feature subs;
-feature sinf;
-feature sups;
-feature numr;
-feature dnom;
+code = "feature sups;
 feature frac;
 feature ordn;
-feature case;
-feature ss01;
-feature ss02;
 ";
 tag = aalt;
 },
@@ -159,6 +139,7 @@ code = "lookup uppercaseSharpS {
 	sub @Uppercase germandbls' by Germandbls;
 	sub germandbls' @Uppercase by Germandbls;
 } uppercaseSharpS;";
+disabled = 1;
 tag = calt;
 },
 {
@@ -190,138 +171,22 @@ lookup ccmp_latn_1 {
 script latn;
 lookup ccmp_latn_1;
 ";
+disabled = 1;
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;
-language AZE;
-lookup locl_latn_0 {
-	sub i by idotaccent;
-} locl_latn_0;
-language CRT;
-lookup locl_latn_0;
-language KAZ;
-lookup locl_latn_0;
-language TAT;
-lookup locl_latn_0;
-language TRK;
-lookup locl_latn_0;
-
-script latn;
-language ROM;
-lookup locl_latn_1 {
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-} locl_latn_1;
-language MOL;
-lookup locl_latn_1;
-
-script latn;
-language CAT;
-lookup locl_latn_2 {
-	sub l periodcentered' l by periodcentered.loclCAT;
-	sub L periodcentered' L by periodcentered.loclCAT.case;
-} locl_latn_2;
-
-script latn;
-language NLD;
-lookup locl_latn_3 {
-	sub iacute j' by jacute;
-	sub Iacute J' by Jacute;
-} locl_latn_3;
-";
-tag = locl;
-},
-{
-automatic = 1;
-code = "sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
-";
-tag = subs;
-},
-{
-automatic = 1;
-code = "sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
-";
-tag = sinf;
-},
-{
-automatic = 1;
-code = "sub zero by zerosuperior;
-sub one by onesuperior;
+code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
 ";
 tag = sups;
 },
 {
 automatic = 1;
-code = "sub zero by zero.numr;
-sub one by one.numr;
-sub two by two.numr;
-sub three by three.numr;
-sub four by four.numr;
-sub five by five.numr;
-sub six by six.numr;
-sub seven by seven.numr;
-sub eight by eight.numr;
-sub nine by nine.numr;
-";
-tag = numr;
-},
-{
-automatic = 1;
-code = "sub zero by zero.dnom;
-sub one by one.dnom;
-sub two by two.dnom;
-sub three by three.dnom;
-sub four by four.dnom;
-sub five by five.dnom;
-sub six by six.dnom;
-sub seven by seven.dnom;
-sub eight by eight.dnom;
-sub nine by nine.dnom;
-";
-tag = dnom;
-},
-{
-automatic = 1;
-code = "lookup FRAC {
-	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
 ";
 tag = frac;
 },
@@ -329,84 +194,16 @@ tag = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-sub N o period by numero;
 ";
 tag = ordn;
 },
 {
 automatic = 1;
-code = "sub periodcentered by periodcentered.case;
-sub bullet by bullet.case;
-sub slash by slash.case;
-sub backslash by backslash.case;
-sub periodcentered.loclCAT by periodcentered.loclCAT.case;
-sub hyphen by hyphen.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
-sub parenleft by parenleft.case;
-sub parenright by parenright.case;
-sub braceleft by braceleft.case;
-sub braceright by braceright.case;
-sub bracketleft by bracketleft.case;
-sub bracketright by bracketright.case;
-sub guillemetleft by guillemetleft.case;
-sub guillemetright by guillemetright.case;
-sub guilsinglleft by guilsinglleft.case;
-sub guilsinglright by guilsinglright.case;
-sub at by at.case;
-";
-tag = case;
-},
-{
-automatic = 1;
 code = "lookupflag IgnoreMarks;
-sub f f i by f_f_i;
-sub f f l by f_f_l;
-sub f f by f_f;
 sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub a by a.ss01;
-sub aacute by aacute.ss01;
-sub abreve by abreve.ss01;
-sub acaron by acaron.ss01;
-sub acircumflex by acircumflex.ss01;
-sub adieresis by adieresis.ss01;
-sub agrave by agrave.ss01;
-sub amacron by amacron.ss01;
-sub aogonek by aogonek.ss01;
-sub aring by aring.ss01;
-sub atilde by atilde.ss01;
-sub ae by ae.ss01;
-";
-labels = (
-{
-language = dflt;
-value = "Single Storey a";
-}
-);
-tag = ss01;
-},
-{
-automatic = 1;
-code = "sub g by g.ss02;
-sub gbreve by gbreve.ss02;
-sub gcircumflex by gcircumflex.ss02;
-sub gcommaaccent by gcommaaccent.ss02;
-sub gdotaccent by gdotaccent.ss02;
-sub gmacron by gmacron.ss02;
-";
-labels = (
-{
-language = dflt;
-value = "Single Storey g";
-}
-);
-tag = ss02;
 }
 );
 fontMaster = (
