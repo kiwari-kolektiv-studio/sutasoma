@@ -117,10 +117,10 @@ with open("OFL.txt", "w") as fh:
     fh.write(ofl)
 
 # Pin the dependencies
-print("Pinning dependencies")
-dependencies = subprocess.check_output(["pip", "freeze"])
-with open("requirements.txt", "wb") as dependency_file:
-    dependency_file.write(dependencies)
+#print("Pinning dependencies")
+#dependencies = subprocess.check_output(["pip", "freeze"])
+#with open("requirements.txt", "wb") as dependency_file:
+    #dependency_file.write(dependencies)
 
 # Finally, we add a "touch file" called ".init.stamp" to the repository which
 # prevents this first-run process from being run again.
