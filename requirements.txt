@@ -30,6 +30,7 @@ Deprecated==1.2.14
 diffenator2==0.3.4
 docopt==0.6.2
 drawbot-skia==0.5.0
+exceptiongroup==1.2.0
 font-v==2.1.0
 fontbakery==0.10.4
 fontFeatures==1.8.0
