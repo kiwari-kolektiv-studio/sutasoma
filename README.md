@@ -20,7 +20,7 @@ Don't hesitate to create images!
 
 ## About
 
-Description of you and/or organisation goes here.
+Font Bakery report can be found [here](https://kiwari-kolektiv-studio.github.io/sutasoma).
 
 ## Building
 
