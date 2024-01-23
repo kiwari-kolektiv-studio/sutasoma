@@ -120,6 +120,7 @@ ul {
             <table>
             <tr>
                 <th>💥 ERROR</th>
+                <th>☠ FATAL</th>
                 <th>🔥 FAIL</th>
                 <th>⚠️ WARN</th>
                 <th>⏩ SKIP</th>
@@ -128,19 +129,21 @@ ul {
             </tr>
             <tr>
                 <td>0</td>
+                <td>0</td>
                 <td>3</td>
-                <td>3</td>
-                <td>15</td>
+                <td>2</td>
+                <td>17</td>
                 <td>2</td>
                 <td>80</td>
             </tr>
             <tr>
                 <td>0%</td>
+                <td>0%</td>
                 <td>6%</td>
-                <td>6%</td>
-                <td>28%</td>
                 <td>4%</td>
-                <td>151%</td>
+                <td>31%</td>
+                <td>4%</td>
+                <td>148%</td>
             </tr>
             </table>
             
@@ -150,6 +153,8 @@ ul {
 
     <ul>
     <li>💥 An <em>ERROR</em> is something wrong with FontBakery itself, possibly a bug.
+    <li>☠ A <em>FATAL</em> is an extremely severe issue that must be addressed
+    immediately.
     <li>🔥 A <em>FAIL</em> is a problem with the font that must be fixed.
     <li>⚠️ A <em>WARN</em> is something that you should consider addressing.
     <li>ℹ️ An <em>INFO</em> result simply prints something useful. Typically stats.
@@ -163,85 +168,14 @@ ul {
     <p>(but other kinds of bug reports and/or feature requests
        are also always welcome, of course!)</p>
 
-    <p>FontBakery version: 0.10.3</p>
+    <p>FontBakery version: 0.10.9</p>
     
 <h2>Section: Universal</h2>
-<span class='section__emoji'>⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</span>
+<span class='section__emoji'>⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
 <h3>Does the font contain a soft hyphen?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/soft_hyphen</div>
 
 <details><summary>⚠️ Sutasoma[GRAD,slnt,wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
-</span></li></ul></div></details>
-<h3>Detect any interpolation issues in the font.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/interpolation_issues</div>
-
-<details><summary>⚠️ Sutasoma[GRAD,slnt,wght].ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 1 start point differs in glyph 'OE' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'O' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'nine' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 2 start point differs in glyph 'Q' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 2 start point differs in glyph 'Oslash' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'six' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'oe' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'o' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'uni2080' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero.dnom' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=800,slnt=-9
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=400,slnt=0
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=400,slnt=-9
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=200,slnt=0
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=800,slnt=0
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=200,slnt=-9
-
-- Contour 3 start point differs in glyph 'numbersign' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=400,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=200,slnt=-9
-
-- Contour 1 start point differs in glyph 'zero' between location GRAD=-100,wght=400,slnt=0 and location GRAD=0,wght=800,slnt=-9
-
-- Contour 2 start point differs in glyph 'oslash' between location GRAD=-100,wght=400,slnt=0 and location GRAD=-100,wght=800,slnt=-9 [code: interpolation-issues]
-</code></pre>
 </span></li></ul></div></details>
 <h3>Check accent of Lcaron, dcaron, lcaron, tcaron</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/alt_caron</div>
@@ -252,7 +186,7 @@ ul {
 </span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>tcaron is decomposed and therefore could not be checked. Please check manually. [code: decomposed-outline]</p>
 </span></li></ul></div></details>
 <h2>Section: fontbakery.profiles.fvar</h2>
-<span class='section__emoji'>🔥🔥🔥⏩⏩⏩⏩</span>
+<span class='section__emoji'>🔥🔥🔥⏩⏩⏩⏩⏩</span>
 <h3>The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/varfont/regular_wght_coord</div>
 
