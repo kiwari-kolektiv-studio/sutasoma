@@ -1,4 +1,3 @@
 fontbakery
 gftools
-fonttools
 sh
