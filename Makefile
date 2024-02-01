@@ -19,8 +19,7 @@ build: build.stamp
 venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
-	rm -rf fonts
-	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done) && python3 scripts/rename-files.py && touch build.stamp
+	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && python3 scripts/rename-files.py && touch build.stamp;
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
@@ -43,20 +42,18 @@ check-ttf: venv build.stamp
 check:
 	make check-variable; make check-otf; make check-ttf
 
-test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
-
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
 
-images: venv $(DRAWBOT_OUTPUT)
+images: venv build.stamp $(DRAWBOT_OUTPUT)
+	git add documentation/*.png && git commit -m "fix: Rebuild images" documentation/*.png
 
 %.png: %.py build.stamp
-	. venv/bin/activate; python3 $< --output $@
+	python3 $< --output $@
 
 clean:
 	rm -rf venv
-	find . -name "*.pyc" -delete
+	find . -name "*.pyc" | xargs rm delete
 
 update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/

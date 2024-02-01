@@ -1,16 +1,16 @@
 name: Build font and specimen
 
-on: [push, release]
+on: [release]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.10
+    - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
-        python-version: "3.10"
+        python-version: 3.8
     - name: Install sys tools/deps
       run: |
         sudo apt-get update

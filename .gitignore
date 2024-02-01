@@ -2,7 +2,6 @@
 venv
 build.stamp
 proof
-fonts
 node_modules
 package-lock.json
 package.json
@@ -23,4 +22,3 @@ Thumbs.db
 sources/*(Autosaved).glyphs
 
 /temp
-/.vscode

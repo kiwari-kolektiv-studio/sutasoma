@@ -1,0 +1,1 @@
+{"buildTargets":[".init.stamp","build","build.stamp","check","check-otf","check-ttf","check-variable","clean","help","images","proof","update","update-project-template","venv","venv/touchfile"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
