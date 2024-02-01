@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.10.3
+fontbakery version: 0.10.9
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Verify that family names in the name table are consistent across all fonts in the family. Checks Typographic Family name (nameID 16) if present, otherwise uses Font Family name (nameID 1) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/family/consistent_family_name">com.adobe.fonts/check/family/consistent_family_name</a>)</summary><div>
 
@@ -1106,10 +1106,10 @@ The following glyphs do not have the recommended number of contours:
 
 ### Summary
 
-| 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
-|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 84 | 882 | 56 | 1564 | 0 |
-| 0% | 0% | 3% | 34% | 2% | 60% | 0% |
+| 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 0 | 0 | 1 | 84 | 938 | 56 | 1536 | 0 |
+| 0% | 0% | 0% | 3% | 36% | 2% | 59% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
